@@ -1,0 +1,57 @@
+# ----------------------------------------------------
+# Geyser-Spigot Configuration for Crazy Survival
+# ----------------------------------------------------
+
+bedrock:
+  # The IP address that Geyser will listen on
+  address: 0.0.0.0
+  # The port that Geyser will listen on (default Bedrock port is 19132)
+  port: 19132
+  # Whether to enable PROXY protocol on the Bedrock listener
+  proxy-protocol: false
+  # The MOTD that will be displayed in the Bedrock server list
+  motd1: "Crazy Survival"
+  motd2: "Crossplay Survival Bedrock"
+  # The world name displayed in the pause menu
+  server-name: "Crazy Survival"
+  # Compression level for Bedrock packets
+  compression-level: 6
+  # Broadcast to local network LAN
+  broadcast-port: 19132
+  enable-proxy-connections: true
+
+remote:
+  # The address of the Java server (in Spigot/Paper, auto binds directly)
+  address: auto
+  port: 25580
+  # Auth type: floodgate allows Bedrock players to join without Java account
+  auth-type: floodgate
+  use-proxy-protocol: false
+  forward-hostname: false
+
+# Passthrough server ping data
+passthrough-motd: true
+passthrough-player-counts: true
+passthrough-protocol-name: false
+passthrough-version: false
+
+# Resource Packs & Textures
+# Forces Bedrock players to download CrazySurvival.mcpack upon connecting
+force-resource-packs: true
+xbox-achievements-enabled: false
+
+# Cosmetics & Features
+allow-third-party-capes: true
+allow-third-party-ears: true
+show-cooldown: title
+show-coordinates: true
+disable-bedrock-scaffolding-breaking-restriction: false
+
+# Performance
+command-suggestions: true
+add-non-bedrock-items: true
+above-bedrock-nether-building: true
+
+metrics:
+  enabled: false
+  uuid: 00000000-0000-0000-0000-000000000000
