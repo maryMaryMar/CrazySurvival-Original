@@ -1,0 +1,337 @@
+menu_title: '&f七七七七七七七七'
+open_command: settings
+register_command: true
+size: 45
+update_interval: 1
+
+items:
+  'bossbar_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 1
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴏꜱꜱʙᴀʀ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ʙᴏꜱꜱʙᴀʀ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: settings.bossbar.enabled
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.bossbar.enabled false"
+      - "[message] &f &#648DC1ʙᴏꜱꜱʙᴀʀ ʜᴀꜱ ʙᴇᴇɴ ᴅɪꜱᴀʙʟᴇᴅ."
+      - "[refresh]"
+  'bossbar_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 1
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴏꜱꜱʙᴀʀ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ʙᴏꜱꜱʙᴀʀ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.bossbar.enabled true"
+      - "[message] &f &#648DC1ʙᴏꜱꜱʙᴀʀ ʜᴀꜱ ʙᴇᴇɴ ᴇɴᴀʙʟᴇᴅ."
+      - "[refresh]"
+
+  'scoreboard_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 10
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴄᴏʀᴇʙᴏᴀʀᴅ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ꜱᴄᴏʀᴇʙᴏᴀʀᴅ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%tab_scoreboard_visible%"
+          output: "disabled"
+    click_commands:
+      - "[player] tab scoreboard on"
+      - "[refresh]"
+  'scoreboard_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 10
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴄᴏʀᴇʙᴏᴀʀᴅ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ꜱᴄᴏʀᴇʙᴏᴀʀᴅ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    click_commands:
+      - "[player] tab scoreboard off"
+      - "[refresh]"
+
+  'jobsactionbar_batched':
+    material: PAPER
+    model_data: 129
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴊᴏʙꜱ ᴀᴄᴛɪᴏɴʙᴀʀ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴏɴʙᴀʀ'
+      - '&7ɪꜱ ʙᴀᴛᴄʜᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: settings.jobsactionbar.batched
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.jobsactionbar.batched false"
+      - "[console] lp user %player_name% permission set settings.jobsactionbar.disabled true"
+      - "[player] jobs:jobs toggle actionbar"
+      - "[refresh]"
+  'jobsactionbar_disabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴊᴏʙꜱ ᴀᴄᴛɪᴏɴʙᴀʀ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴏɴʙᴀʀ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: settings.jobsactionbar.disabled
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.jobsactionbar.disabled false"
+      - "[console] lp user %player_name% permission set settings.jobsactionbar.rapid true"
+      - "[player] jobs:jobs toggle actionbar"
+      - "[refresh]"
+  'jobsactionbar_rapid':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 19
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴊᴏʙꜱ ᴀᴄᴛɪᴏɴʙᴀʀ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴏɴʙᴀʀ'
+      - '&7ɪꜱ ʀᴀᴘɪᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.jobsactionbar.rapid false"
+      - "[console] lp user %player_name% permission set settings.jobsactionbar.batched true"
+      - "[player] jobs:jobs toggle actionbar"
+      - "[refresh]"
+
+  'payconfirm_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘᴀʏ ᴄᴏɴꜰɪʀᴍ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘᴀʏ ᴄᴏɴꜰɪʀᴍ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%essentials_is_pay_confirm%"
+          output: "no"
+        permission:
+          type: "has permission"
+          permission: essentials.payconfirmtoggle
+    click_commands:
+      - "[player] payconfirmtoggle"
+      - "[refresh]"
+  'payconfirm_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘᴀʏ ᴄᴏɴꜰɪʀᴍ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘᴀʏ ᴄᴏɴꜰɪʀᴍ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: essentials.payconfirmtoggle
+    click_commands:
+      - "[player] payconfirmtoggle"
+      - "[refresh]"
+  'payconfirm_disabled1':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 28
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘᴀʏ ᴄᴏɴꜰɪʀᴍ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘᴀʏ ᴄᴏɴꜰɪʀᴍ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&cʀᴇǫᴜɪʀᴇꜱ ᴀ ʀᴀɴᴋ'
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ɴᴇᴇᴅ ᴀ ʀᴀɴᴋ ᴛᴏ ᴛᴏɢɢʟᴇ ꜱᴇᴛᴛɪɴɢ!"
+      - "[refresh]"
+
+  'payments_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 37
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘᴀʏᴍᴇɴᴛꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘᴀʏᴍᴇɴᴛꜱ'
+      - '&7ᴀʀᴇ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%essentials_is_pay_enabled%"
+          output: "no"
+        permission:
+          type: "has permission"
+          permission: essentials.paytoggle
+    click_commands:
+      - "[player] paytoggle"
+      - "[refresh]"
+  'payments_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 37
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘᴀʏᴍᴇɴᴛꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘᴀʏᴍᴇɴᴛꜱ'
+      - '&7ᴀʀᴇ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: essentials.paytoggle
+    click_commands:
+      - "[player] paytoggle"
+      - "[refresh]"
+  'payments_disabled1':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 37
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘᴀʏᴍᴇɴᴛꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘᴀʏᴍᴇɴᴛꜱ'
+      - '&7ᴀʀᴇ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&cʀᴇǫᴜɪʀᴇꜱ ᴀ ʀᴀɴᴋ'
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ɴᴇᴇᴅ ᴀ ʀᴀɴᴋ ᴛᴏ ᴛᴏɢɢʟᴇ ꜱᴇᴛᴛɪɴɢ!"
+      - "[refresh]"
+
+
+
+
+
+
+
+  'scrolldown':
+    material: PAPER
+    model_data: 61
+    amount: 1
+    slot: 44
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lꜱᴄʀᴏʟʟ ᴅᴏᴡɴ ↓'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴄʀᴏʟʟ ᴅᴏᴡɴ'
+      - '&7ᴛᴏ ꜱᴇᴄᴏɴᴅ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] settings_2"

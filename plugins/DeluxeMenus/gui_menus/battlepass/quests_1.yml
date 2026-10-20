@@ -1,0 +1,1643 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'quest_1_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 10
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 1'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Break 50 Oak Logs'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 1'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 1%"
+          output: "true"
+  'quest_1_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 10
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 1'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Break 50 Oak Logs'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 1'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.1
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 1%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_1_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 10
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 1'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cBreak 50 Oak Logs'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.1
+    click_commands:
+      - "[player] quests:quests take Quest 1"
+      - "[close]"
+  'quest_1_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 10
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 1'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Break 50 Oak Logs'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 1'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_2_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 2'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Place 100 Oak Planks'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 2'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 2%"
+          output: "true"
+  'quest_2_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 2'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Place 100 Oak Planks'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 2'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.2
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 2%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_2_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 19
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 2'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cPlace 100 Oak Planks'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 2'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.2
+    click_commands:
+      - "[player] quests:quests take Quest 2"
+      - "[close]"
+  'quest_2_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 19
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 2'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Place 100 Oak Planks'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 2'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_3_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 3'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Craft 24 Torches'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 3'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 3%"
+          output: "true"
+  'quest_3_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 3'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Craft 24 Torches'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 3'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.3
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 3%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_3_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 28
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 3'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cCraft 24 Torches'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 3'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.3
+    click_commands:
+      - "[player] quests:quests take Quest 3"
+      - "[close]"
+  'quest_3_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 28
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 3'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Craft 24 Torches'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 3'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_4_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 4'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Break 20 Iron Ore'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 4'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 4%"
+          output: "true"
+  'quest_4_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 29
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 4'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Break 20 Iron Ore'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 4'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.4
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 4%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_4_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 29
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 4'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cBreak 20 Iron Ore'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 4'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.4
+    click_commands:
+      - "[player] quests:quests take Quest 4"
+      - "[close]"
+  'quest_4_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 29
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 4'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Break 20 Iron Ore'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 4'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_5_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 30
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 5'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Harvest 64 Wheat'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 5'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 5%"
+          output: "true"
+  'quest_5_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 30
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 5'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Harvest 64 Wheat'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 5'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.5
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 5%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_5_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 30
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 5'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cHarvest 64 Wheat'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 5'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.5
+    click_commands:
+      - "[player] quests:quests take Quest 5"
+      - "[close]"
+  'quest_5_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 30
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 5'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Harvest 64 Wheat'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 5'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_6_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 21
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 6'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Kill 10 Drowned'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 6'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 6%"
+          output: "true"
+  'quest_6_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 21
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 6'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Kill 10 Drowned'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 6'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.6
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 6%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_6_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 21
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 6'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cKill 10 Drowned'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 6'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.6
+    click_commands:
+      - "[player] quests:quests take Quest 6"
+      - "[close]"
+  'quest_6_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 21
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 6'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Kill 10 Drowned'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 6'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_7_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 12
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 7'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Tame 5 Donkey'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 7'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 7%"
+          output: "true"
+  'quest_7_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 12
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 7'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Tame 5 Donkey'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 7'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.7
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 7%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_7_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 12
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 7'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cTame 5 Donkey'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 7'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.7
+    click_commands:
+      - "[player] quests:quests take Quest 7"
+      - "[close]"
+  'quest_7_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 12
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 7'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Tame 5 Donkey'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 7'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_8_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 14
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 8'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Tame 5 Cat'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 8'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 8%"
+          output: "true"
+  'quest_8_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 14
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 8'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Tame 5 Cat'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 8'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.8
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 8%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_8_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 14
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 8'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cTame 5 Cat'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 8'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.8
+    click_commands:
+      - "[player] quests:quests take Quest 8"
+      - "[close]"
+  'quest_8_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 14
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 8'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Tame 5 Cat'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 8'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_9_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 9'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Brew 2 Healing Potion'
+      - ' &8▪ &#9bda69Brew 1 Strength Potion'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 9'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 9%"
+          output: "true"
+  'quest_9_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 23
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 9'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Brew 2 Healing Potion'
+      - ' &8▪ &#f4d867Brew 1 Strength Potion'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 9'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.9
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 9%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_9_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 23
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 9'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cBrew 2 Healing Potion'
+      - ' &8▪ &#d6ad8cBrew 1 Strength Potion'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 9'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.9
+    click_commands:
+      - "[player] quests:quests take Quest 9"
+      - "[close]"
+  'quest_9_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 23
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 9'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Brew 2 Healing Potion'
+      - ' &8▪ &#e85954Brew 1 Strength Potion'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 9'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_10_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 10'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Craft 5 SpyGlass'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 10'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 10%"
+          output: "true"
+  'quest_10_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 32
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 10'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Craft 5 SpyGlass'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 10'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.10
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 10%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_10_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 32
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 10'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cCraft 5 SpyGlass'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 10'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.10
+    click_commands:
+      - "[player] quests:quests take Quest 10"
+      - "[close]"
+  'quest_10_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 32
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 10'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Craft 5 SpyGlass'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 10'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_11_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 33
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 11'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Shear 15 White Sheep'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 11'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 11%"
+          output: "true"
+  'quest_11_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 33
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 11'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Shear 15 White Sheep'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 11'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.11
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 11%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_11_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 33
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 11'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cShear 15 White Sheep'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 11'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.11
+    click_commands:
+      - "[player] quests:quests take Quest 11"
+      - "[close]"
+  'quest_11_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 33
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 11'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Shear 15 White Sheep'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 11'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_12_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 34
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 12'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Break 200 Netherwart'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 12'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 12%"
+          output: "true"
+  'quest_12_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 34
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 12'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Break 200 Netherwart'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 12'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.12
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 12%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_12_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 34
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 12'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cBreak 200 Netherwart'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 12'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.12
+    click_commands:
+      - "[player] quests:quests take Quest 12"
+      - "[close]"
+  'quest_12_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 34
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 12'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Break 200 Netherwart'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 12'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_13_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 25
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 13'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Place 40 Quartz Blocks'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 13'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 13%"
+          output: "true"
+  'quest_13_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 25
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 13'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Place 40 Quartz Blocks'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 13'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.13
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 13%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_13_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 25
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 13'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cPlace 40 Quartz Blocks'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 13'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.13
+    click_commands:
+      - "[player] quests:quests take Quest 13"
+      - "[close]"
+  'quest_13_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 25
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 13'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Place 40 Quartz Blocks'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 13'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+  'quest_14_completed':
+    material: PAPER
+    model_data: 106
+    amount: 1
+    slot: 16
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#88d34c&lQuest 14'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#9bda69Break 20 Emerald Ores'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#9bda69Tier 14'
+      - ''
+      - '&#88d34cᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    view_requirement:
+      requirements:
+        completed:
+          type: string equals
+          input: "%quests_player_has_completed_quest_Quest 14%"
+          output: "true"
+  'quest_14_inprogress':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 16
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f8d547&lQuest 14'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#f4d867Break 20 Emerald Ores'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#f4d867Tier 14'
+      - ''
+      - '&#f8d547ɪɴ ᴘʀᴏɢʀᴇꜱꜱ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.14
+        progress:
+          type: string equals
+          input: "%quests_player_has_current_quest_Quest 14%"
+          output: "Yes"
+    click_commands:
+      - "[close]"
+  'quest_14_start':
+    material: PAPER
+    model_data: 107
+    amount: 1
+    slot: 16
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lQuest 14'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#d6ad8cBreak 20 Emerald Ores'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#d6ad8cTier 14'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀʀᴛ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.quest.14
+    click_commands:
+      - "[player] quests:quests take Quest 14"
+      - "[close]"
+  'quest_14_locked':
+    material: PAPER
+    model_data: 108
+    amount: 1
+    slot: 16
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e5534d&lQuest 14'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜᴇ ǫᴜᴇꜱᴛ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ɪᴛꜱ ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&fᴏʙᴊᴇᴄᴛɪᴠᴇ:'
+      - ' &8▪ &#e85954Break 20 Emerald Ores'
+      - ''
+      - '&fᴛɪᴇʀ ᴜɴʟᴏᴄᴋ:'
+      - ' &8▪ &#e85954Tier 14'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 102
+    amount: 1
+    slot: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#d4a177Back'
+    click_commands:
+      - "[openguimenu] battlepass"
+  'next_page':
+    material: PAPER
+    model_data: 110
+    amount: 1
+    slot: 43
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#d4a177Next Page'
+    click_commands:
+      - "[openguimenu] battlepass_quests_2"

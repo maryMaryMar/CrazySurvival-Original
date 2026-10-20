@@ -1,0 +1,10 @@
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully loaded FancyHolograms version 2.5.0","timestamp":1750077729909,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"Outdated config detected! Attempting to migrate previous settings to new config...","timestamp":1750077751903,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"\u003e CONFIG: Option \u0027config_version\u0027 is deprecated/invalid! Please migrate this manually from config_old.yml","timestamp":1750077751903,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Configuration has finished migrating. Please double check your settings in config.yml.","timestamp":1750077751903,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750077751927,"threadID":107,"threadName":"FancyHolograms-Holograms","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750077751927,"threadID":107,"threadName":"FancyHolograms-Holograms","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750077751927,"threadID":107,"threadName":"FancyHolograms-Holograms","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750077751927,"threadID":107,"threadName":"FancyHolograms-Holograms","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully enabled FancyHolograms version 2.5.0","timestamp":1750077751929,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully disabled FancyHolograms version 2.5.0","timestamp":1750093667074,"threadID":35,"threadName":"Server thread","properties":{}}

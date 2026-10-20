@@ -1,0 +1,208 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'king_kit':
+    material: PAPER
+    model_data: 8
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴛʜᴇ ᴜʟᴛɪᴍᴀᴛᴇ ᴋɪᴛ ꜰᴏʀ ᴛʜᴇ ʀᴜʟᴇʀ!'
+      - '&7ᴜɴᴍᴀᴛᴄʜᴇᴅ ᴘᴏᴡᴇʀ ꜰɪᴛ ꜰᴏʀ ᴀ ᴋɪɴɢ.'
+
+
+  'king_kit_cooldown':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_king%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ ᴋɪᴛ, ᴡᴀɪᴛ %essentials_kit_time_until_available_king% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ!"
+
+
+  'king_kit_available':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    click_commands:
+      - "[player] essentials:kit king"
+      - "[close]"
+
+
+
+
+
+
+  '1':
+    material: NETHERITE_SWORD
+    amount: 1
+    slot: 12
+    enchantments:
+      - sharpness;5
+      - unbreaking;3
+      - fire_aspect;2
+      - looting;3
+      - knockback;2
+      - sweeping_edge;3
+    display_name: '&#fd7e00&lKing Sword'
+
+  '2':
+    material: NETHERITE_HELMET
+    amount: 1
+    slot: 13
+    enchantments:
+      - protection;4
+      - unbreaking;3
+      - mending;1
+    display_name: '&#fd7e00&lKing Helmet'
+
+  '3':
+    material: NETHERITE_CHESTPLATE
+    amount: 1
+    slot: 14
+    enchantments:
+      - protection;4
+      - unbreaking;3
+      - mending;1
+    display_name: '&#fd7e00&lKing Chestplate'
+
+  '4':
+    material: NETHERITE_LEGGINGS
+    amount: 1
+    slot: 15
+    enchantments:
+      - protection;4
+      - unbreaking;3
+      - mending;1
+    display_name: '&#fd7e00&lKing Leggings'
+
+  '5':
+    material: NETHERITE_BOOTS
+    amount: 1
+    slot: 16
+    enchantments:
+      - protection;3
+      - unbreaking;3
+      - mending;1
+      - feather_falling;4
+    display_name: '&#fd7e00&lKing Boots'
+
+
+  '6':
+    material: NETHERITE_PICKAXE
+    amount: 1
+    slot: 21
+    enchantments:
+      - efficiency;5
+      - fortune;3
+      - unbreaking;3
+      - mending;1
+    display_name: '&#fd7e00&lKing Pickaxe'
+
+
+  '7':
+    material: NETHERITE_PICKAXE
+    amount: 1
+    slot: 22
+    enchantments:
+      - efficiency;5
+      - silk_touch;1
+      - unbreaking;3
+      - mending;1
+    display_name: '&#fd7e00&lKing Silk Pickaxe'
+
+
+  '8':
+    material: BOW
+    amount: 1
+    slot: 23
+    enchantments:
+      - power;5
+      - infinity;1
+      - unbreaking;3
+      - mending;1
+    display_name: '&#fd7e00&lKing Bow'
+
+  '9':
+    material: ENCHANTED_GOLDEN_APPLE
+    amount: 16
+    slot: 24
+
+  '10':
+    material: ARROW
+    amount: 64
+    slot: 25
+
+  '11':
+    material: GOLDEN_APPLE
+    amount: 38
+    slot: 30
+
+  '12':
+    material: COOKED_BEEF
+    amount: 64
+    slot: 31
+
+  '13':
+    material: ENDER_PEARL
+    amount: 38
+    slot: 32
+
+  '14':
+    material: IRON_INGOT
+    amount: 64
+    slot: 33
+
+  '15':
+    material: TOTEM_OF_UNDYING
+    amount: 1
+    slot: 34
+
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] ranked_kits"
+

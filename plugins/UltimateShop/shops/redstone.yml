@@ -1,0 +1,328 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: '&f七七七七七七七七'
+  hide-message: false
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DISPENSER
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '71.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DROPPER
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '72.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: STICKY_PISTON
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '135.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.30'
+        placeholder: '{amount}$'
+        start-apply: 0
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PISTON
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '108.20'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.10'
+        placeholder: '{amount}$'
+        start-apply: 0
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NOTE_BLOCK
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '82.90'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.60'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OBSERVER
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '86.80'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.10'
+        placeholder: '{amount}$'
+        start-apply: 0
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: REPEATER
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '28.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.40'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  H:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COMPARATOR
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '32.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.20'
+        placeholder: '{amount}$'
+        start-apply: 0
+  I:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: REDSTONE_TORCH
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '12.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.20'
+        placeholder: '{amount}$'
+        start-apply: 0
+  J:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DAYLIGHT_DETECTOR
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '202.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.20'
+        placeholder: '{amount}$'
+        start-apply: 0
+  K:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: HOPPER
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '180.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.30'
+        placeholder: '{amount}$'
+        start-apply: 0
+  L:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TARGET
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '492.30'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.40'
+        placeholder: '{amount}$'
+        start-apply: 0
+    
+buttons:
+  c:
+    display-item:
+      material: paper
+      custom-model-data: 116
+      name: '&#7e84a8&l◂ ᴘʀᴇᴠɪᴏᴜꜱ ꜱʜᴏᴘ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'minerals'
+  k:
+    display-item:
+      material: paper
+      custom-model-data: 117
+      name: '&#7e84a8&lɴᴇxᴛ ꜱʜᴏᴘ ▸'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'drops'
+  d:
+    display-item:
+      material: grass_block
+      name: '&#64e25c&lʙʟᴏᴄᴋꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'blocks'
+  e:
+    display-item:
+      material: oak_log
+      name: '&#64e25c&lᴡᴏᴏᴅ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'logs'
+  f:
+    display-item:
+      material: iron_ingot
+      name: '&#64e25c&lᴍɪɴᴇʀᴀʟꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'minerals'
+  g:
+    display-item:
+      material: redstone
+      name: '&#64e25c&lʀᴇᴅꜱᴛᴏɴᴇ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+  h:
+    display-item:
+      material: string
+      name: '&#64e25c&lᴅʀᴏᴘꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'drops'
+  i:
+    display-item:
+      material: orange_concrete
+      name: '&#64e25c&lᴄᴏʟᴏʀᴇᴅ ʙʟᴏᴄᴋꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'colored'
+  j:
+    display-item:
+      material: red_tulip
+      name: '&#64e25c&lꜰʟᴏᴡᴇʀꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'flowers'

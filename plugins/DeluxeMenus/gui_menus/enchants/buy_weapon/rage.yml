@@ -1,0 +1,80 @@
+menu_title: '&f七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'enchants_purchase_1':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʀᴀɢᴇ'
+    lore:
+      - '&7ɢʀᴀɴᴛꜱ ꜱᴛʀᴇɴɢᴛʜ ᴇꜰꜰᴇᴄᴛ'
+      - '&7ɪɴ ᴄᴏᴍʙᴀᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea2000 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 2000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:rage 1 %player_name%"
+      - "[console] souls take %player_name% 2000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+  'enchants_purchase_2':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʀᴀɢᴇ'
+    lore:
+      - '&7ɢʀᴀɴᴛꜱ ꜱᴛʀᴇɴɢᴛʜ ᴇꜰꜰᴇᴄᴛ'
+      - '&7ɪɴ ᴄᴏᴍʙᴀᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea2'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea3800 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 3800'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:rage 2 %player_name%"
+      - "[console] souls take %player_name% 3800"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] enchants_weapon"

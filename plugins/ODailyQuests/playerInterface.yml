@@ -1,0 +1,37 @@
+# ======================================================
+# Here you can create your own player quests interface.
+#
+# Never delete a %variable% unless you know what you're doing.
+# %achieved% is replaced by the number of completed quests.
+# %drawIn% is replaced by the time remaining before the next quests draw.
+# ======================================================
+player_interface:
+  size: 27
+  inventory_name: "&f七七七七七七七七"
+  # disable the status of the quest if you want to handle it manually by placeholders
+  disable_status: false
+  # the 3 following lines will not be used if disable_status is set to true
+  status: ""
+  progress: "&fᴘʀᴏɢʀᴇss: #b82b2b%progress%&8/#2d9b25%required%"
+  achieved: "&fᴘʀᴏɢʀᴇss: #2d9b25ᴄᴏᴍᴘʟᴇᴛᴇᴅ"
+  # if you want to glow the item when the quest is achieved
+  glowing_if_achieved: false
+  complete_get_type: "&#38c42eᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜɪs ǫᴜᴇsᴛ"
+  player_head:
+    enabled: false
+    slot: 5
+    item_name: "&bYour quests"
+    item_description:
+      - "&eCompleted quests : &b%achieved%&e/&63"
+      - "&eNext draw in : &c%drawIn%"
+
+  # ========================================================
+  # Available types : FILL, PLAYER_COMMAND, CONSOLE_COMMAND
+  # Placeholders : %player%
+  # More info on Wiki.
+  # ========================================================
+  quests: # set the position of quests items
+    1: 12
+    2: 14
+    3: 16
+  items:

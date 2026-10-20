@@ -1,0 +1,290 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: '&f七七七七七七七七'
+  hide-message: false
+
+items:
+  A:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COAL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.8'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.5'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COPPER_INGOT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '12'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '11'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  C:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: IRON_INGOT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '18.4'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  D:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GOLD_INGOT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '53'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '28'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  E:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: LAPIS_LAZULI
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '13'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '12'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  F:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: REDSTONE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '9.3'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.1'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  G:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: AMETHYST_SHARD
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '9.0'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.9'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  H:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DIAMOND
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '450'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '205'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  I:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NETHERITE_INGOT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1268'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '385'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  J:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: QUARTZ
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '19'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '10'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+
+buttons:
+  c:
+    display-item:
+      material: paper
+      custom-model-data: 116
+      name: '&#7e84a8&l◂ ᴘʀᴇᴠɪᴏᴜꜱ ꜱʜᴏᴘ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'logs'
+  k:
+    display-item:
+      material: paper
+      custom-model-data: 117
+      name: '&#7e84a8&lɴᴇxᴛ ꜱʜᴏᴘ ▸'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'redstone'
+  d:
+    display-item:
+      material: red_tulip
+      name: '&#64e25c&lꜰʟᴏᴡᴇʀꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'flowers'
+  e:
+    display-item:
+      material: grass_block
+      name: '&#64e25c&lʙʟᴏᴄᴋꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'blocks'
+  f:
+    display-item:
+      material: oak_log
+      name: '&#64e25c&lᴡᴏᴏᴅ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'logs'
+  g:
+    display-item:
+      material: iron_ingot
+      name: '&#64e25c&lᴍɪɴᴇʀᴀʟꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+  h:
+    display-item:
+      material: redstone
+      name: '&#64e25c&lʀᴇᴅꜱᴛᴏɴᴇ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'redstone'
+  i:
+    display-item:
+      material: string
+      name: '&#64e25c&lᴅʀᴏᴘꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʜ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'drops'
+  j:
+    display-item:
+      material: orange_concrete
+      name: '&#64e25c&lᴄᴏʟᴏʀᴇᴅ ʙʟᴏᴄᴋꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'colored'

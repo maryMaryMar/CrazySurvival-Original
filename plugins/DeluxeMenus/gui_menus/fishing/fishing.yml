@@ -1,0 +1,47 @@
+menu_title: '&f七七七七七七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'baits':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 10
+      - 11
+      - 12
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#5ec946&lʙᴀɪᴛꜱ ꜱʜᴏᴘ'
+    lore:
+      - '&7ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ʙᴀɪᴛꜱ ᴛᴏ'
+      - '&7ᴀᴘᴘʟʏ ᴏɴ ʏᴏᴜʀ ꜰɪꜱʜɪɴɢ ʀᴏᴅꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    click_commands:
+      - "[openguimenu] fishing_baits"
+
+
+  'fishes':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 14
+      - 15
+      - 16
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#028bdb&lꜰɪꜱʜᴇꜱ ꜱʜᴏᴘ'
+    lore:
+      - '&7ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜱᴇʟʟ ʏᴏᴜʀ'
+      - '&7ᴄᴀᴛᴄʜᴇᴅ ꜰɪꜱʜᴇꜱ ꜰᴏʀ ꜱᴏᴍᴇ ʙᴜᴄᴋꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    click_commands:
+      - "[player] emf shop"

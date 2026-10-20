@@ -1,0 +1,93 @@
+Events:
+  event1:
+    type: block_interact
+    conditions:
+    - '%block_x% == 23'
+    - '%block_y% == 118'
+    - '%block_z% == -34'
+    - '%block_world% == lobby'
+    - '%block% == BARRIER'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'player_command: dailyquests'
+
+  event2:
+    type: block_interact
+    conditions:
+    - '%block_x% == 24'
+    - '%block_y% == 118'
+    - '%block_z% == -34'
+    - '%block_world% == lobby'
+    - '%block% == BARRIER'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'player_command: dailyquests'
+
+  event3:
+    type: block_interact
+    conditions:
+    - '%block_x% == 25'
+    - '%block_y% == 118'
+    - '%block_z% == -34'
+    - '%block_world% == lobby'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'player_command: dailyquests'
+
+  event4:
+    type: block_interact
+    conditions:
+    - '%block_x% == 23'
+    - '%block_y% == 119'
+    - '%block_z% == -34'
+    - '%block_world% == lobby'
+    - '%block% == BARRIER'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'player_command: dailyquests'
+
+  event5:
+    type: block_interact
+    conditions:
+    - '%block_x% == 24'
+    - '%block_y% == 119'
+    - '%block_z% == -34'
+    - '%block_world% == lobby'
+    - '%block% == BARRIER'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'player_command: dailyquests'
+
+  event6:
+    type: block_interact
+    conditions:
+    - '%block_x% == 25'
+    - '%block_y% == 119'
+    - '%block_z% == -34'
+    - '%block_world% == lobby'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'player_command: dailyquests'
+
+  event7:
+    type: wgevents_region_enter
+    conditions:
+    - '%region% == big_balloon'
+    actions:
+      default:
+      - 'player_command: dm open rtp'
+
+  event8:
+    type: wgevents_region_enter
+    conditions:
+    - '%region% == pvp'
+    - '%essentials_fly% == yes'
+    actions:
+      default:
+      - "player_command: fly"

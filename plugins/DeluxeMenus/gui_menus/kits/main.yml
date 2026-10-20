@@ -1,0 +1,49 @@
+menu_title: '&f七七七七七七七七'
+open_command: kits
+register_command: true
+size: 27
+update_interval: 1
+
+items:
+  'normal_kits':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 10
+      - 11
+      - 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&3&lɴᴏʀᴍᴀʟ ᴋɪᴛs'
+    lore:
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ ᴠᴀʀɪᴏᴜꜱ ᴛʏᴘᴇꜱ'
+      - '&7ᴏꜰ ꜱᴛᴀʀᴛᴇʀ ᴋɪᴛꜱ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+      - "[openguimenu] normal_kits"
+
+  'ranked_kits':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 14
+      - 15
+      - 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&6&lʀᴀɴᴋᴇᴅ ᴋɪᴛs'
+    lore:
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ ᴠᴀʀɪᴏᴜꜱ ᴛʏᴘᴇꜱ'
+      - '&7ᴏꜰ ᴀᴅᴠᴀɴᴄᴇᴅ ᴋɪᴛꜱ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+      - "[openguimenu] ranked_kits"
+

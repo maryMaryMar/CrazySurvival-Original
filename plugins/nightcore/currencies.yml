@@ -1,0 +1,53 @@
+Items:
+  gold:
+    Tag:
+      Value: '{}'
+      DataVersion: -1
+    Settings:
+      Name: <lang:"item.minecraft.gold_ingot">
+      Format: '%amount% %name%'
+      Icon:
+        Material: minecraft:gold_ingot
+        Lore: []
+  diamond:
+    Tag:
+      Value: '{}'
+      DataVersion: -1
+    Settings:
+      Name: <lang:"item.minecraft.diamond">
+      Format: '%amount% %name%'
+      Icon:
+        Material: minecraft:diamond
+        Lore: []
+  emerald:
+    Tag:
+      Value: '{}'
+      DataVersion: -1
+    Settings:
+      Name: <lang:"item.minecraft.emerald">
+      Format: '%amount% %name%'
+      Icon:
+        Material: minecraft:emerald
+        Lore: []
+Currencies:
+  vault:
+    Settings:
+      Name: Money
+      Format: $%amount%
+      Icon:
+        Material: minecraft:gold_nugget
+        Lore: []
+  xp_points:
+    Settings:
+      Name: XP
+      Format: '%amount% %name%'
+      Icon:
+        Material: minecraft:experience_bottle
+        Lore: []
+  xp_level:
+    Settings:
+      Name: Levels
+      Format: '%amount% %name%'
+      Icon:
+        Material: minecraft:experience_bottle
+        Lore: []

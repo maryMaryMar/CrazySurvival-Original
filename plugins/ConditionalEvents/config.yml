@@ -1,0 +1,226 @@
+Config:
+  update_notification: false
+  data_save_time: 5
+  debug_actions: true
+  register_commands:
+  - discord
+  - store
+  - help
+  - sellall
+  - sell
+  - skins
+  - toolskins
+  - farm
+  - farmer
+  - pets
+  to_condition_groups:
+    group1:
+    - '%player_has_permission_conditionalevents.somepermission% == yes'
+  experimental:
+    variable_replacement: false
+  use_minimessage: false
+  item_meta_variable_enabled: false
+Messages:
+  prefix: '&4[&bConditionalEvents&4] '
+  commandReload: '&aConfig Reloaded.'
+  commandNoPermissions: '&cYou don''t have permissions to use this command.'
+  commandResetError: '&cUse &7/ce reset <player> <event>/all'
+  eventDoesNotExists: '&cThat event doesn''t exists on the config.'
+  eventDataReset: '&aData reset for player &e%player% &aon event &e%event%&a!'
+  eventDataResetAll: '&aAll data reset for player &e%player%&a!'
+  eventDataResetForAllPlayers: '&aData reset for &eall players &aon event &e%event%&a!'
+  eventDataResetAllForAllPlayers: '&aAll player data reset.'
+  eventEnableError: '&cUse &7/ce enable <event>'
+  eventDisableError: '&cUse &7/ce disable <event>'
+  eventEnabled: '&aEvent &7%event% &aenabled.'
+  eventDisabled: '&aEvent &7%event% &adisabled.'
+  commandDebugError: '&cUse &7/ce debug <event>'
+  debugEnabled: '&aDebug now enabled for event &7%event%&a!'
+  debugDisabled: '&aDebug disabled for event &7%event%&a!'
+  debugEnabledPlayer: '&aDebug now enabled for event &7%event% &aand player &7%player%&a!'
+  debugDisabledPlayer: '&aDebug disabled for event &7%event% &aand player &7%player%&a!'
+  onlyPlayerCommand: '&cThis command can be only used by a player.'
+  playerDoesNotExists: '&cThat player doesn''t have any data.'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  placeholderAPICooldownReady: Ready!
+  placeholderAPICooldownNameError: No event with that name!
+  commandCallError: '&cUse &7/ce call <event> (optional)%variable1%=<value1>;%variableN%=<valueN>
+    (optional)player:<player>'
+  commandCallInvalidEvent: '&cYou can only execute a CALL event.'
+  commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
+  commandCallCorrectPlayer: '&aEvent &7%event% &asuccessfully executed for player
+    &7%player%&a.'
+  commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
+  playerNotOnline: '&cThat player is not online.'
+  commandItemError: '&cUse &7/ce item <save/remove> <name>'
+  savedItemDoesNotExists: '&cThat saved item doesn''t exists.'
+  savedItemRemoved: '&aItem &7%name% &aremoved.'
+  mustHaveItemInHand: '&cYou must have an item on your hand.'
+  savedItemAlreadyExists: '&cA saved item with that name already exists.'
+  savedItemAdded: '&aItem &7%name% &asaved.'
+  commandInterruptError: '&cUse &7/ce interrupt <event> (optional)<player>'
+  commandInterruptCorrect: '&aActions of event &7%event% &ainterrupted.'
+  commandInterruptCorrectPlayer: '&aActions of event &7%event% &ainterrupted for player
+    &7%player%&a.'
+  eventIsNotEnabled: '&cThat event is not enabled.'
+Events:
+  soulscommand:
+    type: player_command
+    conditions:
+    - '%command% == /souls or %command% == /soul'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7ꜱᴏᴜʟꜱ: %excellenteconomy_balance_raw_souls%'
+  shopcommand:
+    type: player_command
+    conditions:
+    - '%command% == /shop or %command% == /shop menu blocks'
+    - '%floodgate_isbedrock% == true'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7▪ &fUse command &a/buy&f to Buy'
+      - 'message: &7▪ &fUse command &a/sell&f to Sell'
+  buycommand:
+    type: player_command
+    conditions:
+    - '%command% == /buy'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: ultimateshop:shop menu blocks'
+  sellcommand:
+    type: player_command
+    conditions:
+    - '%command% == /sell or %command% == /sellall'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: ultimateshop:shop sellall'
+  farmcommand:
+    type: player_command
+    conditions:
+    - '%command% == /farm or %command% == /farmer'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: ultimateshop:shop menu farming'
+  discordcommand:
+    type: player_command
+    conditions:
+    - '%main_command% == /discord'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: #6190f7&lᴅɪꜱᴄᴏʀᴅ ꜱᴇʀᴠᴇʀ:'
+      - 'message: #6190f7%rp_discord%'
+  storecommand:
+    type: player_command
+    conditions:
+    - '%main_command% == /store'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &6&lꜱᴇʀᴠᴇʀ ꜱᴛᴏʀᴇ:'
+      - 'message: &6%rp_store%'
+  helpcommand:
+    type: player_command
+    conditions:
+    - '%main_command% == /help'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: guide'
+  toolskinscommand:
+    type: player_command
+    conditions:
+    - '%main_command% == /skins or %main_command% == /toolskins'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: dm open toolskins_swords_1'
+  cosmetics:
+    type: player_command
+    conditions:
+    - '%command% == /cosmetics'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: dm open cosmetics_emotes'
+  pets:
+    type: player_command
+    conditions:
+    - '%command% == /pets'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: dm open petshop_1'
+  jobs:
+    type: player_command
+    conditions:
+    - '%command% == /jobs'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: dm open lumberjack_job'
+  quests:
+    type: player_command
+    conditions:
+    - '%command% == /quests'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'player_command: dm open battlepass_quests_1'
+  emoji:
+    type: player_command
+    conditions:
+    - '%main_command% == /emoji or %main_command% == /emojis'
+    - '%arg_1% equals 1 execute default'
+    - '%arg_1% equals 2 execute page2'
+    - '%arg_1% equals 3 execute page3'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &bEmojis: &e1/3'
+      - 'message: &7'
+      - 'message: &7▪ &f &7- &f:skull:'
+      - 'message: &7▪ &f &7- &f:clown:'
+      - 'message: &7▪ &f &7- &f:dead:'
+      - 'message: &7▪ &f &7- &f:poop:'
+      - 'message: &7▪ &f &7- &f:cool:'
+      - 'message: &7▪ &f &7- &f:evil:'
+      - 'message: &7▪ &f &7- &f:crying:'
+      - 'message: &7▪ &f &7- &f:sweat:'
+      - 'message: &7'
+      - 'message: &fType &b/emoji 2 &ffor next page'
+      page2:
+      - 'cancel_event: true'
+      - 'message: &bEmojis: &e2/3'
+      - 'message: &7'
+      - 'message: &7▪ &f &7- &f:mindblown:'
+      - 'message: &7▪ &f &7- &f:wink:'
+      - 'message: &7▪ &f &7- &f:kiss:'
+      - 'message: &7▪ &f &7- &f:scream:'
+      - 'message: &7▪ &f &7- &f:thinking:'
+      - 'message: &7▪ &f &7- &f:joy:'
+      - 'message: &7▪ &f &7- &f:happy:'
+      - 'message: &7▪ &f &7- &f:melt:'
+      - 'message: &7'
+      - 'message: &fType &b/emoji 3 &ffor next page'
+      page3:
+      - 'cancel_event: true'
+      - 'message: &bEmojis: &e3/3'
+      - 'message: &7'
+      - 'message: &7▪ &f &7- &f:money:'
+      - 'message: &7▪ &f &7- &f:begging:'
+      - 'message: &7▪ &f &7- &f:angry:'
+      - 'message: &7▪ &f &7- &f:sad:'
+      - 'message: &7▪ &f &7- &f:angel:'
+      - 'message: &7▪ &f &7- &f:love:'
+      - 'message: &7▪ &f &7- &f:eyes:'
+      - 'message: &7▪ &f &7- &f:heart:'
+      - 'message: &7▪ &f &7- &f:thumbsup:'

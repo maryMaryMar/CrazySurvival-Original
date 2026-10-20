@@ -1,0 +1,613 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: '&f七七七七七七七七'
+  hide-message: false
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CHERRY_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '19.5'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7.00'
+        placeholder: '{amount}$'
+        start-apply: 0
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OAK_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '13'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '6.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPRUCE_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '14.95'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '6.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BIRCH_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '12.74'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '5.25'
+        placeholder: '{amount}$'
+        start-apply: 0
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MANGROVE_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '17.55'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.80'
+        placeholder: '{amount}$'
+        start-apply: 0
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: JUNGLE_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '15.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '6.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ACACIA_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '14.3'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '5.40'
+        placeholder: '{amount}$'
+        start-apply: 0
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DARK_OAK_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '18.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PALE_OAK_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '23.4'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.25'
+        placeholder: '{amount}$'
+        start-apply: 0
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CHERRY_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '5.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OAK_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.51'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.4'
+        placeholder: '{amount}$'
+        start-apply: 0
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPRUCE_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.77'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.4'
+        placeholder: '{amount}$'
+        start-apply: 0
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BIRCH_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.38'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MANGROVE_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.55'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.1'
+        placeholder: '{amount}$'
+        start-apply: 0
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: JUNGLE_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.16'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.4'
+        placeholder: '{amount}$'
+        start-apply: 0
+  P:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ACACIA_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.64'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+  Q:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DARK_OAK_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.68'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+  R:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PALE_OAK_PLANKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '5.98'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.9'
+        placeholder: '{amount}$'
+        start-apply: 0
+  S:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CHERRY_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.25'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+  T:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OAK_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+  U:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPRUCE_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.93'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+  V:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BIRCH_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+  W:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MANGROVE_PROPAGULE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.9'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+  X:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: JUNGLE_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.25'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+  Y:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ACACIA_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.93'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+  Z:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DARK_OAK_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.23'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.2'
+        placeholder: '{amount}$'
+        start-apply: 0
+  a:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PALE_OAK_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.12'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.4'
+        placeholder: '{amount}$'
+        start-apply: 0
+    
+buttons:
+  c:
+    display-item:
+      material: paper
+      custom-model-data: 116
+      name: '&#7e84a8&l◂ ᴘʀᴇᴠɪᴏᴜꜱ ꜱʜᴏᴘ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'blocks'
+  k:
+    display-item:
+      material: paper
+      custom-model-data: 117
+      name: '&#7e84a8&lɴᴇxᴛ ꜱʜᴏᴘ ▸'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'minerals'
+  d:
+    display-item:
+      material: orange_concrete
+      name: '&#64e25c&lᴄᴏʟᴏʀᴇᴅ ʙʟᴏᴄᴋꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'colored'
+  e:
+    display-item:
+      material: red_tulip
+      name: '&#64e25c&lꜰʟᴏᴡᴇʀꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'flowers'
+  f:
+    display-item:
+      material: grass_block
+      name: '&#64e25c&lʙʟᴏᴄᴋꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'blocks'
+  g:
+    display-item:
+      material: oak_log
+      name: '&#64e25c&lᴡᴏᴏᴅ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+  h:
+    display-item:
+      material: iron_ingot
+      name: '&#64e25c&lᴍɪɴᴇʀᴀʟꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'minerals'
+  i:
+    display-item:
+      material: redstone
+      name: '&#64e25c&lʀᴇᴅꜱᴛᴏɴᴇ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'redstone'
+  j:
+    display-item:
+      material: string
+      name: '&#64e25c&lᴅʀᴏᴘꜱ'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+        - '&7ᴛʜɪꜱ ᴄᴀᴛᴇɢᴏʀʏ'
+    actions:
+      1:
+        type: shop_menu
+        shop: 'drops'

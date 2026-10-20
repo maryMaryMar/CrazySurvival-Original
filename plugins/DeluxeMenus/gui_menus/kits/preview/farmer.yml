@@ -1,0 +1,114 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'farmer_kit':
+    material: WHEAT
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ɢʀᴏᴡ ᴀɴᴅ ʜᴀʀᴠᴇꜱᴛ ᴡɪᴛʜ ᴇᴀꜱᴇ'
+      - '&7ᴛᴏᴏʟꜱ ᴀɴᴅ ꜱᴇᴇᴅꜱ ꜰᴏʀ ᴀ ɢʀᴇᴀᴛ ʜᴀʀᴠᴇꜱᴛ!'
+
+
+  'farmer_kit_cooldown':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_farmer%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ ᴋɪᴛ, ᴡᴀɪᴛ %essentials_kit_time_until_available_farmer% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ!"
+
+
+  'farmer_kit_available':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    click_commands:
+      - "[player] essentials:kit farmer"
+      - "[close]"
+
+
+
+
+
+
+  '1':
+    material: IRON_HOE
+    amount: 1
+    slot: 12
+    enchantments:
+      - efficiency;1
+    display_name: '&#5b617eFarmer Pickaxe'
+
+  '2':
+    material: WHEAT_SEEDS
+    amount: 16
+    slot: 13
+
+  '3':
+    material: CARROT
+    amount: 16
+    slot: 14
+
+  '4':
+    material: POTATO
+    amount: 16
+    slot: 15
+
+  '5':
+    material: BUCKET
+    amount: 2
+    slot: 16
+
+  '6':
+    material: BONE_MEAL
+    amount: 8
+    slot: 21
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] normal_kits"
+

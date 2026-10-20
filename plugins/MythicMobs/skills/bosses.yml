@@ -1,0 +1,199 @@
+boss_1_hulk:
+  Conditions:
+  - stance idling true
+  - targetwithin{d=6} true
+  Skills:
+  - setstance{stance=attacking} @self
+  - state{s=hulk_attack;li=3;lo=3} @self
+  - delay 25
+  - state{s=hulk_attack;li=3;lo=3;r=true} @self
+  - setstance{stance=idling} @self
+  
+boss_1_hulk_dmg:
+  Skills:
+  - damage{a=40} @eir{r=27}
+  - throw{v=50} @eir{r=27}
+  - particles{p=block;material=DIRT;a=50;hs=3;vs=0} @modelpart{pid=right_hand}
+  - particles{p=explosion;a=5;hs=0.2;vs=0.2} @modelpart{pid=right_hand}
+  - particles{p=campfire_signal_smoke;a=20;hs=3;vs=0;speed=0.2} @self
+  - sound{s=entity.dragon_fireball.explode;p=0.95;v=0.6} @self
+  - sound{s=entity.zombie.break_wooden_door;p=0.68;v=0.5} @self
+
+boss_1_swing:
+  Conditions:
+  - stance idling true
+  - targetwithin{d=10} false
+  - targetwithin{d=30} true
+  Skills:
+  - setstance{stance=attacking} @self
+  - state{s=swing_attack;li=3;lo=3} @self
+  - delay 25
+  - state{s=swing_attack;li=3;lo=3;r=true} @self
+  - setstance{stance=idling} @self
+
+boss_1_swing_proj:
+  Skills:
+  - projectile{bullettype=ARROW;v=22;fromorigin=true;origin=@modelpart{pid=right_hand};oT=boss_1_swing_proj-t;oH=boss_1_swing_proj-h;g=0.03} @target
+  - sound{s=item.crossbow.shoot;p=0.50;v=1.0} @self
+  - sound{s=entity.evoker_fangs.attack;p=1.87;v=1.0} @self
+
+boss_1_swing_proj-t:
+  Skills:
+  - particles{p=enchant;hs=0.2;vs=0.2;speed=0.01} @origin
+
+boss_1_swing_proj-h:
+  Skills:
+  - damage{a=48}
+  - particles{p=end_rod;hs=0.1;vs=0.1;speed=0.1} @origin
+  
+boss_1_chain:
+  Conditions:
+  - stance idling true
+  - targetwithin{d=20} true
+  Skills:
+  - setstance{stance=attacking} @self
+  - lockmodel{l=true} @self
+  - state{s=chain_attack;li=3;lo=3} @self
+  - delay 45
+  - lockmodel{l=false} @self
+  - state{s=chain_attack;li=3;lo=3;r=true} @self
+  - setstance{stance=idling} @self
+  
+boss_1_chain_dmg:
+  Skills:
+  - skill{s=boss_1_chain_dmg-d} @modelpart{pid=right_hand}
+  - skill{s=boss_1_chain_dmg-d} @modelpart{pid=left_hand}
+  - particles{p=block;material=DIRT;a=50;hs=3;vs=0} @modelpart{pid=right_hand}
+  - particles{p=campfire_signal_smoke;a=20;hs=3;vs=0;speed=0.2} @modelpart{pid=right_hand}
+  - particles{p=explosion;a=5;hs=0.2;vs=0.2} @modelpart{pid=right_hand}
+  - sound{s=entity.dragon_fireball.explode;p=0.95;v=0.6} @modelpart{pid=right_hand}
+  - sound{s=entity.zombie.break_wooden_door;p=0.68;v=0.5} @modelpart{pid=right_hand}
+  - particles{p=block;material=DIRT;a=50;hs=3;vs=0} @modelpart{pid=left_hand}
+  - particles{p=campfire_signal_smoke;a=20;hs=3;vs=0;speed=0.2} @modelpart{pid=left_hand}
+  - particles{p=explosion;a=5;hs=0.2;vs=0.2} @modelpart{pid=left_hand}
+  - sound{s=entity.dragon_fireball.explode;p=0.95;v=0.6} @modelpart{pid=left_hand}
+  - sound{s=entity.zombie.break_wooden_door;p=0.68;v=0.5} @modelpart{pid=left_hand}
+  
+boss_1_chain_dmg-d:
+  Skills:
+  - damage{a=55} @livingneartargetlocation{r=28}
+  - throw{v=45} @livingneartargetlocation{r=28}
+
+boss_1_sound-idle:
+  Skills:
+  - sound{s=entity.iron_golem.attack;p=0.50;v=0.4} @self
+  - sound{s=entity.wither_skeleton.ambient;p=0.77;v=0.5} @self
+
+boss_1_sound-hurt:
+  Skills:
+  - sound{s=entity.iron_golem.hurt;p=0.50;v=0.4} @self
+  - sound{s=entity.wither_skeleton.hurt;p=0.77;v=0.5} @self
+
+boss_1_sound-death:
+  Skills:
+  - sound{s=entity.iron_golem.death;p=0.50;v=0.4} @self
+  - sound{s=entity.wither_skeleton.death;p=0.77;v=0.5} @self
+  - particles{p=Spore_Blossom_Air;a=40;vs=3;hs=0.3;speed=0.2} @modelpart{pid=upper_torso}
+  - particles{p=Totem_Of_Undying;a=40;vs=3;hs=0.3;speed=0.2} @modelpart{pid=upper_torso}
+  - particles{p=Scrape;a=140;vs=3;hs=0.7;speed=0.2} @modelpart{pid=upper_torso}
+
+## boss 2
+
+boss_2_attack:
+  Conditions:
+  - stance idling true
+  - targetwithin{d=15} true
+  Skills:
+  - setstance{stance=attacking} @self
+  - state{s=attack;li=3;lo=3} @self
+  - delay 20
+  - state{s=attack;li=3;lo=3;r=true} @self
+  - setstance{stance=idling} @self
+
+boss_2_attack_dmg:
+  Skills:
+  - skill{s=boss_2_attack_dmg-d} @modelpart{pid=weapon}
+  - particles{p=sweep_attack;a=50;hs=3;vs=0} @modelpart{pid=weapon}
+  - particles{p=campfire_signal_smoke;a=20;hs=3;vs=0;speed=0.2} @self
+  - sound{s=entity.player.attack.sweep;p=1.00;v=1.0}
+
+boss_2_attack_dmg-d:
+  Skills:
+  - damage{a=40} @PlayersInRadius{r=20}
+  - sound{s=block.anvil.place;p=1.00;v=0.4} @PlayersInRadius{r=8}
+
+boss_2_scream:
+  Cooldown: 6
+  Conditions:
+  - stance idling true
+  - targetwithin{d=16} true
+  Skills:
+  - setstance{stance=attacking} @self
+  - setspeed{speed=0;type=WALKING} @self
+  - look{headonly=false;immediately=true;repeat=19;repeatinterval=1} @target
+  - state{s=scream;li=3;lo=3} @self
+  - delay 20
+  - lockmodel @self
+  - setAI{ai=false} @self
+  - sound{s=entity.enderman.scream;p=0.50;v=1.0} @self
+  - aura{auraName=boss_2_scream;duration=20;oT=boss_2_scream-d} @self
+  - delay 30
+  - setAI{ai=true} @self
+  - lockmodel{l=false} @self
+  - state{s=scream;li=3;lo=3;r=true} @self
+  - setspeed{speed=1;type=WALKING} @self
+  - setstance{stance=idling} @self
+  
+boss_2_scream-d:
+  Skills:
+  - damage{a=32} @PlayersInRadius{r=24}
+  - throw{v=8} @PlayersInRadius{r=24}
+  - particles{p=dragon_breath;a=60} @Cone{a=60;r=24}
+  - particles{p=end_rod;a=10;speed=0.2} @modelpart{pid=jaw}	
+  - potion{type=LEVITATION;d=0.1;l=1;p=false;i=false} @PlayersInRadius{r=24}
+
+boss_2_throw:
+  Conditions:
+  - stance idling true
+  - targetwithin{d=18} true
+  Skills:
+  - setstance{stance=attacking} @self
+  - setstance{stance=idling;delay=240} @self
+  - setspeed{s=0} @self
+  - setspeed{s=1;delay=240} @self
+  - state{s=throw_scythe;p=2;lo=5} @self
+  - lockmodel{l=true} @self
+  - lockmodel{l=false;delay=240} @self
+  - brightness{b=15;s=15;p=scythe_spin} @self
+  - partvis{part=weapon;v=false;delay=37} @self
+  - partvis{part=spin;v=true;delay=37} @self
+  - partvis{part=weapon;v=true;delay=202} @self
+  - partvis{part=spin;v=false;delay=202} @self
+  - totem{md=2;oH=boss_2_throw_dmg;hr=4;vr=1;drawhitbox=false;delay=35;repeat=165;repeati=1;oT=boss_2_throw_dmg-t} @modelpart{pid=spin;offset=GLOBAL;y=-1}
+
+boss_2_throw_dmg:
+  Skills:
+  - e:p{p=crit;s=1;a=10;hs=.5;vs=.5;y=1;cd=1}
+  - damage{a=43}
+  - throw{v=10;vy=4}
+
+boss_2_throw_dmg-t:
+  Skills:
+  - particles{p=sweep_attack;a=2;hs=1;vs=0}
+
+boss_2_sound-idle:
+  Skills:
+  - sound{s=entity.skeleton.ambient;p=0.50;v=0.4} @self
+  - sound{s=entity.wither.ambient;p=0.77;v=0.5} @self
+
+boss_2_sound-hurt:
+  Skills:
+  - sound{s=entity.skeleton.hurt;p=0.50;v=0.4} @self
+  - sound{s=entity.wither.hurt;p=0.77;v=0.5} @self
+
+boss_2_sound-death:
+  Skills:
+  - sound{s=entity.skeleton.death;p=0.50;v=0.4} @self
+  - sound{s=entity.wither.death;p=0.77;v=0.5} @self
+  - particles{p=end_rod;a=160;vs=3;hs=1;speed=0.2} @modelpart{pid=body}
+  - particles{p=flash;a=20;vs=3;hs=1} @modelpart{pid=body}

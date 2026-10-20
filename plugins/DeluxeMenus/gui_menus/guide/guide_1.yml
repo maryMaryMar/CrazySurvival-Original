@@ -1,0 +1,464 @@
+menu_title: '&f七七七七七七七七'
+open_command: guide
+register_command: true
+size: 54
+update_interval: 1
+
+items:
+  'getting_started':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 10
+      - 11
+      - 12
+      - 19
+      - 20
+      - 21
+      - 28
+      - 29
+      - 30
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d19f76&lGetting Started'
+    lore:
+      - '&7'
+      - '&#debda1How to Start?'
+      - '&8 | &7First Rtp to the Overworld'
+      - '&8 | &7using /rtp command or talking'
+      - '&8 | &7to the Teleporter npc in the'
+      - '&8 | &7spawn!'
+      - '&7'
+      - '&#debda1How to Get Rich?'
+      - '&8 | &7Sell items in itemshop or to'
+      - '&8 | &7the farmer, collect daily'
+      - '&8 | &7rewards, catch and sell'
+      - '&8 | &7fish to the fisherman!'
+    click_commands:
+      - "[refresh]"
+
+  'guide_1':
+    material: PAPER
+    model_data: 142
+    amount: 1
+    slot: 37
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lMoney'
+    lore:
+      - '&7There are alot of things to spend'
+      - '&7money on, but what are the methods'
+      - '&7to earn it easily?'
+      - '&7'
+      - '&aCheck Balance:'
+      - '&8 | &7Using /bal command'
+      - '&7'
+      - '&aMethods to earn money:'
+      - ' &8▪ &fDoing Jobs'
+      - ' &8▪ &fDaily Quests'
+      - ' &8▪ &fBattlepass'
+      - ' &8▪ &fAuction House'
+      - ' &8▪ &fSell to ItemShop'
+      - ' &8▪ &fSell to Farmer'
+      - ' &8▪ &fSell to Fisherman'
+      - ' &8▪ &fKill Wanted Players'
+      - ' &8▪ &fand more!'
+    click_commands:
+      - "[refresh]"
+
+  'guide_2':
+    material: PAPER
+    model_data: 143
+    amount: 1
+    slot: 38
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&6&lCoins'
+    lore:
+      - '&7Coins is the premium currency of the'
+      - '&7server, it is used buy various premium'
+      - '&7items that cannot be bought with money!'
+      - '&7'
+      - '&6Check Balance:'
+      - '&8 | &7Using /coins command'
+      - '&7'
+      - '&6Ways to gain coins:'
+      - ' &8▪ &fDaily Rewards'
+      - ' &8▪ &fCrates'
+      - ' &8▪ &fBattlepass'
+      - ' &8▪ &fServer Webstore &7(/store)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_3':
+    material: PAPER
+    model_data: 169
+    amount: 1
+    slot: 39
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#20bf6b&lWorlds'
+    lore:
+      - '&7Did you know there are other worlds'
+      - '&7then Overworld that you can go to!'
+      - '&7Using /rtp or using Teleporter npc or'
+      - "&7by entering teleporter npc's balloon!"
+      - '&7'
+      - '&#20bf6bTeleport Using:'
+      - '&8 | &7Teleporter Npc in Spawn'
+      - '&8 | &7or the /rtp command'
+      - '&7'
+      - '&#20bf6bTotal Worlds:'
+      - ' &8▪ &fOverworld &7(50k x 50k)'
+      - ' &8▪ &fThe Nether &7(30k x 30k)'
+      - ' &8▪ &fThe End &7(30k x 30k)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_4':
+    material: GOLDEN_SHOVEL
+    model_data: 0
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#fed330&lClaiming'
+    lore:
+      - '&7Did you claim an area of land for'
+      - '&7yourself in the Overworld! That will'
+      - '&7be protected from other players unless'
+      - "&7trusted by you using /trust."
+      - '&7'
+      - '&#fed330How to claim:'
+      - '&8 | &7Right click two corners of land'
+      - '&8 | &7while holding a golden shovel!'
+      - '&7'
+      - '&#fed330Claim Commands:'
+      - ' &8▪ &f/trust &7(Trust other players on your claim)'
+      - ' &8▪ &f/untrust &7(Untrust other players on your claim)'
+      - ' &8▪ &f/accesstrust &7(Trust other players to use chests)'
+      - ' &8▪ &f/abandonclaim &7(Delete your claim)'
+      - ' &8▪ &f/trapped &7(Get out of an claim if you get stuck)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_5':
+    material: PAPER
+    model_data: 170
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#ffb108&lBattlepass'
+    lore:
+      - '&7In battlepass there are 25 rewards'
+      - '&7which can be unlock by completing'
+      - '&7battlepass quests. Rewards are of'
+      - '&72 tiers, Free and Premium (which is'
+      - '&7unlocked with Premium Pass)'
+      - '&7'
+      - '&#ffb108Opened Using:'
+      - '&8 | &7Battlepass Npc in Spawn'
+      - '&8 | &7or /battlepass command'
+      - '&7'
+      - '&#ffb108Pass Types:'
+      - ' &8▪ &fFree'
+      - ' &8▪ &fPremium &7(/store)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_6':
+    material: NETHERITE_SWORD
+    model_data: 13
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f19645&lToolSkins'
+    lore:
+      - '&7Did you know you can change the way'
+      - '&7your tool looks by apply skin on it!'
+      - '&7Using Toolskins npc you can apply'
+      - "&7a skin on your netherite tool!"
+      - '&7'
+      - '&#f19645Equipped Using:'
+      - '&8 | &7Toolskins Npc in Spawn'
+      - '&7'
+      - '&#f19645Toolskins Types:'
+      - ' &8▪ &fSword'
+      - ' &8▪ &fPickaxe'
+      - ' &8▪ &fAxe'
+      - ' &8▪ &fShovel'
+      - ' &8▪ &fHoe'
+    click_commands:
+      - "[refresh]"
+
+  'guide_7':
+    material: FLINT
+    model_data: 3
+    amount: 1
+    slot: 23
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#6dcdff&lCosmetics'
+    lore:
+      - '&7Cosmetics allows you to stand out from'
+      - '&7the crowd and be unqiue! You can access'
+      - '&7cosmetics by visiting Cosmetics npc in'
+      - "&7the cosmetics store near Quest Board!"
+      - '&7'
+      - '&#6dcdffAccessed From:'
+      - '&8 | &7Cosmetics Npc in Spawn'
+      - '&7'
+      - '&#6dcdffCosmetics Types:'
+      - ' &8▪ &fHats'
+      - ' &8▪ &fBalloons'
+      - ' &8▪ &fProjectiles'
+      - ' &8▪ &fEmotes'
+      - ' &8▪ &fParticles'
+      - ' &8▪ &fGlows'
+      - ' &8▪ &fChatcolors'
+    click_commands:
+      - "[refresh]"
+
+  'guide_8':
+    material: PAPER
+    model_data: 6
+    amount: 1
+    slot: 24
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#df4242&lKits'
+    lore:
+      - '&7There are 2 types of kits to be'
+      - '&7choosen from Normal and Ranked!'
+      - '&7Ranked kits can be only be'
+      - '&7claimed by ranked players'
+      - '&7'
+      - '&#df4242Accessed from:'
+      - '&8 | &7Using /kits command'
+      - '&7'
+      - '&#df4242Normal Kits:'
+      - ' &8▪ &fPvP'
+      - ' &8▪ &fBuilder'
+      - ' &8▪ &fFarmer'
+      - ' &8▪ &fMiner'
+      - ' &8▪ &fExplorer'
+      - '&7'
+      - '&#df4242Ranked Kits:'
+      - ' &8▪ &fGuardian'
+      - ' &8▪ &fChampion'
+      - ' &8▪ &fWarlord'
+      - ' &8▪ &fTitan'
+      - ' &8▪ &fKing'
+    click_commands:
+      - "[refresh]"
+
+  'guide_9':
+    material: FLINT
+    model_data: 8
+    amount: 1
+    slot: 25
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#ac6440&lBackpacks'
+    lore:
+      - '&7Is your inventory always full? Then'
+      - '&7Backpacks are for you! It allows you'
+      - '&7to have extra space in your inventory'
+      - '&7to store your precious materials!'
+      - '&7'
+      - '&#ac6440Bought from:'
+      - '&8 | &7Backpacks Npc in Spawn'
+      - '&7'
+      - '&#ac6440Backpack Types:'
+      - ' &8▪ &fSmall'
+      - ' &8▪ &fMedium'
+      - ' &8▪ &fLarge'
+    click_commands:
+      - "[refresh]"
+
+  'guide_10':
+    material: PAPER
+    model_data: 71
+    amount: 1
+    slot: 32
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a8b5ca&lBounties'
+    lore:
+      - '&7Do you want to get revenge on a player?'
+      - '&7Bounties is the solution for you! Set'
+      - '&7a bounty on your enemy and watch them'
+      - '&7getting chased in the pvp arena!'
+      - '&7'
+      - '&#a8b5caAccessed from:'
+      - '&8 | &7Bounties Npc in Arena'
+      - '&8 | &7or /bounty command'
+    click_commands:
+      - "[refresh]"
+
+  'guide_11':
+    material: PAPER
+    model_data: 175
+    amount: 1
+    slot: 33
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#9e5eb8&lWarps'
+    lore:
+      - '&7Using warps you can quickly teleport'
+      - '&7to important locations in the spawn'
+      - '&7in just few seconds!'
+      - '&7'
+      - '&#9e5eb8Accessed from:'
+      - '&8 | &7Using /warps command'
+      - '&7'
+      - '&#9e5eb8Warps List:'
+      - ' &8▪ &fArena'
+      - ' &8▪ &fCasino'
+      - ' &8▪ &fDungeon'
+      - ' &8▪ &fAuction'
+      - ' &8▪ &fCrates'
+      - ' &8▪ &fAfk Spot'
+    click_commands:
+      - "[refresh]"
+
+  'guide_12':
+    material: PAPER
+    model_data: 171
+    amount: 1
+    slot: 34
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#25bce6&lPlayerWarps'
+    lore:
+      - '&7Using playerwarps you can make your'
+      - '&7own warps which can be accessed by'
+      - '&7other players too!'
+      - '&7'
+      - '&#25bce6Accessed from:'
+      - '&8 | &7Playerwarps Npc in Spawn'
+      - '&8 | &7or /warps command'
+      - '&7'
+      - '&#25bce6Pwarps Commands:'
+      - ' &8▪ &f/pw create &7(Creates a pwarp)'
+      - ' &8▪ &f/pw remove &7(Delete a pwarp)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_13':
+    material: PAPER
+    model_data: 172
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#ed664c&lAuction House'
+    lore:
+      - '&7Using auction house you can sell'
+      - '&7off your items to be purchased or'
+      - '&7bid on by other players!'
+      - '&7'
+      - '&#ed664cAccessed from:'
+      - '&8 | &7Auction Npc in Spawn'
+      - '&8 | &7or /ah command'
+      - '&7'
+      - '&#ed664cPwarps Commands:'
+      - ' &8▪ &f/ah sell &7(List item for sale)'
+      - ' &8▪ &f/ah bid &7(List item for bid)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_14':
+    material: PAPER
+    model_data: 173
+    amount: 1
+    slot: 42
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lPets'
+    lore:
+      - '&7Ever felt alone? Pets is the loviest'
+      - '&7and perfect campanion to have around'
+      - '&7you (especially creeper pet)!'
+      - '&7'
+      - '&eAccessed from:'
+      - '&8 | &7Zookeeper Npc in Petshop'
+      - '&7'
+      - '&eTypes of Pets:'
+      - ' &8▪ &fChild Pet'
+      - ' &8▪ &fAdult Pet'
+    click_commands:
+      - "[refresh]"
+
+  'guide_15':
+    material: PAPER
+    model_data: 174
+    amount: 1
+    slot: 43
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#45aaf2&lCustom Fishes'
+    lore:
+      - "&7This server doesn't just have boring"
+      - '&7vanilla fishes, but custom fishes with'
+      - '&7rarities! There are over 70 custom'
+      - '&7fishes that you can sell too!'
+      - '&7'
+      - '&#45aaf2Sold to:'
+      - '&8 | &7Fisherman Npc in Spawn'
+      - '&7'
+      - '&#45aaf2Rarities:'
+      - ' &f'
+      - ' &f'
+      - ' &f'
+      - ' &f'
+    click_commands:
+      - "[refresh]"
+
+  'next':
+    material: PAPER
+    model_data: 167
+    amount: 1
+    slot: 26
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Next Page'
+    click_commands:
+      - "[openguimenu] guide_2"

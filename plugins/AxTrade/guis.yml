@@ -1,0 +1,156 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axtrade.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+# ----- SETTINGS -----
+
+title: '&f七七七七七七七七'
+# a gui can have 1-6 rows
+rows: 6
+
+# ----- SLOTS -----
+
+# the slots where the items can be placed
+# make sure to not put decorative items or currency items in the these slots
+# the own-slots and partner-slots must have an equal amount of slots
+own-slots:
+- 9-12
+- 18-21
+- 27-30
+- 36-39
+- 45-48
+
+partner-slots:
+- 14-17
+- 23-26
+- 32-35
+- 41-44
+- 50-53
+
+# ----- ITEMS -----
+
+# items on your side
+own:
+  confirm-item:
+    slot: 0
+    # you can use these placeholders:
+    # %own-name%"
+    # %partner-name%
+    accept:
+      material: PAPER
+      custom-model-data: 63
+      # if you want, you can add head textures, like this:
+      #material: "PLAYER_HEAD"
+      #texture: "%own-head%"
+      name: '&a&lᴀᴄᴄᴇᴘᴛ ᴛʀᴀᴅᴇ'
+      lore:
+      - '&7ᴀʀᴇ ʏᴏᴜ ʜᴀᴘᴘʏ ᴡɪᴛʜ ᴛʜᴇ ᴛʀᴀᴅᴇ?'
+      - '&7ɪꜰ ʏᴇꜱ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴄᴏɴꜰɪʀᴍ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄᴏɴꜰɪʀᴍ'
+    cancel:
+      material: PAPER
+      custom-model-data: 64
+      name: '&c&lᴄᴀɴᴄᴇʟ ᴛʀᴀᴅᴇ'
+      lore:
+      - '&7ɴᴇᴇᴅ ᴛᴏ ᴄʜᴀɴɢᴇ ꜱᴏᴍᴇᴛʜɪɴɢ?'
+      - '&7ɪꜰ ʏᴇꜱ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴄᴀɴᴄᴇʟ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄᴀɴᴄᴇʟ'
+  # you can define as many currencies as you want, but make sure to copy them to the 'partner' section too!
+  currency1:
+    slot: 1
+    # you need Vault installed for this
+    currency: Vault
+    material: PAPER
+    custom-model-data: 142
+    name: '&a&lᴍᴏɴᴇʏ'
+    # you can use these placeholders:
+    #  %amount% (the amount the player set)
+    #  %tax-amount% (amount after tax)
+    #  %tax-percent% (the % of tax on the currency)
+    #  %tax-fee% (amount taken because of tax)
+    lore:
+    - '&7ᴛʀᴀᴅᴇ ᴍᴏɴᴇʏ ᴡɪᴛʜ'
+    - '&7ᴏᴛʜᴇʀ ᴘʟᴀʏᴇʀꜱ'
+    - ''
+    - '&8▪ &fᴀᴍᴏᴜɴᴛ: &2$&a%amount%'
+    - ''
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+  currency2:
+    slot: 2
+    currency: Experience
+    material: EXPERIENCE_BOTTLE
+    name: '&e&lᴇxᴘᴇʀɪᴇɴᴄᴇ'
+    lore:
+    - '&7ᴛʀᴀᴅᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴡɪᴛʜ'
+    - '&7ᴏᴛʜᴇʀ ᴘʟᴀʏᴇʀꜱ'
+    - ''
+    - '&8▪ &fᴀᴍᴏᴜɴᴛ: &e%amount%'
+    - ''
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+
+# items on your trade partner's side
+partner:
+  confirm-item:
+    slot: 8
+    # you can also use these placeholders:
+    # %own-name%"
+    # %partner-name%
+    accept:
+      material: PAPER
+      custom-model-data: 63
+      # if you want, you can add head textures, like this:
+      #material: "PLAYER_HEAD"
+      #texture: "%partner-head%"
+      name: '&a&lᴡᴀɪᴛɪɴɢ ғᴏʀ ᴏᴛʜᴇʀ ᴘʟᴀʏᴇʀ'
+      lore:
+      - ''
+      - '&f%partner-name% &7ʜᴀꜱ ɴᴏᴛ ʏᴇᴛ'
+      - '&7ᴄᴏɴꜰɪʀᴍᴇᴅ ᴛʜᴇ ᴛʀᴀᴅᴇ'
+    cancel:
+      material: PAPER
+      custom-model-data: 64
+      name: '&c&lᴡᴀɪᴛɪɴɢ'
+      lore:
+      - ''
+      - '&f%partner-name% &7ʜᴀꜱ'
+      - '&7ᴄᴏɴꜰɪʀᴍᴇᴅ ᴛʜᴇ ᴛʀᴀᴅᴇ'
+  currency1:
+    slot: 7
+    currency: Vault
+    material: PAPER
+    custom-model-data: 142
+    name: '&a&lᴍᴏɴᴇʏ'
+    # you can use these placeholders:
+    #  %amount% (the amount the player set)
+    #  %tax-amount% (amount after tax)
+    #  %tax-percent% (the % of tax on the currency)
+    #  %tax-fee% (amount taken because of tax)
+    lore:
+    - '&7%partner-name%''ꜱ ᴏꜰꜰᴇʀ'
+    - ''
+    - '&8▪ &fᴀᴍᴏᴜɴᴛ: &2$&a%amount%'
+  currency2:
+    slot: 6
+    currency: Experience
+    material: EXPERIENCE_BOTTLE
+    name: '&e&lᴇxᴘᴇʀɪᴇɴᴄᴇ'
+    lore:
+    - '&7%partner-name%''ꜱ ᴏꜰꜰᴇʀ'
+    - ''
+    - '&8▪ &fᴀᴍᴏᴜɴᴛ: &e%amount%'
+
+decoration-example:
+  slot:
+  - 4
+  - 13
+  - 22
+  - 31
+  - 40
+  - 49
+  material: PAPER
+  custom-model-data: 100009
+  name: ' '
+
+# do not change this
+version: 1

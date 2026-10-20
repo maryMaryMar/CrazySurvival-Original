@@ -1,0 +1,360 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'job_1':
+    material: FLINT
+    model_data: 15
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇxᴘʟᴏʀᴇʀ ᴊᴏʙ'
+    click_commands:
+      - "[openguimenu] explorer_job"
+
+  'job_2':
+    material: FLINT
+    model_data: 16
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜰᴀʀᴍᴇʀ ᴊᴏʙ'
+    click_commands:
+      - "[openguimenu] farmer_job"
+
+  'job_3':
+    material: FLINT
+    model_data: 17
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜰɪꜱʜᴇʀᴍᴀɴ ᴊᴏʙ'
+    click_commands:
+      - "[openguimenu] fisherman_job"
+
+  'job_4':
+    material: FLINT
+    model_data: 18
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ʜᴜɴᴛᴇʀ ᴊᴏʙ'
+    click_commands:
+      - "[refresh]"
+
+  'job_5':
+    material: FLINT
+    model_data: 20
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴍɪɴᴇʀ ᴊᴏʙ'
+    click_commands:
+      - "[openguimenu] miner_job"
+
+  'job_6':
+    material: FLINT
+    model_data: 21
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴡᴇᴀᴘᴏɴꜱᴍɪᴛʜ ᴊᴏʙ'
+    click_commands:
+      - "[openguimenu] weaponsmith_job"
+
+  'job_7':
+    material: FLINT
+    model_data: 12
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴄʀᴀꜰᴛᴇʀ ᴊᴏʙ'
+    click_commands:
+      - "[openguimenu] crafter_job"
+
+  'job_nextpage':
+    material: PAPER
+    model_data: 52
+    amount: 1
+    slot: 17
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lɴᴇxᴛ ᴘᴀɢᴇ →'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ'
+      - '&7ᴛʜᴇ ɴᴇxᴛ ᴊᴏʙ'
+    click_commands:
+      - "[openguimenu] miner_job"
+
+  'job_previouspage':
+    material: PAPER
+    model_data: 53
+    amount: 1
+    slot: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&l← ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ'
+      - '&7ᴛʜᴇ ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] fisherman_job"
+
+
+
+
+
+
+
+
+
+#jobs
+
+  'job_join':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 19
+      - 20
+      - 21
+      - 28
+      - 29
+      - 30
+      - 37
+      - 38
+      - 39
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&#9a9a9aᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ʜᴜɴᴛɪɴɢ'
+      - '&#9a9a9aᴀɴᴅ ᴋɪʟʟɪɴɢ ᴀɴɪᴍᴀʟꜱ'
+      - ''
+      - '&8▪ &7ᴡᴏʀᴋᴇʀꜱ: &e%jobsr_totalplayers_hunter%'
+      - '&8▪ &7ʟᴇᴠᴇʟ: &b%jobsr_user_jlevel_hunter%/%jobsr_user_jmaxlvl_hunter%'
+      - ''
+      - '&8▪ &7ᴘʀᴏɢʀᴇꜱꜱ ᴛᴏ ɴᴇxᴛ ʟᴇᴠᴇʟ: '
+      - '  &f%progress_bar_{jobsr_user_jexp_hunter}_c:&f_p:&f_r:&f_l:8_m:{jobsr_user_jmaxexp_hunter}_fullbar:&f%'
+      - '  &#76b742%jobsr_user_jexp_hunter%&8/%jobsr_user_jmaxexp_hunter%'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    click_commands:
+      - "[player] jobs:jobs join hunter"
+      - "[refresh]"
+
+
+
+  'job_leave':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 19
+      - 20
+      - 21
+      - 28
+      - 29
+      - 30
+      - 37
+      - 38
+      - 39
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&#9a9a9aᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ʜᴜɴᴛɪɴɢ'
+      - '&#9a9a9aᴀɴᴅ ᴋɪʟʟɪɴɢ ᴀɴɪᴍᴀʟꜱ'
+      - ''
+      - '&8▪ &7ᴡᴏʀᴋᴇʀꜱ: &e%jobsr_totalplayers_hunter%'
+      - '&8▪ &7ʟᴇᴠᴇʟ: &b%jobsr_user_jlevel_hunter%/%jobsr_user_jmaxlvl_hunter%'
+      - ''
+      - '&8▪ &7ᴘʀᴏɢʀᴇꜱꜱ ᴛᴏ ɴᴇxᴛ ʟᴇᴠᴇʟ: '
+      - '  &f%progress_bar_{jobsr_user_jexp_hunter}_c:&f_p:&f_r:&f_l:8_m:{jobsr_user_jmaxexp_hunter}_fullbar:&f%'
+      - '  &#76b742%jobsr_user_jexp_hunter%&8/%jobsr_user_jmaxexp_hunter%'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ'
+    view_requirement:
+      requirements:
+        permission1:
+          type: string contains
+          input: "%jobsr_user_isin_hunter%"
+          output: 'True'
+    click_commands:
+      - "[player] jobs:jobs leave hunter"
+      - "[refresh]"
+
+
+
+
+
+  'job_info':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 22
+      - 23
+      - 24
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#f9a31b&lɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+    lore:
+      - '&7ᴠɪᴇᴡ ᴀʟʟ ᴛʜᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+      - '&7ᴀʙᴏᴜᴛ ʜᴜɴᴛᴇʀ ᴊᴏʙ ʜᴇʀᴇ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+      - "[openguimenu] job_info"
+
+  'job_join1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 31
+      - 32
+      - 33
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#14a02e&lᴊᴏɪɴ ᴛʜᴇ ᴊᴏʙ'
+    lore:
+      - '&7ᴊᴏɪɴ ᴛʜᴇ ᴊᴏʙ ᴛᴏ ᴇᴀʀɴ'
+      - '&7ʙʏ ʜᴜɴᴛɪɴɢ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    click_commands:
+      - "[player] jobs:jobs join hunter"
+      - "[refresh]"
+
+  'job_leave2':
+    material: PAPER
+    model_data: 130
+    amount: 1
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#14a02e&lʟᴇᴀᴠᴇ ᴛʜᴇ ᴊᴏʙ'
+    lore:
+      - '&7ʟᴇᴀᴠᴇ ᴛʜᴇ ᴊᴏʙ ᴛᴏ ɴᴏᴛ ᴇᴀʀɴ'
+      - '&7ʙʏ ʜᴜɴᴛɪɴɢ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ'
+    view_requirement:
+      requirements:
+        permission1:
+          type: string contains
+          input: "%jobsr_user_isin_hunter%"
+          output: 'True'
+    click_commands:
+      - "[player] jobs:jobs leave hunter"
+      - "[refresh]"
+  'job_leave1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 31
+      - 33
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#14a02e&lʟᴇᴀᴠᴇ ᴛʜᴇ ᴊᴏʙ'
+    lore:
+      - '&7ʟᴇᴀᴠᴇ ᴛʜᴇ ᴊᴏʙ ᴛᴏ ɴᴏᴛ ᴇᴀʀɴ'
+      - '&7ʙʏ ʜᴜɴᴛɪɴɢ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ'
+    view_requirement:
+      requirements:
+        permission1:
+          type: string contains
+          input: "%jobsr_user_isin_hunter%"
+          output: 'True'
+    click_commands:
+      - "[player] jobs:jobs leave hunter"
+      - "[refresh]"
+
+  'job_shop':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 40
+      - 41
+      - 42
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#df3e23&lꜱʜᴏᴘ'
+    lore:
+      - '&7ᴠɪᴇᴡ ᴛʜᴇ ꜱʜᴏᴘ ᴛᴏ ʙᴜʏ'
+      - '&7ɪᴛᴇᴍꜱ ᴡɪᴛʜ ᴊᴏʙꜱ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+      - "[openguimenu] job_shop"

@@ -1,0 +1,73 @@
+content:
+  
+  main-menu:
+    item: CustomModel[PAPER]{100009}
+    type: OPEN_MAIN_MENU
+    slots:
+    - 48
+    name: <#7e83a4>&lᴄᴀᴛᴇɢᴏʀɪᴇꜱ
+    actions:
+    - '[open] categories'
+    lore: []
+  
+  my-warps:
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 49
+    name: <#7e83a4>&lᴍʏ ᴡᴀʀᴘꜱ
+    actions:
+    - '[open] mywarps'
+    lore: []
+  
+  saved-warps:
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 50
+    name: <#7e83a4>&lꜱᴀᴠᴇᴅ ᴡᴀʀᴘꜱ
+    actions:
+    - '[open] favorites'
+    lore: []
+  
+  next-page:
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 53
+    name: <#8f96ab>&lɴᴇxᴛ ᴘᴀɢᴇ →
+    actions:
+    - '[next_page]'
+    lore: []
+  
+  previous-page:
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 45
+    name: <#8f96ab>&l← ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ
+    actions:
+    - '[previous_page]'
+    lore: []
+  
+  search-warp:
+    item: CustomModel[PAPER]{100009}
+    type: SEARCH_WARP
+    slots:
+    - 52
+    name: <#7e83a4>&lꜱᴇᴀʀᴄʜ ᴡᴀʀᴘ
+    actions:
+    - '[search]'
+    lore:
+    - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴀʀᴄʜ ᴡᴀʀᴘ'
+  
+  sort-warps:
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 46
+    name: <#7e83a4>&lꜱᴏʀᴛ
+    lore:
+    - '&7%current-alphabetical% ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ'
+    - '&7%current-visits% ᴠɪꜱɪᴛꜱ'
+    - '&7%current-latest% ʟᴀᴛᴇꜱᴛ'
+    - '&7%current-rating% ʀᴀᴛɪɴɢ'
+    - ''
+    - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴏʀᴛ'
+    actions:
+    - '[sort]'

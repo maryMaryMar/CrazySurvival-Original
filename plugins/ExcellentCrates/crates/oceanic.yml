@@ -1,0 +1,595 @@
+Name: <aqua>Oceanic Crate
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":''{"bold":false,"extra":["Oceanic Crate"],"italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}'',"minecraft:profile":{id:[I;-850160402,1534147744,-2009838519,1945945916],name:"1ff041976a09dd05",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMDQxOTc2YTA5ZGQwNTNlM2QxZDRlNjExYWFjMDk1OTRkNzRmYzcxYTBlYzRkYTAxMTA0MTZkMzE3ZGJhOCJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4189
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: oceanic
+Animation:
+  Enabled: true
+  Id: simple_roll
+Block:
+  Positions:
+  - -14,119,-3,lobby
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: oceanic
+    Y_Offset: 0.0
+  Effect:
+    Model: none
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false
+_dataver: 600
+Rewards:
+  List:
+    iron_block:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"24x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Iron Block"}],"text":""}''},count:24,id:"minecraft:iron_block"}'
+          DataVersion: 4189
+      Weight: 30.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{count:24,id:"minecraft:iron_block"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    gold_block:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"16x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Gold Block"}],"text":""}''},count:16,id:"minecraft:gold_block"}'
+          DataVersion: 4189
+      Weight: 30.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{count:16,id:"minecraft:gold_block"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    diamond:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"20x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Diamond"}],"text":""}''},count:20,id:"minecraft:diamond"}'
+          DataVersion: 4189
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{count:20,id:"minecraft:diamond"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    eye_armor_trim_smithing_template:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"2x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Eye Armor Trim"}],"text":""}''},count:2,id:"minecraft:eye_armor_trim_smithing_template"}'
+          DataVersion: 4189
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{count:2,id:"minecraft:eye_armor_trim_smithing_template"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    netherite_sword:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"1x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Netherite Sword"}],"text":""}'',"minecraft:enchantments":{levels:{"minecraft:sharpness":4,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_sword"}'
+          DataVersion: 4189
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:sharpness":4,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    netherite_pickaxe:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"1x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Netherite Pickaxe"}],"text":""}'',"minecraft:enchantments":{levels:{"minecraft:efficiency":3,"minecraft:unbreaking":2}}},count:1,id:"minecraft:netherite_pickaxe"}'
+          DataVersion: 4189
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":3,"minecraft:unbreaking":2}}},count:1,id:"minecraft:netherite_pickaxe"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    netherite_axe:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"1x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Netherite Axe"}],"text":""}'',"minecraft:enchantments":{levels:{"minecraft:efficiency":3,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_axe"}'
+          DataVersion: 4189
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":3,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_axe"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    500_claim_blocks:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"gold","italic":false,"obfuscated":false,"strikethrough":false,"text":"+500 ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Claim Blocks"}],"text":""}''},count:1,id:"minecraft:gold_block"}'
+          DataVersion: 4189
+      Weight: 25.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <!italic><!underlined><!strikethrough><bold><!obfuscated><gold>+500 </gold></!obfuscated></bold></!strikethrough></!underlined></!italic><!italic><!bold><white>Claim Blocks
+      Description: []
+      Commands:
+      - adjustbonusclaimblocks %player_name% 500
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    netherite_ingot:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"5x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Netherite Ingot"}],"text":""}''},count:5,id:"minecraft:netherite_ingot"}'
+          DataVersion: 4189
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{count:5,id:"minecraft:netherite_ingot"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    flint:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[84.0f]}},count:1,id:"minecraft:flint"}'
+          DataVersion: 4189
+      Weight: 18.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <#e44d44><bold>1x</bold> <white>Wing Cap
+      Description: []
+      Commands:
+      - crazyvouchers give WingCapHat 1 %player_name%
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[142.0f]}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 15.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <dark_green><bold>$10,000</bold> <white>Money
+      Description: []
+      Commands:
+      - eco give %player_name% 10000
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper_1:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[143.0f]}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 15.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <gold><bold>+200</bold> <white>Coins
+      Description: []
+      Commands:
+      - coins give %player_name% 200
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper_2:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[144.0f]}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <gold><bold>+250</bold> <white>Coins
+      Description: []
+      Commands:
+      - coins give Shanvir 250
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    trident:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":''{"extra":[{"bold":true,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"1x ","underlined":false},{"bold":false,"color":"white","italic":false,"text":"Trident"}],"text":""}'',"minecraft:enchantments":{levels:{"minecraft:mending":1,"minecraft:unbreaking":3}}},count:1,id:"minecraft:trident"}'
+          DataVersion: 4189
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:mending":1,"minecraft:unbreaking":3}}},count:1,id:"minecraft:trident"}'
+            DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper_3:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[152.0f]}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 15.0
+      Rarity: epic
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <#ff7b59><bold>1x</bold> <white>Nick Command
+      Description: []
+      Commands:
+      - crazyvouchers give NickCommand 1 %player_name%
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper_4:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[153.0f]}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 10.0
+      Rarity: epic
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <#ccc9b8><bold>1x</bold> <white>Elder Guardian Pet
+      Description: []
+      Commands:
+      - crazyvouchers give ElderGuardianPet 1 %player_name%
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper_5:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[41.0f]}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 10.0
+      Rarity: epic
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <#6470fb><bold>1x</bold> <white>Rainbow ChatColor
+      Description: []
+      Commands:
+      - crazyvouchers give RainbowChatcolor 1 %player_name%
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    1x_frozen_skin_bundle:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"crazyvouchers:crazyvouchers_voucher_item":"FrozenSwordToolSkin"}},"minecraft:custom_model_data":{floats:[154.0f]},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"#A1C3FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"1x ","underlined":false},{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"Frozen Skin Bundle","underlined":false}],"text":""}'',"minecraft:lore":[''""'',''{"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ɪɴᴄʟᴜᴅᴇꜱ:","underlined":false}],"text":""}'',''{"extra":["
+            ",{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"▪ ","underlined":false},{"bold":false,"color":"#A1C3FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"ꜰʀᴏᴢᴇɴ ꜱᴡᴏʀᴅ ꜱᴋɪɴ","underlined":false}],"text":""}'',''{"extra":[" ",{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"▪ ","underlined":false},{"bold":false,"color":"#A1C3FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"ꜰʀᴏᴢᴇɴ
+            ᴘɪᴄᴋᴀxᴇ ꜱᴋɪɴ","underlined":false}],"text":""}'',''{"extra":[" ",{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"▪ ","underlined":false},{"bold":false,"color":"#A1C3FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"ꜰʀᴏᴢᴇɴ ᴀxᴇ ꜱᴋɪɴ","underlined":false}],"text":""}'',''{"extra":[" ",{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"▪ ","underlined":false},{"bold":false,"color":"#A1C3FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"ꜰʀᴏᴢᴇɴ
+            ꜱʜᴏᴠᴇʟ ꜱᴋɪɴ","underlined":false}],"text":""}'',''{"extra":[" ",{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"▪ ","underlined":false},{"bold":false,"color":"#A1C3FF","italic":false,"obfuscated":false,"strikethrough":false,"text":"ꜰʀᴏᴢᴇɴ ʜᴏᴇ ꜱᴋɪɴ","underlined":false}],"text":""}'']},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 8.0
+      Rarity: epic
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <!italic><!underlined><!strikethrough><bold><!obfuscated><#a1c3ff>1x </#a1c3ff></!obfuscated></bold></!strikethrough></!underlined></!italic><!italic><!underlined><!strikethrough><!bold><!obfuscated><white>Frozen Skin Bundle
+      Description:
+      - ''
+      - '<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>ɪɴᴄʟᴜᴅᴇꜱ:'
+      - ' <!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>▪ </dark_gray></!obfuscated></!bold></!strikethrough></!underlined></!italic><!italic><!underlined><!strikethrough><!bold><!obfuscated><#a1c3ff>ꜰʀᴏᴢᴇɴ ꜱᴡᴏʀᴅ ꜱᴋɪɴ'
+      - ' <!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>▪ </dark_gray></!obfuscated></!bold></!strikethrough></!underlined></!italic><!italic><!underlined><!strikethrough><!bold><!obfuscated><#a1c3ff>ꜰʀᴏᴢᴇɴ ᴘɪᴄᴋᴀxᴇ ꜱᴋɪɴ'
+      - ' <!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>▪ </dark_gray></!obfuscated></!bold></!strikethrough></!underlined></!italic><!italic><!underlined><!strikethrough><!bold><!obfuscated><#a1c3ff>ꜰʀᴏᴢᴇɴ ᴀxᴇ ꜱᴋɪɴ'
+      - ' <!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>▪ </dark_gray></!obfuscated></!bold></!strikethrough></!underlined></!italic><!italic><!underlined><!strikethrough><!bold><!obfuscated><#a1c3ff>ꜰʀᴏᴢᴇɴ ꜱʜᴏᴠᴇʟ ꜱᴋɪɴ'
+      - ' <!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>▪ </dark_gray></!obfuscated></!bold></!strikethrough></!underlined></!italic><!italic><!underlined><!strikethrough><!bold><!obfuscated><#a1c3ff>ꜰʀᴏᴢᴇɴ ʜᴏᴇ ꜱᴋɪɴ'
+      Commands:
+      - crazyvouchers give FrozenSwordToolSkin 1 %player_name%
+      - crazyvouchers give FrozenPickaxeToolSkin 1 %player_name%
+      - crazyvouchers give FrozenAxeToolSkin 1 %player_name%
+      - crazyvouchers give FrozenShovelToolSkin 1 %player_name%
+      - crazyvouchers give FrozenHoeToolSkin 1 %player_name%
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper_6:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[140.0f]}},count:2,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 5.0
+      Rarity: epic
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <aqua><bold>2x</bold> <white>Oceanic Key
+      Description: []
+      Commands:
+      - excellentcrates key give %player_name% oceanic 2
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper_7:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[141.0f]}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Weight: 3.0
+      Rarity: epic
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <#b61ded><bold>1x</bold> <white>Amethyst Key
+      Description: []
+      Commands:
+      - excellentcrates key give %player_name% amethyst 1
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    paper_8:
+      Type: COMMAND
+      Weight: 1.0
+      Rarity: epic
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <#de2c25><bold>1x</bold> <white>Warlord Rank <gray>(30 Days)
+      Description: []
+      Commands:
+      - crazyvouchers give WarlordRank 1 %player_name%
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_model_data":{floats:[158.0f]}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+CostOptions:
+  key_oceanic:
+    Enabled: true
+    Name: oceanic Key
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4671
+    Entries:
+      '0':
+        Type: key
+        Key: oceanic
+        Amount: 1

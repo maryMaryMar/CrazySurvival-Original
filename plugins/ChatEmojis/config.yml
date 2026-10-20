@@ -1,0 +1,84 @@
+emojis:
+  basic:
+    skull:
+      emoticon: ':skull:'
+      emoji: '&f'
+    clown:
+      emoticon: ':clown:'
+      emoji: '&f'
+    dead:
+      emoticon: ':dead:'
+      emoji: '&f'
+    poop:
+      emoticon: ':poop:'
+      emoji: '&f'
+    cool:
+      emoticon: ':cool:'
+      emoji: '&f'
+    evil:
+      emoticon: ':evil:'
+      emoji: '&f'
+    crying:
+      emoticon: ':crying:'
+      emoji: '&f'
+    sweat:
+      emoticon: ':sweat:'
+      emoji: '&f'
+    mindblown:
+      emoticon: ':mindblown:'
+      emoji: '&f'
+    wink:
+      emoticon: ':wink:'
+      emoji: '&f'
+    kiss:
+      emoticon: ':kiss:'
+      emoji: '&f'
+    scream:
+      emoticon: ':scream:'
+      emoji: '&f'
+    thinking:
+      emoticon: ':thinking:'
+      emoji: '&f'
+    joy:
+      emoticon: ':joy:'
+      emoji: '&f'
+    happy:
+      emoticon: ':happy:'
+      emoji: '&f'
+    melt:
+      emoticon: ':melt:'
+      emoji: '&f'
+    money:
+      emoticon: ':money:'
+      emoji: '&f'
+    begging:
+      emoticon: ':begging:'
+      emoji: '&f'
+    angry:
+      emoticon: ':angry:'
+      emoji: '&f'
+    sad:
+      emoticon: ':sad:'
+      emoji: '&f'
+    angel:
+      emoticon: ':angel:'
+      emoji: '&f'
+    love:
+      emoticon: ':love:'
+      emoji: '&f'
+    eyes:
+      emoticon: ':eyes:'
+      emoji: '&f'
+    heart:
+      emoticon: ':heart:'
+      emoji: '&f'
+    thumbsup:
+      emoticon: ':thumbsup:'
+      emoji: '&f'
+settings:
+  use:
+    books: false
+    signs: false
+    anvils: false
+  max-emojis-per-message: -1
+  max-duplicate-emojis: -1

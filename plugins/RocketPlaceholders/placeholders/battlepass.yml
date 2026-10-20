@@ -1,0 +1,105 @@
+placeholders:
+  battlepass_tier:
+    placeholder: "battlepass_tier"
+    text: "0"
+    conditions:
+      permission25:
+        type: PERMISSION
+        value: "battlepass.tier.25"
+        text: "25"
+      permission24:
+        type: PERMISSION
+        value: "battlepass.tier.24"
+        text: "24"
+      permission23:
+        type: PERMISSION
+        value: "battlepass.tier.23"
+        text: "24"
+      permission22:
+        type: PERMISSION
+        value: "battlepass.tier.22"
+        text: "22"
+      permission21:
+        type: PERMISSION
+        value: "battlepass.tier.21"
+        text: "21"
+      permission20:
+        type: PERMISSION
+        value: "battlepass.tier.20"
+        text: "20"
+      permission19:
+        type: PERMISSION
+        value: "battlepass.tier.19"
+        text: "19"
+      permission18:
+        type: PERMISSION
+        value: "battlepass.tier.18"
+        text: "18"
+      permission17:
+        type: PERMISSION
+        value: "battlepass.tier.17"
+        text: "17"
+      permission16:
+        type: PERMISSION
+        value: "battlepass.tier.16"
+        text: "16"
+      permission15:
+        type: PERMISSION
+        value: "battlepass.tier.15"
+        text: "15"
+      permission14:
+        type: PERMISSION
+        value: "battlepass.tier.14"
+        text: "14"
+      permission13:
+        type: PERMISSION
+        value: "battlepass.tier.13"
+        text: "13"
+      permission12:
+        type: PERMISSION
+        value: "battlepass.tier.12"
+        text: "12"
+      permission11:
+        type: PERMISSION
+        value: "battlepass.tier.11"
+        text: "11"
+      permission10:
+        type: PERMISSION
+        value: "battlepass.tier.10"
+        text: "10"
+      permission9:
+        type: PERMISSION
+        value: "battlepass.tier.9"
+        text: "9"
+      permission8:
+        type: PERMISSION
+        value: "battlepass.tier.8"
+        text: "8"
+      permission7:
+        type: PERMISSION
+        value: "battlepass.tier.7"
+        text: "7"
+      permission6:
+        type: PERMISSION
+        value: "battlepass.tier.6"
+        text: "6"
+      permission5:
+        type: PERMISSION
+        value: "battlepass.tier.5"
+        text: "5"
+      permission4:
+        type: PERMISSION
+        value: "battlepass.tier.4"
+        text: "4"
+      permission3:
+        type: PERMISSION
+        value: "battlepass.tier.3"
+        text: "3"
+      permission2:
+        type: PERMISSION
+        value: "battlepass.tier.2"
+        text: "2"
+      permission1:
+        type: PERMISSION
+        value: "battlepass.tier.1"
+        text: "1"

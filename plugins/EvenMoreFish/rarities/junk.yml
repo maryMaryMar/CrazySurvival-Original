@@ -1,0 +1,40 @@
+id: Junk
+disabled: false
+weight: 5
+format: <#888888>{name}
+worth-multiplier: 0.2
+catch-type: BOTH
+size:
+  minSize: 15
+  maxSize: 45
+
+fish:
+  Rusty Bucket:
+    item:
+      raw-material: BUCKET
+  Rusty Spoon:
+    item:
+      material: IRON_SHOVEL
+  Fishing Rod:
+    item:
+      material: FISHING_ROD
+  Explorers Boat:
+    item:
+      materials:
+      - OAK_BOAT
+      - SPRUCE_BOAT
+      - BIRCH_BOAT
+      - ACACIA_BOAT
+      - JUNGLE_BOAT
+      - DARK_OAK_BOAT
+      - MANGROVE_BOAT
+      displayname: Explorer's Boat
+  Old Fishers Hat:
+    item:
+      material: LEATHER_HELMET
+      dye-colour: '#888877'
+      displayname: Old Fisher's Hat
+broadcast:
+  enabled: false
+  only-rods: false
+  range: -1

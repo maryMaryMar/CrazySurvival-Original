@@ -1,0 +1,214 @@
+# ==============================================================
+#                        MEDIUM QUESTS FILE
+# ==============================================================
+# Quests must be numbered and increment from 1 to 1.
+# Please be attentive to the indentation and respect the scheme.
+# This could cause several bugs.
+# ==============================================================
+# AVAILABLE QUESTS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/quests-types
+# ==============================================================
+# AVAILABLE REWARDS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/rewards-types
+# ==============================================================
+# AVAILABLE ENTITY TYPES :
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Entity.html
+# ==============================================================
+# AVAILABLE ITEM TYPES :
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# ==============================================================
+# AVAILABLE PLUGIN PLACEHOLDERS FOR QUESTS DESCRIPTIONS :
+# %progress% is replaced by the progression of the quest.
+# %required% is replaced by the required amount to complete the quest.
+# ==============================================================
+# More tips available on Wiki :
+# https://ordwenplugins.gitbook.io/odailyquests/
+# Need help ? https://discord.com/invite/NPAUE7kTgJ
+# For more affected objects or types, please make suggestion.
+# ==============================================================
+quests:
+  1:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴅᴇᴇᴘ ꜱᴇᴀ ꜰɪꜱʜᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Catch 25 Fishes"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$600"
+      - ""
+    quest_type: FISH
+    required_amount: 25
+    reward:
+      reward_type: MONEY
+      amount: 600
+
+  2:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ʙʀᴇᴇᴅᴇʀ ᴇxᴛʀᴀᴏʀᴅɪɴᴀɪʀᴇ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Breed 10 Animals"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$500"
+      - ""
+    quest_type: BREED
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 500
+
+  3:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴢᴏᴍʙɪᴇ ꜱʟᴀʏᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Kill 15 Zombies"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$400"
+      - ""
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 15
+    reward:
+      reward_type: MONEY
+      amount: 400
+
+  4:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴍᴀɢɪᴄᴀʟ ᴇɴᴄʜᴀɴᴛᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Enchant 5 Items"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$700"
+      - ""
+    quest_type: ENCHANT
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 700
+
+  5:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ꜱᴛᴇᴀᴋ ꜱᴜᴘʀᴇᴍᴇ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Cook 25 Steaks"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$400"
+      - ""
+    quest_type: COOK
+    required_item: COOKED_BEEF
+    required_amount: 25
+    reward:
+      reward_type: MONEY
+      amount: 400
+
+  6:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴘᴏᴛɪᴏɴ ꜱɪᴘᴘᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Drink 10 Potions"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$300"
+      - ""
+    quest_type: CONSUME
+    required_item: POTION
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 300
+
+  7:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴍᴀʀᴋꜱᴍᴀɴ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Shoot 30 Arrows"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$600"
+      - ""
+    quest_type: LAUNCH
+    required_item: ARROW
+    required_amount: 30
+    reward:
+      reward_type: MONEY
+      amount: 600
+
+  8:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴀᴅᴠᴀɴᴄᴇᴅ ꜰᴀʀᴍᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Harvest 50 Wheat"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$800"
+      - ""
+    quest_type: FARMING
+    required_item: WHEAT
+    required_amount: 50
+    reward:
+      reward_type: MONEY
+      amount: 800
+
+  9:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴏʀᴇ ʜᴜɴᴛᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Mine 15 Diamonds"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$900"
+      - ""
+    quest_type: BREAK
+    required_item: DIAMOND_ORE
+    required_amount: 15
+    reward:
+      reward_type: MONEY
+      amount: 900
+
+  10:
+    name: "&f"
+    menu_item: "custommodeldata:paper:10"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴍɪʟᴋ ᴍᴀꜱᴛᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fbd276Milk 5 Cows"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fbd276$400"
+      - ""
+    quest_type: MILKING
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 400

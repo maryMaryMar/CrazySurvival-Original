@@ -1,0 +1,35 @@
+menu_title: '&f七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'job':
+    material: FLINT
+    model_data: 22
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#8f96ab&lᴇᴀʀɴɪɴɢꜱ'
+    lore:
+      - '&7ꜰᴏʀ ᴛʜᴇ ᴀʟʟ ᴍᴀᴛʜ ɴᴇʀᴅꜱ ᴏᴜᴛ ᴛʜᴇʀᴇ'
+      - '&7ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ꜰᴏʀᴍᴜʟᴀ ᴜꜱᴇᴅ ꜰᴏʀ'
+      - '&7ᴄᴀʟᴄᴜʟᴀᴛɪɴɢ ᴊᴏʙꜱ ʟᴇᴠᴇʟ ᴘʀᴏɢʀᴇꜱꜱɪᴏɴ:'
+      - ''
+      - '&#8f96abbaseincome+(joblevel*0.03)+(numjobs*0.02)'
+
+
+  'back':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] lumberjack_job"

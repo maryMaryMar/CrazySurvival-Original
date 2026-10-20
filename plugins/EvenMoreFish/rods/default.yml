@@ -1,0 +1,7 @@
+id: default
+disabled: true
+allowed-rarities: ALL
+item:
+  # This needs to be FISHING_ROD, can be an addon string, but the base material has to be FISHING_ROD
+  material: FISHING_ROD
+  displayname: <yellow>EvenMoreFish Fishing Rod

@@ -1,0 +1,27 @@
+breezey1:
+  MobName: breezey1
+  World: dungeon2
+  X: 89
+  Y: 45
+  Z: 8
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 8.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '12'
+  MobLevel: '1'
+  MobsPerSpawn: 2
+  Cooldown: 8
+  Warmup: 0
+  ActivationRange: 10.0
+  LeashRange: 20.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: false
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  ActiveMobs: 8
+  CooldownTimer: 1

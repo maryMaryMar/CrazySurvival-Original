@@ -1,0 +1,8 @@
+Name: '&bOceanic Key'
+Virtual: false
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_model_data":{floats:[140.0f]},"minecraft:custom_name":{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#32E6E6",italic:0b,obfuscated:0b,strikethrough:0b,text:"Oceanic Key",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}},count:1,id:"minecraft:paper"}'
+    DataVersion: 4189
+ItemStackable: true

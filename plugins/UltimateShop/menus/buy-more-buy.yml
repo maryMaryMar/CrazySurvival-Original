@@ -1,0 +1,90 @@
+title: '&ftest'
+size: 45
+
+layout:
+  - '000000000'
+  - '0456B1230'
+  - '000000000'
+  - '00DD0EE0A'
+  - '000000000'
+
+amount-items:
+  1:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+1'
+      lore:
+        - '&7Click to add 1 stack.'
+    add-amount: 64
+  2:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+128'
+      lore:
+        - '&7Click to add 2 stack.'
+    add-amount: 128
+  3:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+192'
+      lore:
+        - '&7Click to add 3 stack.'
+    add-amount: 192
+  4:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+256'
+      lore:
+        - '&7Click to add 4 stack.'
+    add-amount: 256
+  5:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+320'
+      lore:
+        - '&7Click to add 5 stack.'
+    add-amount: 320
+  6:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+384'
+      lore:
+        - '&7Click to add 6 more.'
+    add-amount: 384
+    # Support replace add-amount option to set-amount.
+    # set-amount: 32
+
+display-item: B
+
+confirm-items:
+  F:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038&lᴘᴜʀᴄʜᴀꜱᴇ x{amount}'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏɴꜰɪʀᴍ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ'
+        - '&7ǫᴜᴀɴᴛɪᴛʏ ʏᴏᴜ ʜᴀᴠᴇ ꜱᴇʟᴇᴄᴛᴇᴅ'
+    # You can remove click-action option, then confirm button can do all things, like buy, sell, sell all.
+    # If this option exists, then this confirm button can only do the thing.
+    click-action: buy
+
+buttons:
+  E:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#de4343&lCancel'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴄᴀɴᴄᴇʟ ᴘᴜʀᴄʜᴀꜱᴇ'
+        - '&7ǫᴜᴀɴᴛɪᴛʏ ʏᴏᴜ ʜᴀᴠᴇ ꜱᴇʟᴇᴄᴛᴇᴅ'
+    actions:
+      1:
+        type: shop_menu
+        shop: '{shop}'

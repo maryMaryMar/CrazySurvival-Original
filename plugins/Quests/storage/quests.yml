@@ -1,0 +1,961 @@
+# For non-English characters, this file MUST stay encoded in UTF-8
+quests:
+  '000001':
+    name: Quest 1
+    ask-message: §f §eʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: §f §9ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.1
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - OAK_LOG
+          break-block-amounts:
+          - 50
+          break-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.1 false
+      permissions:
+      - battlepass.tier.1
+      - battlepass.quest.2
+      details-override:
+      - Tier 1
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000002':
+    name: Quest 2
+    ask-message: §f §eʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: §f §9ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.2
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - OAK_PLANKS
+          place-block-amounts:
+          - 100
+          place-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.2 false
+      permissions:
+      - battlepass.tier.2
+      - battlepass.quest.3
+      permission-worlds: []
+      details-override:
+      - Tier 2
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000003':
+    name: Quest 3
+    ask-message: §f §eʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: §f §9ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.3
+    stages:
+      ordered:
+        '1':
+          place-block-durability: []
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4671
+            id: minecraft:torch
+            count: 24
+            schema_version: 1
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.3 false
+      permissions:
+      - battlepass.tier.3
+      - battlepass.quest.4
+      permission-worlds: []
+      details-override:
+      - Tier 3
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000004':
+    name: Quest 4
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.4
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - IRON_ORE
+          break-block-amounts:
+          - 20
+          break-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.4 false
+      permissions:
+      - battlepass.tier.4
+      - battlepass.quest.5
+      details-override:
+      - Tier 4
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000005':
+    name: Quest 5
+    ask-message: §f §eʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: §f §9ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.5
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - WHEAT
+          break-block-amounts:
+          - 64
+          break-block-durability:
+          - 7
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.5 false
+      permissions:
+      - battlepass.tier.5
+      - battlepass.quest.6
+      permission-worlds: []
+      details-override:
+      - Tier 5
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000006':
+    name: Quest 6
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.6
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Drowned
+          mob-amounts:
+          - 10
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.6 false
+      permissions:
+      - battlepass.tier.6
+      - battlepass.quest.7
+      details-override:
+      - Tier 6
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000007':
+    name: Quest 7
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.7
+    stages:
+      ordered:
+        '1':
+          mobs-to-tame:
+          - Donkey
+          mob-tame-amounts:
+          - 5
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.7 false
+      permissions:
+      - battlepass.tier.7
+      - battlepass.quest.8
+      details-override:
+      - Tier 7
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000008':
+    name: Quest 8
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.8
+    stages:
+      ordered:
+        '1':
+          mobs-to-tame:
+          - Cat
+          mob-tame-amounts:
+          - 5
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.8 false
+      permissions:
+      - battlepass.tier.8
+      - battlepass.quest.9
+      details-override:
+      - Tier 8
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000009':
+    name: Quest 9
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.9
+    stages:
+      ordered:
+        '1':
+          items-to-brew:
+          - ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4671
+            id: minecraft:potion
+            count: 2
+            components:
+              minecraft:potion_contents: '{potion:"minecraft:healing"}'
+            schema_version: 1
+          - ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4671
+            id: minecraft:potion
+            count: 1
+            components:
+              minecraft:potion_contents: '{potion:"minecraft:strength"}'
+            schema_version: 1
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.9 false
+      permissions:
+      - battlepass.tier.9
+      - battlepass.quest.10
+      details-override:
+      - Tier 9
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000010':
+    name: Quest 10
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.10
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4671
+            id: minecraft:spyglass
+            count: 5
+            schema_version: 1
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.10 false
+      permissions:
+      - battlepass.tier.10
+      - battlepass.quest.11
+      details-override:
+      - Tier 10
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000011':
+    name: Quest 11
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.11
+    stages:
+      ordered:
+        '1':
+          sheep-to-shear:
+          - white
+          sheep-amounts:
+          - 15
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.11 false
+      permissions:
+      - battlepass.tier.11
+      - battlepass.quest.12
+      details-override:
+      - Tier 11
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000012':
+    name: Quest 12
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.12
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - NETHER_WART
+          break-block-amounts:
+          - 200
+          break-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.12 false
+      permissions:
+      - battlepass.tier.12
+      - battlepass.quest.13
+      details-override:
+      - Tier 12
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000013':
+    name: Quest 13
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.13
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - QUARTZ_BLOCK
+          place-block-amounts:
+          - 40
+          place-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.13 false
+      permissions:
+      - battlepass.tier.13
+      - battlepass.quest.14
+      details-override:
+      - Tier 13
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000014':
+    name: Quest 14
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.14
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - EMERALD_ORE
+          break-block-amounts:
+          - 20
+          break-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.14 false
+      permissions:
+      - battlepass.tier.14
+      - battlepass.quest.15
+      details-override:
+      - Tier 14
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000015':
+    name: Quest 15
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.15
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - STONE
+          break-block-amounts:
+          - 128
+          break-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.15 false
+      permissions:
+      - battlepass.tier.15
+      - battlepass.quest.16
+      details-override:
+      - Tier 15
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000016':
+    name: Quest 16
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.16
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Breeze
+          mob-amounts:
+          - 10
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.16 false
+      permissions:
+      - battlepass.tier.16
+      - battlepass.quest.17
+      details-override:
+      - Tier 16
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000017':
+    name: Quest 17
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.17
+    stages:
+      ordered:
+        '1':
+          players-to-kill: 5
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.17 false
+      permissions:
+      - battlepass.tier.17
+      - battlepass.quest.18
+      details-override:
+      - Tier 17
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000018':
+    name: Quest 18
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.18
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Ravager
+          mob-amounts:
+          - 1
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.18 false
+      permissions:
+      - battlepass.tier.18
+      - battlepass.quest.19
+      details-override:
+      - Tier 18
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000019':
+    name: Quest 19
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.19
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Creeper
+          mob-amounts:
+          - 30
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.19 false
+      permissions:
+      - battlepass.tier.19
+      - battlepass.quest.20
+      details-override:
+      - Tier 19
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000020':
+    name: Quest 20
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.20
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            DataVersion: 4671
+            id: minecraft:conduit
+            count: 1
+            schema_version: 1
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.20 false
+      permissions:
+      - battlepass.tier.20
+      - battlepass.quest.21
+      details-override:
+      - Tier 20
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000021':
+    name: Quest 21
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.21
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - STONE_BRICKS
+          place-block-amounts:
+          - 200
+          place-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.21 false
+      permissions:
+      - battlepass.tier.21
+      - battlepass.quest.22
+      details-override:
+      - Tier 21
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000022':
+    name: Quest 22
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.22
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Creaking
+          mob-amounts:
+          - 5
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.22 false
+      permissions:
+      - battlepass.tier.22
+      - battlepass.quest.23
+      details-override:
+      - Tier 22
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000023':
+    name: Quest 23
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.23
+    stages:
+      ordered:
+        '1':
+          cows-to-milk: 20
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.23 false
+      permissions:
+      - battlepass.tier.23
+      - battlepass.quest.24
+      details-override:
+      - Tier 23
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000024':
+    name: Quest 24
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.24
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - TUBE_CORAL_BLOCK
+          break-block-amounts:
+          - 40
+          break-block-durability:
+          - 0
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.24 false
+      permissions:
+      - battlepass.tier.24
+      - battlepass.quest.25
+      details-override:
+      - Tier 24
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true
+  '000025':
+    name: Quest 25
+    ask-message: <white> <yellow>ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴀʀᴛᴇᴅ
+    finish-message: <white> <blue>ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ᴍᴇɴᴜ
+    requirements:
+      permissions:
+      - battlepass.quest.25
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Warden
+          mob-amounts:
+          - 1
+    rewards:
+      commands:
+      - lp user <player> permission set battlepass.quest.25 false
+      permissions:
+      - battlepass.tier.25
+      details-override:
+      - Tier 25
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: false
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true
+      give-at-login: false
+      allow-stacking-global: true
+      inform-on-start: true

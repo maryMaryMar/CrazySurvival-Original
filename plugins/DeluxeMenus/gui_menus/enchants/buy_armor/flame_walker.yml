@@ -1,0 +1,86 @@
+menu_title: '&f七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'enchants_purchase_1':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lꜰʟᴀᴍᴇ ᴡᴀʟᴋᴇʀ'
+    lore:
+      - '&7ᴀʙɪʟɪᴛʏ ᴛᴏ ᴡᴀʟᴋ ᴏɴ ʟᴀᴠᴀ, ɪᴍᴍᴜɴɪᴛʏ'
+      - '&7ᴛᴏ ᴍᴀɢᴍᴀ ᴅᴀᴍᴀɢᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟ: &#a55eea1'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea6000 Souls'
+      - ''
+      - '&8▪ &fᴄᴏɴꜰʟɪᴄᴛꜱ ᴡɪᴛʜ:'
+      - '   &c✘ &7ꜰʀᴏꜱᴛ ᴡᴀʟᴋᴇʀ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 6000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:flame_walker 1 %player_name%"
+      - "[console] souls take %player_name% 6000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+  'enchants_purchase_2':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lꜰʟᴀᴍᴇ ᴡᴀʟᴋᴇʀ'
+    lore:
+      - '&7ᴀʙɪʟɪᴛʏ ᴛᴏ ᴡᴀʟᴋ ᴏɴ ʟᴀᴠᴀ, ɪᴍᴍᴜɴɪᴛʏ'
+      - '&7ᴛᴏ ᴍᴀɢᴍᴀ ᴅᴀᴍᴀɢᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟ: &#a55eea2'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea8500 Souls'
+      - ''
+      - '&8▪ &fᴄᴏɴꜰʟɪᴄᴛꜱ ᴡɪᴛʜ:'
+      - '   &c✘ &7ꜰʀᴏꜱᴛ ᴡᴀʟᴋᴇʀ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 8500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:flame_walker 2 %player_name%"
+      - "[console] souls take %player_name% 8500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] enchants_armor"

@@ -1,0 +1,181 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+#
+# In addition, you can also organize your kits into separate files under the `kits` subdirectory.
+# Essentials will treat all .yml files in the `kits` subdirectory as kits files, and will add any kits from those files along with the kits in `kits.yml`.
+# Any file in the `kits` subdirectory must be formatted in the same way as this file. This allows you to define multiple kits in each file.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  firstjoin:
+    delay: -1
+    items:
+    - stone_sword 1 name:&7Starter_Sword sharpness:2
+    - stone_pickaxe 1 name:&7Starter_Pickaxe
+    - stone_axe 1 name:&7Starter_Axe
+    - stone_shovel 1 name:&7Starter_Shovel
+    - iron_chestplate 1 name:&7Starter_Chestplate
+    - chainmail_boots 1 name:&7Starter_Boots
+    - oak_planks 16
+    - cooked_beef 8
+    - paper 1 name:&f lore:&#5A6080❙&7_ᴄʟɪᴄᴋ_ᴛᴏ_ʙʀᴏᴡꜱᴇ_ᴛʜʀᴏᴜɢʜ|&#5A6080❙&7_ᴛʜᴇ_ꜱᴇʀᴠᴇʀ_ꜰᴇᴀᴛᴜʀᴇꜱ!
+      custom-model-data:128 itemflags:HIDE_ATTRIBUTES
+    - golden_shovel 1 name:&6Claim_Tool
+    - stick 1 name:&6Claim_Inspection
+  pvp:
+    delay: 86400
+    items:
+    - iron_sword 1 name:&#5b617ePvp_Sword sharpness:2
+    - iron_helmet 1 name:&#5b617ePvp_Helmet
+    - iron_chestplate 1 name:&#5b617ePvp_Chestplate protection:2
+    - chainmail_leggings 1 name:&#5b617ePvp_Leggings
+    - golden_boots 1 name:&#5b617ePvp_Boots
+    - bow 1 name:&#5b617ePvp_Bow
+    - arrow 16
+    - cooked_beef 16
+  builder:
+    delay: 86400
+    items:
+    - stone_bricks 64
+    - oak_planks 64
+    - glass 32
+    - stone_slab 32
+    - iron_pickaxe 1 name:&#5b617eBuilder_Pickaxe efficiency:1
+    - iron_axe 1 name:&#5b617eBuilder_Axe
+    - bread 16
+  farmer:
+    delay: 172800
+    items:
+    - iron_hoe 1 name:&#5b617eFarmer_Hoe efficiency:1
+    - wheat_seeds 16
+    - carrot 16
+    - potato 16
+    - bucket 2
+    - bone_meal 8
+  miner:
+    delay: 86400
+    items:
+    - iron_pickaxe 1 name:&#5b617eMiner_Pickaxe efficiency:1 unbreaking:1
+    - iron_pickaxe 1 name:&#5b617eMiner_Pickaxe efficiency:1
+    - iron_shovel 1 name:&#5b617eMiner_Shovel unbreaking:1
+    - stone_sword 1 name:&#5b617eMiner_Sword
+    - bread 16
+    - cobblestone 15
+  explorer:
+    delay: 86400
+    items:
+    - iron_sword 1 name:&#5b617eExplorer_Sword unbreaking:1
+    - iron_pickaxe 1 name:&#5b617eExplorer_Pickaxe
+    - iron_chestplate 1 name:&#5b617eExplorer_Chestplate
+    - compass 1 name:&#5b617eExplorer_Compass
+    - oak_boat 1
+    - map 1
+    - torch 16
+    - cooked_beef 22
+  guardian:
+    delay: 604800
+    items:
+    - diamond_sword 1 name:&#2bc804&lGuardian_Sword sharpness:1 unbreaking:2
+    - diamond_helmet 1 name:&#2bc804&lGuardian_Helmet protection:1 unbreaking:2 mending:1
+    - diamond_chestplate 1 name:&#2bc804&lGuardian_Chestplate protection:2 unbreaking:2
+    - diamond_leggings 1 name:&#2bc804&lGuardian_Leggings protection:1 unbreaking:2
+    - diamond_boots 1 name:&#2bc804&lGuardian_Boots protection:1 unbreaking:2
+    - diamond_pickaxe 1 name:&#2bc804&lGuardian_Pickaxe efficiency:1 unbreaking:2
+    - bow 1 name:&#2bc804&lGuardian_Bow power:1 infinity:1 unbreaking:2
+    - enchanted_golden_apple 1
+    - arrow 8
+    - golden_apple 3
+    - cooked_beef 16
+    - ender_pearl 8
+    - iron_ingot 8
+  champion:
+    delay: 604800
+    items:
+    - diamond_sword 1 name:&#009ddb&lChampion_Sword sharpness:2 unbreaking:3
+    - diamond_helmet 1 name:&#009ddb&lChampion_Helmet protection:2 unbreaking:3
+    - diamond_chestplate 1 name:&#009ddb&lChampion_Chestplate protection:3 unbreaking:3
+      mending:1
+    - diamond_leggings 1 name:&#009ddb&lChampion_Leggings protection:2 unbreaking:3
+      mending:1
+    - diamond_boots 1 name:&#009ddb&lChampion_Boots protection:2 unbreaking:3
+    - diamond_pickaxe 1 name:&#009ddb&lChampion_Pickaxe efficiency:3 fortune:1 unbreaking:3
+    - bow 1 name:&#009ddb&lChampion_Bow power:2 infinity:1 unbreaking:3
+    - enchanted_golden_apple 3
+    - arrow 16
+    - golden_apple 8
+    - cooked_beef 24
+    - ender_pearl 12
+    - iron_ingot 16
+  warlord:
+    delay: 604800
+    items:
+    - diamond_sword 1 name:&#cd120a&lWarlord_Sword sharpness:3 unbreaking:3 fireaspect:1
+      looting:2
+    - diamond_helmet 1 name:&#cd120a&lWarlord_Helmet protection:3 unbreaking:3 mending:1
+    - diamond_chestplate 1 name:&#cd120a&lWarlord_Chestplate protection:3 unbreaking:3
+      mending:1
+    - diamond_leggings 1 name:&#cd120a&lWarlord_Leggings protection:3 unbreaking:3
+      mending:1
+    - diamond_boots 1 name:&#cd120a&lWarlord_Boots protection:3 unbreaking:3 mending:1
+    - diamond_pickaxe 1 name:&#cd120a&lWarlord_Pickaxe efficiency:4 fortune:2 unbreaking:4
+    - bow 1 name:&#cd120a&lWarlord_Bow power:3 infinity:1 unbreaking:3
+    - enchanted_golden_apple 5
+    - arrow 32
+    - golden_apple 12
+    - cooked_beef 32
+    - ender_pearl 16
+    - iron_ingot 32
+  titan:
+    delay: 604800
+    items:
+    - diamond_sword 1 name:&#892bc4&lTitan_Sword sharpness:5 unbreaking:3 fireaspect:2
+      looting:3 knockback:2
+    - netherite_helmet 1 name:&#892bc4&lTitan_Helmet protection:3 unbreaking:3 mending:1
+    - diamond_chestplate 1 name:&#892bc4&lTitan_Chestplate protection:4 unbreaking:3
+      mending:1
+    - diamond_leggings 1 name:&#892bc4&lTitan_Leggings protection:4 unbreaking:3 mending:1
+    - netherite_boots 1 name:&#892bc4&lTitan_Boots protection:4 unbreaking:3 mending:1
+      featherfalling:2
+    - netherite_pickaxe 1 name:&#892bc4&lTitan_Pickaxe efficiency:4 fortune:3 unbreaking:3
+      mending:1
+    - diamond_pickaxe 1 name:&#892bc4&lTitan_Silk_Pickaxe efficiency:4 silktouch:1
+      unbreaking:3
+    - bow 1 name:&#892bc4&lTitan_Bow power:4 infinity:1 unbreaking:3 mending:1
+    - enchanted_golden_apple 8
+    - arrow 64
+    - golden_apple 24
+    - cooked_beef 64
+    - ender_pearl 24
+    - iron_ingot 42
+  king:
+    delay: 604800
+    items:
+    - netherite_sword 1 name:&#fd7e00&lKing_Sword sharpness:5 unbreaking:3 fireaspect:2
+      looting:3 knockback:2 sweepingedge:3
+    - netherite_helmet 1 name:&#fd7e00&lKing_Helmet protection:4 unbreaking:3 mending:1
+    - netherite_chestplate 1 name:&#fd7e00&lKing_Chestplate protection:4 unbreaking:3
+      mending:1
+    - netherite_leggings 1 name:&#fd7e00&lKing_Leggings protection:4 unbreaking:3
+      mending:1
+    - netherite_boots 1 name:&#fd7e00&lKing_Boots protection:4 unbreaking:3 mending:1
+      featherfalling:4
+    - netherite_pickaxe 1 name:&#fd7e00&lKing_Pickaxe efficiency:5 fortune:3 unbreaking:3
+      mending:1
+    - netherite_pickaxe 1 name:&#fd7e00&lKing_Silk_Pickaxe efficiency:5 silktouch:1
+      unbreaking:3 mending:1
+    - bow 1 name:&#fd7e00&lKing_Bow power:5 infinity:1 unbreaking:3 mending:1
+    - enchanted_golden_apple 16
+    - arrow 64
+    - golden_apple 38
+    - cooked_beef 64
+    - ender_pearl 38
+    - iron_ingot 64
+    - totem_of_undying 1

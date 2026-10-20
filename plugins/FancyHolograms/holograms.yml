@@ -1,0 +1,909 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  survival:
+    type: TEXT
+    location:
+      world: lobby
+      x: 7.5
+      y: 120.75218200683594
+      z: 1.5
+      yaw: -90.246056
+      pitch: -3.430615
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f七七七'
+    - '&f'
+    - '&f'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+    background: transparent
+  survival1:
+    type: TEXT
+    location:
+      world: lobby
+      x: 7.5
+      y: 119.36837005615234
+      z: 1.5
+      yaw: -90.0
+      pitch: 0.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&fHey &b%player_name%&f, Welcome to &eSurvival!'
+    - '&fLand for ultimate adventures!'
+    - '&f'
+    - '&fExplore the &aWild&f, &6Build&f,'
+    - '&eEarn &f& &bGet Rich!'
+    - '&f'
+    - '&fJoin our discord to chat with others!'
+    - '&b▸ %rp_discordhologram% ◂'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+  afk:
+    type: TEXT
+    location:
+      world: lobby
+      x: -36.989051818847656
+      y: 138.09945678710938
+      z: -38.145912170410156
+      yaw: -174.76091
+      pitch: -4.2212863
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&9&lAFK Pool'
+    - '&f'
+    - '&fAfk to get rewards every few'
+    - '&fminutes! Including &aMoney &fand'
+    - '&6Crate Keys&f!'
+    - '&f'
+    - '&e▸ Jump in to AFK ◂'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: vertical
+  pvp:
+    type: TEXT
+    location:
+      world: lobby
+      x: -6.082319736480713
+      y: 123.03237915039062
+      z: -80.41289520263672
+      yaw: -24.84131
+      pitch: -0.91812503
+    visibility_distance: 60
+    visibility: ALL
+    persistent: true
+    scale_x: 4.25
+    scale_y: 4.25
+    scale_z: 4.25
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#f53f3d&lPvp Arena'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+  pvp1:
+    type: TEXT
+    location:
+      world: lobby
+      x: -19.264575958251953
+      y: 119.17692565917969
+      z: -98.2427978515625
+      yaw: -41.953857
+      pitch: 0.5313818
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 2.0
+    scale_y: 2.0
+    scale_z: 2.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&c&lPvp Zone'
+    - '&f'
+    - '&c⚠ &fWarning &c⚠'
+    - '&fPvP is enabled in this arena!'
+    - '&fHere you can show off your'
+    - '&fpvp Skills!'
+    - '&f'
+    - '&e▸ Jump in to Fight ◂'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: vertical
+  auction:
+    type: TEXT
+    location:
+      world: lobby
+      x: 27.850000381469727
+      y: 140.9582977294922
+      z: -71.42591857910156
+      yaw: 90.32535
+      pitch: 0.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 4.0
+    scale_y: 4.0
+    scale_z: 4.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - '&#ed664c&lAuction'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  dailyquest:
+    type: TEXT
+    location:
+      world: lobby
+      x: 24.51968765258789
+      y: 120.73746490478516
+      z: -33.36180877685547
+      yaw: 1.349488
+      pitch: 0.25918263
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.35
+    scale_y: 1.35
+    scale_z: 1.35
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#d6926aǫᴜᴇꜱᴛ ʙᴏᴀʀᴅ'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+  dailyquest1:
+    type: TEXT
+    location:
+      world: lobby
+      x: 24.51968765258789
+      y: 120.53746795654297
+      z: -33.36180877685547
+      yaw: 1.349488
+      pitch: 0.25918263
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#969696▸ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696◂'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+  petshop:
+    type: TEXT
+    location:
+      world: lobby
+      x: 45.849998474121094
+      y: 121.95829772949219
+      z: 30.41773223876953
+      yaw: 90.32535
+      pitch: 0.0
+    visibility_distance: 60
+    visibility: ALL
+    persistent: true
+    scale_x: 4.0
+    scale_y: 4.0
+    scale_z: 4.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - '&#cd6a3e&lPetshop'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  pwarps:
+    type: TEXT
+    location:
+      world: lobby
+      x: 62.5492057800293
+      y: 140.58387756347656
+      z: -116.82591247558594
+      yaw: 1.00354
+      pitch: 0.07767224
+    visibility_distance: 60
+    visibility: ALL
+    persistent: true
+    scale_x: 4.0
+    scale_y: 4.0
+    scale_z: 4.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#5965ab&lPlayer Warps'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    billboard: fixed
+  backpack:
+    type: TEXT
+    location:
+      world: lobby
+      x: -9.5
+      y: 120.0
+      z: -21.5
+      yaw: -87.38471
+      pitch: 16.74945
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  itemshop:
+    type: TEXT
+    location:
+      world: lobby
+      x: 4.5
+      y: 120.0
+      z: -39.5
+      yaw: 88.9754
+      pitch: -0.66327786
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  cosmetics:
+    type: TEXT
+    location:
+      world: lobby
+      x: 41.5
+      y: 119.0
+      z: -15.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  jobs:
+    type: TEXT
+    location:
+      world: lobby
+      x: 12.5
+      y: 120.0
+      z: -11.5
+      yaw: 55.991817
+      pitch: 35.575684
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  skills:
+    type: TEXT
+    location:
+      world: lobby
+      x: 1.508718729019165
+      y: 120.0
+      z: -7.012517929077148
+      yaw: 89.470856
+      pitch: -6.98862
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  rewards:
+    type: TEXT
+    location:
+      world: lobby
+      x: 4.5
+      y: 120.0
+      z: 7.5
+      yaw: 89.470856
+      pitch: -6.98862
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  battlepass:
+    type: TEXT
+    location:
+      world: lobby
+      x: 11.5
+      y: 120.0
+      z: 18.5
+      yaw: 89.470856
+      pitch: -6.98862
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  kits:
+    type: TEXT
+    location:
+      world: lobby
+      x: 19.5
+      y: 120.0
+      z: 17.5
+      yaw: 89.470856
+      pitch: -6.98862
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  toolskins:
+    type: TEXT
+    location:
+      world: lobby
+      x: 32.5
+      y: 120.0
+      z: 13.5
+      yaw: 89.470856
+      pitch: -6.98862
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  zookeeper:
+    type: TEXT
+    location:
+      world: lobby
+      x: 55.5
+      y: 118.0
+      z: 41.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  teleporter:
+    type: TEXT
+    location:
+      world: lobby
+      x: 16.5
+      y: 121.0
+      z: 4.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  fisherman:
+    type: TEXT
+    location:
+      world: lobby
+      x: -50.5
+      y: 118.0
+      z: 43.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  auctioner:
+    type: TEXT
+    location:
+      world: lobby
+      x: 41.5
+      y: 139.0
+      z: -71.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  playerwarps:
+    type: TEXT
+    location:
+      world: lobby
+      x: 62.5
+      y: 139.0
+      z: -124.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  bounty:
+    type: TEXT
+    location:
+      world: lobby
+      x: -11.5
+      y: 118.0
+      z: -94.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  furniture:
+    type: TEXT
+    location:
+      world: lobby
+      x: 49.5
+      y: 120.0
+      z: -199.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  furniture1:
+    type: TEXT
+    location:
+      world: lobby
+      x: 49.5492057800293
+      y: 123.0
+      z: -191.82591247558594
+      yaw: 1.00354
+      pitch: 0.07767224
+    visibility_distance: 60
+    visibility: ALL
+    persistent: true
+    scale_x: 4.0
+    scale_y: 4.0
+    scale_z: 4.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#2bcbba&lFurniture'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    billboard: fixed
+  farmer:
+    type: TEXT
+    location:
+      world: lobby
+      x: 64.5
+      y: 120.0
+      z: -153.5
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  dungeons:
+    type: TEXT
+    location:
+      world: lobby
+      x: -19.579999923706055
+      y: 120.0
+      z: -35.08000183105469
+      yaw: -179.85864
+      pitch: -2.9035072
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  enchanter:
+    type: TEXT
+    location:
+      world: lobby
+      x: 25.5
+      y: 120.0
+      z: 28.5
+      yaw: 89.470856
+      pitch: -6.98862
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f'
+    - '&#969696▪ &#d4d4d4ᴄʟɪᴄᴋ ʜᴇʀᴇ &#969696▪'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  dungeon1:
+    type: TEXT
+    location:
+      world: dungeon1
+      x: 115.0
+      y: 90.0
+      z: -17.5
+      yaw: -90.0
+      pitch: 0.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.5
+    scale_y: 1.5
+    scale_z: 1.5
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#4ea42d&lOvergrown Dungeon'
+    - '&f'
+    - '&fEnter the dungeon to fight the'
+    - '&fevil mobs and defeat the boss!'
+    - '&f'
+    - '&fBoss Spawns: &#81c866%mythic_spawner_boss1_warmupleft%'
+    - '&f'
+    - '&e▸ Jump in to Fight ◂'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 20
+    billboard: fixed
+    background: transparent
+  dungeon2:
+    type: TEXT
+    location:
+      world: dungeon2
+      x: 14.5
+      y: 70.0
+      z: 8.5
+      yaw: 90.0
+      pitch: 0.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.5
+    scale_y: 1.5
+    scale_z: 1.5
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#864bca&lVoidspire Dungeon'
+    - '&f'
+    - '&fEnter the dungeon to fight the'
+    - '&fevil mobs and defeat the boss!'
+    - '&f'
+    - '&fBoss Spawns: &#a880d7%mythic_spawner_boss2_warmupleft%'
+    - '&f'
+    - '&e▸ Jump in to Fight ◂'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 20
+    billboard: fixed
+    background: transparent

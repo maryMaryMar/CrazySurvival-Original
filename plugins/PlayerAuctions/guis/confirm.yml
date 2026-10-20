@@ -1,0 +1,86 @@
+# PlayerAuctions by Olzie-12
+# https://www.spigotmc.org/resources/83073
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerauctions
+# Also if you find any bugs be happy to report them I will fix them :)
+# Made with love
+
+confirm:
+  # Should we enable the gui?
+  enabled: true
+  # What is the name of the gui?
+  name: "confirm"
+  # The title of the gui (Can use color codes)
+  title: "&f七七七七七七七七"
+  # What is the size of this GUI? (multiples of 9 can only go up to 54)
+  size: 27
+  # What are the actions when this menu is opened up?
+  open-actions: []
+  # What are the actions when this menu is closed?
+  close-actions: []
+  # Where should the item the player is buying be?
+  slot-buying: 13
+  # What is the default amount an item should be at?
+  # If this number is higher than the item amount of the auction, it'll just be set to the auction amount instead.
+  default-amount: 64
+  # Should the previous menu that was opened be opened when this menu is closed?
+  open-previous: true
+  # Should the amount items be removed if there is not enough for that button. E.g. you're purchasing an item with 1x amount, it won't show any of the buttons.
+  # You can also put an item where the amount items are, and it'll only show if the amount item isn't there.
+  show-needed-amount-items: false
+
+  # Enter amounts through the GUI
+  enter:
+    # Should the feature be enabled?
+    # You will need ProtocolLib for this to work.
+    enabled: false
+    # What are the premade lines in the sign?
+    # %search% is the variable they have to enter the auction in, so please make sure that line doesn't contain anything else.
+    # If it doesn't contain the variable, then the plugin will just assume line 1 is user input. Colour codes will not work either.
+    lines:
+      - "%search%"
+      - "----------------"
+      - "Please enter"
+      - "an amount."
+
+    item:
+      material: OAK_SIGN
+      data: 0
+      name: "&bEnter an amount"
+      lore:
+        - "&eClick&b to enter an amount to purchase."
+      slot: 22
+      amount: 1
+      glowing: false
+
+  clickable-items:
+    accept:
+      # If you wish to disable any of these please set them the material to "AIR"
+      name: "&a&lᴄᴏɴꜰɪʀᴍ ᴘᴜʀᴄʜᴀꜱᴇ"
+      # this is the material of the next page item. valid material names: https://javadocs.olziedev.com/spigot/latest/org/bukkit/Material.html
+      material: PAPER
+      custom-model-data: 100009
+      data: 0
+      lore:
+        - "<gray>ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ ꜰᴏʀ <#badc58>[price]"
+      slot:
+      - 10
+      - 11
+      - 12
+      amount: 1
+      glowing: false
+      # These only work if the skull is a PLAYER_HEAD and the data is 3!
+      #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0ZjY4YzhmYjI3OWU1MGFiNzg2ZjlmYTU0Yzg4Y2E0ZWNmZTFlYjVmZDVmMGMzOGM1NGM5YjFjNzIwM2Q3YSJ9fX0= - Skull texture
+      #owner: Next - Skull owner
+    deny:
+      name: "&c&lᴄᴀɴᴄᴇʟ ᴘᴜʀᴄʜᴀꜱᴇ"
+      material: PAPER
+      custom-model-data: 100009
+      data: 0
+      lore:
+        - "&7ᴄʟɪᴄᴋ ᴛᴏ ᴄᴀɴᴄᴇʟ"
+      slot:
+      - 14
+      - 15
+      - 16
+      amount: 1
+      glowing: false

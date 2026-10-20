@@ -1,0 +1,8 @@
+Name: '#ff6f21Blaze Key'
+Virtual: false
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_model_data":{floats:[139.0f]},"minecraft:custom_name":{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#FF6F21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Blaze Key",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}},count:1,id:"minecraft:paper"}'
+    DataVersion: 4189
+ItemStackable: true

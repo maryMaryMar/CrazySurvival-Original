@@ -1,0 +1,24 @@
+title: '&f七七七七七七七七'
+rows: 3
+filler: none
+
+content:
+  confirm-button:
+    type: CONFIRM
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 10
+    - 11
+    - 12
+    name: '&a&lᴄᴏɴꜰɪʀᴍ&c (-$%price%)'
+    lore: []
+  
+  cancel-button:
+    type: RETURN
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 14
+    - 15
+    - 16
+    name: '&c&lᴄᴀɴᴄᴇʟ'
+    lore: []

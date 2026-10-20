@@ -1,0 +1,80 @@
+# PlayerAuctions by Olzie-12
+# https://www.spigotmc.org/resources/83073
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerauctions
+# Also if you find any bugs be happy to report them i will fix them :)
+# Made with love
+
+bidding:
+  # Should we enable the gui?
+  enabled: true
+  # What is the name of the gui?
+  name: "bidding"
+  # The title of the gui (Can use color codes)
+  title: "&f七七七七七七七七"
+  # What is the size of this GUI? (multiples of 9 can only go up to 54)
+  size: 27
+  # What are the actions when this menu is opened up?
+  open-actions: []
+  # What are the actions when this menu is closed?
+  close-actions: []
+  # Where should the item the player is buying be?
+  slot-buying: 13
+  # Should the previous menu that was opened be opened when this menu is closed?
+  open-previous: true
+
+  # Enter amounts through the GUI
+  enter:
+    # Should the feature be enabled?
+    # You will need ProtocolLib for this to work.
+    enabled: true
+    # What are the premade lines in the sign?
+    # %search% is the variable they have to enter the auction in, so please make sure that line doesn't contain anything else.
+    # If it doesn't contain the variable, then the plugin will just assume line 1 is user input. Colour codes will not work either.
+    lines:
+      - "%search%"
+      - "----------------"
+      - "Please enter"
+      - "an amount."
+
+    item:
+      material: PAPER
+      custom-model-data: 100009
+      data: 0
+      name: "&b&lᴇɴᴛᴇʀ ᴀɴ ᴀᴍᴏᴜɴᴛ"
+      lore:
+        - "&7➥ &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴛᴇʀ ᴀɴ ᴀᴍᴏᴜɴᴛ ᴛᴏ ʙɪᴅ"
+      slot: 22
+      glowing: false
+
+  clickable-items:
+    accept:
+      # If you wish to disable any of these please set them the material to "AIR"
+      name: "&a&lᴄᴏɴꜰɪʀᴍ ʙɪᴅ"
+      # this is the material of the next page item. valid material names: https://javadocs.olziedev.com/spigot/latest/org/bukkit/Material.html
+      material: PAPER
+      custom-model-data: 100009
+      lore:
+        - "&fʙɪᴅ ᴘʀɪᴄᴇ ʙᴇꜰᴏʀᴇ: &b[original]"
+        - "&fʏᴏᴜ ᴀᴅᴅᴇᴅ: &b[added]"
+        - " "
+        - "&7➥ &aᴄʟɪᴄᴋ ᴛᴏ ᴄᴏɴꜰɪʀᴍ ᴛʜɪꜱ ᴏꜰꜰᴇʀ ꜰᴏʀ ᴀ ᴛᴏᴛᴀʟ ᴏꜰ &b[price]&a!"
+      slot:
+      - 10
+      - 11
+      - 12
+      glowing: false
+      # These only work if the skull is a PLAYER_HEAD and the data is 3!
+      #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0ZjY4YzhmYjI3OWU1MGFiNzg2ZjlmYTU0Yzg4Y2E0ZWNmZTFlYjVmZDVmMGMzOGM1NGM5YjFjNzIwM2Q3YSJ9fX0= - Skull texture
+      #owner: Next - Skull owner
+    deny:
+      name: "&c&lꜱᴛᴏᴘ ʙɪᴅ"
+      material: PAPER
+      custom-model-data: 100009
+      data: 0
+      lore:
+        - "&7➥ &cᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴏᴘ ᴏꜰꜰᴇʀɪɴɢ"
+      slot:
+      - 14
+      - 15
+      - 16
+      glowing: false

@@ -1,0 +1,8 @@
+Name: '#ffbe00Sunshine Key'
+Virtual: false
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_model_data":{floats:[138.0f]},"minecraft:custom_name":{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#FFBE00",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sunshine Key",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}},count:1,id:"minecraft:paper"}'
+    DataVersion: 4189
+ItemStackable: true

@@ -1,0 +1,108 @@
+menu_title: '&f七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'enchants_purchase_1':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴋᴀᴍɪᴋᴀᴅᴢᴇ'
+    lore:
+      - '&7ᴄʀᴇᴀᴛᴇꜱ ᴀɴ ᴇxᴘʟᴏꜱɪᴏɴ ᴏɴ ᴅᴇᴀᴛʜ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟ: &#a55eea1'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea5000 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 5000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:kamikadze 1 %player_name%"
+      - "[console] souls take %player_name% 5000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+  'enchants_purchase_2':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴋᴀᴍɪᴋᴀᴅᴢᴇ'
+    lore:
+      - '&7ᴄʀᴇᴀᴛᴇꜱ ᴀɴ ᴇxᴘʟᴏꜱɪᴏɴ ᴏɴ ᴅᴇᴀᴛʜ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟ: &#a55eea2'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea7500 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 7500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:kamikadze 2 %player_name%"
+      - "[console] souls take %player_name% 7500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+  'enchants_purchase_3':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴋᴀᴍɪᴋᴀᴅᴢᴇ'
+    lore:
+      - '&7ᴄʀᴇᴀᴛᴇꜱ ᴀɴ ᴇxᴘʟᴏꜱɪᴏɴ ᴏɴ ᴅᴇᴀᴛʜ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟ: &#a55eea3'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea10,000 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 10000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:kamikadze 3 %player_name%"
+      - "[console] souls take %player_name% 10000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] enchants_armor"

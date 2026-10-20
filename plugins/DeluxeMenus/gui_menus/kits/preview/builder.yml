@@ -1,0 +1,112 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'builder_kit':
+    material: BRICKS
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ʙᴜɪʟᴅ ʏᴏᴜʀ ᴅʀᴇᴀᴍꜱ!'
+      - '&7ᴀʟʟ ʏᴏᴜ ɴᴇᴇᴅ ꜰᴏʀ ʏᴏᴜʀ ɴᴇxᴛ ᴘʀᴏᴊᴇᴄᴛ.'
+
+
+  'builder_kit_cooldown':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_builder%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ ᴋɪᴛ, ᴡᴀɪᴛ %essentials_kit_time_until_available_builder% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ!"
+
+
+  'builder_kit_available':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    click_commands:
+      - "[player] essentials:kit builder"
+      - "[close]"
+
+
+
+
+
+
+  '1':
+    material: STONE_BRICKS
+    amount: 64
+    slot: 12
+
+  '2':
+    material: OAK_PLANKS
+    amount: 64
+    slot: 13
+
+  '3':
+    material: GLASS
+    amount: 32
+    slot: 14
+
+  '4':
+    material: STONE_SLAB
+    amount: 32
+    slot: 15
+
+  '5':
+    material: IRON_PICKAXE
+    amount: 1
+    slot: 16
+    display_name: '&#5b617eBuilder Pickaxe'
+
+  '6':
+    material: BREAD
+    amount: 16
+    slot: 21
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] normal_kits"
+

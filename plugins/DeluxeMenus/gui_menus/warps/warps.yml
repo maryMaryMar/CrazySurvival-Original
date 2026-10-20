@@ -1,0 +1,197 @@
+menu_title: '&f七七七七七七七七'
+open_command: warps
+register_command: true
+size: 45
+update_interval: 1
+
+items:
+  'arena':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#c23631&lᴀʀᴇɴᴀ ᴡᴀʀᴘ'
+    lore:
+      - '&7ꜰɪɢʜᴛ ʏᴏᴜʀ ᴇɴᴇᴍɪᴇꜱ ᴀɴᴅ'
+      - '&7ɢᴇᴛ ʏᴏᴜʀ ʀᴇᴠᴇɴɢᴇ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴡᴀʀᴘ'
+    left_click_commands:
+      - "[player] essentials:warp Arena"
+      - "[close]"
+
+
+  'arcade':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 5
+    - 6
+    - 7
+    - 8
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#ea6632&lᴀʀᴄᴀᴅᴇ ᴡᴀʀᴘ'
+    lore:
+      - '&7ᴘʟᴀʏ ᴍɪɴɪɢᴀᴍᴇꜱ ᴀɴᴅ'
+      - '&7ᴡɪɴ ʙɪɢ ᴘʀɪᴢᴇꜱ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴡᴀʀᴘ'
+    left_click_commands:
+      - "[player] essentials:warp Arcade"
+      - "[close]"
+
+
+  'fish':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 9
+    - 10
+    - 11
+    - 12
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#326dea&lꜰɪꜱʜᴇʀᴍᴀɴ ᴡᴀʀᴘ'
+    lore:
+      - '&7ᴄᴀᴛᴄʜ ꜰɪꜱʜᴇꜱ ᴀɴᴅ ꜱᴇʟʟ ɪᴛ'
+      - '&7ᴛᴏ ᴛʜᴇ ꜰɪꜱʜᴇʀᴍᴀɴ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴡᴀʀᴘ'
+    left_click_commands:
+      - "[player] essentials:warp Fisherman"
+      - "[close]"
+
+
+  'dungeon':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 14
+    - 15
+    - 16
+    - 17
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#575757&lᴅᴜɴɢᴇᴏɴ ᴡᴀʀᴘ'
+    lore:
+      - '&7ᴛᴇꜱᴛ ʏᴏᴜʀ ꜱᴋɪʟʟꜱ, ꜰɪɢʜᴛ ᴍᴏʙꜱ'
+      - '&7ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴡᴀʀᴘ'
+    left_click_commands:
+      - "[player] essentials:warp Dungeon"
+      - "[close]"
+
+
+  'crates':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 18
+    - 19
+    - 20
+    - 21
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#2884b2&lᴄʀᴀᴛᴇꜱ ᴡᴀʀᴘ'
+    lore:
+      - '&7ᴏᴘᴇɴ ᴛʜᴇ ᴄʀᴀᴛᴇꜱ ᴡɪᴛʜ ᴋᴇʏꜱ'
+      - '&7ᴀɴᴅ ɢᴇᴛ ʀᴇᴡᴀʀᴅꜱ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴡᴀʀᴘ'
+    left_click_commands:
+      - "[player] essentials:warp Crates"
+      - "[close]"
+
+
+  'afk':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 23
+    - 24
+    - 25
+    - 26
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#cc8b2f&lᴀꜰᴋ ꜱᴘᴏᴛ'
+    lore:
+      - '&7ᴀꜰᴋ ɪɴ ᴛʜɪꜱ ꜱᴘᴏᴛ ᴀɴᴅ'
+      - '&7ɢᴇᴛ ʀᴇᴡᴀʀᴅꜱ ɪɴ ʀᴇᴛᴜʀɴ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴡᴀʀᴘ'
+    left_click_commands:
+      - "[player] essentials:warp Afk"
+      - "[close]"
+
+
+  'furniture':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 27
+    - 28
+    - 29
+    - 30
+    - 36
+    - 37
+    - 38
+    - 39
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#ea3251&lꜰᴜʀɴɪᴛᴜʀᴇ ᴡᴀʀᴘ'
+    lore:
+      - '&7ʙᴜʏ ꜰᴜʀɴɪᴛᴜʀᴇ ᴀɴᴅ'
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴜꜱᴇ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴡᴀʀᴘ'
+    left_click_commands:
+      - "[player] essentials:warp Furniture"
+      - "[close]"
+
+
+  'farmer':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 32
+    - 33
+    - 34
+    - 35
+    - 41
+    - 42
+    - 43
+    - 44
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#6aea32&lꜰᴀʀᴍᴇʀ ᴡᴀʀᴘ'
+    lore:
+      - '&7ʙᴜʏ ᴀɴᴅ ꜱᴇʟʟ ꜰᴀʀᴍɪɴɢ'
+      - '&7ɪᴛᴇᴍꜱ ʜᴇʀᴇ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴡᴀʀᴘ'
+    left_click_commands:
+      - "[player] essentials:warp Farmer"
+      - "[close]"

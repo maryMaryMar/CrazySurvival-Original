@@ -1,0 +1,971 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'cosmetics_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʜᴀᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_hats_1"
+
+  'cosmetics_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_projectile_1"
+
+  'cosmetics_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʙᴀʟʟᴏᴏɴꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_balloons"
+
+  'cosmetics_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴇᴍᴏᴛᴇꜱ'
+    click_commands:
+      - "[refresh]"
+
+  'cosmetics_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_particle_1"
+
+  'cosmetics_6':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ɢʟᴏᴡꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_glows"
+
+  'cosmetics_7':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_chatcolors"
+
+
+
+
+
+
+
+
+
+#Cosmetics
+
+
+
+
+  'cosmetics_toggle_1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMyZmUxMjFhNjNlYWFiZDk5Y2VkNmQxYWNjOTE3OTg2NTJkMWVlODA4NGQyZjkxMjdkOGEzMTVjYWQ1Y2U0In19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a3,240'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.cry
+    click_commands:
+      - "[player] ultracosmetics toggle emotes cry"
+      - "[close]"
+
+  'cosmetics_purchase_1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMyZmUxMjFhNjNlYWFiZDk5Y2VkNmQxYWNjOTE3OTg2NTJkMWVlODA4NGQyZjkxMjdkOGEzMTVjYWQ1Y2U0In19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a3,240'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 3240'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.cry true"
+      - "[console] eco take %player_name% 3240"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+  'cosmetics_toggle_2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU3ZWUxMDIxMzIzMmM0NmJhZTc5ZWM2ZTRhYTBlMDI2ODA0NmRiZDMwMDc2MTIyNzBmMGRiN2VhNWYxNjE5YSJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 20
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀɴɢʀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a4,662'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.angry
+    click_commands:
+      - "[player] ultracosmetics toggle emotes angry"
+      - "[close]"
+
+  'cosmetics_purchase_2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU3ZWUxMDIxMzIzMmM0NmJhZTc5ZWM2ZTRhYTBlMDI2ODA0NmRiZDMwMDc2MTIyNzBmMGRiN2VhNWYxNjE5YSJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 20
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀɴɢʀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a4,662'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 4662'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.angry true"
+      - "[console] eco take %player_name% 4662"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+  'cosmetics_toggle_3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDFiOWRlZjU1ODc2YzQxYzE3YzgxNWY4ODExNWYwMmM5NWY4OTYyMGZiZWQ2YTZjYjJkMzhkNDZmZTA1In19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 21
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʜᴀᴘᴘʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a6,120'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.happy
+    click_commands:
+      - "[player] ultracosmetics toggle emotes happy"
+      - "[close]"
+
+  'cosmetics_purchase_3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDFiOWRlZjU1ODc2YzQxYzE3YzgxNWY4ODExNWYwMmM5NWY4OTYyMGZiZWQ2YTZjYjJkMzhkNDZmZTA1In19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 21
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʜᴀᴘᴘʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a6,120'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 6120'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.happy true"
+      - "[console] eco take %player_name% 6120"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+
+  'cosmetics_toggle_4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA3ZWVmOTFhNDUzYTUxNTE0ODdjOWQ2YjlkNGM0MzRkYjdmOGEwMmE0Y2FmMThlZjZmMzM1ODY3N2Y2In19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 22
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʜᴇᴇᴋʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.cheeky
+    click_commands:
+      - "[player] ultracosmetics toggle emotes cheeky"
+      - "[close]"
+
+
+  'cosmetics_purchase_4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA3ZWVmOTFhNDUzYTUxNTE0ODdjOWQ2YjlkNGM0MzRkYjdmOGEwMmE0Y2FmMThlZjZmMzM1ODY3N2Y2In19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 22
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʜᴇᴇᴋʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 7200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.cheeky true"
+      - "[console] eco take %player_name% 7200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+  'cosmetics_toggle_5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3MzdlOTllNGMwNTk2YTM3MTJlNzcxMWJhZWNhZThkMWRkYjc3NGFjMWNmNTMxODk2ODYyMzgwNzUzZTE2In19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʟᴏᴠᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,972'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.love
+    click_commands:
+      - "[player] ultracosmetics toggle emotes love"
+      - "[close]"
+
+  'cosmetics_purchase_5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3MzdlOTllNGMwNTk2YTM3MTJlNzcxMWJhZWNhZThkMWRkYjc3NGFjMWNmNTMxODk2ODYyMzgwNzUzZTE2In19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʟᴏᴠᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,972'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 9972'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.love true"
+      - "[console] eco take %player_name% 9972"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+  'cosmetics_toggle_6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA2YTc0ZmE4ZTFhNGE4YTQyN2ZjNTMyYTlhMTRkNDI5ZmI2ZDhmOTEzZDE1ODQzOWUyNTk5ZGY0OGE0NmQ1YiJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴅᴇᴀʟ ᴡɪᴛʜ ɪᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a12,852'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.dealwithit
+    click_commands:
+      - "[player] ultracosmetics toggle emotes dealwithit"
+      - "[close]"
+
+  'cosmetics_purchase_6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA2YTc0ZmE4ZTFhNGE4YTQyN2ZjNTMyYTlhMTRkNDI5ZmI2ZDhmOTEzZDE1ODQzOWUyNTk5ZGY0OGE0NmQ1YiJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴅᴇᴀʟ ᴡɪᴛʜ ɪᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a12,852'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 12852'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.dealwithit true"
+      - "[console] eco take %player_name% 12852"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+  'cosmetics_toggle_7':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRjOGNkMzFiYWM2NTdhM2YyNmI1MmUyNjJjODNlYjgzMzhkNTY2NTFmZDIyYzE2MzM1NjVmM2RiYmM0NTc3NyJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴏᴏʟ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a17,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.cool
+    click_commands:
+      - "[player] ultracosmetics toggle emotes cool"
+      - "[close]"
+
+  'cosmetics_purchase_7':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRjOGNkMzFiYWM2NTdhM2YyNmI1MmUyNjJjODNlYjgzMzhkNTY2NTFmZDIyYzE2MzM1NjVmM2RiYmM0NTc3NyJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴏᴏʟ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a17,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 17100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.cool true"
+      - "[console] eco take %player_name% 17100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+  'cosmetics_toggle_8':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM2Njc3MzFlYjlmMWE0NWNiMjcyMmU3MmQ0MGU0YmZlNTAwZDJkMTA1NzY3ZTk4NDlmOGZmYjI0Nzc1ODI0ZCJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴜʀᴘʀɪꜱᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a19,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.surprised
+    click_commands:
+      - "[player] ultracosmetics toggle emotes surprised"
+      - "[close]"
+
+  'cosmetics_purchase_8':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM2Njc3MzFlYjlmMWE0NWNiMjcyMmU3MmQ0MGU0YmZlNTAwZDJkMTA1NzY3ZTk4NDlmOGZmYjI0Nzc1ODI0ZCJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴜʀᴘʀɪꜱᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a19,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 19800'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.surprised true"
+      - "[console] eco take %player_name% 19800"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+  'cosmetics_toggle_9':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRlYTJkNmY5MzlmZWZlZmY1ZDEyMmU2M2RkMjZmYThhNDI3ZGY5MGIyOTI4YmMxZmE4OWE4MjUyYTdlIn19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴡɪɴᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a22,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.wink
+    click_commands:
+      - "[player] ultracosmetics toggle emotes wink"
+      - "[close]"
+
+  'cosmetics_purchase_9':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRlYTJkNmY5MzlmZWZlZmY1ZDEyMmU2M2RkMjZmYThhNDI3ZGY5MGIyOTI4YmMxZmE4OWE4MjUyYTdlIn19fQ=='
+    model_data: 2
+    amount: 1
+    slot: 29
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴡɪɴᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a22,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 22500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.wink true"
+      - "[console] eco take %player_name% 22500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+  'cosmetics_toggle_10':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVjZTg5NGJmOWExNTUyODEwYWZkNGE4NDE5ZTdlYzM2MmRhYjQxNGQ4OGFlMjg3ZjJhNWExYjY1MDMzZmMxMyJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 30
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴀɪꜱᴇ ᴇʏᴇ ʙʀᴏᴡꜱ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a25,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.raiseeyebrows
+    click_commands:
+      - "[player] ultracosmetics toggle emotes raiseeyebrows"
+      - "[close]"
+
+  'cosmetics_purchase_10':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVjZTg5NGJmOWExNTUyODEwYWZkNGE4NDE5ZTdlYzM2MmRhYjQxNGQ4OGFlMjg3ZjJhNWExYjY1MDMzZmMxMyJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 30
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴀɪꜱᴇ ᴇʏᴇ ʙʀᴏᴡꜱ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a25,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 25200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.raiseeyebrows true"
+      - "[console] eco take %player_name% 25200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+  'cosmetics_toggle_11':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVmYjVjMTk4ZmU3NGZlYjk4OGRjYjlhZjg5MGI2OWU4MTY5ZjU3MTRhN2FiNGZlODc5NWJkMWY2NmRmNjM3ZiJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 31
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴄᴀʀʏ ᴄᴀɴᴅʟᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a27,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.scarycandle
+    click_commands:
+      - "[player] ultracosmetics toggle emotes scarycandle"
+      - "[close]"
+
+  'cosmetics_purchase_11':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVmYjVjMTk4ZmU3NGZlYjk4OGRjYjlhZjg5MGI2OWU4MTY5ZjU3MTRhN2FiNGZlODc5NWJkMWY2NmRmNjM3ZiJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 31
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴄᴀʀʏ ᴄᴀɴᴅʟᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a27,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 27900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.scarycandle true"
+      - "[console] eco take %player_name% 27900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+  'cosmetics_toggle_12':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUxMmJiNWM3ODEzNjA5ZmFiNmQ2ZTcxZDM2NWYyMGE5NjdkNzAwNmU5YzJmYjFiZmZiMjljYWJjOTBkYjQ1NiJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lɢʟᴏᴡɪɴɢ ᴘᴜᴍᴘᴋɪɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a30,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.glowingpumpkin
+    click_commands:
+      - "[player] ultracosmetics toggle emotes glowingpumpkin"
+      - "[close]"
+
+  'cosmetics_purchase_12':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUxMmJiNWM3ODEzNjA5ZmFiNmQ2ZTcxZDM2NWYyMGE5NjdkNzAwNmU5YzJmYjFiZmZiMjljYWJjOTBkYjQ1NiJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lɢʟᴏᴡɪɴɢ ᴘᴜᴍᴘᴋɪɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a30,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 30600'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.glowingpumpkin true"
+      - "[console] eco take %player_name% 30600"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+  'cosmetics_toggle_13':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE4Mjg4ODU4NGYwZGIxY2M0ZjAwMjI2YWU4NmNjY2UyYzBmMzhkODc4ZjkwNmIzN2ZkNjkyMGU2NzViNGE4MyJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&6&lʟᴏᴠᴇ ꜱᴛʀᴜᴄᴋ ᴀʟʟᴀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &6120&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.emotes.lovestruckallay
+    click_commands:
+      - "[player] ultracosmetics toggle emotes lovestruckallay"
+      - "[close]"
+
+  'cosmetics_purchase_13':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE4Mjg4ODU4NGYwZGIxY2M0ZjAwMjI2YWU4NmNjY2UyYzBmMzhkODc4ZjkwNmIzN2ZkNjkyMGU2NzViNGE4MyJ9fX0='
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&6&lʟᴏᴠᴇ ꜱᴛʀᴜᴄᴋ ᴀʟʟᴀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴇᴍᴏᴛᴇꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴇᴍᴏᴛᴇꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &6120&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 120'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.emotes.lovestruckallay true"
+      - "[console] coins take %player_name% 120"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+  'remove_button':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 52
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴍᴏᴠᴇ ᴇᴍᴏᴛᴇ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ'
+      - '&7ʏᴏᴜʀ ᴇᴍᴏᴛᴇ'
+    click_commands:
+      - "[console] uc clear %player_name% emotes"
+      - "[close]"

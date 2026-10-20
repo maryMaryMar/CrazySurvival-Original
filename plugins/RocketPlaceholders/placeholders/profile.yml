@@ -1,0 +1,13 @@
+placeholders:
+  profile_picture:
+    placeholder: "profile_picture"
+    text: ""
+    conditions:
+      permission2:
+        type: PERMISSION
+        value: "customize.profile.second.selected"
+        text: ""
+      permission1:
+        type: PERMISSION
+        value: "customize.profile.first.selected"
+        text: ""

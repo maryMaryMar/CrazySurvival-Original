@@ -1,0 +1,180 @@
+enhanced_spider:
+  Type: CAVE_SPIDER
+  Damage: 10
+  Health: 16
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 12.0
+  Drops:
+  - cmd{c="souls give <trigger.name> 2"} 1
+bogged_skelly:
+  Type: BOGGED
+  Damage: 12
+  Health: 20
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 15.0
+  Drops:
+  - cmd{c="souls give <trigger.name> 2"} 1
+pillagery:
+  Type: PILLAGER
+  Damage: 24
+  Health: 20
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    MovementSpeed: 0.45
+    FollowRange: 15.0
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 4"} 1
+vindicatory:
+  Type: VINDICATOR
+  Damage: 25
+  Health: 30
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    MovementSpeed: 0.35
+    FollowRange: 15.0
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 4"} 1
+drowny:
+  Type: DROWNED
+  Damage: 25
+  Health: 35
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 15.0
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 3"} 1
+silverfishy:
+  Type: SILVERFISH
+  Damage: 1
+  Health: 5
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 10.0
+vexy:
+  Type: VEX
+  Damage: 16
+  Health: 8
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    FollowRange: 8.0
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 6"} 1
+breezey:
+  Type: BREEZE
+  Damage: 20
+  Health: 20
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    FollowRange: 8.0
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 6"} 1
+wither_skeley:
+  Type: WITHER_SKELETON
+  Damage: 20
+  Health: 20
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    FollowRange: 16.0
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 3"} 1
+skelly:
+  Type: SKELETON
+  Damage: 12
+  Health: 20
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    FollowRange: 16.0
+  Drops:
+  - cmd{c="souls give <trigger.name> 2"} 1
+breezey1:
+  Type: BREEZE
+  Damage: 10
+  Health: 16
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    FollowRange: 8.0
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 6"} 1
+strayy:
+  Type: STRAY
+  Damage: 10
+  Health: 20
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    FollowRange: 10.0
+    MovementSpeed: 0.4
+  Drops:
+  - cmd{c="souls give <trigger.name> 2"} 1
+endermeny:
+  Type: ENDERMAN
+  Damage: 20
+  Health: 20
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+  - particles{p=flame;a=10;hs=0.2;vs=0.2;speed=0.5} @self ~onDeath
+  Options:
+    FollowRange: 15.0
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 5"} 1

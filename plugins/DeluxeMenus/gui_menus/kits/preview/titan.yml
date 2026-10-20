@@ -1,0 +1,201 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'titan_kit':
+    material: PAPER
+    model_data: 7
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ɢʀᴇᴀᴛ ᴘᴏᴡᴇʀ ꜰᴏʀ ᴀ ᴍɪɢʜᴛʏ ᴛɪᴛᴀɴ.'
+      - '&7ɢᴇᴀʀ ᴜᴘ ᴀɴᴅ ꜱᴛᴀɴᴅ ꜱᴛʀᴏɴɢ.'
+
+
+  'titan_kit_cooldown':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_titan%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ ᴋɪᴛ, ᴡᴀɪᴛ %essentials_kit_time_until_available_titan% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ!"
+
+
+  'titan_kit_available':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    click_commands:
+      - "[player] essentials:kit titan"
+      - "[close]"
+
+
+
+
+
+
+  '1':
+    material: DIAMOND_SWORD
+    amount: 1
+    slot: 12
+    enchantments:
+      - sharpness;5
+      - unbreaking;3
+      - fire_aspect;2
+      - looting;2
+      - knockback;2
+    display_name: '&#892bc4&lTitan Sword'
+
+  '2':
+    material: NETHERITE_HELMET
+    amount: 1
+    slot: 13
+    enchantments:
+      - protection;3
+      - unbreaking;3
+      - mending;1
+    display_name: '&#892bc4&lTitan Helmet'
+
+  '3':
+    material: DIAMOND_CHESTPLATE
+    amount: 1
+    slot: 14
+    enchantments:
+      - protection;4
+      - unbreaking;3
+      - mending;1
+    display_name: '&#892bc4&lTitan Chestplate'
+
+  '4':
+    material: DIAMOND_LEGGINGS
+    amount: 1
+    slot: 15
+    enchantments:
+      - protection;4
+      - unbreaking;3
+      - mending;1
+    display_name: '&#892bc4&lTitan Leggings'
+
+  '5':
+    material: NETHERITE_BOOTS
+    amount: 1
+    slot: 16
+    enchantments:
+      - protection;3
+      - unbreaking;3
+      - mending;1
+      - feather_falling;2
+    display_name: '&#892bc4&lTitan Boots'
+
+
+  '6':
+    material: NETHERITE_PICKAXE
+    amount: 1
+    slot: 21
+    enchantments:
+      - efficiency;4
+      - fortune;3
+      - unbreaking;3
+      - mending;1
+    display_name: '&#892bc4&lTitan Pickaxe'
+
+
+  '7':
+    material: DIAMOND_PICKAXE
+    amount: 1
+    slot: 22
+    enchantments:
+      - efficiency;4
+      - silk_touch;1
+      - unbreaking;3
+    display_name: '&#892bc4&lTitan Silk Pickaxe'
+
+
+  '8':
+    material: BOW
+    amount: 1
+    slot: 23
+    enchantments:
+      - power;4
+      - infinity;1
+      - unbreaking;3
+      - mending;1
+    display_name: '&#892bc4&lTitan Bow'
+
+  '9':
+    material: ENCHANTED_GOLDEN_APPLE
+    amount: 8
+    slot: 24
+
+  '10':
+    material: ARROW
+    amount: 64
+    slot: 25
+
+  '11':
+    material: GOLDEN_APPLE
+    amount: 24
+    slot: 30
+
+  '12':
+    material: COOKED_BEEF
+    amount: 64
+    slot: 31
+
+  '13':
+    material: ENDER_PEARL
+    amount: 24
+    slot: 32
+
+  '14':
+    material: IRON_INGOT
+    amount: 42
+    slot: 33
+
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] ranked_kits"
+

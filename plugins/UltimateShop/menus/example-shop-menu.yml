@@ -1,0 +1,25 @@
+title: '{shop-name}'
+size: 54
+
+open-actions:
+  1:
+    type: sound
+    sound: item.book.page_turn
+
+layout:
+  - 'l0000000m'
+  - 'ABCDEFGHI'
+  - 'JKLMNOPQR'
+  - 'STUVWXYZa'
+  - '000000000'
+  - 'cdefghijk'
+
+buttons:
+  3:
+    display-item:
+      material: ARROW
+      name: '&c« Go back'
+    actions:
+      1:
+        type: open_menu
+        menu: main

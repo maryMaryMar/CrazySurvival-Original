@@ -1,0 +1,188 @@
+menu_title: '&f七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'enchants_purchase_1':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʙʟᴀꜱᴛ ᴍɪɴɪɴɢ'
+    lore:
+      - '&7ᴍɪɴᴇꜱ ʙʟᴏᴄᴋꜱ ᴡɪᴛʜ ᴇxᴘʟᴏꜱɪᴏɴꜱ'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea3500 Souls'
+      - ''
+      - '&8▪ &fᴄᴏɴꜰʟɪᴄᴛꜱ ᴡɪᴛʜ:'
+      - '   &c✘ &7ᴛᴜɴɴᴇʟ'
+      - '   &c✘ &7ᴠᴇɪɴᴍɪɴᴇʀ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 3500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:blast_mining 1 %player_name%"
+      - "[console] souls take %player_name% 3500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+  'enchants_purchase_2':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʙʟᴀꜱᴛ ᴍɪɴɪɴɢ'
+    lore:
+      - '&7ᴍɪɴᴇꜱ ʙʟᴏᴄᴋꜱ ᴡɪᴛʜ ᴇxᴘʟᴏꜱɪᴏɴꜱ'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea2'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea5500 Souls'
+      - ''
+      - '&8▪ &fᴄᴏɴꜰʟɪᴄᴛꜱ ᴡɪᴛʜ:'
+      - '   &c✘ &7ᴛᴜɴɴᴇʟ'
+      - '   &c✘ &7ᴠᴇɪɴᴍɪɴᴇʀ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 5500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:blast_mining 2 %player_name%"
+      - "[console] souls take %player_name% 5500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+  'enchants_purchase_3':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʙʟᴀꜱᴛ ᴍɪɴɪɴɢ'
+    lore:
+      - '&7ᴍɪɴᴇꜱ ʙʟᴏᴄᴋꜱ ᴡɪᴛʜ ᴇxᴘʟᴏꜱɪᴏɴꜱ'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea3'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea8000 Souls'
+      - ''
+      - '&8▪ &fᴄᴏɴꜰʟɪᴄᴛꜱ ᴡɪᴛʜ:'
+      - '   &c✘ &7ᴛᴜɴɴᴇʟ'
+      - '   &c✘ &7ᴠᴇɪɴᴍɪɴᴇʀ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 8000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:blast_mining 3 %player_name%"
+      - "[console] souls take %player_name% 8000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+  'enchants_purchase_4':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʙʟᴀꜱᴛ ᴍɪɴɪɴɢ'
+    lore:
+      - '&7ᴍɪɴᴇꜱ ʙʟᴏᴄᴋꜱ ᴡɪᴛʜ ᴇxᴘʟᴏꜱɪᴏɴꜱ'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea4'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea11,000 Souls'
+      - ''
+      - '&8▪ &fᴄᴏɴꜰʟɪᴄᴛꜱ ᴡɪᴛʜ:'
+      - '   &c✘ &7ᴛᴜɴɴᴇʟ'
+      - '   &c✘ &7ᴠᴇɪɴᴍɪɴᴇʀ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 11000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:blast_mining 4 %player_name%"
+      - "[console] souls take %player_name% 11000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+  'enchants_purchase_5':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʙʟᴀꜱᴛ ᴍɪɴɪɴɢ'
+    lore:
+      - '&7ᴍɪɴᴇꜱ ʙʟᴏᴄᴋꜱ ᴡɪᴛʜ ᴇxᴘʟᴏꜱɪᴏɴꜱ'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea5'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea14,000 Souls'
+      - ''
+      - '&8▪ &fᴄᴏɴꜰʟɪᴄᴛꜱ ᴡɪᴛʜ:'
+      - '   &c✘ &7ᴛᴜɴɴᴇʟ'
+      - '   &c✘ &7ᴠᴇɪɴᴍɪɴᴇʀ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_souls% >= 14000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ꜱᴏᴜʟꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] eenchants book excellentenchants:blast_mining 5 %player_name%"
+      - "[console] souls take %player_name% 14000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʙᴏᴏᴋ!"
+      - "[refresh]"
+      - "[refresh]"
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] enchants_tools"

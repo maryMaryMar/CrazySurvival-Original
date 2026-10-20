@@ -1,0 +1,927 @@
+menu_title: '&f七七七七七七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'furniture1':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 0
+    update: true
+    display_name: '&#cf8a6d&lꜱᴄʜᴏᴏʟ ᴛᴀʙʟᴇ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a250'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 250'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give SchoolTable %player_name%"
+      - "[console] eco take %player_name% 250"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture2':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 1
+    update: true
+    display_name: '&#cf8a6d&lꜱᴄʜᴏᴏʟ ᴄʜᴀɪʀ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a300'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 300'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give SchoolChair %player_name%"
+      - "[console] eco take %player_name% 300"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture3':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 2
+    update: true
+    display_name: '&#cf8a6d&lꜱᴍᴀʟʟ ᴛᴀʙʟᴇ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a280'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 280'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Table %player_name%"
+      - "[console] eco take %player_name% 280"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture4':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 3
+    update: true
+    display_name: '&#cf8a6d&lʟᴀʀɢᴇ ᴛᴀʙʟᴇ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a700'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x3'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 700'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give LargeTable %player_name%"
+      - "[console] eco take %player_name% 700"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture5':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 4
+    update: true
+    display_name: '&#cf8a6d&lꜱʟᴇᴇᴘɪɴɢ ʙᴀɢ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a150'
+      - '&8▪ &fꜱɪᴢᴇ: &c2x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 150'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give SleepingBag %player_name%"
+      - "[console] eco take %player_name% 150"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture6':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 5
+    update: true
+    display_name: '&#cf8a6d&lꜰʟᴀɢ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a750'
+      - '&8▪ &fꜱɪᴢᴇ: &c4x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 750'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Flag %player_name%"
+      - "[console] eco take %player_name% 750"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture7':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 6
+    update: true
+    display_name: '&#cf8a6d&lꜰᴇɴᴄᴇ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a80'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 80'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Fence %player_name%"
+      - "[console] eco take %player_name% 80"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture8':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 7
+    update: true
+    display_name: '&#cf8a6d&lᴄʀᴏꜱꜱʙᴏᴡ ꜱᴛᴀɴᴅ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a1275'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1275'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Crossbow %player_name%"
+      - "[console] eco take %player_name% 1275"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture9':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 8
+    update: true
+    display_name: '&#cf8a6d&lᴄᴀᴄᴛᴜꜱᴘʟᴀɴᴛ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a550'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 550'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give CactusPlant %player_name%"
+      - "[console] eco take %player_name% 550"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture10':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 9
+    update: true
+    display_name: '&#cf8a6d&lᴄᴀᴍᴘꜰɪʀᴇ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a1109'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1109'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Campfire2 %player_name%"
+      - "[console] eco take %player_name% 1109"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture11':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 10
+    update: true
+    display_name: '&#cf8a6d&lᴄᴀᴍᴘᴄʜᴀɪʀ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a905'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 905'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give CampChair %player_name%"
+      - "[console] eco take %player_name% 905"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture12':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 11
+    update: true
+    display_name: '&#cf8a6d&lᴘᴀɪɴᴏ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a3480'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x4'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 3480'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give TornPianoA %player_name%"
+      - "[console] eco take %player_name% 3480"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture13':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 12
+    update: true
+    display_name: '&#cf8a6d&lꜱᴍᴀʟʟ ꜱᴏꜰᴀ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a1540'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1540'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give sofa %player_name%"
+      - "[console] eco take %player_name% 1540"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture14':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 13
+    update: true
+    display_name: '&#cf8a6d&lꜱᴍᴀʟʟ ᴍᴏᴅᴇʀɴ ꜱᴏꜰᴀ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a1820'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1820'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give TornSofaA %player_name%"
+      - "[console] eco take %player_name% 1820"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture15':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 14
+    update: true
+    display_name: '&#cf8a6d&lᴍᴏᴅᴇʀɴ ꜱᴏꜰᴀ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a2560'
+      - '&8▪ &fꜱɪᴢᴇ: &c5x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 2560'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give sofa1 %player_name%"
+      - "[console] eco take %player_name% 2560"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture16':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 15
+    update: true
+    display_name: '&#cf8a6d&lꜱᴛᴏʀᴀɢᴇ ᴄᴜᴘʙᴏᴀʀᴅ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a4280'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x3'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 4280'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give TornStorageFurnitureA1 %player_name%"
+      - "[console] eco take %player_name% 4280"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture17':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 16
+    update: true
+    display_name: '&#cf8a6d&lᴛʀᴀꜱʜᴄᴀɴ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a120'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 120'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give TrashCan %player_name%"
+      - "[console] eco take %player_name% 120"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture18':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 17
+    update: true
+    display_name: '&#cf8a6d&lᴛʀᴜɴᴋ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a518'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x4'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 518'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Trunk %player_name%"
+      - "[console] eco take %player_name% 518"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture19':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 18
+    update: true
+    display_name: '&#cf8a6d&lꜱᴛʀᴇᴇᴛʟᴀᴍᴘ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a1478'
+      - '&8▪ &fꜱɪᴢᴇ: &c4x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1478'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Streetlamp %player_name%"
+      - "[console] eco take %player_name% 1478"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture20':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 19
+    update: true
+    display_name: '&#cf8a6d&lꜱᴜɴꜱʜᴀᴅᴇ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a6820'
+      - '&8▪ &fꜱɪᴢᴇ: &c4x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 6820'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Sunshade %player_name%"
+      - "[console] eco take %player_name% 6820"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture21':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 20
+    update: true
+    display_name: '&#cf8a6d&lʜᴀᴍᴍᴏᴄᴋ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a4570'
+      - '&8▪ &fꜱɪᴢᴇ: &c7x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 4570'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give Hammock %player_name%"
+      - "[console] eco take %player_name% 4570"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+  'furniture22':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 21
+    update: true
+    display_name: '&#cf8a6d&lᴄᴜʀᴛᴀɪɴ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a1870'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x3'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1870'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give TornCurtainA2 %player_name%"
+      - "[console] eco take %player_name% 1870"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture23':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 22
+    update: true
+    display_name: '&#cf8a6d&lꜱɪᴅᴇ ᴛᴀʙʟᴇ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a1590'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x1'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1590'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give TornSidetableB2 %player_name%"
+      - "[console] eco take %player_name% 1590"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture24':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 23
+    update: true
+    display_name: '&#cf8a6d&lʟᴀʀɢᴇ ʙᴇᴅ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a7520'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x4'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 7520'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give TornBedB %player_name%"
+      - "[console] eco take %player_name% 7520"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'furniture25':
+    material: PAPER
+    model_data: 48
+    amount: 1
+    slot: 24
+    update: true
+    display_name: '&#cf8a6d&lʙᴇᴅʙᴇɴᴄʜ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &2$&a5510'
+      - '&8▪ &fꜱɪᴢᴇ: &c1x3'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 5510'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"  
+    click_commands:
+      - "[console] furniture give TornBedBenchB %player_name%"
+      - "[console] eco take %player_name% 5510"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'premium_furniture26':
+    material: PAPER
+    model_data: 50
+    amount: 1
+    slot: 25
+    update: true
+    display_name: '&6&lꜱᴍᴀʟʟ ᴛᴇɴᴛ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &6100&f'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x3'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        coins:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"  
+    click_commands:
+      - "[console] furniture give Tent3 %player_name%"
+      - "[console] coins take %player_name% 100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'premium_furniture27':
+    material: PAPER
+    model_data: 50
+    amount: 1
+    slot: 26
+    update: true
+    display_name: '&6&lᴍᴇᴅɪᴜᴍ ᴛᴇɴᴛ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &6210&f'
+      - '&8▪ &fꜱɪᴢᴇ: &c3x5'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        coins:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 210'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"  
+    click_commands:
+      - "[console] furniture give Tent1 %player_name%"
+      - "[console] coins take %player_name% 210"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+  'premium_furniture28':
+    material: PAPER
+    model_data: 50
+    amount: 1
+    slot: 27
+    update: true
+    display_name: '&6&lʟᴀʀɢᴇ ᴛᴇɴᴛ'
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    lore:
+      - '&7ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ ʜᴏᴍᴇ'
+      - '&7ᴡɪᴛʜ ꜰᴜʀɴɪᴛᴜʀᴇ!'
+      - ''
+      - '&8▪ &fʙᴜʏ ᴘʀɪᴄᴇ: &6450&f'
+      - '&8▪ &fꜱɪᴢᴇ: &c4x6'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        coins:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 450'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"  
+    click_commands:
+      - "[console] furniture give Tent2 %player_name%"
+      - "[console] coins take %player_name% 450"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+
+  'home':
+    material: PAPER
+    model_data: 49
+    display_name: '&#eabc89&lʜᴏᴍᴇ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴇxɪᴛ'
+    slot: 44
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    click_commands:
+      - "[close]"
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+wither_skeley1:
+  MobName: wither_skeley
+  World: dungeon2
+  X: 63
+  Y: 71
+  Z: -16
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 1.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '6'
+  MobLevel: '1'
+  MobsPerSpawn: 4
+  Cooldown: 6
+  Warmup: 0
+  ActivationRange: 10.0
+  LeashRange: 16.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: false
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  ActiveMobs: 6
+  CooldownTimer: 1

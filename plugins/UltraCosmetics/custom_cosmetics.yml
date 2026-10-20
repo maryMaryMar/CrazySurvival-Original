@@ -1,0 +1,205 @@
+# In this file, you can define custom hats, emotes, suits, or pets! How exciting!
+
+# Format for hats:
+# Start with the internal name of the cosmetic, which must be ASCII-only and less than 32 characters.
+# For example, "CraftingTable":
+#   CraftingTable:
+#       # If the hat is a player skull, 'url' should be the end of a texture URL, like if the url is:
+#       # http://textures.minecraft.net/texture/9f30ffbc0110efa34e030860da18c8a1d6b223de0f00d9e4c5d0cfa7ecfafa48
+#       # Then the 'url' option should be:
+#       url: 9f30ffbc0110efa34e030860da18c8a1d6b223de0f00d9e4c5d0cfa7ecfafa48
+# Here's another example, this time with custom model data:
+#   CarvedPumpkinBlock:
+#       # 'type' should be the material name of the hat. If not present (like in the above example,) 'PLAYER_HEAD' is assumed.
+#       type: CARVED_PUMPKIN
+#       # 'custom-model-data' should be the custom model data of the hat. If not present, 0 is assumed.
+#       custom-model-data: 10
+# Once the hat is loaded, you will be able to change the display name and description in the messages file.
+Hats:
+  Arrow:
+    custom-model-data: 24
+    material: FLINT
+  Bag:
+    custom-model-data: 25
+    material: FLINT
+  Basketball:
+    custom-model-data: 26
+    material: FLINT
+  Bottle:
+    custom-model-data: 27
+    material: FLINT
+  Aquarium:
+    custom-model-data: 28
+    material: FLINT
+  Bunny:
+    custom-model-data: 29
+    material: FLINT
+  Carrot:
+    custom-model-data: 30
+    material: FLINT
+  Cat:
+    custom-model-data: 31
+    material: FLINT
+  Catin:
+    custom-model-data: 32
+    material: FLINT
+  Cone:
+    custom-model-data: 33
+    material: FLINT
+  Crown:
+    custom-model-data: 34
+    material: FLINT
+  DealWithIt:
+    custom-model-data: 35
+    material: FLINT
+  Dimadome:
+    custom-model-data: 36
+    material: FLINT
+  EggBlue:
+    custom-model-data: 37
+    material: FLINT
+  EggGreen:
+    custom-model-data: 38
+    material: FLINT
+  EggLightBlue:
+    custom-model-data: 39
+    material: FLINT
+  EggOrange:
+    custom-model-data: 40
+    material: FLINT
+  EggPink:
+    custom-model-data: 41
+    material: FLINT
+  EggRed:
+    custom-model-data: 42
+    material: FLINT
+  EggViolet:
+    custom-model-data: 43
+    material: FLINT
+  EggYellow:
+    custom-model-data: 44
+    material: FLINT
+  Farmer:
+    custom-model-data: 45
+    material: FLINT
+  Flower:
+    custom-model-data: 46
+    material: FLINT
+  FryingPan:
+    custom-model-data: 47
+    material: FLINT
+  Halo:
+    custom-model-data: 48
+    material: FLINT
+  Miner:
+    custom-model-data: 49
+    material: FLINT
+  Icecream:
+    custom-model-data: 50
+    material: FLINT
+  Jolly:
+    custom-model-data: 51
+    material: FLINT
+  JollyTree:
+    custom-model-data: 52
+    material: FLINT
+  Leprechaun:
+    custom-model-data: 53
+    material: FLINT
+  Masons:
+    custom-model-data: 54
+    material: FLINT
+  Moon:
+    custom-model-data: 55
+    material: FLINT
+  Party:
+    custom-model-data: 56
+    material: FLINT
+  Plunger:
+    custom-model-data: 57
+    material: FLINT
+  PlushColo:
+    custom-model-data: 58
+    material: FLINT
+  PlushExo:
+    custom-model-data: 59
+    material: FLINT
+  PlushFran:
+    custom-model-data: 60
+    material: FLINT
+  PlushGwen:
+    custom-model-data: 61
+    material: FLINT
+  PlushIbod:
+    custom-model-data: 62
+    material: FLINT
+  PlushJohn:
+    custom-model-data: 63
+    material: FLINT
+  PlushMrBlack:
+    custom-model-data: 64
+    material: FLINT
+  PlushMrInf:
+    custom-model-data: 65
+    material: FLINT
+  PlushNed:
+    custom-model-data: 66
+    material: FLINT
+  PlushPr:
+    custom-model-data: 67
+    material: FLINT
+  PlushProf:
+    custom-model-data: 68
+    material: FLINT
+  PlushWoofer:
+    custom-model-data: 69
+    material: FLINT
+  PlushYatzy:
+    custom-model-data: 70
+    material: FLINT
+  PlushZagg:
+    custom-model-data: 71
+    material: FLINT
+  Portal:
+    custom-model-data: 72
+    material: FLINT
+  PresentHat:
+    custom-model-data: 73
+    material: FLINT
+  BigPropeller:
+    custom-model-data: 74
+    material: FLINT
+  Propeller:
+    custom-model-data: 75
+    material: FLINT
+  SantaHat:
+    custom-model-data: 76
+    material: FLINT
+  TechnoBlade:
+    custom-model-data: 77
+    material: FLINT
+  Top:
+    custom-model-data: 78
+    material: FLINT
+  Turkey:
+    custom-model-data: 79
+    material: FLINT
+  TurtleHat:
+    custom-model-data: 80
+    material: FLINT
+  Ushanka:
+    custom-model-data: 81
+    material: FLINT
+  Valve:
+    custom-model-data: 82
+    material: FLINT
+  Wild:
+    custom-model-data: 83
+    material: FLINT
+  WingCap:
+    custom-model-data: 84
+    material: FLINT
+  Bullet:
+    custom-model-data: 85
+    material: FLINT
+

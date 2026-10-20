@@ -1,0 +1,1562 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'cosmetics_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʜᴀᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_hats_1"
+
+  'cosmetics_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_projectile_1"
+
+  'cosmetics_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʙᴀʟʟᴏᴏɴꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_balloons"
+
+  'cosmetics_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴇᴍᴏᴛᴇꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_emotes"
+
+  'cosmetics_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_particle_1"
+
+  'cosmetics_6':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ɢʟᴏᴡꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_glows"
+
+  'cosmetics_7':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+    click_commands:
+      - "[refresh]"
+
+
+
+
+
+
+
+
+
+#Cosmetics
+
+
+  'cosmetics_toggle_1':
+    material: PAPER
+    model_data: 42
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a18,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.red
+    click_commands:
+      - "[console] chatcolor %player_name% red"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &c&lʀᴇᴅ"
+      - "[close]"
+
+  'cosmetics_purchase_1':
+    material: PAPER
+    model_data: 42
+    amount: 1
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a18,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 18900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.red true"
+      - "[console] eco take %player_name% 18900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_2':
+    material: PAPER
+    model_data: 34
+    amount: 1
+    slot: 20
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&4&lᴅᴀʀᴋ ʀᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a22,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.dark.red
+    click_commands:
+      - "[console] chatcolor %player_name% dark.red"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &4&lᴅᴀʀᴋ ʀᴇᴅ"
+      - "[close]"
+
+  'cosmetics_purchase_2':
+    material: PAPER
+    model_data: 34
+    amount: 1
+    slot: 20
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&4&lᴅᴀʀᴋ ʀᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a22,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 22500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.dark.red true"
+      - "[console] eco take %player_name% 22500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_3':
+    material: PAPER
+    model_data: 47
+    amount: 1
+    slot: 21
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʏᴇʟʟᴏᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a27,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.yellow
+    click_commands:
+      - "[console] chatcolor %player_name% yellow"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &e&lʏᴇʟʟᴏᴡ"
+      - "[close]"
+
+  'cosmetics_purchase_3':
+    material: PAPER
+    model_data: 47
+    amount: 1
+    slot: 21
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʏᴇʟʟᴏᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a27,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 27000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.yellow true"
+      - "[console] eco take %player_name% 27000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_4':
+    material: PAPER
+    model_data: 35
+    amount: 1
+    slot: 22
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&6&lɢᴏʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a31,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.gold
+    click_commands:
+      - "[console] chatcolor %player_name% gold"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &6&lɢᴏʟᴅ"
+      - "[close]"
+
+  'cosmetics_purchase_4':
+    material: PAPER
+    model_data: 35
+    amount: 1
+    slot: 22
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&6&lɢᴏʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a31,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 31500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.gold true"
+      - "[console] eco take %player_name% 31500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_5':
+    material: PAPER
+    model_data: 37
+    amount: 1
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lɢʀᴇᴇɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a34,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.green
+    click_commands:
+      - "[console] chatcolor %player_name% green"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &a&lɢʀᴇᴇɴ"
+      - "[close]"
+
+  'cosmetics_purchase_5':
+    material: PAPER
+    model_data: 37
+    amount: 1
+    slot: 23
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lɢʀᴇᴇɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a34,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 34200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.green true"
+      - "[console] eco take %player_name% 34200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_6':
+    material: PAPER
+    model_data: 33
+    amount: 1
+    slot: 24
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&2&lᴅᴀʀᴋ ɢʀᴇᴇɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a36,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.dark.green
+    click_commands:
+      - "[console] chatcolor %player_name% dark.green"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &2&lᴅᴀʀᴋ ɢʀᴇᴇɴ"
+      - "[close]"
+
+  'cosmetics_purchase_6':
+    material: PAPER
+    model_data: 33
+    amount: 1
+    slot: 24
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&2&lᴅᴀʀᴋ ɢʀᴇᴇɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a36,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 36000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.dark.green true"
+      - "[console] eco take %player_name% 36000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_7':
+    material: PAPER
+    model_data: 27
+    amount: 1
+    slot: 25
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀǫᴜᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a39,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.aqua
+    click_commands:
+      - "[console] chatcolor %player_name% aqua"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &b&lᴀǫᴜᴀ"
+      - "[close]"
+
+  'cosmetics_purchase_7':
+    material: PAPER
+    model_data: 27
+    amount: 1
+    slot: 25
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀǫᴜᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a39,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 39600'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.aqua true"
+      - "[console] eco take %player_name% 39600"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_8':
+    material: PAPER
+    model_data: 31
+    amount: 1
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&3&lᴅᴀʀᴋ ᴀǫᴜᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a44,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.dark.aqua
+    click_commands:
+      - "[console] chatcolor %player_name% dark.aqua"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &3&lᴅᴀʀᴋ ᴀǫᴜᴀ"
+      - "[close]"
+
+  'cosmetics_purchase_8':
+    material: PAPER
+    model_data: 31
+    amount: 1
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&3&lᴅᴀʀᴋ ᴀǫᴜᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a44,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 44100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.dark.aqua true"
+      - "[console] eco take %player_name% 44100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_9':
+    material: PAPER
+    model_data: 29
+    amount: 1
+    slot: 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&9&lʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a45,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.blue
+    click_commands:
+      - "[console] chatcolor %player_name% blue"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &9&lʙʟᴜᴇ"
+      - "[close]"
+
+  'cosmetics_purchase_9':
+    material: PAPER
+    model_data: 29
+    amount: 1
+    slot: 29
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&9&lʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a45,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 45900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.blue true"
+      - "[console] eco take %player_name% 45900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_10':
+    material: PAPER
+    model_data: 32
+    amount: 1
+    slot: 30
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&1&lᴅᴀʀᴋ ʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a48,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.dark.blue
+    click_commands:
+      - "[console] chatcolor %player_name% dark.blue"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &1&lᴅᴀʀᴋ ʙʟᴜᴇ"
+      - "[close]"
+
+  'cosmetics_purchase_10':
+    material: PAPER
+    model_data: 32
+    amount: 1
+    slot: 30
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&1&lᴅᴀʀᴋ ʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a48,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 48600'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.dark.blue true"
+      - "[console] eco take %player_name% 48600"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_11':
+    material: PAPER
+    model_data: 39
+    amount: 1
+    slot: 31
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&d&lᴘɪɴᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a53,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.light.purple
+    click_commands:
+      - "[console] chatcolor %player_name% light.purple"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &d&lᴘɪɴᴋ"
+      - "[close]"
+
+  'cosmetics_purchase_11':
+    material: PAPER
+    model_data: 39
+    amount: 1
+    slot: 31
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&d&lᴘɪɴᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a53,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 53100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.light.purple true"
+      - "[console] eco take %player_name% 53100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_12':
+    material: PAPER
+    model_data: 40
+    amount: 1
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&5&lᴘᴜʀᴘʟᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a54,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.dark.purple
+    click_commands:
+      - "[console] chatcolor %player_name% dark.purple"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &5&lᴘᴜʀᴘʟᴇ"
+      - "[close]"
+
+  'cosmetics_purchase_12':
+    material: PAPER
+    model_data: 40
+    amount: 1
+    slot: 32
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&5&lᴘᴜʀᴘʟᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a54,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 54900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.dark.purple true"
+      - "[console] eco take %player_name% 54900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_13':
+    material: PAPER
+    model_data: 46
+    amount: 1
+    slot: 33
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f&lᴡʜɪᴛᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a14,400'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.white
+    click_commands:
+      - "[console] chatcolor %player_name% white"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &f&lᴡʜɪᴛᴇ"
+      - "[close]"
+
+  'cosmetics_purchase_13':
+    material: PAPER
+    model_data: 46
+    amount: 1
+    slot: 33
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f&lᴡʜɪᴛᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a14,400'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 14400'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.white true"
+      - "[console] eco take %player_name% 14400"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_14':
+    material: PAPER
+    model_data: 36
+    amount: 1
+    slot: 34
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&8&lᴅᴀʀᴋ ɢʀᴀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a10,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.dark.gray
+    click_commands:
+      - "[console] chatcolor %player_name% dark.gray"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &8&lᴅᴀʀᴋ ɢʀᴀʏ"
+      - "[close]"
+
+  'cosmetics_purchase_14':
+    material: PAPER
+    model_data: 36
+    amount: 1
+    slot: 34
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&8&lᴅᴀʀᴋ ɢʀᴀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a10,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 10800'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.dark.gray true"
+      - "[console] eco take %player_name% 10800"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_15':
+    material: PAPER
+    model_data: 28
+    amount: 1
+    slot: 37
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#242323&lʙʟᴀᴄᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a71,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.black
+    click_commands:
+      - "[console] chatcolor %player_name% black"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &#242323&lʙʟᴀᴄᴋ"
+      - "[close]"
+
+  'cosmetics_purchase_15':
+    material: PAPER
+    model_data: 28
+    amount: 1
+    slot: 37
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#161515&lʙʟᴀᴄᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a71,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 71100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.color.black true"
+      - "[console] eco take %player_name% 71100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_rainbow':
+    material: PAPER
+    model_data: 41
+    amount: 1
+    slot: 38
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʀ&d&lᴀ&c&lɪ&b&lɴ&a&lʙ&9&lᴏ&6&lᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &6250&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.custom.bright-rainbow
+    click_commands:
+      - "[console] chatcolor %player_name% %bright-rainbow"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛᴏɢɢʟᴇᴅ ᴄᴏʟᴏʀ: &eR&da&ci&bn&ab&9o&6w"
+      - "[close]"
+
+  'cosmetics_purchase_rainbow':
+    material: PAPER
+    model_data: 41
+    amount: 1
+    slot: 38
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʀ&d&lᴀ&c&lɪ&b&lɴ&a&lʙ&9&lᴏ&6&lᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &6250&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 250'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.custom.bright-rainbow true"
+      - "[console] coins take %player_name% 250"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_16':
+    material: PAPER
+    model_data: 30
+    amount: 1
+    slot: 39
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʙᴏʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.modifier.bold
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolors.bold.selected true"
+      - "[player] chatcolor add bold"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_16_1':
+    material: PAPER
+    model_data: 30
+    amount: 1
+    slot: 39
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʙᴏʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission1:
+          type: "has permission"
+          permission: chatcolor.modifier.bold
+        permission2:
+          type: "has permission"
+          permission: chatcolors.bold.selected
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolors.bold.selected false"
+      - "[player] chatcolor remove bold"
+      - "[close]"
+
+
+
+  'cosmetics_purchase_16':
+    material: PAPER
+    model_data: 30
+    amount: 1
+    slot: 39
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʙᴏʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 50'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.modifier.bold true"
+      - "[console] coins take %player_name% 50"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_17':
+    material: PAPER
+    model_data: 44
+    amount: 1
+    slot: 40
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&mꜱᴛʀɪᴋᴇᴛʜʀᴏᴜɢʜ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.modifier.strikethrough
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolors.strikethrough.selected true"
+      - "[player] chatcolor add strikethrough"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_17_1':
+    material: PAPER
+    model_data: 44
+    amount: 1
+    slot: 40
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&mꜱᴛʀɪᴋᴇᴛʜʀᴏᴜɢʜ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission1:
+          type: "has permission"
+          permission: chatcolor.modifier.strikethrough
+        permission2:
+          type: "has permission"
+          permission: chatcolors.strikethrough.selected
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolors.strikethrough.selected false"
+      - "[player] chatcolor remove strikethrough"
+      - "[close]"
+
+
+
+  'cosmetics_purchase_17':
+    material: PAPER
+    model_data: 44
+    amount: 1
+    slot: 40
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&mꜱᴛʀɪᴋᴇᴛʜʀᴏᴜɢʜ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 50'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.modifier.strikethrough true"
+      - "[console] coins take %player_name% 50"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_18':
+    material: PAPER
+    model_data: 45
+    amount: 1
+    slot: 41
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&nᴜɴᴅᴇʀʟɪɴᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.modifier.underlined
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolors.underlined.selected true"
+      - "[player] chatcolor add underlined"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_18_1':
+    material: PAPER
+    model_data: 45
+    amount: 1
+    slot: 41
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&nᴜɴᴅᴇʀʟɪɴᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission1:
+          type: "has permission"
+          permission: chatcolor.modifier.underlined
+        permission2:
+          type: "has permission"
+          permission: chatcolors.underlined.selected
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolors.underlined.selected false"
+      - "[player] chatcolor remove underlined"
+      - "[close]"
+
+
+
+  'cosmetics_purchase_18':
+    material: PAPER
+    model_data: 45
+    amount: 1
+    slot: 41
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&nᴜɴᴅᴇʀʟɪɴᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 50'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.modifier.underlined true"
+      - "[console] coins take %player_name% 50"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_19':
+    material: PAPER
+    model_data: 38
+    amount: 1
+    slot: 42
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&oɪᴛᴀʟɪᴄ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.modifier.italic
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolors.italic.selected true"
+      - "[player] chatcolor add italic"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_19_1':
+    material: PAPER
+    model_data: 38
+    amount: 1
+    slot: 42
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&oɪᴛᴀʟɪᴄ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission1:
+          type: "has permission"
+          permission: chatcolor.modifier.italic
+        permission2:
+          type: "has permission"
+          permission: chatcolors.italic.selected
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolors.italic.selected false"
+      - "[player] chatcolor remove italic"
+      - "[close]"
+
+
+
+  'cosmetics_purchase_19':
+    material: PAPER
+    model_data: 38
+    amount: 1
+    slot: 42
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&oɪᴛᴀʟɪᴄ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴄʜᴀᴛ ᴄᴏʟᴏʀꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 50'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set chatcolor.modifier.italic true"
+      - "[console] coins take %player_name% 50"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+
+
+
+  'remove_button':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 52
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʀᴇᴍᴏᴠᴇ ᴄʜᴀᴛ ᴄᴏʟᴏʀ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ'
+      - '&7ʏᴏᴜʀ ᴄʜᴀᴛ ᴄᴏʟᴏʀ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: chatcolor.color.white
+    click_commands:
+      - "[console] chatcolor %player_name% white"
+      - "[message] &f &#648DC1ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀ ʜᴀꜱ ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ."
+      - "[close]"
+
+  'remove_button_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 52
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʀᴇᴍᴏᴠᴇ ᴄʜᴀᴛ ᴄᴏʟᴏʀ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ'
+      - '&7ʏᴏᴜʀ ᴄʜᴀᴛ ᴄᴏʟᴏʀ'
+    click_commands:
+      - "[console] chatcolor %player_name% gray"
+      - "[message] &f &#648DC1ʏᴏᴜʀ ᴄʜᴀᴛᴄᴏʟᴏʀ ʜᴀꜱ ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ."
+      - "[close]"

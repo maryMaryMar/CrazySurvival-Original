@@ -1,0 +1,14 @@
+# databases.yml
+# Optional database connections for storing bounties and player stats.
+# You can connect to as many databases as you want. You could have 5 mySQL databases and 3 redis if you really wanted.
+
+example-sql:
+  type: SQL
+  host: localhost
+  port: 3306
+  database: db
+  user: username
+  password: pass
+  ssl: false
+  refresh-interval: 300
+  priority: 1

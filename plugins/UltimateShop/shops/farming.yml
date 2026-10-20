@@ -1,0 +1,424 @@
+settings:
+  menu: 'farming-shop'
+  buy-more: true
+  shop-name: '&f七七七七七七七七七七七七七'
+  hide-message: false
+
+items:
+  A:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WHEAT_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.88'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.85'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  B:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WHEAT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.06'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.95'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  C:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: POTATO
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7.54'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.70'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  D:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CARROT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.45'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.10'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  E:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BEETROOT_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '5.33'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.95'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  F:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BEETROOT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7.28'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.60'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  G:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MELON_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.97'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.20'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  H:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MELON_SLICE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7.74'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.80'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  I:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PUMPKIN_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.71'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.00'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  J:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PUMPKIN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '10.14'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.80'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  K:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COCOA_BEANS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7.02'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.50'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  L:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: HAY_BLOCK
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '46.67'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7.25'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  M:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: EGG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '8.12'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.15'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  N:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SUGAR_CANE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '7.35'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.30'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  O:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more-buy
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WOODEN_HOE
+        amount: 1
+        flags:
+          - HIDE_ATTRIBUTES
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '78'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  P:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more-buy
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: IRON_HOE
+        amount: 1
+        flags:
+          - HIDE_ATTRIBUTES
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '182'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  Q:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more-buy
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GOLDEN_HOE
+        amount: 1
+        flags:
+          - HIDE_ATTRIBUTES
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '286'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  R:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more-buy
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DIAMOND_HOE
+        amount: 1
+        flags:
+          - HIDE_ATTRIBUTES
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '598'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0
+  S:
+    buy-more: true
+    buy-more-menu:
+      menu: farming-buy-more-buy
+      max-amount: 64
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NETHERITE_HOE
+        amount: 1
+        flags:
+          - HIDE_ATTRIBUTES
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: '962'
+        placeholder: '&2$&a{amount}'
+        start-apply: 0

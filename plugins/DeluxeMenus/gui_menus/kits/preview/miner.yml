@@ -1,0 +1,122 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'miner_kit':
+    material: IRON_PICKAXE
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ʀᴇᴀᴅʏ ꜰᴏʀ ᴍɪɴɪɴɢ ᴀᴅᴠᴇɴᴛᴜʀᴇꜱ.'
+      - '&7ꜰɪɴᴅ ᴛʀᴇᴀꜱᴜʀᴇꜱ ᴀɴᴅ ʀᴇꜱᴏᴜʀᴄᴇꜱ ǫᴜɪᴄᴋʟʏ!'
+
+
+  'miner_kit_cooldown':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_miner%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ ᴋɪᴛ, ᴡᴀɪᴛ %essentials_kit_time_until_available_miner% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ!"
+
+
+  'miner_kit_available':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    click_commands:
+      - "[player] essentials:kit miner"
+      - "[close]"
+
+
+
+
+
+
+  '1':
+    material: IRON_PICKAXE
+    amount: 1
+    slot: 12
+    enchantments:
+      - efficiency;1
+      - unbreaking;1
+    display_name: '&#5b617eMiner Pickaxe'
+
+  '2':
+    material: IRON_PICKAXE
+    amount: 1
+    slot: 13
+    enchantments:
+      - efficiency;1
+    display_name: '&#5b617eMiner Pickaxe'
+
+  '3':
+    material: IRON_SHOVEL
+    amount: 1
+    slot: 14
+    enchantments:
+      - unbreaking;1
+    display_name: '&#5b617eMiner Shovel'
+
+  '4':
+    material: STONE_SWORD
+    amount: 1
+    slot: 15
+    display_name: '&#5b617eMiner Sword'
+
+  '5':
+    material: BREAD
+    amount: 2
+    slot: 16
+
+  '6':
+    material: COBBLESTONE
+    amount: 15
+    slot: 21
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] normal_kits"
+

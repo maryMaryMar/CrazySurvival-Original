@@ -1,0 +1,1133 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'cosmetics_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʜᴀᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_hats_1"
+
+  'cosmetics_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_projectile_1"
+
+  'cosmetics_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʙᴀʟʟᴏᴏɴꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_balloons"
+
+  'cosmetics_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴇᴍᴏᴛᴇꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_emotes"
+
+  'cosmetics_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_particle_1"
+
+  'cosmetics_6':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ɢʟᴏᴡꜱ'
+    click_commands:
+      - "[refresh]"
+
+  'cosmetics_7':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_chatcolors"
+
+
+
+
+
+
+
+
+
+#Cosmetics
+
+
+  'cosmetics_toggle_1':
+    material: PAPER
+    amount: 1
+    model_data: 42
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a18,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.red
+    click_commands:
+      - "[player] glow color red"
+      - "[close]"
+
+  'cosmetics_purchase_1':
+    material: PAPER
+    amount: 1
+    model_data: 42
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a18,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 18900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.red true"
+      - "[console] eco take %player_name% 18900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_2':
+    material: PAPER
+    amount: 1
+    model_data: 34
+    slot: 20
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&4&lᴅᴀʀᴋ ʀᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a22,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.dark_red
+    click_commands:
+      - "[player] glow color dark_red"
+      - "[close]"
+
+  'cosmetics_purchase_2':
+    material: PAPER
+    amount: 1
+    model_data: 34
+    slot: 20
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&4&lᴅᴀʀᴋ ʀᴇᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a22,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 22500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.dark_red true"
+      - "[console] eco take %player_name% 22500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_3':
+    material: PAPER
+    amount: 1
+    model_data: 47
+    slot: 21
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʏᴇʟʟᴏᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a27,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.yellow
+    click_commands:
+      - "[player] glow color yellow"
+      - "[close]"
+
+  'cosmetics_purchase_3':
+    material: PAPER
+    amount: 1
+    model_data: 47
+    slot: 21
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʏᴇʟʟᴏᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a27,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 27000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.yellow true"
+      - "[console] eco take %player_name% 27000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_4':
+    material: PAPER
+    amount: 1
+    model_data: 35
+    slot: 22
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&6&lɢᴏʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a31,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.gold
+    click_commands:
+      - "[player] glow color gold"
+      - "[close]"
+
+  'cosmetics_purchase_4':
+    material: PAPER
+    amount: 1
+    model_data: 35
+    slot: 22
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&6&lɢᴏʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a31,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 31500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.gold true"
+      - "[console] eco take %player_name% 31500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_5':
+    material: PAPER
+    amount: 1
+    model_data: 37
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lɢʀᴇᴇɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a34,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.green
+    click_commands:
+      - "[player] glow color green"
+      - "[close]"
+
+  'cosmetics_purchase_5':
+    material: PAPER
+    amount: 1
+    model_data: 37
+    slot: 23
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lɢʀᴇᴇɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a34,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 34200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.green true"
+      - "[console] eco take %player_name% 34200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_6':
+    material: PAPER
+    amount: 1
+    model_data: 33
+    slot: 24
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&2&lᴅᴀʀᴋ ɢʀᴇᴇɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a36,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.dark_green
+    click_commands:
+      - "[player] glow color dark_green"
+      - "[close]"
+
+  'cosmetics_purchase_6':
+    material: PAPER
+    amount: 1
+    model_data: 33
+    slot: 24
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&2&lᴅᴀʀᴋ ɢʀᴇᴇɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a36,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 36000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.dark_green true"
+      - "[console] eco take %player_name% 36000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_7':
+    material: PAPER
+    amount: 1
+    model_data: 27
+    slot: 25
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀǫᴜᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a39,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.aqua
+    click_commands:
+      - "[player] glow color aqua"
+      - "[close]"
+
+  'cosmetics_purchase_7':
+    material: PAPER
+    amount: 1
+    model_data: 27
+    slot: 25
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀǫᴜᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a39,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 39600'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.aqua true"
+      - "[console] eco take %player_name% 39600"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_8':
+    material: PAPER
+    amount: 1
+    model_data: 31
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&3&lᴅᴀʀᴋ ᴀǫᴜᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a44,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.dark_aqua
+    click_commands:
+      - "[player] glow color dark_aqua"
+      - "[close]"
+
+  'cosmetics_purchase_8':
+    material: PAPER
+    amount: 1
+    model_data: 31
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&3&lᴅᴀʀᴋ ᴀǫᴜᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a44,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 44100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.dark_aqua true"
+      - "[console] eco take %player_name% 44100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_9':
+    material: PAPER
+    amount: 1
+    model_data: 29
+    slot: 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&9&lʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a45,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.blue
+    click_commands:
+      - "[player] glow color blue"
+      - "[close]"
+
+  'cosmetics_purchase_9':
+    material: PAPER
+    amount: 1
+    model_data: 29
+    slot: 29
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&9&lʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a45,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 45900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.blue true"
+      - "[console] eco take %player_name% 45900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_10':
+    material: PAPER
+    amount: 1
+    model_data: 32
+    slot: 30
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&1&lᴅᴀʀᴋ ʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a48,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.dark_blue
+    click_commands:
+      - "[player] glow color dark_blue"
+      - "[close]"
+
+  'cosmetics_purchase_10':
+    material: PAPER
+    amount: 1
+    model_data: 32
+    slot: 30
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&1&lᴅᴀʀᴋ ʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a48,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 48600'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.dark_blue true"
+      - "[console] eco take %player_name% 48600"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_11':
+    material: PAPER
+    amount: 1
+    model_data: 39
+    slot: 31
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&d&lᴘɪɴᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a53,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.light_purple
+    click_commands:
+      - "[player] glow color light_purple"
+      - "[close]"
+
+  'cosmetics_purchase_11':
+    material: PAPER
+    amount: 1
+    model_data: 39
+    slot: 31
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&d&lᴘɪɴᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a53,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 53100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.light_purple true"
+      - "[console] eco take %player_name% 53100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_12':
+    material: PAPER
+    amount: 1
+    model_data: 40
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&5&lᴘᴜʀᴘʟᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a54,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.dark_purple
+    click_commands:
+      - "[player] glow color dark_purple"
+      - "[close]"
+
+  'cosmetics_purchase_12':
+    material: PAPER
+    amount: 1
+    model_data: 40
+    slot: 32
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&5&lᴘᴜʀᴘʟᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a54,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 54900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.dark_purple true"
+      - "[console] eco take %player_name% 54900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_13':
+    material: PAPER
+    amount: 1
+    model_data: 46
+    slot: 33
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f&lᴡʜɪᴛᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a16,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.white
+    click_commands:
+      - "[player] glow color white"
+      - "[close]"
+
+
+
+  'cosmetics_purchase_13':
+    material: PAPER
+    amount: 1
+    model_data: 46
+    slot: 33
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f&lᴡʜɪᴛᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a16,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 16200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.white true"
+      - "[console] eco take %player_name% 16200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+  'cosmetics_toggle_14':
+    material: PAPER
+    amount: 1
+    model_data: 36
+    slot: 34
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&7&lɢʀᴀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a12,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.gray
+    click_commands:
+      - "[player] glow color gray"
+      - "[close]"
+
+  'cosmetics_purchase_14':
+    material: PAPER
+    amount: 1
+    model_data: 36
+    slot: 34
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&7&lɢʀᴀʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a12,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 12600'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.gray true"
+      - "[console] eco take %player_name% 12600"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+  'cosmetics_toggle_15':
+    material: PAPER
+    amount: 1
+    model_data: 28
+    slot: 37
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#161515&lʙʟᴀᴄᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a71,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.black
+    click_commands:
+      - "[player] glow color black"
+      - "[close]"
+
+  'cosmetics_purchase_15':
+    material: PAPER
+    amount: 1
+    model_data: 28
+    slot: 37
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#161515&lʙʟᴀᴄᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a71,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 71100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.black true"
+      - "[console] eco take %player_name% 71100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_16':
+    material: PAPER
+    amount: 1
+    model_data: 41
+    slot: 38
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʀ&d&lᴀ&c&lɪ&b&lɴ&a&lʙ&9&lᴏ&6&lᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &6250&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: fancyglow.rainbow
+    click_commands:
+      - "[player] glow color rainbow"
+      - "[close]"
+
+  'cosmetics_purchase_16':
+    material: PAPER
+    amount: 1
+    model_data: 41
+    slot: 38
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʀ&d&lᴀ&c&lɪ&b&lɴ&a&lʙ&9&lᴏ&6&lᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ɢʟᴏᴡꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eɢʟᴏᴡꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &6250&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 250'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set fancyglow.rainbow true"
+      - "[console] coins take %player_name% 250"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+  'remove_button':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 52
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴍᴏᴠᴇ ɢʟᴏᴡ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ'
+      - '&7ʏᴏᴜʀ ɢʟᴏᴡ ᴄᴏʟᴏʀ'
+    click_requirement:
+      requirements:
+        placeholder:
+          type: string equals
+          input: "%fancyglow_status%"
+          output: "yes"
+    click_commands:
+      - "[console] glow disable %player_name%"
+      - "[close]"

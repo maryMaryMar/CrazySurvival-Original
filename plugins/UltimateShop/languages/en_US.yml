@@ -1,0 +1,98 @@
+error:
+  product-not-found: "&cCan not found product {product}!"
+  shop-not-found: "&cCan not found shop {shop}!"
+  player-not-found: "&cWe can't find player {player}!"
+  item-not-found: "&cWe can't find sell tick {item}!"
+  save-item-not-found: "&cWe can't find this save item called {item}!"
+  args: "&cWrong command usage, if you need help, use /shop help!"
+  in-game: "&cYou have to use this command in game!"
+  miss-permission: "&cYou don't have permission to use this command!"
+  menu-not-found: "&cWe can't find menu: {menu}!"
+  buy-more-menu-direct-open: "&cThis menu is buy more menu and can not open directly!"
+  shop-menu-not-found: "&cWe can't find shop {shop}'s menu: {menu}!"
+  shop-does-not-have-menu: "&cShop {shop} does not have valid menu!"
+  random-placeholder-not-found: "&cWe can't find random placeholder: {placeholder}!"
+  random-placeholder-element-not-found: "&cSeems that random placeholder {placeholder} does not include element {element}!"
+  length-only-one: "&cProduct ID length must be 1 char!"
+
+plugin:
+  reloading: "&fTrying reload the plugin."
+  reloaded: "&fPlugin reloaded!"
+  reload-close-gui: "&fYour GUI has been closed because the server admin is trying reload the plugin!"
+  saved: "&fItem Saved!"
+  generated: "&fGenerated hold item's item format at plugin config folder, please copy them into your menu or shop configs!"
+
+placeholderapi:
+  unknown-shop: "Unknown Shop"
+  unknown-product: "Unknown Product"
+
+command-tab:
+  unknown-shop: "[Unknown Shop]"
+  unknown-random-placeholder: "[Unknown Random Placeholder]"
+  type-item-id: "[Type Item ID you want]"
+
+# All messages also support multi lines, just do it like this!
+help:
+  main: |
+    &#98FB98&lUltimateShop &7Made by @PQguanfang
+    &f/shop help &7- View help.
+    &f/shop menu <menuName> &7- Open specified common menu.
+    &f/shop menu <shopName> &7- Open specified shop menu.
+    &f/shop sellall &7- Open sell all menu.
+  main-admin: |
+    &#98FB98&lUltimateShop &7Made by @PQguanfang
+    &f/shop help &7- View help.
+    &f/shop menu <menuName> &7- Open specified common menu.
+    &f/shop menu <shopName> &7- Open specified shop menu.
+    &f/shop quickbuy <shopName> <itemName> &7- Quick purchase specified item without open menu.
+    &f/shop quicksell <shopName> <itemName> &7- Quick sell specified item without open menu.
+    &f/shop reload &7- Reload the plugin.
+    &f/shop sellall &7 - Open sell all menu.
+    &f/shop setbuytimes <shopName> <itemName> <playerName> [amount] &7- Set buy times.
+    &f/shop setselltimes <shopName> <itemName> <playerName> [amount] &7- Set sell times.
+    &f/shop addbuytimes <shopName> <itemName> <playerName> <amount> &7- Add buy times.
+    &f/shop addselltimes <shopName> <itemName> <playerName> <amount> &7- Add sell times.
+    &f/shop resetrandomplaceholder <placeholderID> &7- Reset random placeholder value. &c(Premium)
+    &f/shop setrandomplaceholder <placeholderID> [element] &7- Set random placeholder value. &c(Premium)
+    &f/shop getplaceholdervalue <text> &7- Parse input text. &c(Premium)
+    &f/shop saveitem <itemID> &7- Save hold item.
+    &f/shop generateitemformat &7- Parse hold item into ItemFormat.
+    &f/shop givesellstick <itemID> <playerID> [amount] &7- Give sell stick item. &c(Premium)
+  main-console: |
+    &#98FB98&lUltimateShop &7Made by @PQguanfang
+    &f/shop help &7- View help.
+    &f/shop menu <menuName> <playerName> &7- Force open specified common menu.
+    &f/shop menu <shopName> <playerName> &7- Force open specified shop menu.
+    &f/shop reload &7- Reload the plugin.
+    &f/shop setbuytimes <shopName> <itemName> <playerName> [amount] &7- Set buy times.
+    &f/shop setselltimes <shopName> <itemName> <playerName> [amount] &7- Set sell times.
+    &f/shop addbuytimes <shopName> <itemName> <playerName> <amount> &7- Add buy times.
+    &f/shop addselltimes <shopName> <itemName> <playerName> <amount> &7- Add sell times.
+    &f/shop resetrandomplaceholder <placeholderID> &7- Reset random placeholder value. &c(Premium)
+    &f/shop setrandomplaceholder <placeholderID> [element] &7- Set random placeholder value. &c(Premium)
+    &f/shop getplaceholdervalue <text> &7- Parse input text. &c(Premium)
+    &f/shop givesellstick <itemID> <playerID> [amount] &7- Give sell stick item. &c(Premium)
+
+inventory-full: "&fYou can not finish this transaction because your inventory will full after that!"
+start-sell-all: "&f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ꜱᴏʟᴅ &#badc58{amount}x Items, &aꜰᴏʀ {reward}!"
+start-sell-stick: "&fAll your sellable items in this container have been sold, you earned {reward} with multiplier {multiplier} for this!"
+give-sell-stick: "&fGave {player} sell stick {item} x{amount}!"
+give-save-item: "&fGive {player} save item {item} x{amount}!"
+add-times: "&fAdd {times} to {player}'s {item} use times!"
+set-times: "&fSet {player}'s {item} use times to {times}!"
+add-times-shop: "&fAdd {times} to {player}'s all {shop}'s product use times!"
+set-times-shop: "&fSet {player}'s all {shop}'s product use times to {times}!"
+success-buy: "&f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴘᴜʀᴄʜᴀꜱᴇᴅ &#badc58{amount}x {item}, &aꜰᴏʀ {price}!"
+success-sell: "&f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ꜱᴏʟᴅ &#badc58{amount}x {item}, &aꜰᴏʀ {price}!"
+menu-condition-not-meet: "&cYou didn't meet the condition that open this menu!"
+buy-condition-not-meet: "&cYou didn't meet the condition that buy this product!"
+sell-condition-not-meet: "&cYou didn't meet the condition that sell this product!"
+limit-reached-buy-player: "&cYou can no longer purchase item {item}, you purchase this item {times} times, and its stock is {limit} for you, next refresh time: {refresh}."
+limit-reached-sell-player: "&cYou can no longer sell item {item}, you purchase this item {times} times, and its stock is {limit} for you, next refresh time: {refresh}."
+limit-reached-buy-server: "&cYou can no longer purchase item {item}, all players buy this item {times} times, and its stock is {limit}, next refresh time: {refresh}."
+limit-reached-sell-server: "&cYou can no longer sell item {item}, all players sell this item {times} times, and its stock is {limit}, next refresh time: {refresh}."
+buy-price-not-enough: "&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ &#ff7979{item}"
+sell-products-not-enough: "&f &cʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ &#ff7979{item}&c ᴛᴏ ꜱᴇʟʟ"
+parsed-value: "&fParsed Value: {text}"
+reset-random-placeholder: "&fSuccessfully reset random placeholder {placeholder} and it's new value is {value}."
+set-random-placeholder: "&fSuccessfully set random placeholder {placeholder}'s new value to: {value}. Please note that the refresh time does not be reset!"

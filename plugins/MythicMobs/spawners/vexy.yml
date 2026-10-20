@@ -1,0 +1,27 @@
+vexy:
+  MobName: vexy
+  World: dungeon1
+  X: -36
+  Y: 106
+  Z: 3
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 4.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '5'
+  MobLevel: '1'
+  MobsPerSpawn: 2
+  Cooldown: 20
+  Warmup: 0
+  ActivationRange: 10.0
+  LeashRange: 15.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: false
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  ActiveMobs: 5
+  CooldownTimer: 1

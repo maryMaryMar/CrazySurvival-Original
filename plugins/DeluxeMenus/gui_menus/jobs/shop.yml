@@ -1,0 +1,356 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'item_1':
+    material: DIAMOND_SWORD
+    amount: 1
+    slot: 10
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    enchantments:
+      - MENDING;1
+    display_name: '&bDiamond Sword'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a2000 ᴘᴏɪɴᴛꜱ'
+      - '&8▪ &7ᴇɴᴄʜᴀɴᴛꜱ:'
+      - ' &8▪ &fSharpness III'
+      - ' &8▪ &fUnbreaking III'
+      - ' &8▪ &fFire Aspect II'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 2000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% diamond_sword 1 sharpness:3 unbreaking:3 fire_aspect:2"
+      - "[console] jobs:jobs editpoints take %player_name% 2000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_2':
+    material: NETHERITE_SWORD
+    amount: 1
+    slot: 11
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    enchantments:
+      - MENDING;1
+    display_name: '&bNetherite Sword'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a12,000 ᴘᴏɪɴᴛꜱ'
+      - '&8▪ &7ᴇɴᴄʜᴀɴᴛꜱ:'
+      - ' &8▪ &fSharpness III'
+      - ' &8▪ &fUnbreaking III'
+      - ' &8▪ &fFire Aspect II'
+      - ' &8▪ &fMending'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 12000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% netherite_sword 1 sharpness:3 unbreaking:3 fire_aspect:2 mending:1"
+      - "[console] jobs:jobs editpoints take %player_name% 12000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_3':
+    material: DIAMOND_AXE
+    amount: 1
+    slot: 12
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    enchantments:
+      - MENDING;1
+    display_name: '&bDiamond Axe'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a2200 ᴘᴏɪɴᴛꜱ'
+      - '&8▪ &7ᴇɴᴄʜᴀɴᴛꜱ:'
+      - ' &8▪ &fEfficiency III'
+      - ' &8▪ &fUnbreaking III'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 2200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% diamond_axe 1 efficiency:3 unbreaking:3"
+      - "[console] jobs:jobs editpoints take %player_name% 2200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_4':
+    material: NETHERITE_AXE
+    amount: 1
+    slot: 13
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    enchantments:
+      - MENDING;1
+    display_name: '&bNetherite Axe'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a12,000 ᴘᴏɪɴᴛꜱ'
+      - '&8▪ &7ᴇɴᴄʜᴀɴᴛꜱ:'
+      - ' &8▪ &fEfficiency III'
+      - ' &8▪ &fUnbreaking III'
+      - ' &8▪ &fMending'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 12000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% netherite_axe 1 efficiency:3 unbreaking:3 mending:1"
+      - "[console] jobs:jobs editpoints take %player_name% 12000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_5':
+    material: TRIDENT
+    amount: 1
+    slot: 14
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    enchantments:
+      - MENDING;1
+    display_name: '&bTrident'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a8000 ᴘᴏɪɴᴛꜱ'
+      - '&8▪ &7ᴇɴᴄʜᴀɴᴛꜱ:'
+      - ' &8▪ &fImpaling IV'
+      - ' &8▪ &fUnbreaking II'
+      - ' &8▪ &fLoyalty II'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 8000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% trident 1 impaling:4 unbreaking:2 loyalty:2"
+      - "[console] jobs:jobs editpoints take %player_name% 8000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_6':
+    material: BOW
+    amount: 1
+    slot: 15
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    enchantments:
+      - MENDING;1
+    display_name: '&bBow'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a7500 ᴘᴏɪɴᴛꜱ'
+      - '&8▪ &7ᴇɴᴄʜᴀɴᴛꜱ:'
+      - ' &8▪ &fPower IV'
+      - ' &8▪ &fInfinity'
+      - ' &8▪ &fUnbreaking III'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 7500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% bow 1 power:4 infinity:1 unbreaking:3"
+      - "[console] jobs:jobs editpoints take %player_name% 7500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_7':
+    material: CROSSBOW
+    amount: 1
+    slot: 16
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    enchantments:
+      - MENDING;1
+    display_name: '&bCrossbow'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a8500 ᴘᴏɪɴᴛꜱ'
+      - '&8▪ &7ᴇɴᴄʜᴀɴᴛꜱ:'
+      - ' &8▪ &fPiercing IV'
+      - ' &8▪ &fMultishot II'
+      - ' &8▪ &fUnbreaking III'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 8500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% crossbow 1 piercing:4 multishot:2 unbreaking:3"
+      - "[console] jobs:jobs editpoints take %player_name% 8500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_8':
+    material: ENCHANTED_GOLDEN_APPLE
+    amount: 1
+    slot: 19
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&bEnchanted Golden Apple'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a2000 ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 2000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% enchanted_golden_apple 1"
+      - "[console] jobs:jobs editpoints take %player_name% 2000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_9':
+    material: TOTEM_OF_UNDYING
+    amount: 1
+    slot: 20
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&bTotem of Undying'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a8600 ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 8600'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% totem_of_undying 1"
+      - "[console] jobs:jobs editpoints take %player_name% 8600"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+  'item_10':
+    material: NETHER_STAR
+    amount: 1
+    slot: 21
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&bNether Star'
+    lore:
+      - '&7ʙᴜʏ ᴛʜɪꜱ ᴡɪᴛʜ ᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&8▪ &7ᴀᴍᴏᴜɴᴛ: &e1x'
+      - '&8▪ &7ᴘʀɪᴄᴇ: &a30,000 ᴘᴏɪɴᴛꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        points:
+          type: javascript
+          expression: '%jobsr_user_points_fixed% >= 30000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴏɪɴᴛꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+    click_commands:
+      - "[console] give %player_name% nether_star 1"
+      - "[console] jobs:jobs editpoints take %player_name% 30000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ɪᴛᴇᴍ!"
+
+
+
+
+  'points':
+    material: head-%player_name%
+    model_data: 2
+    amount: 1
+    slot: 34
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#8f96ab&lᴊᴏʙ ᴘᴏɪɴᴛꜱ'
+    lore:
+      - '&8▪ &7ᴘᴏɪɴᴛꜱ: &#8f96ab%jobsr_user_points_fixed%'
+
+
+  'back':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 40
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] lumberjack_job"

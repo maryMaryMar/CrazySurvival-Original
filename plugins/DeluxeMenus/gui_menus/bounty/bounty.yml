@@ -1,0 +1,23 @@
+menu_title: '&f七七七七七七七七七七七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'phead':
+    material: head-%notbounties_top_1_current_name%
+    model_data: 1
+    slot: 31
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&#77655d☠ &#bda08e&lᴍᴏꜱᴛ ᴡᴀɴᴛᴇᴅ &#77655d☠'
+    lore:
+      - '&7ʜᴜɴᴛ ᴅᴏᴡɴ ᴛʜᴇ ᴘʟᴀʏᴇʀ ᴛᴏ'
+      - '&7ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ʙᴏᴜɴᴛʏ ᴘʀɪᴢᴇ'
+      - ''
+      - ' &8▪ &7ɴᴀᴍᴇ: &#b59b8b%notbounties_top_1_current_name%'
+      - ' &8▪ &7ᴘʀɪᴢᴇ: &2$&a%notbounties_top_1_current_formatted%'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ ʙᴏᴜɴᴛɪᴇꜱ'
+    click_commands:
+      - "[player] notbounties:bounty"

@@ -1,0 +1,19 @@
+placeholders:
+  serverip:
+    placeholder: "serverip"
+    text: "ᴘʟᴀʏ.ꜱᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ"
+  store:
+    placeholder: "store"
+    text: "https://store.survival.net"
+  store1:
+    placeholder: "store1"
+    text: "ꜱᴛᴏʀᴇ.ꜱᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ"
+  discord:
+    placeholder: "discord"
+    text: "https://discord.survival.net"
+  discordhologram:
+    placeholder: "discordhologram"
+    text: "discord.survival.net"
+  discord1:
+    placeholder: "discord1"
+    text: "ᴅɪꜱᴄᴏʀᴅ.ꜱᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ"

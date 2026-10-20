@@ -1,0 +1,27 @@
+skelly:
+  MobName: skelly
+  World: dungeon2
+  X: 98
+  Y: 48
+  Z: 22
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 4.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '15'
+  MobLevel: '1'
+  MobsPerSpawn: 4
+  Cooldown: 7
+  Warmup: 0
+  ActivationRange: 10.0
+  LeashRange: 25.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: false
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  ActiveMobs: 12
+  CooldownTimer: 1

@@ -1,0 +1,231 @@
+title: "&f七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七%rp_profile_picture%"
+size: 45
+
+fillItems:
+  enabled: false
+  material: BLACK_STAINED_GLASS_PANE
+  name: "&f"
+  lore: []
+
+items:
+  player_head:
+    material: HEAD;{target}
+    name: "&#7e84a8&l{target}"
+    slots: [ 11 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 3
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&#7e84a8| &7ʀᴀɴᴋ: %vault_prefix%'
+      - '&#7e84a8| &7ᴍᴏɴᴇʏ: &2$&a%vault_eco_balance_formatted%'
+      - '&#7e84a8| &7ᴄʟᴀɪᴍꜱ: &#98e5fb%griefprevention_remainingclaims_formatted%'
+      - '&#7e84a8| &7ᴊᴏʙꜱ: &#fbce9e%jobsr_user_joinedjobcount%/3'
+  stats_1:
+    material: PAPER
+    name: "&f"
+    slots: [ 14 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 69
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&7ꜱᴛᴀᴛꜱ ᴀʙᴏᴜᴛ ᴛʜᴇ'
+      - '&7ᴘʟᴀʏᴇʀ ᴡᴇᴀʟᴛʜ'
+      - ''
+      - '&8▪ &fᴍᴏɴᴇʏ: &#7e84a8%vault_eco_balance_formatted%'
+      - '&8▪ &fᴄᴏɪɴꜱ: &#7e84a8%excellenteconomy_balance_raw_coins%'
+  stats_2:
+    material: PAPER
+    name: "&f"
+    slots: [ 15 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 70
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&7ꜱᴛᴀᴛꜱ ᴀʙᴏᴜᴛ ᴛʜᴇ'
+      - '&7ᴘʟᴀʏᴇʀ ᴄᴏᴍʙᴀᴛ'
+      - ''
+      - '&8▪ &fᴋɪʟʟꜱ: &#7e84a8%statistic_player_kills%'
+      - '&8▪ &fᴅᴇᴀᴛʜꜱ: &#7e84a8%statistic_deaths%'
+      - '&8▪ &fᴅᴀᴍᴀɢᴇ ᴅᴇᴀʟᴛ: &#7e84a8%statistic_damage_dealt%'
+      - '&8▪ &fᴅᴀᴍᴀɢᴇ ᴛᴀᴋᴇɴ: &#7e84a8%statistic_damage_taken%'
+  stats_3:
+    material: PAPER
+    name: "&f"
+    slots: [ 16 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 71
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&7ꜱᴛᴀᴛꜱ ᴀʙᴏᴜᴛ ᴛʜᴇ'
+      - '&7ᴘʟᴀʏᴇʀ ɢᴀᴍᴇ'
+      - ''
+      - '&8▪ &fʙʟᴏᴄᴋꜱ ᴍɪɴᴇᴅ: &#7e84a8%statistic_mine_block%'
+      - '&8▪ &fᴍᴏʙꜱ ᴋɪʟʟᴇᴅ: &#7e84a8%statistic_mob_kills%'
+      - '&8▪ &fɪᴛᴇᴍꜱ ᴜꜱᴇᴅ: &#7e84a8%statistic_use_item%'
+      - '&8▪ &fɪᴛᴇᴍꜱ ᴄʀᴀꜰᴛᴇᴅ: &#7e84a8%statistic_craft_item%'
+      - '&8▪ &fᴀɴɪᴍᴀʟꜱ ʙʀᴇᴅ: &#7e84a8%statistic_animals_bred%'
+      - '&8▪ &fꜰɪꜱʜ ᴄᴀᴜɢʜᴛ: &#7e84a8%statistic_fish_caught%'
+  stats_4:
+    material: PAPER
+    name: "&f"
+    slots: [ 23 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 72
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&7ꜱᴛᴀᴛꜱ ᴀʙᴏᴜᴛ ᴛʜᴇ'
+      - '&7ᴘʟᴀʏᴇʀ ᴘʟᴀʏᴛɪᴍᴇ'
+      - ''
+      - '&8▪ &fᴅᴀʏꜱ: &#7e84a8%statistic_days_played%'
+      - '&8▪ &fʜᴏᴜʀꜱ: &#7e84a8%statistic_hours_played%'
+      - '&8▪ &fᴍɪɴᴜᴛᴇꜱ: &#7e84a8%statistic_minutes_played%'
+  stats_5:
+    material: PAPER
+    name: "&f"
+    slots: [ 24 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 73
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&7ꜱᴛᴀᴛꜱ ᴀʙᴏᴜᴛ ᴛʜᴇ'
+      - '&7ᴘʟᴀʏᴇʀ ᴊᴏʙꜱ'
+      - ''
+      - '&8▪ &fᴊᴏʙ ᴘᴏɪɴᴛꜱ: &#7e84a8%jobsr_user_points%'
+      - '&8▪ &fᴊᴏʙꜱ ᴊᴏɪɴᴇᴅ: &#7e84a8%jobsr_user_joinedjobcount%'
+      - '&8▪ &fᴍᴀx ᴊᴏʙꜱ: &#7e84a8%jobsr_maxjobs%'
+  stats_6:
+    material: PAPER
+    name: "&f"
+    slots: [ 25 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 74
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&7ᴏᴛʜᴇʀ ꜱᴛᴀᴛꜱ ᴀʙᴏᴜᴛ'
+      - '&7ᴛʜᴇ ᴘʟᴀʏᴇʀ'
+      - ''
+      - '&8▪ &fᴄᴏᴍᴘʟᴇᴛᴇᴅ ǫᴜᴇꜱᴛꜱ: &#7e84a8%odailyquests_total%'
+      - '&8▪ &fᴄᴜʀʀᴇɴᴛ ᴀᴜᴄᴛɪᴏɴꜱ: &#7e84a8%pa_player_auctions%'
+      - '&8▪ &fʜᴏᴍᴇꜱ ꜱᴇᴛ: &#7e84a8%essentials_homes_set%'
+      - '&8▪ &fᴄʟᴀɪᴍꜱ ꜱᴇᴛ: &#7e84a8%griefprevention_claims%'
+  coins:
+    material: PAPER
+    name: "&6&lᴄᴏɪɴꜱ ᴛᴏᴘ"
+    slots: [ 28,37 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 100009
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&8▪ &fᴘᴏꜱɪᴛɪᴏɴ: &6%ajlb_position_excellenteconomy_balance_raw_coins_alltime%'
+  kills:
+    material: PAPER
+    name: "&c&lᴋɪʟʟꜱ ᴛᴏᴘ"
+    slots: [ 29,38 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 100009
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&8▪ &fᴘᴏꜱɪᴛɪᴏɴ: &6%ajlb_position_statistic_player_kills_alltime%'
+  playtime:
+    material: PAPER
+    name: "&#d1d8db&lᴘʟᴀʏᴛɪᴍᴇ ᴛᴏᴘ"
+    slots: [ 30,39 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 100009
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - '&8▪ &fᴘᴏꜱɪᴛɪᴏɴ: &6%ajlb_position_statistic_time_played_alltime%'
+  home:
+    material: PAPER
+    name: "&#7e84a8&lʜᴏᴍᴇ"
+    slots: [ 32 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 100009
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    leftClickCommands:
+      - "[CLOSE]"
+  traderequest:
+    material: PAPER
+    name: "&#7e84a8&lꜱᴇɴᴅ ᴛʀᴀᴅᴇ ʀᴇǫᴜᴇꜱᴛ"
+    slots: [ 33 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 100009
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    leftClickCommands:
+      - "[PLAYER] trade {target}"
+      - "[CLOSE]"
+  customize:
+    material: PAPER
+    name: "&#7e84a8&lᴄᴜꜱᴛᴏᴍɪᴢᴇ ᴘʀᴏꜰɪʟᴇ"
+    slots: [ 34 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 100009
+    onlyOwner: true
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    leftClickCommands:
+      - "[PLAYER] dm open customize_profile_1"
+  friend:
+    material: PAPER
+    name: "&#7e84a8&lɪɴᴠɪᴛᴇ ᴛᴏ ᴛᴇᴀᴍ"
+    slots: [ 34 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 75
+    onlyOwner: false
+    onlyVisitor: true
+    usePermission: false
+    permission: "custom.permission"
+    leftClickCommands:
+      - "[PLAYER] team invite {target}"
+      - "[CLOSE]"

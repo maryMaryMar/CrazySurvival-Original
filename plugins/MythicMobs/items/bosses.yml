@@ -1,0 +1,14 @@
+GorvethSword:
+  Id: NETHERITE_SWORD
+  Display: '<#6ab58b><b>Gorveth Sword</b>'
+  Lore:
+  - '<#517862>A blade reclaimed by nature'
+  - '<#517862>once wielded by Gorveth himself.'
+  CustomModelData: 26
+VoidpiercerScythe:
+  Id: NETHERITE_SWORD
+  Display: '<#a858d0><b>Voidpiercer Scythe</b>'
+  Lore:
+  - '<#865f9a>A scythe infused with void energy,'
+  - '<#865f9a>its strikes tear through reality.'
+  CustomModelData: 27

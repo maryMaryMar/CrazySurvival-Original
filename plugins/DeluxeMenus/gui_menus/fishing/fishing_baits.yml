@@ -1,0 +1,163 @@
+menu_title: '&f七七七七七七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'abyssalshard':
+    material: AMETHYST_SHARD
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#9a17ec&lᴀʙʏꜱꜱᴀʟ ꜱʜᴀʀᴅ'
+    lore:
+      - '&7&oᴘᴜʟʟᴇᴅ ꜰʀᴏᴍ ᴀ ᴅᴇᴇᴘ ʀɪꜰᴛ ɪɴ ᴛʜᴇ ꜱᴇᴀ.'
+      - '&7&oɪᴛ ʜᴜᴍꜱ ᴡɪᴛʜ ᴀɴ ᴏᴛʜᴇʀᴡᴏʀʟᴅʟʏ ꜰʀᴇǫᴜᴇɴᴄʏ'
+      - '&7&oᴛʜᴀᴛ ʀᴇꜱᴏɴᴀᴛᴇꜱ ᴡɪᴛʜ ᴘᴏᴡᴇʀꜰᴜʟ ʙᴇɪɴɢꜱ.'
+      - '&7'
+      - '&#9a17ec♦ &fᴀᴛᴛʀᴀᴄᴛꜱ &#9a17ecᴇᴘɪᴄ ꜰɪꜱʜᴇꜱ'
+      - '&#9a17ec♦ &fᴘʀɪᴄᴇ: &2$&a40'
+      - '&7'
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 40'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] emf admin bait abyssalshard 1 %player_name%"
+      - "[console] eco take %player_name% 40"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ &#badc58ᴀʙʏꜱꜱᴀʟ ꜱʜᴀʀᴅ &aʙᴀɪᴛ"
+
+
+  'celestialmote':
+    material: END_CRYSTAL
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#fc5c65&lᴄᴇʟᴇꜱᴛɪᴀʟ ᴍᴏᴛᴇ'
+    lore:
+      - '&7&oꜱᴛᴀʀᴅᴜꜱᴛ ᴄʀʏꜱᴛᴀʟʟɪᴢᴇᴅ ɪɴᴛᴏ ᴀ ɢʟᴏᴡɪɴɢ ᴍᴏᴛᴇ.'
+      - '&7&oɪᴛ ᴘᴜʟꜱᴇꜱ ꜰᴀɪɴᴛʟʏ, ᴀꜱ ɪꜰ ᴇᴄʜᴏɪɴɢ ᴛʜᴇ'
+      - '&7&oᴛʜᴀᴛ ʀᴇꜱᴏɴᴀᴛᴇꜱ ᴡɪᴛʜ ᴘᴏᴡᴇʀꜰᴜʟ ʙᴇɪɴɢꜱ.'
+      - '&7'
+      - '&#fc5c65♦ &fᴀᴛᴛʀᴀᴄᴛꜱ &#fc5c65ʟᴇɢᴇɴᴅᴀʀʏ ꜰɪꜱʜᴇꜱ'
+      - '&#fc5c65♦ &fᴘʀɪᴄᴇ: &2$&a450'
+      - '&7'
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 450'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] emf admin bait celestialmote 1 %player_name%"
+      - "[console] eco take %player_name% 450"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ &#badc58ᴄᴇʟᴇꜱᴛɪᴀʟ ᴍᴏᴛᴇ &aʙᴀɪᴛ"
+
+
+  'emberedworm':
+    material: MAGMA_CREAM
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#E67E22&lᴇᴍʙᴇʀᴇᴅ ᴡᴏʀᴍ'
+    lore:
+      - '&7&oᴀ ɢʟᴏᴡɪɴɢ ᴡᴏʀᴍ ʙᴏʀɴ ɪɴ ᴍᴀɢᴍᴀ-ꜱᴏᴀᴋᴇᴅ ꜱᴏɪʟ.'
+      - '&7&oᴛᴏᴏ ʜᴏᴛ ꜰᴏʀ ᴄᴏᴍᴍᴏɴ ꜰɪꜱʜ, ʙᴜᴛ ɪʀʀᴇꜱɪꜱᴛɪʙʟᴇ'
+      - '&7&oᴛᴏ ᴛʜᴏꜱᴇ ᴅʀᴀᴡɴ ᴛᴏ ᴡᴀʀᴍᴛʜ ᴀɴᴅ ᴅᴀɴɢᴇʀ.'
+      - '&7'
+      - '&#E67E22♦ &fᴀᴛᴛʀᴀᴄᴛꜱ &#E67E22ʀᴀʀᴇ & ᴇᴘɪᴄ ꜰɪꜱʜᴇꜱ'
+      - '&#E67E22♦ &fᴘʀɪᴄᴇ: &2$&a60'
+      - '&7'
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 60'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] emf admin bait emberedworm 1 %player_name%"
+      - "[console] eco take %player_name% 60"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ &#badc58ᴇᴍʙᴇʀᴇᴅ ᴡᴏʀᴍ &aʙᴀɪᴛ"
+
+
+  'gildedscale':
+    material: PRISMARINE_SHARD
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#12CBC4&lɢɪʟᴅᴇᴅ ꜱᴄᴀʟᴇ'
+    lore:
+      - '&7&oᴀ ꜱᴄᴀʟᴇ ᴛʜᴀᴛ ꜱʜɪᴍᴍᴇʀᴇᴅ ɪɴ ᴛʜᴇ ʀɪᴠᴇʀʙᴇᴅ.'
+      - '&7&oꜱᴀɪᴅ ᴛᴏ ꜰᴀʟʟ ᴏɴʟʏ ꜰʀᴏᴍ ꜰɪꜱʜ ᴡʜᴏ ʜᴀᴠᴇ'
+      - '&7&oꜱᴜʀᴠɪᴠᴇᴅ ᴄᴏᴜɴᴛʟᴇꜱꜱ ʙᴀᴛᴛʟᴇꜱ.'
+      - '&7'
+      - '&#12CBC4♦ &fᴀᴛᴛʀᴀᴄᴛꜱ &#12CBC4ʀᴀʀᴇ ꜰɪꜱʜᴇꜱ'
+      - '&#12CBC4♦ &fᴘʀɪᴄᴇ: &2$&a60'
+      - '&7'
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 30'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] emf admin bait gildedscale 1 %player_name%"
+      - "[console] eco take %player_name% 30"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ &#badc58ɢɪʟᴅᴇᴅ ꜱᴄᴀʟᴇ &aʙᴀɪᴛ"
+
+
+  'whisperingleech':
+    material: ECHO_SHARD
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#1289A7&lᴡʜɪꜱᴘᴇʀɪɴɢ ʟᴇᴇᴄʜ'
+    lore:
+      - '&7&oᴛʜɪꜱ ʟᴇᴇᴄʜ ᴡʜɪꜱᴘᴇʀꜱ ᴡʜᴇɴ ʜᴇʟᴅ.'
+      - '&7&oꜱᴏᴍᴇ ꜱᴀʏ ɪᴛ ꜰᴇᴇᴅꜱ ᴏɴ ᴛʜᴇ ᴇꜱꜱᴇɴᴄᴇ ᴏꜰ ᴛʜᴏᴜɢʜᴛ,'
+      - '&7&oʟᴜʀɪɴɢ ᴏɴʟʏ ᴛʜᴇ ᴍᴏꜱᴛ ꜱᴇɴᴛɪᴇɴᴛ ᴄʀᴇᴀᴛᴜʀᴇꜱ.'
+      - '&7'
+      - '&#1289A7♦ &fᴀᴛᴛʀᴀᴄᴛꜱ &#1289A7ᴇᴘɪᴄ & ʟᴇɢᴇɴᴅᴀʀʏ ꜰɪꜱʜᴇꜱ'
+      - '&#1289A7♦ &fᴘʀɪᴄᴇ: &2$&a580'
+      - '&7'
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 580'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] emf admin bait whisperingleech 1 %player_name%"
+      - "[console] eco take %player_name% 580"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ &#badc58ᴡʜɪꜱᴘᴇʀɪɴɢ ʟᴇᴇᴄʜ &aʙᴀɪᴛ"

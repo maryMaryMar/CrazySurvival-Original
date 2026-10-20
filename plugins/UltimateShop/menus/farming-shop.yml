@@ -1,0 +1,10 @@
+title: '{shop-name}'
+size: 45
+
+
+layout:
+  - '000000000'
+  - '0ABCDEFG0'
+  - '0HIJKLMN0'
+  - '00OPQRSTU'
+  - '000000000'

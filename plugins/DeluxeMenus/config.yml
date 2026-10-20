@@ -1,0 +1,328 @@
+# DeluxeMenus 1.14.1-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/helpchat-plugins/deluxemenus
+
+metas_list_page_size: 15
+use_admin_commands_in_menus_list: false
+menus_list_page_size: 10
+debug: HIGHEST
+check_updates: true
+gui_menus:
+  rtp:
+    file: rtp/rtp.yml
+  bounty:
+    file: bounty/bounty.yml
+  backpacks:
+    file: backpacks/backpacks.yml
+  cosmetics_hats_1:
+    file: cosmetics/cosmetics_hats_1.yml
+  cosmetics_hats_2:
+    file: cosmetics/cosmetics_hats_2.yml
+  cosmetics_hats_3:
+    file: cosmetics/cosmetics_hats_3.yml
+  cosmetics_projectile_1:
+    file: cosmetics/cosmetics_projectile_1.yml
+  cosmetics_projectile_2:
+    file: cosmetics/cosmetics_projectile_2.yml
+  cosmetics_emotes:
+    file: cosmetics/cosmetics_emotes.yml
+  cosmetics_particle_1:
+    file: cosmetics/cosmetics_particle_1.yml
+  cosmetics_particle_2:
+    file: cosmetics/cosmetics_particle_2.yml
+  cosmetics_glows:
+    file: cosmetics/cosmetics_glows.yml
+  cosmetics_chatcolors:
+    file: cosmetics/cosmetics_chatcolors.yml
+  cosmetics_balloons:
+    file: cosmetics/cosmetics_balloons.yml
+  kits:
+    file: kits/main.yml
+  normal_kits:
+    file: kits/normal.yml
+  ranked_kits:
+    file: kits/ranked.yml
+  pvp_kit_preview:
+    file: kits/preview/pvp.yml
+  builder_kit_preview:
+    file: kits/preview/builder.yml
+  farmer_kit_preview:
+    file: kits/preview/farmer.yml
+  miner_kit_preview:
+    file: kits/preview/miner.yml
+  explorer_kit_preview:
+    file: kits/preview/explorer.yml
+  guardian_kit_preview:
+    file: kits/preview/guardian.yml
+  champion_kit_preview:
+    file: kits/preview/champion.yml
+  warlord_kit_preview:
+    file: kits/preview/warlord.yml
+  titan_kit_preview:
+    file: kits/preview/titan.yml
+  king_kit_preview:
+    file: kits/preview/king.yml
+  warps:
+    file: warps/warps.yml
+  furniture:
+    file: furniture/furniture.yml
+  rewards:
+    file: rewards/rewards.yml
+  ranked-rewards:
+    file: rewards/ranked_rewards.yml
+  lumberjack_job:
+    file: jobs/lumberjack.yml
+  digger_job:
+    file: jobs/digger.yml
+  enchanter_job:
+    file: jobs/enchanter.yml
+  explorer_job:
+    file: jobs/explorer.yml
+  farmer_job:
+    file: jobs/farmer.yml
+  fisherman_job:
+    file: jobs/fisherman.yml
+  hunter_job:
+    file: jobs/hunter.yml
+  miner_job:
+    file: jobs/miner.yml
+  weaponsmith_job:
+    file: jobs/weaponsmith.yml
+  crafter_job:
+    file: jobs/crafter.yml
+  builder_job:
+    file: jobs/builder.yml
+  brewer_job:
+    file: jobs/brewer.yml
+  job_info:
+    file: jobs/info.yml
+  job_shop:
+    file: jobs/shop.yml
+  fishing:
+    file: fishing/fishing.yml
+  fishing_baits:
+    file: fishing/fishing_baits.yml
+  petshop_1:
+    file: petshop/petshop_1.yml
+  petshop_2:
+    file: petshop/petshop_2.yml
+  settings_1:
+    file: settings/settings_1.yml
+  settings_2:
+    file: settings/settings_2.yml
+  settings_3:
+    file: settings/settings_3.yml
+  toolskins_swords_1:
+    file: toolskins/toolskins_swords_1.yml
+  toolskins_swords_2:
+    file: toolskins/toolskins_swords_2.yml
+  toolskins_pickaxes_1:
+    file: toolskins/toolskins_pickaxes_1.yml
+  toolskins_pickaxes_2:
+    file: toolskins/toolskins_pickaxes_2.yml
+  toolskins_axes_1:
+    file: toolskins/toolskins_axes_1.yml
+  toolskins_axes_2:
+    file: toolskins/toolskins_axes_2.yml
+  toolskins_shovels_1:
+    file: toolskins/toolskins_shovels_1.yml
+  toolskins_shovels_2:
+    file: toolskins/toolskins_shovels_2.yml
+  toolskins_hoes_1:
+    file: toolskins/toolskins_hoes_1.yml
+  toolskins_hoes_2:
+    file: toolskins/toolskins_hoes_2.yml
+  customize_profile_1:
+    file: profile/customize_profile_1.yml
+  skills_leaderboards:
+    file: skills/leaderboards.yml
+  battlepass:
+    file: battlepass/battlepass.yml
+  battlepass_quests_1:
+    file: battlepass/quests_1.yml
+  battlepass_quests_2:
+    file: battlepass/quests_2.yml
+  battlepass_rewards_1:
+    file: battlepass/rewards_1.yml
+  battlepass_rewards_2:
+    file: battlepass/rewards_2.yml
+  battlepass_rewards_3:
+    file: battlepass/rewards_3.yml
+  survivalmenu:
+    file: survivalmenu/survivalmenu.yml
+  survivalmenu1:
+    file: survivalmenu/survivalmenu1.yml
+  guide_1:
+    file: guide/guide_1.yml
+  guide_2:
+    file: guide/guide_2.yml
+  dungeons_1:
+    file: dungeons/dungeons_1.yml
+  enchants_armor:
+    file: enchants/enchants_armor.yml
+  enchants_cold_steel:
+    file: enchants/buy_armor/cold_steel.yml
+  enchants_darkness_cloak:
+    file: enchants/buy_armor/darkness_cloak.yml
+  enchants_elemental_protection:
+    file: enchants/buy_armor/elemental_protection.yml
+  enchants_fire_shield:
+    file: enchants/buy_armor/fire_shield.yml
+  enchants_flame_walker:
+    file: enchants/buy_armor/flame_walker.yml
+  enchants_hardened:
+    file: enchants/buy_armor/hardened.yml
+  enchants_ice_shield:
+    file: enchants/buy_armor/ice_shield.yml
+  enchants_jumping:
+    file: enchants/buy_armor/jumping.yml
+  enchants_kamikadze:
+    file: enchants/buy_armor/kamikadze.yml
+  enchants_night_vision:
+    file: enchants/buy_armor/night_vision.yml
+  enchants_rebound:
+    file: enchants/buy_armor/rebound.yml
+  enchants_regrowth:
+    file: enchants/buy_armor/regrowth.yml
+  enchants_saturation:
+    file: enchants/buy_armor/saturation.yml
+  enchants_speed:
+    file: enchants/buy_armor/speed.yml
+  enchants_stopping_force:
+    file: enchants/buy_armor/stopping_force.yml
+  enchants_water_breathing:
+    file: enchants/buy_armor/water_breathing.yml
+  enchants_tools:
+    file: enchants/enchants_tools.yml
+  enchants_blast_mining:
+    file: enchants/buy_tools/blast_mining.yml
+  enchants_glass_breaker:
+    file: enchants/buy_tools/glass_breaker.yml
+  enchants_haste:
+    file: enchants/buy_tools/haste.yml
+  enchants_lucky_miner:
+    file: enchants/buy_tools/lucky_miner.yml
+  enchants_replanter:
+    file: enchants/buy_tools/replanter.yml
+  enchants_silk_chest:
+    file: enchants/buy_tools/silk_chest.yml
+  enchants_silk_spawner:
+    file: enchants/buy_tools/silk_spawner.yml
+  enchants_smelter:
+    file: enchants/buy_tools/smelter.yml
+  enchants_telekinesis:
+    file: enchants/buy_tools/telekinesis.yml
+  enchants_treefeller:
+    file: enchants/buy_tools/treefeller.yml
+  enchants_tunnel:
+    file: enchants/buy_tools/tunnel.yml
+  enchants_veinminer:
+    file: enchants/buy_tools/veinminer.yml
+  enchants_auto_reel:
+    file: enchants/buy_tools/auto_reel.yml
+  enchants_curse_of_drowned:
+    file: enchants/buy_tools/curse_of_drowned.yml
+  enchants_double_catch:
+    file: enchants/buy_tools/double_catch.yml
+  enchants_river_master:
+    file: enchants/buy_tools/river_master.yml
+  enchants_seasoned_angler:
+    file: enchants/buy_tools/seasoned_angler.yml
+  enchants_survivalist:
+    file: enchants/buy_tools/survivalist.yml
+  enchants_universal:
+    file: enchants/enchants_universal.yml
+  enchants_curse_of_breaking:
+    file: enchants/buy_universal/curse_of_breaking.yml
+  enchants_curse_of_fragility:
+    file: enchants/buy_universal/curse_of_fragility.yml
+  enchants_curse_of_mediocrity:
+    file: enchants/buy_universal/curse_of_mediocrity.yml
+  enchants_curse_of_misfortune:
+    file: enchants/buy_universal/curse_of_misfortune.yml
+  enchants_restore:
+    file: enchants/buy_universal/restore.yml
+  enchants_soulbound:
+    file: enchants/buy_universal/soulbound.yml
+  enchants_bow:
+    file: enchants/enchants_bow.yml
+  enchants_bomber:
+    file: enchants/buy_bow/bomber.yml
+  enchants_confusing_arrows:
+    file: enchants/buy_bow/confusing_arrows.yml
+  enchants_darkness_arrows:
+    file: enchants/buy_bow/darkness_arrows.yml
+  enchants_dragonfire_arrows:
+    file: enchants/buy_bow/dragonfire_arrows.yml
+  enchants_electrified_arrows:
+    file: enchants/buy_bow/electrified_arrows.yml
+  enchants_ender_bow:
+    file: enchants/buy_bow/ender_bow.yml
+  enchants_explosive_arrows:
+    file: enchants/buy_bow/explosive_arrows.yml
+  enchants_flare:
+    file: enchants/buy_bow/flare.yml
+  enchants_ghast:
+    file: enchants/buy_bow/ghast.yml
+  enchants_hover:
+    file: enchants/buy_bow/hover.yml
+  enchants_lingering:
+    file: enchants/buy_bow/lingering.yml
+  enchants_poisoned_arrows:
+    file: enchants/buy_bow/poisoned_arrows.yml
+  enchants_sniper:
+    file: enchants/buy_bow/sniper.yml
+  enchants_vampiric_arrows:
+    file: enchants/buy_bow/vampiric_arrows.yml
+  enchants_withered_arrows:
+    file: enchants/buy_bow/withered_arrows.yml
+  enchants_weapon:
+    file: enchants/enchants_weapon.yml
+  enchants_bane_of_netherspawn:
+    file: enchants/buy_weapon/bane_of_netherspawn.yml
+  enchants_blindness:
+    file: enchants/buy_weapon/blindness.yml
+  enchants_confusion:
+    file: enchants/buy_weapon/confusion.yml
+  enchants_cure:
+    file: enchants/buy_weapon/cure.yml
+  enchants_curse_of_death:
+    file: enchants/buy_weapon/curse_of_death.yml
+  enchants_cutter:
+    file: enchants/buy_weapon/cutter.yml
+  enchants_double_strike:
+    file: enchants/buy_weapon/double_strike.yml
+  enchants_exhaust:
+    file: enchants/buy_weapon/exhaust.yml
+  enchants_ice_aspect:
+    file: enchants/buy_weapon/ice_aspect.yml
+  enchants_infernus:
+    file: enchants/buy_weapon/infernus.yml
+  enchants_nimble:
+    file: enchants/buy_weapon/nimble.yml
+  enchants_paralyze:
+    file: enchants/buy_weapon/paralyze.yml
+  enchants_rage:
+    file: enchants/buy_weapon/rage.yml
+  enchants_rocket:
+    file: enchants/buy_weapon/rocket.yml
+  enchants_wither:
+    file: enchants/buy_weapon/wither.yml
+  enchants_temper:
+    file: enchants/buy_weapon/temper.yml
+  enchants_thunder:
+    file: enchants/buy_weapon/thunder.yml
+  enchants_vampire:
+    file: enchants/buy_weapon/vampire.yml
+  enchants_venom:
+    file: enchants/buy_weapon/venom.yml
+  enchants_village_defender:
+    file: enchants/buy_weapon/village_defender.yml
+  enchants_wisdom:
+    file: enchants/buy_weapon/wisdom.yml
+
+
+
+
+

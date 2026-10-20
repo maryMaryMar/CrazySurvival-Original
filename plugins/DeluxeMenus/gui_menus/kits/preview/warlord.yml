@@ -1,0 +1,184 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'warlord_kit':
+    material: PAPER
+    model_data: 6
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴇǫᴜɪᴘ ʏᴏᴜʀꜱᴇʟꜰ ʟɪᴋᴇ ᴀ ᴛʀᴜᴇ ᴡᴀʀʟᴏʀᴅ.'
+      - '&7ꜱᴛʀᴏɴɢ ɢᴇᴀʀ ꜰᴏʀ ꜰɪᴇʀᴄᴇ ʙᴀᴛᴛʟᴇꜱ.'
+
+
+  'warlord_kit_cooldown':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_warlord%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ ᴋɪᴛ, ᴡᴀɪᴛ %essentials_kit_time_until_available_warlord% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ!"
+
+
+  'warlord_kit_available':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    click_commands:
+      - "[player] essentials:kit warlord"
+      - "[close]"
+
+
+
+
+
+
+  '1':
+    material: DIAMOND_SWORD
+    amount: 1
+    slot: 12
+    enchantments:
+      - sharpness;3
+      - unbreaking;3
+      - fire_aspect;1
+      - looting;2
+    display_name: '&#cd120a&lWarlord Sword'
+
+  '2':
+    material: DIAMOND_HELMET
+    amount: 1
+    slot: 13
+    enchantments:
+      - protection;3
+      - unbreaking;3
+      - mending;1
+    display_name: '&#cd120a&lWarlord Helmet'
+
+  '3':
+    material: DIAMOND_CHESTPLATE
+    amount: 1
+    slot: 14
+    enchantments:
+      - protection;3
+      - unbreaking;3
+      - mending;1
+    display_name: '&#cd120a&lWarlord Chestplate'
+
+  '4':
+    material: DIAMOND_LEGGINGS
+    amount: 1
+    slot: 15
+    enchantments:
+      - protection;3
+      - unbreaking;3
+      - mending;1
+    display_name: '&#cd120a&lWarlord Leggings'
+
+  '5':
+    material: DIAMOND_BOOTS
+    amount: 1
+    slot: 16
+    enchantments:
+      - protection;3
+      - unbreaking;3
+    display_name: '&#cd120a&lWarlord Boots'
+
+
+  '6':
+    material: DIAMOND_PICKAXE
+    amount: 1
+    slot: 21
+    enchantments:
+      - efficiency;4
+      - fortune;2
+      - unbreaking;3
+    display_name: '&#cd120a&lWarlord Pickaxe'
+
+  '7':
+    material: BOW
+    amount: 1
+    slot: 22
+    enchantments:
+      - power;3
+      - infinity;1
+      - unbreaking;3
+    display_name: '&#cd120a&lWarlord Bow'
+
+  '8':
+    material: ENCHANTED_GOLDEN_APPLE
+    amount: 5
+    slot: 23
+
+  '9':
+    material: ARROW
+    amount: 32
+    slot: 24
+
+  '10':
+    material: GOLDEN_APPLE
+    amount: 12
+    slot: 24
+
+  '11':
+    material: COOKED_BEEF
+    amount: 32
+    slot: 25
+
+  '12':
+    material: ENDER_PEARL
+    amount: 16
+    slot: 30
+
+  '13':
+    material: IRON_INGOT
+    amount: 32
+    slot: 31
+
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] ranked_kits"
+

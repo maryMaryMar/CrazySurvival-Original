@@ -1,0 +1,27 @@
+silverfishy:
+  MobName: silverfishy
+  World: dungeon1
+  X: 46
+  Y: 90
+  Z: 0
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 8.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '25'
+  MobLevel: '1'
+  MobsPerSpawn: 4
+  Cooldown: 10
+  Warmup: 0
+  ActivationRange: 10.0
+  LeashRange: 20.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: false
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  CooldownTimer: 1
+  ActiveMobs: 24

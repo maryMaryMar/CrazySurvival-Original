@@ -1,0 +1,9 @@
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully loaded FancyHolograms version 2.5.0","timestamp":1751104402876,"threadID":36,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully enabled FancyHolograms version 2.5.0","timestamp":1751104424879,"threadID":36,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully disabled FancyHolograms version 2.5.0","timestamp":1751105163368,"threadID":36,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully loaded FancyHolograms version 2.5.0","timestamp":1751105408537,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully enabled FancyHolograms version 2.5.0","timestamp":1751105430764,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully disabled FancyHolograms version 2.5.0","timestamp":1751105676782,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully loaded FancyHolograms version 2.5.0","timestamp":1751105786855,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully enabled FancyHolograms version 2.5.0","timestamp":1751105808773,"threadID":35,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully disabled FancyHolograms version 2.5.0","timestamp":1751106330190,"threadID":35,"threadName":"Server thread","properties":{}}

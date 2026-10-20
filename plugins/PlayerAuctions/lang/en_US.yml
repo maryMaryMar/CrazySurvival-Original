@@ -1,0 +1,129 @@
+# PlayerAuctions by Olzie-12
+# https://www.spigotmc.org/resources/83073
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerauctions
+# Also if you find any bugs be happy to report them I will fix them :)
+# Made with love
+
+# If you want to disable any message just set it to nothing. by doing
+# list: "" <- This will no longer send a message.
+
+
+# every singe message in the plugin is here.
+# make sure you use "" to end of every string
+# Also you can use colour codes <3
+
+# To use hex color codes you will need to do
+# "{#HEX} text"
+
+lang:
+  cancel-chat-wait: "cancel"
+  chat-wait-cancelled: "&cᴄᴀɴᴄᴇʟʟᴇᴅ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ!"
+  friendly-max-auctions: "Unlimited" # If you want it to show the actual amount, use %amount%
+  prefix: "" # Use %prefix% to add the prefix to any message!
+  auction-confirmation: "%prefix% &aSelling &e%item_displayname% x%amount%&a for &e%price%&a will cost you &e%cost%&a, do the command again to confirm."
+  auction-sell: "&f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴀᴜᴄᴛɪᴏɴᴇᴅ {#badc58}%item_displayname% x%amount% &aꜰᴏʀ {#badc58}%price%"
+  auction-added: "%prefix% &aYou added &e%amount%&a items to your similar auction on the market, the total price for that item is now &e%price%&a, this works out as &e$%priceper%&a per item."
+  auction-bid: "&f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴀᴜᴄᴛɪᴏɴᴇᴅ ᴛʜᴇ ɪᴛᴇᴍ ꜰᴏʀ ʙɪᴅ {#badc58}%price% &aᴏɴ ᴛʜᴇ ᴀᴜᴄᴛɪᴏɴ"
+  reloaded: "%prefix% &aSuccessfully reloaded all configs!"
+  money-taken: "&f {#5BB8ED}%price%{#648DC1} ʜᴀꜱ ʙᴇᴇɴ ᴛᴀᴋᴇɴ ꜰʀᴏᴍ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ."
+  auctions-cancelled: "&f {#648DC1}ʏᴏᴜʀ ᴀᴜᴄᴛɪᴏɴꜱ ʜᴀᴠᴇ ʙᴇᴇɴ ᴄᴀɴᴄᴇʟʟᴇᴅ!"
+  auctions-collected: "&f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄᴏʟʟᴇᴄᴛᴇᴅ {#badc58}%items% &aᴇxᴘɪʀᴇᴅ ɪᴛᴇᴍꜱ!"
+  bought-item: "&f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴘᴜʀᴄʜᴀꜱᴇᴅ {#badc58}%item% &aꜰᴏʀ {#badc58}%price%"
+  someone-purchased: ""
+  offline-title: "&f {#648DC1}ᴡʜɪʟᴇ ʏᴏᴜ ᴡᴇʀᴇ ᴏꜰꜰʟɪɴᴇ..."
+  bidder: "&f {#5BB8ED}%player%{#648DC1} ʜᴀꜱ ᴊᴜꜱᴛ ᴏꜰꜰᴇʀᴇᴅ ʏᴏᴜʀ ʙɪᴅ ᴏꜰ {#5BB8ED}%item%{#648DC1} ꜰᴏʀ {#5BB8ED}%price%"
+  bidded: "&f {#648DC1}ʏᴏᴜ ᴊᴜꜱᴛ ᴏꜰꜰᴇʀᴇᴅ ᴀ ʙɪᴅ ᴛᴏ {#5BB8ED}%item%{#648DC1} ꜰᴏʀ {#5BB8ED}%price%"
+  bid-success: "&f {#5BB8ED}%player%{#648DC1} ʜᴀꜱ ᴡᴏɴ ʏᴏᴜʀ ᴀᴜᴄᴛɪᴏɴ ᴏꜰ {#5BB8ED}%item%{#648DC1} ꜰᴏʀ {#5BB8ED}%price%"
+  bidder-success: "&f &aʏᴏᴜ'ᴠᴇ ᴡᴏɴ ᴛʜᴇ ᴀᴜᴄᴛɪᴏɴ ᴏꜰ {#badc58}%item% &aꜰᴏʀ {#badc58}%price% &aᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴇxᴘɪʀᴇᴅ ᴀᴜᴄᴛɪᴏɴꜱ."
+  earned-offline: "&f &aʏᴏᴜ'ᴠᴇ ᴇᴀʀɴᴇᴅ ᴀ ᴛᴏᴛᴀʟ ᴏꜰ {#badc58}$%total%"
+  given-more-auctions-success: "%prefix% &aSuccessfully given &e%player%&a an extra of &e%extra%&a auctions and a total of &e%total%&a!"
+  dbexec-successful: "%prefix% &aSuccessfully updated &d%count%&a rows. &aPlease execute &d/%cmd% reload&a to update changes."
+  current-amount-of-auctions:
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Auctions &7&l]&m----------"
+    - "%prefix% &bYou currently have a maximum of &e%auctionsmax%&b (&e%staticauctions% static&b) auctions."
+    - "%prefix% &bYou currently have used &e%auctionsused%&b auctions."
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Auctions &7&l]&m----------"
+  current-amount-of-auctions-other:
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Auctions &7&l]&m----------"
+    - "%prefix% &d%player%&b currently has a maximum of &e%auctionsmax%&b (&e%staticauctions% static&b) auctions."
+    - "%prefix% &d%player%&b currently has used &e%auctionsused%&b auctions."
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Auctions &7&l]&m----------"
+  amount-auctions-others-alert: "&c%player% is currently offline, only showing their maximum auctions as a static amount."
+
+  # the help menu for a player
+  # The variable %cmd% is any command from the config.yml :)
+  help-player:
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Auctions &7&l]&m----------"
+    - "%prefix% &e/%cmd% help &7&l- &bDisplays this menu."
+    - "%prefix% &e/%cmd% sell <price> [currency] [amount] &7&l- &bSell an item."
+    - "%prefix% &e/%cmd% bid <price> &7&l- &bBid an item."
+    - "%prefix% &e/%cmd% auction &7&l- &bAuction via a GUI."
+    - "%prefix% &e/%cmd% cancel [id] [player] &7&l- &bCancel your auctioning items."
+    - "%prefix% &e/%cmd% collect &7&l- &bCollect your cancelled items."
+    - "%prefix% &e/%cmd% open [menu] [options] &7&l- &bOpens the player auction gui."
+    - "%prefix% &e/%cmd% amount &7&l- &bCheck how much auctions you have."
+    - "%prefix% &e/%cmd% reload &7&l- &bReloads all the config files."
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Auctions &7&l]&m----------"
+
+  # the help menu for console
+  # The variable %cmd% is any command from the config.yml :)
+  help-console:
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Auctions &7&l]&m----------"
+    - "%prefix% &e/%cmd% help &7&l- &bDisplays this menu."
+    - "%prefix% &e/%cmd% open [menu] [options] &7&l- &bOpens the player auction gui."
+    - "%prefix% &e/%cmd% reload &7&l- &bReloads all the config files."
+    - "%prefix% &e/%cmd% dbexec <query> &7&l- &bExecutes a query."
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Auctions &7&l]&m----------"
+
+  # error messages.
+  errors:
+    command-syntax: "%prefix% &cIncorrect syntax, use:\n%syntax%"
+    player-only: "%prefix%&c You must be a player!"
+    console-only: "%prefix% &cThis command can only be executed from console!"
+    not-a-number: "&f &cᴛʜᴀᴛ ɪꜱ ɴᴏᴛ ᴀ ɴᴜᴍʙᴇʀ!"
+    no-permission: "&f &cʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ᴅᴏ ᴛʜɪꜱ!"
+    auction-dont-exist: "&f &cᴛʜᴀᴛ ᴀᴜᴄᴛɪᴏɴ ᴅᴏᴇꜱ ɴᴏᴛ ᴇxɪꜱᴛ!"
+    too-many-auctions: "&f &cʏᴏᴜ ᴄᴀɴɴᴏᴛ ꜱᴇʟʟ ᴛʜɪꜱ ᴍᴀɴʏ ɪᴛᴇᴍꜱ, ʏᴏᴜ ᴄᴀɴ ᴏɴʟʏ ꜱᴇʟʟ {#ff7979}%amount%"
+    money-not-enough-sell: "&f &cʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ {#ff7979}%price% &cᴛᴏ ꜱᴇʟʟ ᴛʜɪꜱ ɪᴛᴇᴍ!"
+    money-not-enough-buy: "&f &cʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ {#ff7979}%price% &cᴛᴏ ʙᴜʏ ᴛʜɪꜱ ɪᴛᴇᴍ!"
+    money-not-enough-bid: "&f &cʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ {#ff7979}%price% &cᴛᴏ ʙɪᴅ ᴛʜɪꜱ ɪᴛᴇᴍ!"
+    disabled-world-sell: "&f &cYou cannot sell items in this world!"
+    invalid-item: "&f &cᴛʜᴀᴛ ɪꜱ ᴀɴ ɪɴᴠᴀʟɪᴅ ɪᴛᴇᴍ ᴛᴏ ꜱᴇʟʟ!"
+    damaged-item: "&f &cʏᴏᴜ ᴄᴀɴɴᴏᴛ ꜱᴇʟʟ ᴀ ᴅᴀᴍᴀɢᴇᴅ ɪᴛᴇᴍ!"
+    invalid-gamemode: "&f &cᴛʜᴀᴛ ɪꜱ ᴀɴ ɪɴᴠᴀʟɪᴅ ɢᴀᴍᴇᴍᴏᴅᴇ ᴛᴏ ꜱᴇʟʟ ɪɴ!"
+    invalid-category: "&f &cᴛʜᴀᴛ ɪꜱ ᴀ ɪɴᴠᴀʟɪᴅ ᴄᴀᴛᴇɢᴏʀʏ"
+    min-price: "&f &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ᴘʀɪᴄᴇ ᴛᴏ ᴀᴛ ʟᴇᴀꜱᴛ {#ff7979}%min%!"
+    max-price: "&f &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ᴘʀɪᴄᴇ ʙᴇʟᴏᴡ {#ff7979}%max%!"
+    no-auctions: "&f &cʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ ɴᴏ ᴀᴜᴄᴛɪᴏɴꜱ!"
+    no-expired-auctions: "&f &cʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ ɴᴏ ᴇxᴘɪʀᴇᴅ ᴀᴜᴄᴛɪᴏɴꜱ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ!"
+    purchase-own: "&f &cʏᴏᴜ ᴄᴀɴɴᴏᴛ ᴘᴜʀᴄʜᴀꜱᴇ ʏᴏᴜʀ ᴏᴡɴ ᴀᴜᴄᴛɪᴏɴ!"
+    bid-own: "&f &cʏᴏᴜ ᴄᴀɴɴᴏᴛ ʙɪᴅ ʏᴏᴜʀ ᴏᴡɴ ᴀᴜᴄᴛɪᴏɴ!"
+    sell-cooldown: "&f &cʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ ᴀ {#ff7979}%cooldown% &cᴄᴏᴏʟᴅᴏᴡɴ ꜰᴏʀ ᴀᴜᴄᴛɪᴏɴɪɴɢ ɪᴛᴇᴍꜱ!"
+    bid-cooldown: "&f &cʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ ᴀ {#ff7979}%cooldown% &cᴄᴏᴏʟᴅᴏᴡɴ ꜰᴏʀ ʙɪᴅᴅɪɴɢ ɪᴛᴇᴍꜱ!"
+    offer-cooldown: "&f &cʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ ᴀ {#ff7979}%cooldown% &cᴄᴏᴏʟᴅᴏᴡɴ ꜰᴏʀ ᴏꜰꜰᴇʀɪɴɢ ᴀ ʙɪᴅ!"
+    purchase-cooldown: "&f &cʏᴏᴜ ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠᴇ ᴀ {#ff7979}%cooldown% &cᴄᴏᴏʟᴅᴏᴡɴ ꜰᴏʀ ᴘᴜʀᴄʜᴀꜱɪɴɢ ɪᴛᴇᴍꜱ!"
+    no-player-joined: "&f &cᴛʜᴀᴛ ᴘʟᴀʏᴇʀ ᴅᴏᴇꜱ ɴᴏᴛ ᴇxɪꜱᴛ!"
+    bidder-no-money: "&f {#ff7979}%player% &cᴅᴏᴇꜱɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ꜰᴏʀ ʏᴏᴜʀ {#ff7979}%item%, ᴛʜᴇɪʀ ᴏꜰꜰᴇʀ ʜᴀꜱ ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ."
+    bid-no-money: "&f &cʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴀɴʏᴍᴏʀᴇ ꜰᴏʀ {#ff7979}%item%'ꜱ &cʙɪᴅ, ʏᴏᴜʀ ᴏꜰꜰᴇʀ ʜᴀꜱ ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ."
+    min-bid: "&f &cʏᴏᴜ ᴄᴀɴɴᴏᴛ ᴏꜰꜰᴇʀ ᴛʜᴀᴛ ᴀᴍᴏᴜɴᴛ! ᴛʜᴇ ᴍɪɴɪᴍᴜᴍ ʏᴏᴜ ᴄᴀɴ ʙɪᴅ ᴏɴ ɪꜱ {#ff7979}$1,000"
+    gui-cooldown: "&f &cʏᴏᴜ ᴡɪʟʟ ɴᴇᴇᴅ ᴛᴏ ᴡᴀɪᴛ ᴀ ꜰᴇᴡ ꜱᴇᴄᴏɴᴅꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ᴀɢᴀɪɴ."
+    not-enough-add-bid: "&f &cʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴀᴅᴅ {#fb8876}$%amount%&c ᴛᴏ {#ff7979}$%bid%"
+    cancel-bid: "&f &cʏᴏᴜ ᴄᴀɴɴᴏᴛ ᴄᴀɴᴄᴇʟ ᴛʜɪꜱ ᴀᴜᴄᴛɪᴏɴ ᴡʜɪʟᴇ ɪᴛꜱ ʙᴇᴇɴ ᴏꜰꜰᴇʀᴇᴅ ᴀ ʙɪᴅ!"
+    auction-doesnt-exist: "&f &cᴛʜᴀᴛ ᴀᴜᴄᴛɪᴏɴ ᴅᴏᴇꜱɴ'ᴛ ᴇxɪꜱᴛ ᴀɴʏᴍᴏʀᴇ!"
+    dbexec-failed: "&f &cᴛʜᴇʀᴇ ᴡᴀꜱ ᴀɴ ᴇʀʀᴏʀ ᴇxᴇᴄᴜᴛɪɴɢ ᴛʜɪꜱ ǫᴜᴇʀʏ."
+
+# Here you can specify different types of messages per no-permission message, using the specific permission node.
+# Or you may set it to blank to not send a message at all.
+# no-permission:
+#   pa.purchase: "You do not have permission to purchase auctions!"
+
+n/a:
+  no-seller: "N/A"
+  no-expire: "N/A"
+  no-category: "N/A"
+  no-displayname: "%player%" # show the players name instead
+
+# Here you can configure the item name formatting, please note that you will have to add the items below that you want to change
+# You can view the list of the items here: https://javadocs.olziedev.com/spigot/latest/org/bukkit/Material.html
+item-names:
+  ARMOR_STAND: "Armor Stand"

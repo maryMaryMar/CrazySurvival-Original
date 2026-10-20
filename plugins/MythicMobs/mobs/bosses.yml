@@ -1,0 +1,108 @@
+boss_1:
+  Type: DROWNED
+  Display: '<red>UNKNOWN'
+  Health: 60000
+  Modules:
+    ThreatTables: true
+  DamageModifiers:
+  - FIRE -0.001
+  - FIRE_TICK -0.001
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  Skills:
+  - model{mid=boss_1;step=1;usm=true;save=true;sync=true} @Self ~onSpawn
+  - model{mid=boss_1;step=1;usm=true;save=true;sync=true} @Self ~onLoad
+  - setstance{stance=idling} @Self ~onSpawn
+  - extinguish @self ~onDamaged ?damageCause{cause=FIRE_TICK}
+  - CancelEvent{sync=true} ~onAttack
+  - skill{s=boss_1_hulk} ~onTimer:20
+  - skill{s=boss_1_swing} ~onTimer:20
+  - skill{s=boss_1_chain} ~onTimer:20
+  - skill{s=boss_1_sound-idle} ~onTimer:60 0.4
+  - skill{s=boss_1_sound-hurt} ~onDamaged
+  - skill{s=boss_1_sound-death} ~onDeath
+  BossBar:
+    Enabled: true
+    Title: '&f七七'
+    Range: 40
+    Color: BLUE
+    Style: SOLID
+    CreateFog: false
+    DarkenSky: false
+    PlayMusic: false
+  Options:
+    Collidable: true
+    FollowRange: 50
+    KnockbackResistance: 0.7
+    PreventLeashing: true
+    Silent: true
+    MovementSpeed: 0.24
+    PreventSunburn: true
+    Persistent: false
+    Despawn: false
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 4000"} 1
+  - GorvethSword 1 0.2
+
+boss_2:
+  Type: DROWNED
+  Display: '<red>UNKNOWN'
+  Health: 80000
+  Modules:
+    ThreatTables: true
+  DamageModifiers:
+  - FIRE -0.001
+  - FIRE_TICK -0.001
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  BossBar:
+    Enabled: true
+    Title: '&f'
+    Range: 40
+    Color: PINK
+    Style: SOLID
+    CreateFog: false
+    DarkenSky: false
+    PlayMusic: false
+  Skills:
+  - model{mid=boss_2;step=1;usm=true;save=true;sync=true} @Self ~onSpawn
+  - model{mid=boss_2;step=1;usm=true;save=true;sync=true} @Self ~onLoad
+  - setstance{stance=idling} @Self ~onSpawn
+  - extinguish @self ~onDamaged ?damageCause{cause=FIRE_TICK}
+  - CancelEvent{sync=true} ~onAttack
+  - skill{s=boss_2_attack} ~onTimer:20
+  - skill{s=boss_2_scream} ~onTimer:20
+  - skill{s=boss_2_throw} ~onTimer:20
+  - skill{s=boss_2_sound-idle} ~onTimer:60 0.4
+  - skill{s=boss_2_sound-hurt} ~onDamaged
+  - skill{s=boss_2_sound-death} ~onDeath
+  - partvis{part=spin;v=false} @self ~onSpawn
+  - partvis{part=spin;v=false} @self ~onLoad
+  - particle{p=Large_Smoke;a=2;hs=0.2;vs=0.2} @modelpart{pid=body} ~onTimer:1-
+  Options:
+    Collidable: true
+    FollowRange: 32
+    KnockbackResistance: 0.7
+    PreventLeashing: true
+    Silent: true
+    MovementSpeed: 0.24
+    PreventSunburn: true
+    Persistent: false
+    Despawn: false
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c="souls give <trigger.name> 5000"} 1
+  - VoidpiercerScythe 1 0.2

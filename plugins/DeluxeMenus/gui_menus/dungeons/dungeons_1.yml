@@ -1,0 +1,75 @@
+menu_title: '&f七七七七七七七七'
+open_command: dungeons
+register_command: true
+size: 27
+update_interval: 1
+
+items:
+  'dungeon_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 18
+      - 19
+      - 20
+      - 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#4ea42d&lᴏᴠᴇʀɢʀᴏᴡɴ ᴅᴜɴɢᴇᴏɴ'
+    lore:
+      - '&7ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ꜰɪɢʜᴛ ᴍᴏʙꜱ, ɢᴇᴛ'
+      - '&7ꜱᴏᴜʟꜱ ᴀɴᴅ ᴅᴇꜰᴇᴀᴛ ᴛʜᴇ ʙᴏꜱꜱ!'
+      - ''
+      - '&8▪ &fᴅɪꜰꜰɪᴄᴜʟᴛʏ: &#f9a825Medium'
+      - '&8▪ &fɴᴇxᴛ ʙᴏꜱꜱ: &b%mythic_spawner_boss1_warmupleft%'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴛᴇʀ'
+    click_commands:
+      - "[player] essentials:warp Overgrown"
+      - "[close]"
+
+  'dungeon_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 14
+      - 15
+      - 16
+      - 17
+      - 23
+      - 24
+      - 25
+      - 26
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#864bca&lᴠᴏɪᴅꜱᴘɪʀᴇ ᴅᴜɴɢᴇᴏɴ'
+    lore:
+      - '&7ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ꜰɪɢʜᴛ ᴍᴏʙꜱ, ɢᴇᴛ'
+      - '&7ꜱᴏᴜʟꜱ ᴀɴᴅ ᴅᴇꜰᴇᴀᴛ ᴛʜᴇ ʙᴏꜱꜱ!'
+      - ''
+      - '&8▪ &fᴅɪꜰꜰɪᴄᴜʟᴛʏ: &#d72f2fHard'
+      - '&8▪ &fɴᴇxᴛ ʙᴏꜱꜱ: &b%mythic_spawner_boss2_warmupleft%'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴛᴇʀ'
+    click_commands:
+      - "[player] essentials:warp Voidspire"
+      - "[close]"

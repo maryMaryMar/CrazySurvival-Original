@@ -1,0 +1,176 @@
+menu_title: '&f七七七七七七七七'
+size: 36
+update_interval: 1
+
+items:
+  'profile_toggle_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 18
+      - 19
+      - 20
+      - 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴇᴅ ᴏᴀᴋꜱʜᴀᴅᴇ ᴇᴅɢᴇ'
+    lore:
+      - '&7ᴡʜᴇʀᴇ ɴᴀᴛᴜʀᴇ ᴍᴇᴇᴛꜱ'
+      - '&7ʜᴏᴍᴇ ᴀɴᴅ ᴘᴇᴀᴄᴇ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+    click_commands:
+      - "[console] lp user %player_name% permission set customize.profile.first.selected true"
+      - "[console] lp user %player_name% permission set customize.profile.second.selected false"
+      - "[message] &f &#648DC1ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴇǫᴜɪᴘᴘᴇᴅ ᴘʀᴏꜰɪʟᴇ ᴘɪᴄᴛᴜʀᴇ."
+      - "[refresh]"
+
+  'profile_toggle_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 14
+      - 15
+      - 16
+      - 17
+      - 23
+      - 24
+      - 25
+      - 26
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴅᴇᴇᴘ ᴜɴᴅᴇʀᴡᴀᴛᴇʀ'
+    lore:
+      - '&7ᴇxᴘʟᴏʀᴇ ᴛʜᴇ ᴅᴇᴇᴘ'
+      - '&7ᴜɴᴅᴇʀᴡᴀᴛᴇʀ ᴡᴏʀʟᴅ'
+      - ''
+      - '&8▪ &fᴘʀɪᴄᴇ: &6500&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: customize.profile.second
+    click_commands:
+      - "[console] lp user %player_name% permission set customize.profile.first.selected false"
+      - "[console] lp user %player_name% permission set customize.profile.second.selected true"
+      - "[message] &f &#648DC1ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴇǫᴜɪᴘᴘᴇᴅ ᴘʀᴏꜰɪʟᴇ ᴘɪᴄᴛᴜʀᴇ."
+      - "[refresh]"
+  'profile_purchase_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 14
+      - 15
+      - 16
+      - 17
+      - 23
+      - 24
+      - 25
+      - 26
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴅᴇᴇᴘ ᴜɴᴅᴇʀᴡᴀᴛᴇʀ'
+    lore:
+      - '&7ᴇxᴘʟᴏʀᴇ ᴛʜᴇ ᴅᴇᴇᴘ'
+      - '&7ᴜɴᴅᴇʀᴡᴀᴛᴇʀ ᴡᴏʀʟᴅ'
+      - ''
+      - '&8▪ &fᴘʀɪᴄᴇ: &6500&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set customize.profile.second true"
+      - "[console] coins take %player_name% 500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴘʀᴏꜰɪʟᴇ ʙᴀᴄᴋɢʀᴏᴜɴᴅ!"
+      - "[refresh]"
+
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 31
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[player] profile"
+
+  'previous_arrow':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 29
+      - 30
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&l← ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ'
+      - '&7ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ'
+    click_commands:
+      - "[refresh]"
+
+  'next_page':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 32
+      - 33
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lɴᴇxᴛ ᴘᴀɢᴇ →'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ'
+      - '&7ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] customize_profile_2"

@@ -1,0 +1,119 @@
+title: '&f七七七七七七七七'
+rows: 6
+filler: none
+
+content:
+  all:
+    item: CustomModel[PAPER]{54}
+    slots:
+    - 20
+    name: <#7e83a4>&lᴀʟʟ ᴡᴀʀᴘꜱ
+    lore:
+    - '&7ʟɪꜱᴛ ᴏꜰ ᴀʟʟ ᴛʜᴇ'
+    - '&7ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀʏᴇʀ ᴡᴀʀᴘꜱ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    actions:
+    - '[open] all'
+  
+  building:
+    item: CustomModel[PAPER]{55}
+    slots:
+    - 21
+    name: <#7e83a4>&lʙᴜɪʟᴅɪɴɢꜱ
+    lore:
+    - '&7ꜰɪɴᴅ ᴡᴀʀᴘꜱ ᴏꜰ ᴘʟᴀʏᴇʀꜱ'
+    - '&7ʜᴏᴜꜱᴇꜱ ᴏʀ ᴛᴏᴡɴꜱ ʜᴇʀᴇ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    actions:
+    - '[open] building'
+  
+  farm:
+    item: CustomModel[PAPER]{56}
+    slots:
+    - 22
+    name: <#7e83a4>&lꜰᴀʀᴍꜱ
+    lore:
+    - '&7ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ'
+    - '&7ᴘʟᴀʏᴇʀꜱ ꜰᴀʀᴍꜱ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    actions:
+    - '[open] farm'
+  
+  shop:
+    item: CustomModel[PAPER]{58}
+    slots:
+    - 23
+    name: <#7e83a4>&lꜱʜᴏᴘꜱ
+    lore:
+    - '&7ʙᴜʏ ꜰʀᴏᴍ ᴘʟᴀʏᴇʀꜱ'
+    - '&7ꜱʜᴏᴘꜱ ʜᴇʀᴇ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    actions:
+    - '[open] shop'
+  
+  other:
+    item: CustomModel[PAPER]{57}
+    slots:
+    - 24
+    name: <#7e83a4>&lᴏᴛʜᴇʀ
+    lore:
+    - '&7ᴀʟʟ ᴏꜰ ᴛʜᴇ'
+    - '&7ᴏᴛʜᴇʀ ᴡᴀʀᴘꜱ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    actions:
+    - '[open] other'
+  
+  sponsor1:
+    item: CustomModel[PAPER]{100009}
+    type: SHOW_FEATURED
+    slots:
+    - 47
+    name: '&a&lꜱᴘᴏɴꜱᴏʀᴇᴅ ᴘᴏꜱɪᴛɪᴏɴ #1'
+    lore:
+    - '&7ᴀᴅᴠᴇʀᴛɪꜱᴇ ʏᴏᴜʀ ᴡᴀʀᴘ ʜᴇʀᴇ'
+    - '&7ᴛʜʀᴏᴜɢʜ ᴍᴀɴᴀɢᴇ ᴍᴇɴᴜ!'
+  
+  sponsor2:
+    item: CustomModel[PAPER]{100009}
+    type: SHOW_FEATURED
+    slots:
+    - 48
+    name: '&a&lꜱᴘᴏɴꜱᴏʀᴇᴅ ᴘᴏꜱɪᴛɪᴏɴ #2'
+    lore:
+    - '&7ᴀᴅᴠᴇʀᴛɪꜱᴇ ʏᴏᴜʀ ᴡᴀʀᴘ ʜᴇʀᴇ'
+    - '&7ᴛʜʀᴏᴜɢʜ ᴍᴀɴᴀɢᴇ ᴍᴇɴᴜ!'
+  
+  sponsor3:
+    item: CustomModel[PAPER]{100009}
+    type: SHOW_FEATURED
+    slots:
+    - 49
+    name: '&a&lꜱᴘᴏɴꜱᴏʀᴇᴅ ᴘᴏꜱɪᴛɪᴏɴ #3'
+    lore:
+    - '&7ᴀᴅᴠᴇʀᴛɪꜱᴇ ʏᴏᴜʀ ᴡᴀʀᴘ ʜᴇʀᴇ'
+    - '&7ᴛʜʀᴏᴜɢʜ ᴍᴀɴᴀɢᴇ ᴍᴇɴᴜ!'
+  
+  sponsor4:
+    item: CustomModel[PAPER]{100009}
+    type: SHOW_FEATURED
+    slots:
+    - 50
+    name: '&a&lꜱᴘᴏɴꜱᴏʀᴇᴅ ᴘᴏꜱɪᴛɪᴏɴ #4'
+    lore:
+    - '&7ᴀᴅᴠᴇʀᴛɪꜱᴇ ʏᴏᴜʀ ᴡᴀʀᴘ ʜᴇʀᴇ'
+    - '&7ᴛʜʀᴏᴜɢʜ ᴍᴀɴᴀɢᴇ ᴍᴇɴᴜ!'
+  
+  sponsor5:
+    item: CustomModel[PAPER]{100009}
+    type: SHOW_FEATURED
+    slots:
+    - 51
+    name: '&a&lꜱᴘᴏɴꜱᴏʀᴇᴅ ᴘᴏꜱɪᴛɪᴏɴ #5'
+    lore:
+    - '&7ʏᴏᴜ ᴄᴀɴ ᴀᴅᴠᴇʀᴛɪꜱᴇ ʏᴏᴜʀ'
+    - '&7ᴘʟᴀʏᴇʀ ᴡᴀʀᴘ ʜᴇʀᴇ!'

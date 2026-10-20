@@ -1,0 +1,47 @@
+categories:
+  all:
+    default: true
+    name: <#7e83a4>&lᴀʟʟ ᴡᴀʀᴘꜱ
+    position: 20
+    item: CustomModel[PAPER]{54}
+    lore:
+    - '&7ʟɪꜱᴛ ᴏꜰ ᴀʟʟ ᴛʜᴇ'
+    - '&7ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀʏᴇʀ ᴡᴀʀᴘꜱ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+  building:
+    name: <#7e83a4>&lʙᴜɪʟᴅɪɴɢꜱ
+    position: 21
+    item: CustomModel[PAPER]{55}
+    lore:
+    - '&7ꜰɪɴᴅ ᴡᴀʀᴘꜱ ᴏꜰ ᴘʟᴀʏᴇʀꜱ'
+    - '&7ʜᴏᴜꜱᴇꜱ ᴏʀ ᴛᴏᴡɴꜱ ʜᴇʀᴇ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+  farm:
+    name: <#7e83a4>&lꜰᴀʀᴍꜱ
+    position: 22
+    item: CustomModel[PAPER]{56}
+    lore:
+    - '&7ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ'
+    - '&7ᴘʟᴀʏᴇʀꜱ ꜰᴀʀᴍꜱ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+  shop:
+    name: <#7e83a4>&lꜱʜᴏᴘꜱ
+    position: 23
+    item: CustomModel[PAPER]{58}
+    lore:
+    - '&7ʙᴜʏ ꜰʀᴏᴍ ᴘʟᴀʏᴇʀꜱ'
+    - '&7ꜱʜᴏᴘꜱ ʜᴇʀᴇ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+  other:
+    name: <#7e83a4>&lᴏᴛʜᴇʀ
+    position: 24
+    item: CustomModel[PAPER]{57}
+    lore:
+    - '&7ᴀʟʟ ᴏꜰ ᴛʜᴇ'
+    - '&7ᴏᴛʜᴇʀ ᴡᴀʀᴘꜱ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'

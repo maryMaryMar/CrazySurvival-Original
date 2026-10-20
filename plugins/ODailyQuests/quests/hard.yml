@@ -1,0 +1,214 @@
+# ==============================================================
+#                        HARD QUESTS FILE
+# ==============================================================
+# Quests must be numbered and increment from 1 to 1.
+# Please be attentive to the indentation and respect the scheme.
+# This could cause several bugs.
+# ==============================================================
+# AVAILABLE QUESTS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/quests-types
+# ==============================================================
+# AVAILABLE REWARDS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/rewards-types
+# ==============================================================
+# AVAILABLE ENTITY TYPES :
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Entity.html
+# ==============================================================
+# AVAILABLE ITEM TYPES :
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# ==============================================================
+# AVAILABLE PLUGIN PLACEHOLDERS FOR QUESTS DESCRIPTIONS :
+# %progress% is replaced by the progression of the quest.
+# %required% is replaced by the required amount to complete the quest.
+# ==============================================================
+# More tips available on Wiki :
+# https://ordwenplugins.gitbook.io/odailyquests/
+# Need help ? https://discord.com/invite/NPAUE7kTgJ
+# For more affected objects or types, please make suggestion.
+# ==============================================================
+quests:
+  1:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴇxᴛʀᴇᴍᴇ ᴏʀᴇ ᴍɪɴᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Mine 20 Emerald Ores"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$1200"
+      - ""
+    quest_type: BREAK
+    required_item: EMERALD_ORE
+    required_amount: 20
+    reward:
+      reward_type: MONEY
+      amount: 1200
+
+  2:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴍᴀꜱᴛᴇʀ ꜰɪꜱʜᴇʀᴍᴀɴ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Catch 60 fishes"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$1500"
+      - ""
+    quest_type: FISH
+    required_amount: 50
+    reward:
+      reward_type: MONEY
+      amount: 1500
+
+  3:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴇʟɪᴛᴇ ᴠɪʟʟᴀɢᴇʀ ᴛʀᴀᴅᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Trade with 25 villagers"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$3200"
+      - ""
+    quest_type: VILLAGER_TRADE
+    required_amount: 25
+    reward:
+      reward_type: MONEY
+      amount: 3200
+
+  4:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴅᴇᴀᴅʟʏ ʙᴏꜱꜱ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Kill the Wither Boss"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$7500"
+      - ""
+    quest_type: KILL
+    required_entity: WITHER
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 5500
+
+  5:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴍᴀꜱᴛᴇʀ ᴄᴏᴏᴋ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Cook 200 Steaks"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$1700"
+      - ""
+    quest_type: COOK
+    required_item: COOKED_BEEF
+    required_amount: 200
+    reward:
+      reward_type: MONEY
+      amount: 1700
+
+  6:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴄᴀʀᴠɪɴɢ ᴀʀᴛɪꜱᴛ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Carve 50 Pumpkins"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$1400"
+      - ""
+    quest_type: CARVE
+    required_amount: 50
+    reward:
+      reward_type: MONEY
+      amount: 1400
+
+  7:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴍᴀꜱᴛᴇʀ ꜰᴀʀᴍᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Harvest 200 Wheat"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$1200"
+      - ""
+    quest_type: FARMING
+    required_item: WHEAT
+    required_amount: 200
+    reward:
+      reward_type: MONEY
+      amount: 1200
+
+  8:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴅᴀʀᴋ ᴀʀʀᴏᴡꜱᴍɪᴛʜ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Shoot 100 Arrows"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$2800"
+      - ""
+    quest_type: LAUNCH
+    required_item: ARROW
+    required_amount: 100
+    reward:
+      reward_type: MONEY
+      amount: 2800
+
+  9:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴍᴀꜱᴛᴇʀ ᴍɪʟᴋᴍᴀɴ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Fill 50 Buckets with Milk"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$1800"
+      - ""
+    quest_type: MILKING
+    required_amount: 50
+    reward:
+      reward_type: MONEY
+      amount: 1800
+
+  10:
+    name: "&f"
+    menu_item: "custommodeldata:paper:11"
+    description:
+      - "&8ǫᴜᴇꜱᴛ: ᴡɪᴢᴀʀᴅ ᴘɪʟʟᴀɢᴇʀ"
+      - ""
+      - "&7ᴏʙᴊᴇᴄᴛɪᴠᴇ:"
+      - " &8• #fb8876Kill 5 Evokers"
+      - ""
+      - "&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:"
+      - " &8• #fb8876$3100"
+      - ""
+    quest_type: KILL
+    required_entity: EVOKER
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 3100

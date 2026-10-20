@@ -1,0 +1,27 @@
+enchaned_spider:
+  MobName: enhanced_spider
+  World: dungeon1
+  X: 81
+  Y: 87
+  Z: -25
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 4.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '5'
+  MobLevel: '1'
+  MobsPerSpawn: 3
+  Cooldown: 10
+  Warmup: 0
+  ActivationRange: 10.0
+  LeashRange: 22.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: false
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  ActiveMobs: 3
+  CooldownTimer: 1

@@ -1,0 +1,126 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'explorer_kit':
+    material: LEATHER_BOOTS
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴛᴏᴏʟꜱ ᴀɴᴅ ꜱᴜᴘᴘʟɪᴇꜱ ꜰᴏʀ'
+      - '&7ᴅɪꜱᴄᴏᴠᴇʀɪɴɢ ɴᴇᴡ ʟᴀɴᴅꜱ ᴀɴᴅ ꜱᴇᴄʀᴇᴛꜱ!'
+
+
+  'explorer_kit_cooldown':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_explorer%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ ᴋɪᴛ, ᴡᴀɪᴛ %essentials_kit_time_until_available_explorer% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ!"
+
+
+  'explorer_kit_available':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    click_commands:
+      - "[player] essentials:kit explorer"
+      - "[close]"
+
+
+
+
+
+
+  '1':
+    material: IRON_SWORD
+    amount: 1
+    slot: 12
+    enchantments:
+      - unbreaking;1
+    display_name: '&#5b617eExplorer Pickaxe'
+
+  '2':
+    material: IRON_PICKAXE
+    amount: 1
+    slot: 13
+    display_name: '&#5b617eExplorer Pickaxe'
+
+  '3':
+    material: IRON_CHESTPLATE
+    amount: 1
+    slot: 14
+    display_name: '&#5b617eExplorer Shovel'
+
+  '4':
+    material: COMPASS
+    amount: 1
+    slot: 15
+
+  '5':
+    material: OAK_BOAT
+    amount: 1
+    slot: 16
+
+  '6':
+    material: MAP
+    amount: 1
+    slot: 21
+
+  '7':
+    material: TORCH
+    amount: 16
+    slot: 22
+
+  '8':
+    material: COOKED_BEEF
+    amount: 16
+    slot: 23
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] normal_kits"
+

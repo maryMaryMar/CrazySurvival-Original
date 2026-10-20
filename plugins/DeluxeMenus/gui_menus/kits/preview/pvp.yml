@@ -1,0 +1,129 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'pvp_kit':
+    material: IRON_SWORD
+    amount: 1
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴘᴇʀꜰᴇᴄᴛ ᴋɪᴛ ꜰᴏʀ ᴛʜᴇ ʙᴀᴛᴛʟᴇꜱ!'
+      - '&7ɢᴇᴀʀ ᴜᴘ ᴀɴᴅ ꜰɪɢʜᴛ ʟɪᴋᴇ ᴀ ᴘʀᴏ.'
+
+
+  'pvp_kit_cooldown':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_pvp%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ ᴋɪᴛ, ᴡᴀɪᴛ %essentials_kit_time_until_available_pvp% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ!"
+
+
+  'pvp_kit_available':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+     - 27
+     - 28
+     - 29
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#52b04c&lᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    click_commands:
+      - "[player] essentials:kit pvp"
+      - "[close]"
+
+
+
+
+
+  '1':
+    material: IRON_SWORD
+    amount: 1
+    slot: 12
+    enchantments:
+      - sharpness;1
+    display_name: '&#5b617ePvp Sword'
+
+  '2':
+    material: IRON_HELMET
+    amount: 1
+    slot: 13
+    display_name: '&#5b617ePvp Helmet'
+
+  '3':
+    material: IRON_CHESTPLATE
+    amount: 1
+    slot: 14
+    enchantments:
+      - protection;2
+    display_name: '&#5b617ePvp Chestplate'
+
+  '4':
+    material: IRON_LEGGINGS
+    amount: 1
+    slot: 15
+    display_name: '&#5b617ePvp Leggings'
+
+  '5':
+    material: IRON_BOOTS
+    amount: 1
+    slot: 16
+    display_name: '&#5b617ePvp Boots'
+
+  '6':
+    material: BOW
+    amount: 1
+    slot: 21
+    display_name: '&#5b617ePvp Bow'
+
+  '7':
+    material: ARROW
+    amount: 16
+    slot: 22
+
+  '8':
+    material: COOKED_BEEF
+    amount: 16
+    slot: 23
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] normal_kits"
+

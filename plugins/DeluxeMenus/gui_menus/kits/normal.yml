@@ -1,0 +1,283 @@
+menu_title: '&f七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'pvp_kit_cooldown':
+    material: IRON_SWORD
+    amount: 1
+    slot: 11
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴘᴇʀꜰᴇᴄᴛ ᴋɪᴛ ꜰᴏʀ ᴛʜᴇ ʙᴀᴛᴛʟᴇꜱ!'
+      - '&7ɢᴇᴀʀ ᴜᴘ ᴀɴᴅ ꜰɪɢʜᴛ ʟɪᴋᴇ ᴀ ᴘʀᴏ.'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_pvp%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_pvp%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_pvp% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'pvp_kit_available':
+    material: IRON_SWORD
+    amount: 1
+    slot: 11
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴘᴇʀꜰᴇᴄᴛ ᴋɪᴛ ꜰᴏʀ ᴛʜᴇ ʙᴀᴛᴛʟᴇꜱ!'
+      - '&7ɢᴇᴀʀ ᴜᴘ ᴀɴᴅ ꜰɪɢʜᴛ ʟɪᴋᴇ ᴀ ᴘʀᴏ.'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c24h'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit pvp"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] pvp_kit_preview"
+
+
+
+
+
+  'builder_kit_cooldown':
+    material: BRICKS
+    amount: 1
+    slot: 12
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ʙᴜɪʟᴅ ᴀʟʟ ʏᴏᴜʀ ᴅʀᴇᴀᴍꜱ!'
+      - '&7ᴀʟʟ ʏᴏᴜ ɴᴇᴇᴅ ꜰᴏʀ ɴᴇxᴛ ʙᴜɪʟᴅ.'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_builder%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_builder%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_builder% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'builder_kit_available':
+    material: BRICKS
+    amount: 1
+    slot: 12
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ʙᴜɪʟᴅ ᴀʟʟ ʏᴏᴜʀ ᴅʀᴇᴀᴍꜱ!'
+      - '&7ᴀʟʟ ʏᴏᴜ ɴᴇᴇᴅ ꜰᴏʀ ɴᴇxᴛ ʙᴜɪʟᴅ.'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c24h'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit builder"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] builder_kit_preview"
+
+
+
+
+
+  'farmer_kit_cooldown':
+    material: WHEAT
+    amount: 1
+    slot: 13
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ɢʀᴏᴡ ᴀɴᴅ ʜᴀʀᴠᴇꜱᴛ ᴡɪᴛʜ ᴇᴀꜱᴇ'
+      - '&7ᴛᴏᴏʟꜱ ᴀɴᴅ ꜱᴇᴇᴅꜱ ꜰᴏʀ ɢʀᴇᴀᴛ ʜᴀʀᴠᴇꜱᴛ!'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_farmer%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_farmer%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_farmer% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'farmer_kit_available':
+    material: WHEAT
+    amount: 1
+    slot: 13
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ɢʀᴏᴡ ᴀɴᴅ ʜᴀʀᴠᴇꜱᴛ ᴡɪᴛʜ ᴇᴀꜱᴇ'
+      - '&7ᴛᴏᴏʟꜱ ᴀɴᴅ ꜱᴇᴇᴅꜱ ꜰᴏʀ ɢʀᴇᴀᴛ ʜᴀʀᴠᴇꜱᴛ!'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c48h'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit farmer"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] farmer_kit_preview"
+
+
+
+
+
+  'miner_kit_cooldown':
+    material: IRON_PICKAXE
+    amount: 1
+    slot: 14
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ʀᴇᴀᴅʏ ꜰᴏʀ ᴍɪɴɪɴɢ ᴀᴅᴠᴇɴᴛᴜʀᴇꜱ.'
+      - '&7ꜰɪɴᴅ ᴛʀᴇᴀꜱᴜʀᴇꜱ ᴀɴᴅ ʀᴇꜱᴏᴜʀᴄᴇꜱ ǫᴜɪᴄᴋʟʏ!'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_miner%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_miner%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_miner% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'miner_kit_available':
+    material: IRON_PICKAXE
+    amount: 1
+    slot: 14
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ʀᴇᴀᴅʏ ꜰᴏʀ ᴍɪɴɪɴɢ ᴀᴅᴠᴇɴᴛᴜʀᴇꜱ.'
+      - '&7ꜰɪɴᴅ ᴛʀᴇᴀꜱᴜʀᴇꜱ ᴀɴᴅ ʀᴇꜱᴏᴜʀᴄᴇꜱ ǫᴜɪᴄᴋʟʏ!'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c24h'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit miner"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] miner_kit_preview"
+
+
+
+
+
+  'explorer_kit_cooldown':
+    material: LEATHER_BOOTS
+    amount: 1
+    slot: 15
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ʜᴇʀᴇ ᴛᴏᴏʟꜱ ᴀɴᴅ ꜱᴜᴘᴘʟɪᴇꜱ ꜰᴏʀ ʏᴏᴜ'
+      - '&7ᴅɪꜱᴄᴏᴠᴇʀɪɴɢ ɴᴇᴡ ʟᴀɴᴅꜱ ᴀɴᴅ ꜱᴇᴄʀᴇᴛꜱ!'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_explorer%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_explorer%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_explorer% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'explorer_kit_available':
+    material: LEATHER_BOOTS
+    amount: 1
+    slot: 15
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ʜᴇʀᴇ ᴛᴏᴏʟꜱ ᴀɴᴅ ꜱᴜᴘᴘʟɪᴇꜱ ꜰᴏʀ ʏᴏᴜ'
+      - '&7ᴅɪꜱᴄᴏᴠᴇʀɪɴɢ ɴᴇᴡ ʟᴀɴᴅꜱ ᴀɴᴅ ꜱᴇᴄʀᴇᴛꜱ!'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c24h'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit explorer"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] explorer_kit_preview"
+
+
+
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] kits"
+

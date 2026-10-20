@@ -1,0 +1,1409 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'cosmetics_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʜᴀᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_hats_1"
+
+  'cosmetics_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[refresh]"
+
+  'cosmetics_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʙᴀʟʟᴏᴏɴꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_balloons"
+
+  'cosmetics_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴇᴍᴏᴛᴇꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_emotes"
+
+  'cosmetics_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_particle_1"
+
+  'cosmetics_6':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ɢʟᴏᴡꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_glows"
+
+  'cosmetics_7':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_chatcolors"
+
+
+
+
+
+
+
+
+
+#Cosmetics
+
+
+  'cosmetics_toggle_1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NlMmEyMWM0MTRkOGM5ZGMzMTZiNjQ4N2JjYmQxZTA5OGM4ZWM4MDhhYjYyNmUwZDUxMGM3NjMyM2U5YTEzYiJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʜʀɪꜱᴛᴍᴀꜱ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a1,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.christmas
+    click_commands:
+      - "[player] ultracosmetics toggle projectile christmas"
+      - "[close]"
+
+  'cosmetics_purchase_1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NlMmEyMWM0MTRkOGM5ZGMzMTZiNjQ4N2JjYmQxZTA5OGM4ZWM4MDhhYjYyNmUwZDUxMGM3NjMyM2U5YTEzYiJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʜʀɪꜱᴛᴍᴀꜱ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a1,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1800'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.christmas true"
+      - "[console] eco take %player_name% 1800"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VmMTE5ZjA4ODUxYTcyYTVmMTBmYmMzMjQ3ZDk1ZTFjMDA2MzYwZDJiNGY0MTJiMjNjZTA1NDA5Mjc1NmIwYyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 20
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴇᴅꜱᴛᴏɴᴇ ʜᴇʟɪx'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a3,780'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.redstonehelix
+    click_commands:
+      - "[player] ultracosmetics toggle projectile redstonehelix"
+      - "[close]"
+
+  'cosmetics_purchase_2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VmMTE5ZjA4ODUxYTcyYTVmMTBmYmMzMjQ3ZDk1ZTFjMDA2MzYwZDJiNGY0MTJiMjNjZTA1NDA5Mjc1NmIwYyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 20
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴇᴅꜱᴛᴏɴᴇ ʜᴇʟɪx'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a3,780'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 3780'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.redstonehelix true"
+      - "[console] eco take %player_name% 3780"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNlOTdmYWI0NzUzYjc1YmE1YjBjMDM4YmVkMzc3YjE2MmJhMjhiN2E1ZTI5MGFiZmQwMThhNTU4MWFjNTM4OCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 21
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰʟᴀᴍᴇ ʜᴇʟɪx'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a5,850'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.flamehelix
+    click_commands:
+      - "[player] ultracosmetics toggle projectile flamehelix"
+      - "[close]"
+
+  'cosmetics_purchase_3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNlOTdmYWI0NzUzYjc1YmE1YjBjMDM4YmVkMzc3YjE2MmJhMjhiN2E1ZTI5MGFiZmQwMThhNTU4MWFjNTM4OCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 21
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰʟᴀᴍᴇ ʜᴇʟɪx'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a5,850'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 5850'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.flamehelix true"
+      - "[console] eco take %player_name% 5850"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI1NzViYzk0NzY0OGI3ZmU2OGYxYjYyM2ZlYjdmNzcyODZmOTZhMTc5ODk1ZDcyZDI3MThmOTRiODljNjMifX19'
+    amount: 1
+    model_data: 2
+    slot: 22
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴜʀꜱᴇᴅ ʜᴇʟɪx'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.cursedhelix
+    click_commands:
+      - "[player] ultracosmetics toggle projectile cursedhelix"
+      - "[close]"
+
+
+  'cosmetics_purchase_4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI1NzViYzk0NzY0OGI3ZmU2OGYxYjYyM2ZlYjdmNzcyODZmOTZhMTc5ODk1ZDcyZDI3MThmOTRiODljNjMifX19'
+    amount: 1
+    model_data: 2
+    slot: 22
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴜʀꜱᴇᴅ ʜᴇʟɪx'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 9000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.cursedhelix true"
+      - "[console] eco take %player_name% 9000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIwY2I3M2YyMDdiMDdkMjU5Y2ExZWVmN2NhZGUzMDJjN2VhMTA0YjhhMGMyNDBiODk3YTU3Nzk3MTEyMmU1NiJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴏᴜʟꜰɪʀᴇ ʜᴇʟɪx'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a11,700'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.soulfirehelix
+    click_commands:
+      - "[player] ultracosmetics toggle projectile soulfirehelix"
+      - "[close]"
+
+  'cosmetics_purchase_5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIwY2I3M2YyMDdiMDdkMjU5Y2ExZWVmN2NhZGUzMDJjN2VhMTA0YjhhMGMyNDBiODk3YTU3Nzk3MTEyMmU1NiJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 23
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴏᴜʟꜰɪʀᴇ ʜᴇʟɪx'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a11,700'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 11700'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.soulfirehelix true"
+      - "[console] eco take %player_name% 11700"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+  'cosmetics_toggle_6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc2NDk5NGQ3ZWFlMWRlNjNhODM0MGVlYjY5ZDA2ZGVkN2Y2NTc1MmRlNmM1ZDU3ZjA3MjM1NWYwNWIxNjQxYyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 24
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴘᴀʀᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a14,400'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.spark
+    click_commands:
+      - "[player] ultracosmetics toggle projectile spark"
+      - "[close]"
+
+  'cosmetics_purchase_6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc2NDk5NGQ3ZWFlMWRlNjNhODM0MGVlYjY5ZDA2ZGVkN2Y2NTc1MmRlNmM1ZDU3ZjA3MjM1NWYwNWIxNjQxYyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 24
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴘᴀʀᴋ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a14,400'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 14400'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.spark true"
+      - "[console] eco take %player_name% 14400"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_7':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlMWM0ZDhhYjMyYTExNzVjM2JkNmE3OTMyZGQ1ZThiZTdlYjIwZmNkNTRkZTQ2NWIzZDc3ZWE3ZTY0MjJmYSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 25
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴇᴅꜱᴛᴏɴᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a17,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.redstone
+    click_commands:
+      - "[player] ultracosmetics toggle projectile redstone"
+      - "[close]"
+
+  'cosmetics_purchase_7':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlMWM0ZDhhYjMyYTExNzVjM2JkNmE3OTMyZGQ1ZThiZTdlYjIwZmNkNTRkZTQ2NWIzZDc3ZWE3ZTY0MjJmYSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 25
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴇᴅꜱᴛᴏɴᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a17,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 17100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.redstone true"
+      - "[console] eco take %player_name% 17100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_8':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc2NDk5NGQ3ZWFlMWRlNjNhODM0MGVlYjY5ZDA2ZGVkN2Y2NTc1MmRlNmM1ZDU3ZjA3MjM1NWYwNWIxNjQxYyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰʟᴀᴍᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a19,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.flame
+    click_commands:
+      - "[player] ultracosmetics toggle projectile flame"
+      - "[close]"
+
+  'cosmetics_purchase_8':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc2NDk5NGQ3ZWFlMWRlNjNhODM0MGVlYjY5ZDA2ZGVkN2Y2NTc1MmRlNmM1ZDU3ZjA3MjM1NWYwNWIxNjQxYyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰʟᴀᴍᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a19,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 19800'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.flame true"
+      - "[console] eco take %player_name% 19800"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_9':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFjZTE3YjNmM2MxYjA1OTQzYTEwMGM0ZWU1MjY1ZDIyMmY4YTA2OWUzOTVhYWViZjNmNmIxOTlkYTIwZmY2NSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴡᴀᴛᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a22,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.water
+    click_commands:
+      - "[player] ultracosmetics toggle projectile water"
+      - "[close]"
+
+  'cosmetics_purchase_9':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFjZTE3YjNmM2MxYjA1OTQzYTEwMGM0ZWU1MjY1ZDIyMmY4YTA2OWUzOTVhYWViZjNmNmIxOTlkYTIwZmY2NSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 29
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴡᴀᴛᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a22,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 22500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.water true"
+      - "[console] eco take %player_name% 22500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_10':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNlNjYwNDE1N2ZjNGFiNTU5MWU0YmNmNTA3YTc0OTkxOGVlOWM0MWUzNTdkNDczNzZlMGVlNzM0MjA3NGM5MCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 30
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴡɪᴛᴄʜ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a25,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.witch
+    click_commands:
+      - "[player] ultracosmetics toggle projectile witch"
+      - "[close]"
+
+  'cosmetics_purchase_10':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNlNjYwNDE1N2ZjNGFiNTU5MWU0YmNmNTA3YTc0OTkxOGVlOWM0MWUzNTdkNDczNzZlMGVlNzM0MjA3NGM5MCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 30
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴡɪᴛᴄʜ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a25,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 25200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.witch true"
+      - "[console] eco take %player_name% 25200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_11':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk4NWU5NjEyMjgzOTNhNGNkNTdmYWFlMTdiZmIwN2JkMGZkYTA4NTMxNmZkOGJlNTg0NTk4NzRkZWNjM2JjOCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 31
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴇᴍᴇʀᴀʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a27,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.emerald
+    click_commands:
+      - "[player] ultracosmetics toggle projectile emerald"
+      - "[close]"
+
+  'cosmetics_purchase_11':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk4NWU5NjEyMjgzOTNhNGNkNTdmYWFlMTdiZmIwN2JkMGZkYTA4NTMxNmZkOGJlNTg0NTk4NzRkZWNjM2JjOCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 31
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴇᴍᴇʀᴀʟᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a27,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 27900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.emerald true"
+      - "[console] eco take %player_name% 27900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_12':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgyYjBiN2M2OGU4ODgwMDAzMGU2NzQ1MjJhYWI0MDM5NmZhNTQzMDcyYjk0OWMwNjAwZTY2YzJlZDM1MmZmMCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lɴᴏᴛᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a30,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.note
+    click_commands:
+      - "[player] ultracosmetics toggle projectile note"
+      - "[close]"
+
+  'cosmetics_purchase_12':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgyYjBiN2M2OGU4ODgwMDAzMGU2NzQ1MjJhYWI0MDM5NmZhNTQzMDcyYjk0OWMwNjAwZTY2YzJlZDM1MmZmMCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 32
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lɴᴏᴛᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a30,600'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 30600'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.note true"
+      - "[console] eco take %player_name% 30600"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_13':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI3NmI0ZWU5ODg1NzIyOTdjYmQ4NzQ2ODNiZWU5NmFlM2M1NWNlOTRjMDA0ZTUxYWRjODJjZWUxNmNkMGIwYyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 33
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʟᴏᴠᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a33,300'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.love
+    click_commands:
+      - "[player] ultracosmetics toggle projectile love"
+      - "[close]"
+
+  'cosmetics_purchase_13':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI3NmI0ZWU5ODg1NzIyOTdjYmQ4NzQ2ODNiZWU5NmFlM2M1NWNlOTRjMDA0ZTUxYWRjODJjZWUxNmNkMGIwYyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 33
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʟᴏᴠᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a33,300'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 33300'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.love true"
+      - "[console] eco take %player_name% 33300"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+  'cosmetics_toggle_14':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFlOTdkYTM1ZGQzMjNkNGRiODY2YTE2ZTQ3M2IxYTJiNDNkNjIwNmFhMzk4NDMwZTkxYTJjZWYwY2FhNzA2ZCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 34
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʟᴀᴠᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a36,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.lava
+    click_commands:
+      - "[player] ultracosmetics toggle projectile lava"
+      - "[close]"
+
+  'cosmetics_purchase_14':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFlOTdkYTM1ZGQzMjNkNGRiODY2YTE2ZTQ3M2IxYTJiNDNkNjIwNmFhMzk4NDMwZTkxYTJjZWYwY2FhNzA2ZCJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 34
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʟᴀᴠᴀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a36,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 36000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.lava true"
+      - "[console] eco take %player_name% 36000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_15':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdiYTE0NjI0NWRhMDE2NWU2YTQ1OWQwZGMyZDEyZDc3YTk2OTAzMmQxYzU2YWEwYjA5MTYwNTlmMjAyZGRkIn19fQ=='
+    amount: 1
+    model_data: 2
+    slot: 37
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱɴᴏᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a38,700'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.snow
+    click_commands:
+      - "[player] ultracosmetics toggle projectile snow"
+      - "[close]"
+
+  'cosmetics_purchase_15':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdiYTE0NjI0NWRhMDE2NWU2YTQ1OWQwZGMyZDEyZDc3YTk2OTAzMmQxYzU2YWEwYjA5MTYwNTlmMjAyZGRkIn19fQ=='
+    amount: 1
+    model_data: 2
+    slot: 37
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱɴᴏᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a38,700'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 38700'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.snow true"
+      - "[console] eco take %player_name% 38700"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+  'cosmetics_toggle_16':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxMGY3NjY5YjE2NGExOGI1NmM0YzkxODNlNWFlYTMyOGZiYjYzYTk2NDA5ODMxMmUwYzBiY2UxMzFkOTk1ZSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 38
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱʟɪᴍᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a41,400'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.slime
+    click_commands:
+      - "[player] ultracosmetics toggle projectile slime"
+      - "[close]"
+
+  'cosmetics_purchase_16':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxMGY3NjY5YjE2NGExOGI1NmM0YzkxODNlNWFlYTMyOGZiYjYzYTk2NDA5ODMxMmUwYzBiY2UxMzFkOTk1ZSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 38
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱʟɪᴍᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a41,400'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 41400'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.slime true"
+      - "[console] eco take %player_name% 41400"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_17':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVlMTE4ZWRkYWVlMGRmYjJjYmMyYzNkNTljMTNhNDFhN2Q2OGNjZTk0NWU0MjE2N2FhMWRjYjhkMDY3MDUxNyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 39
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʀɪᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a44,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.crit
+    click_commands:
+      - "[player] ultracosmetics toggle projectile crit"
+      - "[close]"
+
+  'cosmetics_purchase_17':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVlMTE4ZWRkYWVlMGRmYjJjYmMyYzNkNTljMTNhNDFhN2Q2OGNjZTk0NWU0MjE2N2FhMWRjYjhkMDY3MDUxNyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 39
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʀɪᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a44,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 44100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.crit true"
+      - "[console] eco take %player_name% 44100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+  'cosmetics_toggle_18':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFjZTZiMTgwZjMwYmFlZTJiOTdjN2QwNmY2NDY0ZjcyNDJiNjRjZmMyNzJiZjZlNWE2YjJhNjNkM2JiMjczNyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 40
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴍᴀɢɪᴄ ᴄʀɪᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a46,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.magiccrit
+    click_commands:
+      - "[player] ultracosmetics toggle projectile magiccrit"
+      - "[close]"
+
+  'cosmetics_purchase_18':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFjZTZiMTgwZjMwYmFlZTJiOTdjN2QwNmY2NDY0ZjcyNDJiNjRjZmMyNzJiZjZlNWE2YjJhNjNkM2JiMjczNyJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 40
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴍᴀɢɪᴄ ᴄʀɪᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a46,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 46800'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.magiccrit true"
+      - "[console] eco take %player_name% 46800"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_19':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTllMzQ4YzQ5OTUxYTIwMWJlZGYyYzcwMzJlZmU4ZDI5ZDA3ZTc2MDRlZDU3Y2M2YTQ4YzRhYmM5MjgwMTZkZiJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 41
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴇxᴘʟᴏꜱɪᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a49,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.explosion
+    click_commands:
+      - "[player] ultracosmetics toggle projectile explosion"
+      - "[close]"
+
+  'cosmetics_purchase_19':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTllMzQ4YzQ5OTUxYTIwMWJlZGYyYzcwMzJlZmU4ZDI5ZDA3ZTc2MDRlZDU3Y2M2YTQ4YzRhYmM5MjgwMTZkZiJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 41
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴇxᴘʟᴏꜱɪᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a49,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 49500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.explosion true"
+      - "[console] eco take %player_name% 49500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_20':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE5NTcwNDE1Zjk0YjM5NGZmNTFhOTI1OWYxZmNmOWRiMzA2Njc3NDM4YmRjOGJhYzM1ZGNkNTkxYWEwMmVkZSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 42
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʟᴏᴜᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a52,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.cloud
+    click_commands:
+      - "[player] ultracosmetics toggle projectile cloud"
+      - "[close]"
+
+  'cosmetics_purchase_20':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE5NTcwNDE1Zjk0YjM5NGZmNTFhOTI1OWYxZmNmOWRiMzA2Njc3NDM4YmRjOGJhYzM1ZGNkNTkxYWEwMmVkZSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 42
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʟᴏᴜᴅ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a52,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 52200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.cloud true"
+      - "[console] eco take %player_name% 52200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+  'cosmetics_toggle_21':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUzZDM5ZjRmYWU5OGRhYjE0MDYzYTdmZmQ0MDY3ODkyYjdkN2U5MWYwOTg1YjljZjYxZTg3YTgxMDU3MWFkNSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 43
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴍᴏᴋᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a54,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.projectileeffects.smoke
+    click_commands:
+      - "[player] ultracosmetics toggle projectile smoke"
+      - "[close]"
+
+  'cosmetics_purchase_21':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUzZDM5ZjRmYWU5OGRhYjE0MDYzYTdmZmQ0MDY3ODkyYjdkN2U5MWYwOTg1YjljZjYxZTg3YTgxMDU3MWFkNSJ9fX0='
+    amount: 1
+    model_data: 2
+    slot: 43
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜱᴍᴏᴋᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ᴛʀᴀɪʟꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴛʀᴀɪʟꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a54,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 54900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.projectileeffects.smoke true"
+      - "[console] eco take %player_name% 54900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+
+
+
+  'next_arrow':
+    material: PAPER
+    model_data: 12
+    amount: 1
+    slot: 35
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lɴᴇxᴛ ᴘᴀɢᴇ →'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ'
+      - '&7ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] cosmetics_projectile_2"
+  'remove_button':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 52
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴍᴏᴠᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ'
+      - '&7ʏᴏᴜʀ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[console] uc clear %player_name% projectile_effects"
+      - "[close]"

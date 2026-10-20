@@ -1,0 +1,27 @@
+endermeny:
+  MobName: endermeny
+  World: dungeon2
+  X: 64
+  Y: 45
+  Z: -37
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 12.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '20'
+  MobLevel: '1'
+  MobsPerSpawn: 2
+  Cooldown: 10
+  Warmup: 0
+  ActivationRange: 10.0
+  LeashRange: 30.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: false
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  CooldownTimer: 1
+  ActiveMobs: 9

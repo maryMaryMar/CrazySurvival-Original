@@ -1,0 +1,1450 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'cosmetics_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʜᴀᴛꜱ'
+    click_commands:
+      - "[refresh]"
+
+  'cosmetics_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_projectile_1"
+
+  'cosmetics_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʙᴀʟʟᴏᴏɴꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_balloons"
+
+  'cosmetics_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴇᴍᴏᴛᴇꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_emotes"
+
+  'cosmetics_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_particle_1"
+
+  'cosmetics_6':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ɢʟᴏᴡꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_glows"
+
+  'cosmetics_7':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_chatcolors"
+
+
+
+
+
+
+
+
+
+#Cosmetics
+
+
+
+
+  'cosmetics_toggle_1':
+    material: FLINT
+    model_data: 25
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴀɢ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a8,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.bag
+    click_commands:
+      - "[player] ultracosmetics toggle hats bag"
+      - "[close]"
+
+  'cosmetics_purchase_1':
+    material: FLINT
+    model_data: 25
+    amount: 1
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴀɢ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a8,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 8100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.bag true"
+      - "[console] eco take %player_name% 8100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_2':
+    material: FLINT
+    model_data: 28
+    amount: 1
+    slot: 20
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀǫᴜᴀʀɪᴜᴍ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a13,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.aquarium
+    click_commands:
+      - "[player] ultracosmetics toggle hats aquarium"
+      - "[close]"
+
+  'cosmetics_purchase_2':
+    material: FLINT
+    model_data: 28
+    amount: 1
+    slot: 20
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀǫᴜᴀʀɪᴜᴍ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a13,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 13500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.aquarium true"
+      - "[console] eco take %player_name% 13500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_3':
+    material: FLINT
+    model_data: 35
+    amount: 1
+    slot: 21
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴅᴇᴀʟ ᴡɪᴛʜ ɪᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a14,400'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.dealwithit
+    click_commands:
+      - "[player] ultracosmetics toggle hats dealwithit"
+      - "[close]"
+
+  'cosmetics_purchase_3':
+    material: FLINT
+    model_data: 35
+    amount: 1
+    slot: 21
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴅᴇᴀʟ ᴡɪᴛʜ ɪᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a14,400'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 14400'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.dealwithit true"
+      - "[console] eco take %player_name% 14400"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_4':
+    material: FLINT
+    model_data: 45
+    amount: 1
+    slot: 22
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰᴀʀᴍᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.farmer
+    click_commands:
+      - "[player] ultracosmetics toggle hats farmer"
+      - "[close]"
+
+  'cosmetics_purchase_4':
+    material: FLINT
+    model_data: 45
+    amount: 1
+    slot: 22
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰᴀʀᴍᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 9000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.farmer true"
+      - "[console] eco take %player_name% 9000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_5':
+    material: FLINT
+    model_data: 46
+    amount: 1
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰʟᴏᴡᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.flower
+    click_commands:
+      - "[player] ultracosmetics toggle hats flower"
+      - "[close]"
+
+  'cosmetics_purchase_5':
+    material: FLINT
+    model_data: 46
+    amount: 1
+    slot: 23
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰʟᴏᴡᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 7200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.flower true"
+      - "[console] eco take %player_name% 7200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_6':
+    material: FLINT
+    model_data: 47
+    amount: 1
+    slot: 24
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰʀʏɪɴɢ ᴘᴀɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a8,550'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.fryingpan
+    click_commands:
+      - "[player] ultracosmetics toggle hats fryingpan"
+      - "[close]"
+
+  'cosmetics_purchase_6':
+    material: FLINT
+    model_data: 47
+    amount: 1
+    slot: 24
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lꜰʀʏɪɴɢ ᴘᴀɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a8,550'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 8550'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.fryingpan true"
+      - "[console] eco take %player_name% 8550"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_7':
+    material: FLINT
+    model_data: 50
+    amount: 1
+    slot: 25
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lɪᴄᴇᴄʀᴇᴀᴍ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a8,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.icecream
+    click_commands:
+      - "[player] ultracosmetics toggle hats icecream"
+      - "[close]"
+
+  'cosmetics_purchase_7':
+    material: FLINT
+    model_data: 50
+    amount: 1
+    slot: 25
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lɪᴄᴇᴄʀᴇᴀᴍ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a8,100'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 8100'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.icecream true"
+      - "[console] eco take %player_name% 8100"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_8':
+    material: FLINT
+    model_data: 48
+    amount: 1
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʜᴀʟᴏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a11,700'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.halo
+    click_commands:
+      - "[player] ultracosmetics toggle hats halo"
+      - "[close]"
+
+  'cosmetics_purchase_8':
+    material: FLINT
+    model_data: 48
+    amount: 1
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʜᴀʟᴏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a11,700'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 11700'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.halo true"
+      - "[console] eco take %player_name% 11700"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_9':
+    material: FLINT
+    model_data: 79
+    amount: 1
+    slot: 29
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴛᴜʀᴋᴇʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.turkey
+    click_commands:
+      - "[player] ultracosmetics toggle hats turkey"
+      - "[close]"
+
+  'cosmetics_purchase_9':
+    material: FLINT
+    model_data: 79
+    amount: 1
+    slot: 29
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴛᴜʀᴋᴇʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 9900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.turkey true"
+      - "[console] eco take %player_name% 9900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_10':
+    material: FLINT
+    model_data: 24
+    amount: 1
+    slot: 30
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀʀʀᴏᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.arrow
+    click_commands:
+      - "[player] ultracosmetics toggle hats arrow"
+      - "[close]"
+
+  'cosmetics_purchase_10':
+    material: FLINT
+    model_data: 24
+    amount: 1
+    slot: 30
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀʀʀᴏᴡ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 7200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.arrow true"
+      - "[console] eco take %player_name% 7200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_11':
+    material: FLINT
+    model_data: 26
+    amount: 1
+    slot: 31
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴀꜱᴋᴇᴛʙᴀʟʟ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,720'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.basketball
+    click_commands:
+      - "[player] ultracosmetics toggle hats basketball"
+      - "[close]"
+
+  'cosmetics_purchase_11':
+    material: FLINT
+    model_data: 26
+    amount: 1
+    slot: 31
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴀꜱᴋᴇᴛʙᴀʟʟ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,720'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 9720'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.basketball true"
+      - "[console] eco take %player_name% 9720"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_12':
+    material: FLINT
+    model_data: 27
+    amount: 1
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴏᴛᴛʟᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a6,300'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.bottle
+    click_commands:
+      - "[player] ultracosmetics toggle hats bottle"
+      - "[close]"
+
+  'cosmetics_purchase_12':
+    material: FLINT
+    model_data: 27
+    amount: 1
+    slot: 32
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴏᴛᴛʟᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a6,300'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 6300'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.bottle true"
+      - "[console] eco take %player_name% 6300"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_13':
+    material: FLINT
+    model_data: 74
+    amount: 1
+    slot: 33
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙɪɢ ᴘʀᴏᴘᴇʟʟᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a11,700'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.bigpropeller
+    click_commands:
+      - "[player] ultracosmetics toggle hats bigpropeller"
+      - "[close]"
+
+  'cosmetics_purchase_13':
+    material: FLINT
+    model_data: 74
+    amount: 1
+    slot: 33
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙɪɢ ᴘʀᴏᴘᴇʟʟᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a11,700'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 11700'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.bigpropeller true"
+      - "[console] eco take %player_name% 11700"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_14':
+    material: FLINT
+    model_data: 75
+    amount: 1
+    slot: 34
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘʀᴏᴘᴇʟʟᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.propeller
+    click_commands:
+      - "[player] ultracosmetics toggle hats propeller"
+      - "[close]"
+
+  'cosmetics_purchase_14':
+    material: FLINT
+    model_data: 75
+    amount: 1
+    slot: 34
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘʀᴏᴘᴇʟʟᴇʀ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,900'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 9900'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.propeller true"
+      - "[console] eco take %player_name% 9900"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_15':
+    material: FLINT
+    model_data: 29
+    amount: 1
+    slot: 37
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴜɴɴʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,650'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.bunny
+    click_commands:
+      - "[player] ultracosmetics toggle hats bunny"
+      - "[close]"
+
+  'cosmetics_purchase_15':
+    material: FLINT
+    model_data: 29
+    amount: 1
+    slot: 37
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙᴜɴɴʏ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,650'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 7650'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.bunny true"
+      - "[console] eco take %player_name% 7650"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_16':
+    material: FLINT
+    model_data: 30
+    amount: 1
+    slot: 38
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴀʀʀᴏᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a5,310'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.carrot
+    click_commands:
+      - "[player] ultracosmetics toggle hats carrot"
+      - "[close]"
+
+  'cosmetics_purchase_16':
+    material: FLINT
+    model_data: 30
+    amount: 1
+    slot: 38
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴀʀʀᴏᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a5,310'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 5310'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.carrot true"
+      - "[console] eco take %player_name% 5310"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_17':
+    material: FLINT
+    model_data: 31
+    amount: 1
+    slot: 39
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴀᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a8,370'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.cat
+    click_commands:
+      - "[player] ultracosmetics toggle hats cat"
+      - "[close]"
+
+  'cosmetics_purchase_17':
+    material: FLINT
+    model_data: 31
+    amount: 1
+    slot: 39
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴀᴛ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a8,370'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 8370'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.cat true"
+      - "[console] eco take %player_name% 8370"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_18':
+    material: FLINT
+    model_data: 32
+    amount: 1
+    slot: 40
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴀᴛɪɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,450'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.catin
+    click_commands:
+      - "[player] ultracosmetics toggle hats catin"
+      - "[close]"
+
+  'cosmetics_purchase_18':
+    material: FLINT
+    model_data: 32
+    amount: 1
+    slot: 40
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴀᴛɪɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a9,450'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 9450'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.catin true"
+      - "[console] eco take %player_name% 9450"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_19':
+    material: FLINT
+    model_data: 33
+    amount: 1
+    slot: 41
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴏɴᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.cone
+    click_commands:
+      - "[player] ultracosmetics toggle hats cone"
+      - "[close]"
+
+  'cosmetics_purchase_19':
+    material: FLINT
+    model_data: 33
+    amount: 1
+    slot: 41
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄᴏɴᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a7,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 7200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.cone true"
+      - "[console] eco take %player_name% 7200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_20':
+    material: FLINT
+    model_data: 34
+    amount: 1
+    slot: 42
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʀᴏᴡɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a13,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.crown
+    click_commands:
+      - "[player] ultracosmetics toggle hats crown"
+      - "[close]"
+
+  'cosmetics_purchase_20':
+    material: FLINT
+    model_data: 34
+    amount: 1
+    slot: 42
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʀᴏᴡɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a13,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 13500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.crown true"
+      - "[console] eco take %player_name% 13500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+  'cosmetics_toggle_21':
+    material: FLINT
+    model_data: 37
+    amount: 1
+    slot: 43
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴇɢɢ ʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a15,300'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: ultracosmetics.hats.eggblue
+    click_commands:
+      - "[player] ultracosmetics toggle hats eggblue"
+      - "[close]"
+
+  'cosmetics_purchase_21':
+    material: FLINT
+    model_data: 37
+    amount: 1
+    slot: 43
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴇɢɢ ʙʟᴜᴇ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʜᴀᴛꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʜᴀᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a15,300'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 15300'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set ultracosmetics.hats.eggblue true"
+      - "[console] eco take %player_name% 15300"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+
+
+
+  'next_arrow':
+    material: PAPER
+    model_data: 12
+    amount: 1
+    slot: 35
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lɴᴇxᴛ ᴘᴀɢᴇ →'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ'
+      - '&7ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] cosmetics_hats_2"
+  'remove_button':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 52
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴍᴏᴠᴇ ʜᴀᴛ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ'
+      - '&7ʏᴏᴜʀ ʜᴀᴛ'
+    click_commands:
+      - "[console] uc clear %player_name% hats"
+      - "[close]"

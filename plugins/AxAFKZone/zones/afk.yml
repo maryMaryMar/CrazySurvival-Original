@@ -1,0 +1,41 @@
+messages:
+  entered: '&f &#648DC1ʏᴏᴜ ʜᴀᴠᴇ ᴇɴᴛᴇʀᴇᴅ ᴛʜᴇ ᴀꜰᴋ ᴢᴏɴᴇ, ʀᴇᴡᴀʀᴅ ɪɴ: &#5BB8ED%time%!'
+  left: '&f &#648DC1ʏᴏᴜ ʜᴀᴠᴇ ʟᴇꜰᴛ ᴛʜᴇ ᴀꜰᴋ ᴢᴏɴᴇ, ꜱᴛᴀʏᴇᴅ ꜰᴏʀ: &#5BB8ED%time%!'
+  # the %rewards% line will be duplicated for every reward given
+  reward:
+  - '<white> &eʏᴏᴜ ᴡᴀɪᴛᴇᴅ ꜰᴏʀ &#fceba0%time%, &eʏᴏᴜ ʜᴀᴠᴇ ʙᴇᴇɴ ʀᴇᴡᴀʀᴅᴇᴅ:'
+  - '&7 ▪ &f%reward%'
+
+# set any of the lines to "" if you want to disable one of them
+in-zone:
+  title: '&#5BB8EDʏᴏᴜ ᴀʀᴇ ᴀғᴋ'
+  subtitle: '&#648DC1Next reward in: %time%'
+  actionbar: ''
+  # remove the section to disable
+
+# the required permission to gain rewards in this zone
+# example: axafkzone.vip
+# set to "" to disable, so everyone will get rewards
+permission: ''
+
+# how often should a reward be rolled? (in seconds)
+reward-time-seconds: 120
+
+# how many rewards should be rolled after the time has passed?
+roll-amount: 1
+
+# chances can go over 100%
+# you can add as many rewards as you would like
+rewards:
+- chance: 95.0
+  display: '&2$&a10 Money'
+  commands:
+  - eco give %player% 10 
+- chance: 5.0
+  display: '&#ffc00fSunshine Crate Key'
+  commands:
+  - excellentcrates key give %player% sunshine 1
+
+zone:
+  location1: lobby;-39.0;136.0;-37.0;0.0;0.0
+  location2: lobby;-36.0;136.0;-40.0;0.0;0.0

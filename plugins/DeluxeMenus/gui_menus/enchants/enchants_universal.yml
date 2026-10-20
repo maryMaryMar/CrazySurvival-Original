@@ -1,0 +1,239 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'enchants_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇɴᴄʜᴀɴᴛꜱ ᴏꜰ ᴀʀᴍᴏʀ'
+    click_commands:
+      - "[openguimenu] enchants_armor"
+
+  'enchants_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇɴᴄʜᴀɴᴛꜱ ᴏꜰ ᴛᴏᴏʟꜱ'
+    click_commands:
+      - "[openguimenu] enchants_tools"
+
+  'enchants_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴜɴɪᴠᴇʀꜱᴀʟ ᴇɴᴄʜᴀɴᴛꜱ'
+    click_commands:
+      - "[refresh]"
+
+  'enchants_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇɴᴄʜᴀɴᴛꜱ ᴏꜰ ʙᴏᴡꜱ'
+    click_commands:
+      - "[openguimenu] enchants_bow"
+
+  'enchants_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇɴᴄʜᴀɴᴛꜱ ᴏꜰ ᴡᴇᴀᴘᴏɴꜱ'
+    click_commands:
+      - "[openguimenu] enchants_weapon"
+
+
+
+
+
+
+
+
+
+#Enchants
+  'enchants_purchase_1':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴄᴜʀꜱᴇ ᴏꜰ ʙʀᴇᴀᴋɪɴɢ'
+    lore:
+      - '&7ᴛᴀᴋᴇꜱ ᴍᴏʀᴇ ᴅᴜʀᴀʙɪʟɪᴛʏ'
+      - '&7ᴘᴏɪɴᴛꜱ ᴏɴ ᴜꜱᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '   &8▪ &f '
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea600 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_curse_of_breaking"
+
+  'enchants_purchase_2':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 20
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴄᴜʀꜱᴇ ᴏꜰ ꜰʀᴀɢɪʟɪᴛʏ'
+    lore:
+      - '&7ᴘʀᴇᴠᴇɴᴛꜱ ɪᴛᴇᴍ ꜰʀᴏᴍ ʙᴇɪɴɢ'
+      - '&7ɢʀɪɴᴅꜱᴛᴏɴᴇᴅ ᴏʀ ᴀɴᴠɪʟᴇᴅ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '   &8▪ &f '
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea400 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_curse_of_fragility"
+
+  'enchants_purchase_3':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴄᴜʀꜱᴇ ᴏꜰ ᴍᴇᴅɪᴏᴄʀɪᴛʏ'
+    lore:
+      - '&7ᴅɪꜱᴇɴᴄʜᴀɴᴛꜱ ʙʟᴏᴄᴋꜱ ᴀɴᴅ'
+      - '&7ᴍᴏʙꜱ ʟᴏᴏᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea900 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_curse_of_mediocrity"
+
+  'enchants_purchase_4':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴄᴜʀꜱᴇ ᴏꜰ ᴍɪꜱꜰᴏʀᴛᴜɴᴇ'
+    lore:
+      - '&7ʀᴇᴅᴜᴄᴇꜱ ʙʟᴏᴄᴋꜱ ᴀɴᴅ ᴍᴏʙꜱ'
+      - '&7ʟᴏᴏᴛ ᴛᴏ ᴢᴇʀᴏ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1200 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_curse_of_misfortune"
+
+  'enchants_purchase_5':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 23
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʀᴇꜱᴛᴏʀᴇ'
+    lore:
+      - '&7ꜱᴀᴠᴇꜱ ɪᴛᴇᴍ ꜰʀᴏᴍ ʙʀᴇᴀᴋɪɴɢ'
+      - '&7ᴏɴᴄᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '   &8▪ &f '
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea3500 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_restore"
+
+  'enchants_purchase_6':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 24
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lꜱᴏᴜʟʙᴏᴜɴᴅ'
+    lore:
+      - '&7ᴘʀᴇᴠᴇɴᴛꜱ ɪᴛᴇᴍ ꜰʀᴏᴍ ʙᴇɪɴɢ'
+      - '&7ᴅʀᴏᴘᴘᴇᴅ ᴜᴘᴏɴ ᴅᴇᴀᴛʜ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '   &8▪ &f    '
+      - '   &8▪ &f '
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea8000 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_soulbound"

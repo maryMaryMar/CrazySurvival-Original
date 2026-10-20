@@ -1,0 +1,568 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'enchants_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇɴᴄʜᴀɴᴛꜱ ᴏꜰ ᴀʀᴍᴏʀ'
+    click_commands:
+      - "[openguimenu] enchants_armor"
+
+  'enchants_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇɴᴄʜᴀɴᴛꜱ ᴏꜰ ᴛᴏᴏʟꜱ'
+    click_commands:
+      - "[openguimenu] enchants_tools"
+
+  'enchants_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴜɴɪᴠᴇʀꜱᴀʟ ᴇɴᴄʜᴀɴᴛꜱ'
+    click_commands:
+      - "[openguimenu] enchants_universal"
+
+  'enchants_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇɴᴄʜᴀɴᴛꜱ ᴏꜰ ʙᴏᴡꜱ'
+    click_commands:
+      - "[openguimenu] enchants_bow"
+
+  'enchants_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴇɴᴄʜᴀɴᴛꜱ ᴏꜰ ᴡᴇᴀᴘᴏɴꜱ'
+    click_commands:
+      - "[refresh]"
+
+
+
+
+
+
+
+
+
+#Enchants
+  'enchants_purchase_1':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʙᴀɴᴇ ᴏꜰ ɴᴇᴛʜᴇʀꜱᴘᴀᴡɴ'
+    lore:
+      - '&7ɪɴᴄʀᴇᴀꜱᴇꜱ ᴅᴀᴍᴀɢᴇ ᴛᴏ'
+      - '&7ɴᴇᴛʜᴇʀ ᴍᴏʙꜱ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea5'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1200 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_bane_of_netherspawn"
+
+  'enchants_purchase_2':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 20
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʙʟɪɴᴅɴᴇꜱꜱ'
+    lore:
+      - '&7ᴀᴘᴘʟɪᴇꜱ ʙʟɪɴᴅɴᴇꜱꜱ ᴇꜰꜰᴇᴄᴛ'
+      - '&7ᴏɴ ᴛᴀʀɢᴇᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea2'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1000 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_blindness"
+
+  'enchants_purchase_3':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴄᴏɴꜰᴜꜱɪᴏɴ'
+    lore:
+      - '&7ᴀᴘᴘʟɪᴇꜱ ɴᴀᴜꜱᴇᴀ ᴇꜰꜰᴇᴄᴛ'
+      - '&7ᴏɴ ᴛᴀʀɢᴇᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea2'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea900 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_confusion"
+
+  'enchants_purchase_4':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴄᴜʀᴇ'
+    lore:
+      - '&7ᴄᴜʀᴇꜱ ᴢᴏᴍʙɪꜰɪᴇᴅ ᴘɪɢʟɪɴꜱ ᴀɴᴅ'
+      - '&7ᴢᴏᴍʙɪᴇ ᴠɪʟʟᴀɢᴇʀꜱ ᴏɴ ᴋɪʟʟ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea800 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_cure"
+
+  'enchants_purchase_5':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 23
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴄᴜʀꜱᴇ ᴏꜰ ᴅᴇᴀᴛʜ'
+    lore:
+      - '&7ɪꜰ ʏᴏᴜ ᴋɪʟʟ ᴀ ᴘʟᴀʏᴇʀ, ʏᴏᴜ ʜᴀᴠᴇ'
+      - '&7ᴀ ᴄʜᴀɴᴄᴇ ᴏꜰ ᴅʏɪɴɢ ᴛᴏᴏ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea900 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_curse_of_death"
+
+  'enchants_purchase_6':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 24
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴄᴜᴛᴛᴇʀ'
+    lore:
+      - '&7ᴅᴀᴍᴀɢᴇꜱ ᴀɴᴅ ᴅʀᴏᴘꜱ ᴛᴀʀɢᴇᴛꜱ'
+      - '&7ᴀʀᴍᴏʀ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea2200 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_cutter"
+
+  'enchants_purchase_7':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 25
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴅᴏᴜʙʟᴇ ꜱᴛʀɪᴋᴇ'
+    lore:
+      - '&7ɪɴᴄʀᴇᴀꜱᴇꜱ ᴅᴀᴍᴀɢᴇ ʙʏ ᴛᴡɪᴄᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea2'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea4000 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_double_strike"
+
+  'enchants_purchase_8':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 28
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴇxʜᴀᴜꜱᴛ'
+    lore:
+      - '&7ᴀᴘᴘʟɪᴇꜱ ʜᴜɴɢᴇʀ ᴇꜰꜰᴇᴄᴛ ᴏɴ'
+      - '&7ᴛᴀʀɢᴇᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea4'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1200 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_exhaust"
+
+  'enchants_purchase_9':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 29
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lɪᴄᴇ ᴀꜱᴘᴇᴄᴛ'
+    lore:
+      - '&7ꜰʀᴇᴇᴢᴇꜱ ᴀɴᴅ ᴀᴘᴘʟɪᴇꜱ ꜱʟᴏᴡɴᴇꜱꜱ'
+      - '&7ᴏɴ ᴛᴀʀɢᴇᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1500 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_ice_aspect"
+
+  'enchants_purchase_10':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 30
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lɪɴꜰᴇʀɴᴜꜱ'
+    lore:
+      - '&7ᴛʀɪᴅᴇɴꜱ ꜱᴇᴛꜱ ᴛᴀʀɢᴇᴛꜱ ᴏɴ ꜰɪʀᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1800 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_infernus"
+
+  'enchants_purchase_11':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 31
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lɴɪᴍʙʟᴇ'
+    lore:
+      - '&7ᴍᴏᴠᴇꜱ ᴇɴᴛɪᴛʏꜱ ᴅʀᴏᴘꜱ ᴅɪʀᴇᴄᴛʟʏ'
+      - '&7ᴛᴏ ɪɴᴠᴇɴᴛᴏʀʏ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1600 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_nimble"
+
+  'enchants_purchase_12':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 32
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴘᴀʀᴀʟʏᴢᴇ'
+    lore:
+      - '&7ᴀᴘᴘʟɪᴇꜱ ᴍɪɴɪɴɢ ꜰᴀᴛɪɢᴜᴇ ᴇꜰꜰᴇᴄᴛ'
+      - '&7ᴏɴ ᴛᴀʀɢᴇᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea5'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1800 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_paralyze"
+
+  'enchants_purchase_13':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 33
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʀᴀɢᴇ'
+    lore:
+      - '&7ɢʀᴀɴᴛꜱ ꜱᴛʀᴇɴɢᴛʜ ᴇꜰꜰᴇᴄᴛ'
+      - '&7ɪɴ ᴄᴏᴍʙᴀᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea2'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea2000 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_rage"
+
+  'enchants_purchase_14':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 34
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lʀᴏᴄᴋᴇᴛ'
+    lore:
+      - '&7ʟᴀᴜɴᴄʜᴇꜱ ᴛᴀʀɢᴇᴛ ɪɴᴛᴏ'
+      - '&7ᴛʜᴇ ꜱᴘᴀᴄᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1800 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_rocket"
+
+  'enchants_purchase_15':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 37
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴡɪᴛʜᴇʀ'
+    lore:
+      - '&7ᴀᴘᴘʟɪᴇꜱ ᴡɪᴛʜᴇʀ ᴇꜰꜰᴇᴄᴛ ᴏɴ ᴛᴀʀɢᴇᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea2'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1600 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_wither"
+
+  'enchants_purchase_16':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 38
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴛᴇᴍᴘᴇʀ'
+    lore:
+      - '&7ᴅᴀᴍᴀɢᴇ ɪɴᴄʀᴇᴀꜱᴇꜱ ᴛʜᴇ ᴍᴏʀᴇ ᴛʜᴇ'
+      - '&7ʟᴇꜱꜱ ʜᴇᴀʟᴛʜ ʏᴏᴜ ʜᴀᴠᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea5'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea3000 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_temper"
+
+  'enchants_purchase_17':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 39
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴛʜᴜɴᴅᴇʀ'
+    lore:
+      - '&7ꜱᴜᴍᴍᴏɴꜱ ʟɪɢʜᴛɴɪɴɢ ᴏɴ ᴛᴀʀɢᴇᴛ'
+      - '&7ᴡɪᴛʜ ᴇxᴛʀᴀ ᴅᴀᴍᴀɢᴇ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea5'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea2500 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_thunder"
+
+  'enchants_purchase_18':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 40
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴠᴀᴍᴘɪʀᴇ'
+    lore:
+      - '&7ꜱᴛᴇᴀʟꜱ ᴛᴀʀɢᴇᴛꜱ ʜᴇᴀʟᴛʜ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea3'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea2300 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_vampire"
+
+  'enchants_purchase_19':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴠᴇɴᴏᴍ'
+    lore:
+      - '&7ᴀᴘᴘʟɪᴇꜱ ᴘᴏɪꜱᴏɴ ᴇꜰꜰᴇᴄᴛ ᴏɴ ᴛᴀʀɢᴇᴛ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea2'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1200 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_venom"
+
+  'enchants_purchase_20':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 42
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴠɪʟʟᴀɢᴇ ᴅᴇꜰᴇɴᴅᴇʀ'
+    lore:
+      - '&7ɪɴᴄʀᴇᴀꜱᴇꜱ ᴅᴀᴍᴀɢᴇ ᴛᴏ ɪʟʟᴀɢᴇʀꜱ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea5'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1200 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_village_defender"
+
+  'enchants_purchase_21':
+    material: ENCHANTED_BOOK
+    amount: 1
+    slot: 43
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a55eea&lᴡɪꜱᴅᴏᴍ'
+    lore:
+      - '&7ᴘʀᴏᴅᴜᴄᴇꜱ ᴍᴏʀᴇ xᴘ ꜰʀᴏᴍ ᴍᴏʙꜱ.'
+      - ''
+      - '&8▪ &fʟᴇᴠᴇʟꜱ: &#a55eea1&8-&#a55eea5'
+      - '&8▪ &fᴀᴘᴘʟɪᴇꜱ ᴏɴ:'
+      - '   &8▪ &f'
+      - '   &8▪ &f'
+      - '&8▪ &fᴘʀɪᴄᴇ: &#a55eea1800 Souls'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_commands:
+      - "[openguimenu] enchants_wisdom"

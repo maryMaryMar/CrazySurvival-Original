@@ -1,0 +1,90 @@
+title: '&f七七七七七七七七'
+size: 45
+
+layout:
+  - '000000000'
+  - '0456B1230'
+  - '000000000'
+  - '0DDDFEEE0'
+  - '000000000'
+
+amount-items:
+  1:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+1'
+      lore:
+        - '&7Click to add 1 more.'
+    add-amount: 1
+  2:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+10'
+      lore:
+        - '&7Click to add 10 more.'
+    add-amount: 10
+  3:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038+64'
+      lore:
+        - '&7Click to add 64 more.'
+    add-amount: 64
+  4:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#de4343-1'
+      lore:
+        - '&7Click to remove 1.'
+    add-amount: -1
+  5:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#de4343-10'
+      lore:
+        - '&7Click to remove 10.'
+    add-amount: -10
+  6:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#de4343-64'
+      lore:
+        - '&7Click to remove 64.'
+    add-amount: -64
+    # Support replace add-amount option to set-amount.
+    # set-amount: 32
+
+display-item: B
+
+confirm-items:
+  D:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#42d038&lᴄᴏɴꜰɪʀᴍ &#42d038x{amount}'
+      lore:
+        - '&7ᴄᴏɴꜰɪʀᴍ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ'
+        - '&7ɪᴛᴇᴍ ʏᴏᴜ ʜᴀᴠᴇ ꜱᴇʟᴇᴄᴛᴇᴅ'
+    # You can remove click-action option, then confirm button can do all things, like buy, sell, sell all.
+    # If this option exists, then this confirm button can only do the thing.
+    click-action: buy
+
+buttons:
+  E:
+    display-item:
+      material: PAPER
+      custom-model-data: 100009
+      name: '&#de4343&lᴄᴀɴᴄᴇʟ'
+      lore:
+        - '&7ᴄᴀɴᴄᴇʟ ᴘᴜʀᴄʜᴀꜱᴇ ɪᴛᴇᴍ'
+        - '&7ʏᴏᴜ ʜᴀᴠᴇ ꜱᴇʟᴇᴄᴛᴇᴅ'
+    actions:
+      1:
+        type: shop_menu
+        shop: '{shop}'

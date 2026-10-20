@@ -1,0 +1,150 @@
+menu_title: '&f七七七七七七七七'
+open_command: battlepass
+register_command: true
+size: 45
+update_interval: 1
+
+items:
+  'your_pass_premium':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    priority: 1
+    slots:
+      - 10
+      - 11
+      - 12
+      - 19
+      - 20
+      - 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#f4a42b&lʏᴏᴜʀ ᴘᴀꜱꜱ'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - ' &8▪ &fᴘᴀꜱꜱ ᴛʏᴘᴇ: &f'
+      - ' &8▪ &fᴄᴜʀʀᴇɴᴛ ᴛɪᴇʀ: &#f3b04b%rp_battlepass_tier%'
+      - ' &8▪ &fǫᴜᴇꜱᴛꜱ ᴅᴏɴᴇ: &#f3b04b%quests_player_completed_quest_amount%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+  'your_pass_free':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    priority: 2
+    slots:
+      - 10
+      - 11
+      - 12
+      - 19
+      - 20
+      - 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#f4a42b&lʏᴏᴜʀ ᴘᴀꜱꜱ'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ꜰʀᴇᴇ ᴀɴᴅ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - ' &8▪ &fᴘᴀꜱꜱ ᴛʏᴘᴇ: &f'
+      - ' &8▪ &fᴄᴜʀʀᴇɴᴛ ᴛɪᴇʀ: &#59c55b%rp_battlepass_tier%'
+      - ' &8▪ &fǫᴜᴇꜱᴛꜱ ᴅᴏɴᴇ: &#59c55b%quests_player_completed_quest_amount%'
+
+  'rewards':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 14
+      - 15
+      - 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅꜱ'
+      - '&7ᴜɴʟᴏᴄᴋᴇᴅ ᴛʜʀᴏᴜɢʜ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    click_commands:
+      - "[openguimenu] battlepass_rewards_1"
+
+  'quests':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 23
+      - 24
+      - 25
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&f'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ'
+      - '&7ǫᴜᴇꜱᴛꜱ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ᴠᴀʀɪᴏᴜꜱ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    click_commands:
+      - "[openguimenu] battlepass_quests_1"
+
+  'premium_unlocked':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    priority: 1
+    slots:
+      - 32
+      - 33
+      - 34
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&f'
+    lore:
+      - '&7ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ'
+      - '&7ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴜᴘɢʀᴀᴅᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ᴏɴ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ!"
+      - "[close]"
+  'premium':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    priority: 2
+    slots:
+      - 32
+      - 33
+      - 34
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&f'
+    lore:
+      - '&7ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ'
+      - '&7ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+      - '&7ᴘʀᴇᴍɪᴜᴍ ʀᴇᴡᴀʀᴅꜱ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴜᴘɢʀᴀᴅᴇ'
+    click_commands:
+      - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ ᴀᴛ %rp_store%"
+      - "[close]"

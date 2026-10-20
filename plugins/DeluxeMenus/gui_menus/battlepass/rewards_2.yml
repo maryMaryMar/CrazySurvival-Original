@@ -1,0 +1,1489 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'tier_10_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 18
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 10'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.10
+  'tier_10_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 18
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 10'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'tier_11_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 11'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.11
+  'tier_11_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 11'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'tier_12_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 20
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 12'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.12
+  'tier_12_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 20
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 12'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'tier_13_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 13'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.13
+  'tier_13_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 13'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'tier_14_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 14'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.14
+  'tier_14_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 14'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'tier_15_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 23
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 15'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.15
+  'tier_15_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 23
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 15'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'tier_16_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 24
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 16'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.16
+  'tier_16_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 24
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 16'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'tier_17_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 25
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 17'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.17
+  'tier_17_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 25
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 17'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'tier_18_unlocked':
+    material: PAPER
+    model_data: 126
+    amount: 1
+    priority: 1
+    slot: 26
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#88d34cTier 18'
+    lore:
+      - '&7ᴛɪᴇʀ ᴜɴʟᴏᴄᴋᴇᴅ ʙʏ'
+      - '&7ᴄᴏᴍᴘʟᴇᴛɪɴɢ ǫᴜᴇꜱᴛꜱ'
+      - ''
+      - '&#88d34cᴜɴʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.18
+  'tier_18_locked':
+    material: PAPER
+    model_data: 127
+    amount: 1
+    priority: 2
+    slot: 26
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#e5534dTier 18'
+    lore:
+      - '&7ᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇꜱᴛꜱ ᴛᴏ'
+      - '&7ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴛɪᴇʀ'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+#FreeRewards
+  'free_reward_11_claimed':
+    material: PAPER
+    model_data: 120
+    amount: 1
+    priority: 1
+    slot: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 11'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf1x Curtain'
+      - ' &8▪ &#888daf1x Small Modern Sofa'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.11
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.11.freeclaimed
+  'free_reward_11_unlocked':
+    material: PAPER
+    model_data: 122
+    amount: 1
+    priority: 2
+    slot: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 11'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf1x Curtain'
+      - ' &8▪ &#888daf1x Small Modern Sofa'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.11
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.11.freeclaimed true"
+      - "[console] furniture give TornCurtainA2 %player_name%"
+      - "[console] furniture give TornSofaA %player_name%"
+      - "[refresh]"
+  'free_reward_11_locked':
+    material: PAPER
+    model_data: 121
+    amount: 1
+    priority: 3
+    slot: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 11'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf1x Curtain'
+      - ' &8▪ &#888daf1x Small Modern Sofa'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'free_reward_12_claimed':
+    material: PAPER
+    model_data: 120
+    amount: 1
+    priority: 1
+    slot: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 12'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafRed Glow Color Voucher'
+      - ' &8▪ &#888dafBlaze Crate Key'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.12
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.12.freeclaimed
+  'free_reward_12_unlocked':
+    material: PAPER
+    model_data: 122
+    amount: 1
+    priority: 2
+    slot: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 12'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafRed Glow Color Voucher'
+      - ' &8▪ &#888dafBlaze Crate Key'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.12
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.12.freeclaimed true"
+      - "[console] crazyvouchers give RedGlowColor 1 %player_name%"
+      - "[console] excellentcrates key give %player_name% blaze 1"
+      - "[refresh]"
+  'free_reward_12_locked':
+    material: PAPER
+    model_data: 121
+    amount: 1
+    priority: 3
+    slot: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 12'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafRed Glow Color Voucher'
+      - ' &8▪ &#888dafBlaze Crate Key'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'free_reward_14_claimed':
+    material: PAPER
+    model_data: 120
+    amount: 1
+    priority: 1
+    slot: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 14'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafGreen Balloon Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.14
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.14.freeclaimed
+  'free_reward_14_unlocked':
+    material: PAPER
+    model_data: 122
+    amount: 1
+    priority: 2
+    slot: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 14'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafGreen Balloon Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.14
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.14.freeclaimed true"
+      - "[console] crazyvouchers give GreenBalloon 1 %player_name%"
+      - "[refresh]"
+  'free_reward_14_locked':
+    material: PAPER
+    model_data: 121
+    amount: 1
+    priority: 3
+    slot: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 14'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafGreen Balloon Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'free_reward_16_claimed':
+    material: PAPER
+    model_data: 120
+    amount: 1
+    priority: 1
+    slot: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 16'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf$2000'
+      - ' &8▪ &#888dafBreeze Sword ToolSkin Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.16
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.16.freeclaimed
+  'free_reward_16_unlocked':
+    material: PAPER
+    model_data: 122
+    amount: 1
+    priority: 2
+    slot: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 16'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf$2000'
+      - ' &8▪ &#888dafBreeze Sword ToolSkin Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.16
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.16.freeclaimed true"
+      - "[console] eco give %player_name% 2000"
+      - "[console] crazyvouchers give BreezeSwordToolSkin 1 %player_name%"
+      - "[refresh]"
+  'free_reward_16_locked':
+    material: PAPER
+    model_data: 121
+    amount: 1
+    priority: 3
+    slot: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 16'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf$2000'
+      - ' &8▪ &#888dafBreeze Sword ToolSkin Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'free_reward_17_claimed':
+    material: PAPER
+    model_data: 120
+    amount: 1
+    priority: 1
+    slot: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 17'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf320 XP'
+      - ' &8▪ &#888dafBloodHelix Particle Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.17
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.17.freeclaimed
+  'free_reward_17_unlocked':
+    material: PAPER
+    model_data: 122
+    amount: 1
+    priority: 2
+    slot: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 17'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf320 XP'
+      - ' &8▪ &#888dafBloodHelix Particle Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.17
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.17.freeclaimed true"
+      - "[console] xp give %player_name% 320"
+      - "[console] crazyvouchers give BloodHelixParticle 1 %player_name%"
+      - "[refresh]"
+  'free_reward_17_locked':
+    material: PAPER
+    model_data: 121
+    amount: 1
+    priority: 3
+    slot: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 17'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888daf320 XP'
+      - ' &8▪ &#888dafBloodHelix Particle Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+  'free_reward_18_claimed':
+    material: PAPER
+    model_data: 120
+    amount: 1
+    priority: 1
+    slot: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 18'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafIron Leggings (Protection II)'
+      - ' &8▪ &#888dafPlush Zagg Hat Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.18
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.18.freeclaimed
+  'free_reward_18_unlocked':
+    material: PAPER
+    model_data: 122
+    amount: 1
+    priority: 2
+    slot: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 18'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafIron Leggings (Protection II)'
+      - ' &8▪ &#888dafPlush Zagg Hat Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.18
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.18.freeclaimed true"
+      - "[console] minecraft:give %player_name% iron_leggings[minecraft:enchantments={levels:{protection:2}}] 1"
+      - "[console] crazyvouchers give PlushZaggHat 1 %player_name%"
+      - "[refresh]"
+  'free_reward_18_locked':
+    material: PAPER
+    model_data: 121
+    amount: 1
+    priority: 3
+    slot: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#888dafReward 18'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#888dafIron Leggings (Protection II)'
+      - ' &8▪ &#888dafPlush Zagg Hat Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+
+#PremiumRewards
+  'premium_reward_10_claimed':
+    material: PAPER
+    model_data: 123
+    amount: 1
+    slot: 36
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 1
+    display_name: '&#f7b450Reward 10'
+    lore:
+      - ''
+      - '&fᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$1700 Money'
+      - ' &8▪ &#f7b450Cheeky Emote Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.10
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.10.premiumclaimed
+  'premium_reward_10_unlocked':
+    material: PAPER
+    model_data: 125
+    amount: 1
+    slot: 36
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 2
+    display_name: '&#f7b450Reward 10'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$1700 Money'
+      - ' &8▪ &#f7b450Cheeky Emote Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.10
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.10.premiumclaimed true"
+      - "[console] eco give %player_name% 1700"
+      - "[console] crazyvouchers give CheekyEmote 1 %player_name%"
+      - "[refresh]"
+  'premium_reward_10_locked_premium':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 36
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 3
+    display_name: '&#f7b450Reward 10'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$1700 Money'
+      - ' &8▪ &#f7b450Cheeky Emote Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+  'premium_reward_10_locked':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 36
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 4
+    display_name: '&#f7b450Reward 10'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$1700 Money'
+      - ' &8▪ &#f7b450Cheeky Emote Voucher'
+      - ''
+      - '&#e5534dᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ'
+      - '&#e5534dᴛᴏ ᴜɴʟᴏᴄᴋ ᴛʜɪꜱ ʀᴇᴡᴀʀᴅ'
+
+
+  'premium_reward_12_claimed':
+    material: PAPER
+    model_data: 123
+    amount: 1
+    slot: 38
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 1
+    display_name: '&#f7b450Reward 12'
+    lore:
+      - ''
+      - '&fᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$2500 money'
+      - ' &8▪ &#f7b450Soulfire Shovel ToolSkin Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.12
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.12.premiumclaimed
+  'premium_reward_12_unlocked':
+    material: PAPER
+    model_data: 125
+    amount: 1
+    slot: 38
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 2
+    display_name: '&#f7b450Reward 12'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$2500 money'
+      - ' &8▪ &#f7b450Soulfire Shovel ToolSkin Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.12
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.12.premiumclaimed true"
+      - "[console] eco give %player_name% 1700"
+      - "[console] crazyvouchers give SoulfireShovelToolSkin 1 %player_name%"
+      - "[refresh]"
+  'premium_reward_12_locked_premium':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 38
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 3
+    display_name: '&#f7b450Reward 12'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$2500 money'
+      - ' &8▪ &#f7b450Soulfire Shovel ToolSkin Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+  'premium_reward_12_locked':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 38
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 4
+    display_name: '&#f7b450Reward 12'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$2500 money'
+      - ' &8▪ &#f7b450Soulfire Shovel ToolSkin Voucher'
+      - ''
+      - '&#e5534dᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ'
+      - '&#e5534dᴛᴏ ᴜɴʟᴏᴄᴋ ᴛʜɪꜱ ʀᴇᴡᴀʀᴅ'
+
+
+  'premium_reward_13_claimed':
+    material: PAPER
+    model_data: 123
+    amount: 1
+    slot: 39
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 1
+    display_name: '&#f7b450Reward 13'
+    lore:
+      - ''
+      - '&fᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$1600 money'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.13
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.13.premiumclaimed
+  'premium_reward_13_unlocked':
+    material: PAPER
+    model_data: 125
+    amount: 1
+    slot: 39
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 2
+    display_name: '&#f7b450Reward 13'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$1600 money'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.13
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.13.premiumclaimed true"
+      - "[console] eco give %player_name% 1600"
+      - "[refresh]"
+  'premium_reward_13_locked_premium':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 39
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 3
+    display_name: '&#f7b450Reward 13'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$1600 money'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+  'premium_reward_13_locked':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 39
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 4
+    display_name: '&#f7b450Reward 13'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$1600 money'
+      - ''
+      - '&#e5534dᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ'
+      - '&#e5534dᴛᴏ ᴜɴʟᴏᴄᴋ ᴛʜɪꜱ ʀᴇᴡᴀʀᴅ'
+
+
+  'premium_reward_14_claimed':
+    material: PAPER
+    model_data: 123
+    amount: 1
+    slot: 40
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 1
+    display_name: '&#f7b450Reward 14'
+    lore:
+      - ''
+      - '&fᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b45064x Emeralds'
+      - ' &8▪ &#f7b450Emerald Projectile Effect Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.14
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.14.premiumclaimed
+  'premium_reward_14_unlocked':
+    material: PAPER
+    model_data: 125
+    amount: 1
+    slot: 40
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 2
+    display_name: '&#f7b450Reward 14'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b45064x Emeralds'
+      - ' &8▪ &#f7b450Emerald Projectile Effect Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.14
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.14.premiumclaimed true"
+      - "[console] minecraft:give %player_name% emerald 64"
+      - "[console] crazyvouchers give EmeraldProjectileEffect 1 %player_name%"
+      - "[refresh]"
+  'premium_reward_14_locked_premium':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 40
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 3
+    display_name: '&#f7b450Reward 14'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b45064x Emeralds'
+      - ' &8▪ &#f7b450Emerald Projectile Effect Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+  'premium_reward_14_locked':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 40
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 4
+    display_name: '&#f7b450Reward 14'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b45064x Emeralds'
+      - ' &8▪ &#f7b450Emerald Projectile Effect Voucher'
+      - ''
+      - '&#e5534dᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ'
+      - '&#e5534dᴛᴏ ᴜɴʟᴏᴄᴋ ᴛʜɪꜱ ʀᴇᴡᴀʀᴅ'
+
+
+  'premium_reward_15_claimed':
+    material: PAPER
+    model_data: 123
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 1
+    display_name: '&#f7b450Reward 15'
+    lore:
+      - ''
+      - '&fᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b4501x Small Backpack'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.15
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.15.premiumclaimed
+  'premium_reward_15_unlocked':
+    material: PAPER
+    model_data: 125
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 2
+    display_name: '&#f7b450Reward 15'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b4501x Small Backpack'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.15
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.15.premiumclaimed true"
+      - "[console] backpack give 1 %player_name%"
+      - "[refresh]"
+  'premium_reward_15_locked_premium':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 3
+    display_name: '&#f7b450Reward 15'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b4501x Small Backpack'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+  'premium_reward_15_locked':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 41
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 4
+    display_name: '&#f7b450Reward 15'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b4501x Small Backpack'
+      - ''
+      - '&#e5534dᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ'
+      - '&#e5534dᴛᴏ ᴜɴʟᴏᴄᴋ ᴛʜɪꜱ ʀᴇᴡᴀʀᴅ'
+
+
+  'premium_reward_16_claimed':
+    material: PAPER
+    model_data: 123
+    amount: 1
+    slot: 42
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 1
+    display_name: '&#f7b450Reward 16'
+    lore:
+      - ''
+      - '&fᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$2000 Money'
+      - ' &8▪ &#f7b450Mace Axe Toolskin Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.16
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.16.premiumclaimed
+  'premium_reward_16_unlocked':
+    material: PAPER
+    model_data: 125
+    amount: 1
+    slot: 42
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 2
+    display_name: '&#f7b450Reward 16'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$2000 Money'
+      - ' &8▪ &#f7b450Mace Axe Toolskin Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.16
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.16.premiumclaimed true"
+      - "[console] eco give %player_name% 2000"
+      - "[console] crazyvouchers give MaceAxeToolSkin 1 %player_name%"
+      - "[refresh]"
+  'premium_reward_16_locked_premium':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 42
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 3
+    display_name: '&#f7b450Reward 16'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$2000 Money'
+      - ' &8▪ &#f7b450Mace Axe Toolskin Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+  'premium_reward_16_locked':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 42
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 4
+    display_name: '&#f7b450Reward 16'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$2000 Money'
+      - ' &8▪ &#f7b450Mace Axe Toolskin Voucher'
+      - ''
+      - '&#e5534dᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ'
+      - '&#e5534dᴛᴏ ᴜɴʟᴏᴄᴋ ᴛʜɪꜱ ʀᴇᴡᴀʀᴅ'
+
+
+  'premium_reward_18_claimed':
+    material: PAPER
+    model_data: 123
+    amount: 1
+    slot: 44
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 1
+    display_name: '&#f7b450Reward 18'
+    lore:
+      - ''
+      - '&fᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$3000 Money'
+      - ' &8▪ &#f7b450Ravager Pet Voucher'
+      - ''
+      - '&#88d34cᴄʟᴀɪᴍᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.18
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+        permission1:
+          type: "has permission"
+          permission: battlepass.tier.18.premiumclaimed
+  'premium_reward_18_unlocked':
+    material: PAPER
+    model_data: 125
+    amount: 1
+    slot: 44
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 2
+    display_name: '&#f7b450Reward 18'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$3000 Money'
+      - ' &8▪ &#f7b450Ravager Pet Voucher'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.tier.18
+        permission0:
+          type: "has permission"
+          permission: battlepass.premium
+    click_commands:
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ ʀᴇᴡᴀʀᴅ!"
+      - "[console] lp user %player_name% permission set battlepass.tier.18.premiumclaimed true"
+      - "[console] eco give %player_name% 3000"
+      - "[console] crazyvouchers give RavagerPet 1 %player_name%"
+      - "[refresh]"
+  'premium_reward_18_locked_premium':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 44
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 3
+    display_name: '&#f7b450Reward 18'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$3000 Money'
+      - ' &8▪ &#f7b450Ravager Pet Voucher'
+      - ''
+      - '&#e5534dʟᴏᴄᴋᴇᴅ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: battlepass.premium
+  'premium_reward_18_locked':
+    material: PAPER
+    model_data: 124
+    amount: 1
+    slot: 44
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    priority: 4
+    display_name: '&#f7b450Reward 18'
+    lore:
+      - ''
+      - '&7ᴄᴏɴᴛᴀɪɴꜱ:'
+      - ' &8▪ &#f7b450$3000 Money'
+      - ' &8▪ &#f7b450Ravager Pet Voucher'
+      - ''
+      - '&#e5534dᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴀꜱꜱ'
+      - '&#e5534dᴛᴏ ᴜɴʟᴏᴄᴋ ᴛʜɪꜱ ʀᴇᴡᴀʀᴅ'
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 49
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] battlepass"
+  'previous_page':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 47
+      - 48      
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#8f96ab◂ Previous Page'
+    click_commands:
+      - "[openguimenu] battlepass_rewards_1"
+  'next_page':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 50
+      - 51      
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: '&#8f96abNext Page ▸'
+    click_commands:
+      - "[openguimenu] battlepass_rewards_3"

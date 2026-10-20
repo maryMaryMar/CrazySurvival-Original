@@ -1,0 +1,450 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'guide_1':
+    material: PAPER
+    model_data: 176
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#a422f5&lBaits'
+    lore:
+      - '&7Baits can be applied on fishing rod'
+      - '&7to increase chance of catching'
+      - '&7higher rarities fishes!'
+      - '&7'
+      - '&#a422f5Bought from:'
+      - '&8 | &7Fisherman Npc in Spawn'
+      - '&7'
+      - '&#a422f5Types of Baits:'
+      - ' &8▪ &fAbyssal Shard'
+      - ' &8▪ &fCelestial Mote'
+      - ' &8▪ &fEmbered Worm'
+      - ' &8▪ &fGilded Scale'
+      - ' &8▪ &fWhispering Leech'
+    click_commands:
+      - "[refresh]"
+
+  'guide_2':
+    material: PAPER
+    model_data: 177
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&3&lAfk Pool'
+    lore:
+      - '&7In afk pool you can earn by doing'
+      - '&7nothing. You can AFK in afk'
+      - '&7pool to receive rewards!'
+      - '&7'
+      - '&3Reach by:'
+      - '&8 | &7Using /warp afk command'
+      - '&7'
+      - '&3Rewards:'
+      - ' &8▪ &f$10 Money &7(95% Chance)'
+      - ' &8▪ &fSunshine Key &7(5% Chance)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_3':
+    material: PAPER
+    model_data: 178
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lPvP Arena'
+    lore:
+      - '&7The only place in the server'
+      - '&7where PvP is enabled! You can'
+      - '&7fight players for their loot!'
+      - '&7'
+      - '&cReach by:'
+      - '&8 | &7Using /warp arena command'
+      - '&7'
+      - '&cFeatures Disabled:'
+      - '&8 | &7/fly command'
+    click_commands:
+      - "[refresh]"
+
+  'guide_4':
+    material: PAPER
+    model_data: 179
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#c09473&lDaily Quests'
+    lore:
+      - '&7Quest Board gives you 3 types'
+      - '&7quests daily to complete and'
+      - '&7get rewards in return!'
+      - '&7'
+      - '&#c09473Accessed by:'
+      - '&8 | &7Quest Board in Spawn'
+      - '&7'
+      - '&#c09473Quest Tiers:'
+      - ' &8▪ &fEasy &7(10 total)'
+      - ' &8▪ &fMedium &7(10 total)'
+      - ' &8▪ &fHard &7(10 total)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_5':
+    material: PAPER
+    model_data: 180
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#bd6a62&lSkills'
+    lore:
+      - '&7By playing on the server and doing'
+      - '&7different types of tasks, your'
+      - '&7skills gets improved and you'
+      - '&7unlock special abilities!'
+      - '&7'
+      - '&#bd6a62Accessed by:'
+      - '&8 | &7Skills Npc in Spawn'
+      - '&8 | &7or /skills command'
+      - '&7'
+      - '&#bd6a62Total Skills: &f12'
+    click_commands:
+      - "[refresh]"
+
+  'guide_6':
+    material: PAPER
+    model_data: 181
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cbcbcb&lSettings'
+    lore:
+      - '&7Do you want to customize your'
+      - '&7experience in the server? Then'
+      - '&7Settings menu is for you! It'
+      - '&7allows you to toggle options!'
+      - '&7'
+      - '&#cbcbcbAccessed by:'
+      - '&8 | &7In the Survival Menu'
+      - '&8 | &7or /settings command'
+      - '&7'
+      - '&#cbcbcbTotal Settings: &f13'
+    click_commands:
+      - "[refresh]"
+
+  'guide_7':
+    material: PAPER
+    model_data: 182
+    amount: 1
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#21bcda&lProfile'
+    lore:
+      - '&7Profile menu is the menu where'
+      - '&7all your stats are showed! You'
+      - '&7can also customize your profile'
+      - '&7picture and it can be viewed'
+      - '&7by other players too!'
+      - '&7'
+      - '&#21bcdaAccessed by:'
+      - '&8 | &7In the Survival Menu'
+      - '&8 | &7or /profile command'
+      - '&7'
+      - '&#21bcdaProfile Pictures:'
+      - ' &8▪ &fRed Oakshade Edge'
+      - ' &8▪ &fDeep Underwater'
+    click_commands:
+      - "[refresh]"
+
+  'guide_8':
+    material: PAPER
+    model_data: 183
+    amount: 1
+    slot: 20
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#63df5b&lItem Shop'
+    lore:
+      - '&7Item Shop is where you can buy'
+      - '&7or sell different types of items'
+      - '&7including precious materials!'
+      - '&7'
+      - '&#63df5bAccessed by:'
+      - '&8 | &7Item Shop Npc in Spawn'
+      - '&8 | &7or /shop command'
+      - '&7'
+      - '&#63df5bCategories: &f7'
+    click_commands:
+      - "[refresh]"
+
+  'guide_9':
+    material: PAPER
+    model_data: 184
+    amount: 1
+    slot: 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#fc5c65&lHomes'
+    lore:
+      - '&7Using homes feature you can set'
+      - '&7points where you can teleport to'
+      - '&7using /home command in seconds!'
+      - '&7'
+      - '&#fc5c65How to set home:'
+      - '&8 | &7Stand where you want to set your'
+      - '&8 | &7home and run /sethome command!'
+      - '&7'
+      - '&#fc5c65Home Commands:'
+      - ' &8▪ &f/home &7(Teleports to your home)'
+      - ' &8▪ &f/sethome &7(Create a new home)'
+      - ' &8▪ &f/delhome &7(Removes a home)'
+      - ' &8▪ &f/renamehome &7(Rename a home)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_10':
+    material: FLINT
+    model_data: 49
+    amount: 1
+    slot: 23
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#eaca26&lJobs'
+    lore:
+      - '&7You can earn money by joining jobs,'
+      - '&7upto 3 at a time. You earn by doing'
+      - '&7jobs tasks like cutting wood in'
+      - '&7the lumberjack job!'
+      - '&7'
+      - '&#eaca26What is Pointshop:'
+      - '&8 | &7While doing job tasks, you also'
+      - '&8 | &7gain job points which can be'
+      - '&8 | &7used to buy items from jobs shop'
+      - '&7'
+      - '&#eaca26How to Join Jobs:'
+      - '&8 | &7Using Jobs Npc in Spawn'
+      - '&8 | &7or /jobs command'
+      - '&7'
+      - '&#eaca26Total Jobs: &f12'
+    click_commands:
+      - "[refresh]"
+
+  'guide_11':
+    material: PAPER
+    model_data: 185
+    amount: 1
+    slot: 24
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#c67959&lRewards'
+    lore:
+      - '&7You can claim rewards for playing,'
+      - '&7on the server! There are 2 categories'
+      - '&7of rewards, Normal and Ranked'
+      - '&7'
+      - '&#c67959Accessed By:'
+      - '&8 | &7Rewards Npc in Spawn'
+      - '&8 | &7or /rewards command'
+      - '&7'
+      - '&#c67959Rewards Types:'
+      - ' &8▪ &fDaily Reward'
+      - ' &8▪ &fWeekly Reward'
+      - ' &8▪ &fMonthly Reward'
+    click_commands:
+      - "[refresh]"
+
+  'guide_12':
+    material: PAPER
+    model_data: 140
+    amount: 1
+    slot: 25
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lCrates'
+    lore:
+      - '&7In crates there lies awesome riches'
+      - '&7and exclusive vouchers which can'
+      - '&7only be obtained by opening them!'
+      - '&7'
+      - '&bHow to get crate keys:'
+      - '&8 | &7Server Webstore (/store)'
+      - '&8 | &7or Battlepass or Afk Pool'
+      - '&7'
+      - '&bCrates Types:'
+      - ' &f &#2ede45Vote Crate'
+      - ' &f &#ffbe00Sunshine Crate'
+      - ' &f &#ff6f21Blaze Crate'
+      - ' &f &bOceanic Crate'
+      - ' &f &#b00eebAmethyst Crate'
+    click_commands:
+      - "[refresh]"
+
+  'guide_13':
+    material: PAPER
+    model_data: 186
+    amount: 1
+    slot: 28
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#3bb9fe&lTrading'
+    lore:
+      - '&7Trading system allows you to safely trade'
+      - '&7or exchange items with other players'
+      - '&7without the worry of getting scam!'
+      - '&7'
+      - '&#3bb9feHow to trade:'
+      - '&8 | &7Using /trade command'
+      - '&7'
+      - '&#3bb9feTrading Commands:'
+      - ' &8▪ &f/trade accept &7(Accept a trade request)'
+      - ' &8▪ &f/trade deny &7(Deny a trade request)'
+    click_commands:
+      - "[refresh]"
+
+  'guide_14':
+    material: PAPER
+    model_data: 187
+    amount: 1
+    slot: 29
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#45aaf2&lRanks'
+    lore:
+      - '&7There are special exclusive ranks on'
+      - '&7the server which can be bought from'
+      - '&7server webstore and comes with perks!'
+      - '&7'
+      - '&#45aaf2Where to Buy:'
+      - '&8 | &7From Server Webstore (/store)'
+      - '&7'
+      - '&#45aaf2List of Ranks:'
+      - ' &f'
+      - ' &f'
+      - ' &f'
+      - ' &f'
+      - ' &f'
+    click_commands:
+      - "[refresh]"
+
+  'guide_15':
+    material: PAPER
+    model_data: 188
+    amount: 1
+    slot: 30
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lEmojis'
+    lore:
+      - '&7You always use emojis while chatting'
+      - '&7so why not them use while chatting'
+      - '&7in this server too!'
+      - '&7'
+      - '&eSee list by:'
+      - '&8 | &7/emojis command'
+      - '&7'
+      - '&eTotal Emojis: &f25'
+    click_commands:
+      - "[refresh]"
+
+  'guide_16':
+    material: PAPER
+    model_data: 189
+    amount: 1
+    slot: 32
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&d&lChat Games'
+    lore:
+      - '&7Chatgames are fun little games that'
+      - '&7occasionally occurs in the chat. By'
+      - '&7winning one of them, you get rewards!'
+      - '&7'
+      - '&dWhen does it occurs:'
+      - '&8 | &7Every 15 minutes'
+      - '&7'
+      - '&dTypes of Games:'
+      - ' &8▪ &fUnscramble'
+      - ' &8▪ &fUnreverse'
+      - ' &8▪ &fReaction'
+      - ' &8▪ &fFill out'
+      - ' &8▪ &fWrite out'
+      - ' &8▪ &fMath'
+      - ' &8▪ &fVariable'
+      - ' &8▪ &fTrivia'
+    click_commands:
+      - "[refresh]"
+
+  'guide_17':
+    material: PAPER
+    model_data: 50
+    amount: 1
+    slot: 33
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e1a471&lFurniture'
+    lore:
+      - "&7You can upgrade your house's look"
+      - '&7with custom furniture that is '
+      - '&7provided in this server!'
+      - '&7'
+      - '&#e1a471Where to Buy:'
+      - '&8 | &7Furniture Npc in Spawn'
+      - '&7'
+      - '&#e1a471Total Furniture: &f28'
+    click_commands:
+      - "[refresh]"
+
+
+  'back':
+    material: PAPER
+    model_data: 168
+    amount: 1
+    slot: 18
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Previous Page'
+    click_commands:
+      - "[openguimenu] guide_1"

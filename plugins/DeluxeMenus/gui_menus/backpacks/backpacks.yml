@@ -1,0 +1,128 @@
+menu_title: '&f七七七七七七七七七七七七七七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'small_backpack_purchase':
+    material: PAPER
+    model_data: 1
+    amount: 1
+    slot: 11
+    tooltip_style: backpacks/small_backpack
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ᴄᴀʀʀʏɪɴɢ'
+      - '&7ᴠᴇʀʏ ꜰᴇᴡ ɪᴛᴇᴍꜱ'
+      - ''
+      - '&8▪ &fꜱɪᴢᴇ: &e9x ꜱʟᴏᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a1800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 1800'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] backpack give 1 %player_name%"
+      - "[console] eco take %player_name% 1800"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ &#badc58ꜱᴍᴀʟʟ &aʙᴀᴄᴋᴘᴀᴄᴋ"
+      - "[close]"
+
+
+
+
+
+  'medium_backpack_purchase':
+    material: PAPER
+    model_data: 2
+    amount: 1
+    slot: 13
+    tooltip_style: backpacks/medium_backpack
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ᴄᴀʀʀʏɪɴɢ'
+      - '&7ᴍᴏʀᴇ ᴛʜᴀɴ ꜰᴇᴡ ɪᴛᴇᴍꜱ'
+      - ''
+      - '&8▪ &fꜱɪᴢᴇ: &e27x ꜱʟᴏᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a3200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 3200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] backpack give 2 %player_name%"
+      - "[console] eco take %player_name% 3200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ &#badc58ᴍᴇᴅɪᴜᴍ &aʙᴀᴄᴋᴘᴀᴄᴋ"
+      - "[close]"
+
+
+
+
+
+
+  'large_backpack_purchase':
+    material: PAPER
+    model_data: 3
+    amount: 1
+    slot: 15
+    tooltip_style: backpacks/large_backpack
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ᴄᴀʀʀʏɪɴɢ'
+      - '&7ᴀʟᴏᴛ ᴏꜰ ɪᴛᴇᴍꜱ'
+      - ''
+      - '&8▪ &fꜱɪᴢᴇ: &e54x ꜱʟᴏᴛꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &650&f'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        coins:
+          type: javascript
+          expression: '%excellenteconomy_balance_raw_coins% >= 50'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴄᴏɪɴꜱ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[message] &f &eᴘᴜʀᴄʜᴀꜱᴇ ᴛʜᴇ ᴄᴏɪɴꜱ ᴀᴛ %rp_store%"
+            - "[close]"
+    click_commands:
+      - "[console] backpack give 3 %player_name%"
+      - "[console] coins take %player_name% 50"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ &#badc58ʟᴀʀɢᴇ &aʙᴀᴄᴋᴘᴀᴄᴋ"
+      - "[close]"
+
+
+  'info':
+    material: PAPER
+    model_data: 51
+    amount: 1
+    slot: 26
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#aa7046&lʜᴏᴡ ᴛᴏ ᴡᴇᴀʀ'
+    lore:
+      - '&7ᴛᴏ ᴡᴇᴀʀ ᴛʜᴇ ʙᴀᴄᴋᴘᴀᴄᴋ'
+      - '&7ᴘᴜᴛ ɪᴛ ɪɴ ʏᴏᴜʀ ᴏꜰꜰ-ʜᴀɴᴅ'

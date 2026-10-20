@@ -1,0 +1,18 @@
+id: celestialmote
+disabled: false
+
+item:
+  material: END_CRYSTAL
+  displayname: <#fc5c65><bold>ᴄᴇʟᴇꜱᴛɪᴀʟ ᴍᴏᴛᴇ
+  lore:
+  - <i><gray>ꜱᴛᴀʀᴅᴜꜱᴛ ᴄʀʏꜱᴛᴀʟʟɪᴢᴇᴅ ɪɴᴛᴏ ᴀ ɢʟᴏᴡɪɴɢ ᴍᴏᴛᴇ.</gray></i>
+  - <i><gray>ɪᴛ ᴘᴜʟꜱᴇꜱ ꜰᴀɪɴᴛʟʏ, ᴀꜱ ɪꜰ ᴇᴄʜᴏɪɴɢ ᴛʜᴇ</gray></i>
+  - <i><gray>ʀʜʏᴛʜᴍ ᴏꜰ ᴅɪꜱᴛᴀɴᴛ ᴄᴇʟᴇꜱᴛɪᴀʟ ᴛɪᴅᴇꜱ.</gray></i>
+  - <gray>
+  - <#fc5c65>♦ <white>ᴀᴛᴛʀᴀᴄᴛꜱ <#fc5c65>ʟᴇɢᴇɴᴅᴀʀʏ ꜰɪꜱʜᴇꜱ
+rarities:
+- Legendary
+can-be-caught: false
+catch-weight: 2
+application-weight: 20
+max-baits: 32

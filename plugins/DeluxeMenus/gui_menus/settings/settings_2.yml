@@ -1,0 +1,325 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'trade_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 1
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴛʀᴀᴅᴇ ʀᴇǫᴜᴇꜱᴛ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴛʀᴀᴅᴇ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: settings.trade.disabled
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.trade.disabled false"
+      - "[player] axtrade toggle"
+      - "[refresh]"
+  'trade_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 1
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴛʀᴀᴅᴇ ʀᴇǫᴜᴇꜱᴛ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴛʀᴀᴅᴇ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.trade.disabled true"
+      - "[player] axtrade toggle"
+      - "[refresh]"
+
+  'chatgames_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 10
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʜᴀᴛɢᴀᴍᴇꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴄʜᴀᴛɢᴀᴍᴇꜱ'
+      - '&7ᴀʀᴇ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: settings.chatgames.disabled
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.chatgames.disabled false"
+      - "[player] chatgame toggle"
+      - "[refresh]"
+  'chatgames_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 10
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʜᴀᴛɢᴀᴍᴇꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴄʜᴀᴛɢᴀᴍᴇꜱ'
+      - '&7ᴀʀᴇ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.chatgames.disabled true"
+      - "[player] chatgame toggle"
+      - "[refresh]"
+
+  'autotools_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀᴜᴛᴏ ᴛᴏᴏʟꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴜᴛᴏ ᴛᴏᴏʟꜱ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: settings.autotools.disabled
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.autotools.disabled false"
+      - "[message] &f &#648DC1ᴀᴜᴛᴏ ᴛᴏᴏʟꜱ ʜᴀꜱ ʙᴇᴇɴ ᴇɴᴀʙʟᴇᴅ."
+      - "[player] bt"
+      - "[refresh]"
+  'autotools_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀᴜᴛᴏ ᴛᴏᴏʟꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴜᴛᴏ ᴛᴏᴏʟꜱ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.autotools.disabled true"
+      - "[message] &f &#648DC1ᴀᴜᴛᴏ ᴛᴏᴏʟꜱ ʜᴀꜱ ʙᴇᴇɴ ᴅɪꜱᴀʙʟᴇᴅ."
+      - "[player] bt"
+      - "[refresh]"
+
+  'teleport_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇꜱᴛ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴛᴘ ʀᴇǫᴜᴇꜱᴛ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%essentials_is_teleport_enabled%"
+          output: "no"
+        permission:
+          type: "has permission"
+          permission: essentials.tptoggle
+    click_commands:
+      - "[player] tptoggle"
+      - "[refresh]"
+  'teleport_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇꜱᴛ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴛᴘ ʀᴇǫᴜᴇꜱᴛ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: essentials.tptoggle
+    click_commands:
+      - "[player] tptoggle"
+      - "[refresh]"
+  'teleport_disabled1':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 28
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇꜱᴛ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴛᴘ ʀᴇǫᴜᴇꜱᴛ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&cʀᴇǫᴜɪʀᴇꜱ ᴀ ʀᴀɴᴋ'
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ɴᴇᴇᴅ ᴀ ʀᴀɴᴋ ᴛᴏ ᴛᴏɢɢʟᴇ ꜱᴇᴛᴛɪɴɢ"
+      - "[refresh]"
+
+
+  'message_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 37
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘʀɪᴠᴀᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘʀɪᴠᴀᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ'
+      - '&7ᴀʀᴇ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: settings.message.disabled
+        permission1:
+          type: "has permission"
+          permission: essentials.msgtoggle
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.message.disabled false"
+      - "[player] msgtoggle"
+      - "[refresh]"
+  'message_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 37
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘʀɪᴠᴀᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘʀɪᴠᴀᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ'
+      - '&7ᴀʀᴇ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: essentials.msgtoggle
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.message.disabled true"
+      - "[player] msgtoggle"
+      - "[refresh]"
+  'message_disabled1':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 37
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘʀɪᴠᴀᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴘʀɪᴠᴀᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ'
+      - '&7ᴀʀᴇ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&cʀᴇǫᴜɪʀᴇꜱ ᴀ ʀᴀɴᴋ'
+    click_commands:
+      - "[message] &f &cʏᴏᴜ ɴᴇᴇᴅ ᴀ ʀᴀɴᴋ ᴛᴏ ᴛᴏɢɢʟᴇ ꜱᴇᴛᴛɪɴɢ"
+      - "[refresh]"
+
+
+
+
+
+  'scrollup':
+    material: PAPER
+    model_data: 62
+    amount: 1
+    slot: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lꜱᴄʀᴏʟʟ ᴜᴘ ↑'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴄʀᴏʟʟ ᴜᴘ'
+      - '&7ᴛᴏ ꜰɪʀꜱᴛ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] settings_1"
+  'scrolldown':
+    material: PAPER
+    model_data: 61
+    amount: 1
+    slot: 44
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lꜱᴄʀᴏʟʟ ᴅᴏᴡɴ ↓'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴄʀᴏʟʟ ᴅᴏᴡɴ'
+      - '&7ᴛᴏ ᴛʜɪʀᴅ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] settings_3"

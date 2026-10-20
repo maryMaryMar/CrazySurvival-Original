@@ -1,0 +1,512 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'toolskins_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜱᴋɪɴꜱ ᴏꜰ ꜱᴡᴏʀᴅꜱ'
+    click_commands:
+      - "[refresh]"
+
+  'toolskins_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜱᴋɪɴꜱ ᴏꜰ ᴘɪᴄᴋᴀxᴇꜱ'
+    click_commands:
+      - "[openguimenu] toolskins_pickaxes_1"
+
+  'toolskins_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 28
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜱᴋɪɴꜱ ᴏꜰ ᴀxᴇꜱ'
+    click_commands:
+      - "[openguimenu] toolskins_axes_1"
+
+  'toolskins_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 37
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜱᴋɪɴꜱ ᴏꜰ ꜱʜᴏᴠᴇʟꜱ'
+    click_commands:
+      - "[openguimenu] toolskins_shovels_1"
+
+  'toolskins_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜱᴋɪɴꜱ ᴏꜰ ʜᴏᴇꜱ'
+    click_commands:
+      - "[openguimenu] toolskins_hoes_1"
+
+  'toolskins_6':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 25
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜱᴋɪɴꜱ ᴏꜰ ʙᴏᴡꜱ'
+    click_commands:
+      - "[message] &cᴄᴏᴍɪɴɢ ꜱᴏᴏɴ!"
+
+  'toolskins_7':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 34
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜱᴋɪɴꜱ ᴏꜰ ᴄʀᴏꜱꜱʙᴏᴡꜱ'
+    click_commands:
+      - "[message] &cᴄᴏᴍɪɴɢ ꜱᴏᴏɴ!"
+
+  'toolskins_8':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 43
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ꜱᴋɪɴꜱ ᴏꜰ ꜰɪꜱʜɪɴɢ ʀᴏᴅ'
+    click_commands:
+      - "[message] &cᴄᴏᴍɪɴɢ ꜱᴏᴏɴ!"
+
+
+
+
+
+
+
+
+
+#ToolSkins
+
+
+  'toolskins_toggle_1':
+    material: NETHERITE_SWORD
+    model_data: 5
+    amount: 1
+    slot: 11
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙʟᴀᴢᴇ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a73,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴀᴘᴘʟʏ'
+    click_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%player_item_in_hand%"
+          output: "NETHERITE_SWORD"
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʜᴏʟᴅɪɴɢ ᴀɴ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ!"  
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: rskin.change.sword.blaze
+    click_commands:
+      - "[player] rskin apply sword_blaze"
+      - "[close]"
+  'toolskins_purchase_1':
+    material: NETHERITE_SWORD
+    model_data: 5
+    amount: 1
+    slot: 11
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʙʟᴀᴢᴇ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a73,200'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        coins:
+          type: javascript
+          expression: '%vault_eco_balance% >= 73200'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set rskin.change.sword.blaze true"
+      - "[console] eco take %player_name% 73200"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴛᴏᴏʟ ꜱᴋɪɴ!"
+      - "[close]"
+
+
+  'toolskins_toggle_2':
+    material: NETHERITE_SWORD
+    model_data: 17
+    amount: 1
+    slot: 12
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴍᴀᴄᴇ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &cᴇxᴄʟᴜꜱɪᴠᴇ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴀᴘᴘʟʏ'
+    click_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%player_item_in_hand%"
+          output: "NETHERITE_SWORD"
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʜᴏʟᴅɪɴɢ ᴀɴ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ!"  
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: rskin.change.sword.mace
+    click_commands:
+      - "[player] rskin apply sword_mace"
+      - "[close]"
+  'toolskins_purchase_2':
+    material: NETHERITE_SWORD
+    model_data: 17
+    amount: 1
+    slot: 12
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴍᴀᴄᴇ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &cᴇxᴄʟᴜꜱɪᴠᴇ'
+    click_commands:
+      - "[message] &f &cᴛʜɪꜱ ꜱᴋɪɴ ɪꜱ ᴄʀᴀᴛᴇ ᴇxᴄʟᴜꜱɪᴠᴇ, ʏᴏᴜ ᴄᴀɴɴᴏᴛ ʙᴜʏ ɪᴛ"
+      - "[close]"
+
+
+  'toolskins_toggle_3':
+    material: NETHERITE_SWORD
+    model_data: 8
+    amount: 1
+    slot: 13
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʀʏꜱᴛᴀʟ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a60,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴀᴘᴘʟʏ'
+    click_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%player_item_in_hand%"
+          output: "NETHERITE_SWORD"
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʜᴏʟᴅɪɴɢ ᴀɴ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ!"  
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: rskin.change.sword.crystal
+    click_commands:
+      - "[player] rskin apply sword_crystal"
+      - "[close]"
+  'toolskins_purchase_3':
+    material: NETHERITE_SWORD
+    model_data: 8
+    amount: 1
+    slot: 13
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴄʀʏꜱᴛᴀʟ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a60,000'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        coins:
+          type: javascript
+          expression: '%vault_eco_balance% >= 60000'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set rskin.change.sword.crystal true"
+      - "[console] eco take %player_name% 60000"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴛᴏᴏʟ ꜱᴋɪɴ!"
+      - "[close]"
+
+
+  'toolskins_toggle_4':
+    material: NETHERITE_SWORD
+    model_data: 20
+    amount: 1
+    slot: 14
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴀꜱᴄᴀʟ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a65,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴀᴘᴘʟʏ'
+    click_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%player_item_in_hand%"
+          output: "NETHERITE_SWORD"
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʜᴏʟᴅɪɴɢ ᴀɴ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ!"  
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: rskin.change.sword.rascal
+    click_commands:
+      - "[player] rskin apply sword_rascal"
+      - "[close]"
+  'toolskins_purchase_4':
+    material: NETHERITE_SWORD
+    model_data: 20
+    amount: 1
+    slot: 14
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lʀᴀꜱᴄᴀʟ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a65,800'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        coins:
+          type: javascript
+          expression: '%vault_eco_balance% >= 65800'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set rskin.change.sword.rascal true"
+      - "[console] eco take %player_name% 65800"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴛᴏᴏʟ ꜱᴋɪɴ!"
+      - "[close]"
+
+
+  'toolskins_toggle_5':
+    material: NETHERITE_SWORD
+    model_data: 4
+    amount: 1
+    slot: 15
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀᴢᴀʟᴇᴀ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴀᴘᴘʟʏ'
+    click_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%player_item_in_hand%"
+          output: "NETHERITE_SWORD"
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʜᴏʟᴅɪɴɢ ᴀɴ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ!"  
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: rskin.change.sword.azalea
+    click_commands:
+      - "[player] rskin apply sword_azalea"
+      - "[close]"
+  'toolskins_purchase_5':
+    material: NETHERITE_SWORD
+    model_data: 4
+    amount: 1
+    slot: 15
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀᴢᴀʟᴇᴀ ꜱᴋɪɴ'
+    lore:
+      - '&7ʜᴏʟᴅ ᴀ ɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ ɪɴ'
+      - '&7ʏᴏᴜʀ ʜᴀɴᴅ ᴛᴏ ᴀᴘᴘʟʏ ᴛʜᴇ ꜱᴋɪɴ'
+      - ''
+      - '&8▪ &fᴀᴘᴘʟɪᴇᴅ ᴏɴ: &eɴᴇᴛʜᴇʀɪᴛᴇ ꜱᴡᴏʀᴅ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        coins:
+          type: javascript
+          expression: '%vault_eco_balance% >= 58500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set rskin.change.sword.azalea true"
+      - "[console] eco take %player_name% 58500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴛᴏᴏʟ ꜱᴋɪɴ!"
+      - "[close]"
+
+
+
+
+
+
+
+  'previous_arrow':
+    material: PAPER
+    model_data: 66
+    amount: 1
+    slot: 47
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&l← ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ'
+      - '&7ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] toolskins_swords_1"
+  'next_arrow':
+    material: PAPER
+    model_data: 67
+    amount: 1
+    slot: 51
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lɴᴇxᴛ ᴘᴀɢᴇ →'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ɢᴏ ᴛᴏ'
+      - '&7ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ'
+    click_commands:
+      - "[refresh]"

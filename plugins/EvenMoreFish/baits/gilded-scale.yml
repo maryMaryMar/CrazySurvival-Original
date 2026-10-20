@@ -1,0 +1,18 @@
+id: gildedscale
+disabled: false
+
+item:
+  material: PRISMARINE_SHARD
+  displayname: <#12CBC4><bold>ɢɪʟᴅᴇᴅ ꜱᴄᴀʟᴇ
+  lore:
+  - <i><gray>ᴀ ꜱᴄᴀʟᴇ ᴛʜᴀᴛ ꜱʜɪᴍᴍᴇʀᴇᴅ ɪɴ ᴛʜᴇ ʀɪᴠᴇʀʙᴇᴅ.</gray></i>
+  - <i><gray>ꜱᴀɪᴅ ᴛᴏ ꜰᴀʟʟ ᴏɴʟʏ ꜰʀᴏᴍ ꜰɪꜱʜ ᴡʜᴏ ʜᴀᴠᴇ</gray></i>
+  - <i><gray>ꜱᴜʀᴠɪᴠᴇᴅ ᴄᴏᴜɴᴛʟᴇꜱꜱ ʙᴀᴛᴛʟᴇꜱ.</gray></i>
+  - <gray>
+  - <#12CBC4>♦ <white>ᴀᴛᴛʀᴀᴄᴛꜱ <#12CBC4>ʀᴀʀᴇ ꜰɪꜱʜᴇꜱ
+rarities:
+- Rare
+can-be-caught: false
+catch-weight: 2
+application-weight: 40
+max-baits: 64

@@ -1,0 +1,110 @@
+menu_title: '&f七七七七七七七七'
+open_command: rtp
+register_command: true
+size: 36
+update_interval: 1
+
+items:
+  'rtp_nether':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 0
+    - 1
+    - 2
+    - 9
+    - 10
+    - 11
+    - 18
+    - 19
+    - 20
+    - 27
+    - 28
+    - 29
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&c&lʀᴛᴘ ᴛᴏ ɴᴇᴛʜᴇʀ'
+    lore:
+      - '&7ɢᴇᴛ ʀᴀɴᴅᴏᴍʟʏ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ'
+      - '&7ᴛᴏ ᴛʜᴇ ɴᴇᴛʜᴇʀ'
+      - ''
+      - ' &8▪ &fꜱɪᴢᴇ: &c30k x 30k'
+      - ' &8▪ &fᴘᴠᴘ: &cᴅɪꜱᴀʙʟᴇᴅ'
+      - ' &8▪ &fʟᴀɴᴅ ᴄʟᴀɪᴍɪɴɢ: &cᴅɪꜱᴀʙʟᴇᴅ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴛᴘ'
+    left_click_commands:
+      - "[player] betterrtp:rtp world world_nether"
+      - "[close]"
+
+
+  'rtp_overworld':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 3
+    - 4
+    - 5
+    - 12
+    - 13
+    - 14
+    - 21
+    - 22
+    - 23
+    - 30
+    - 31
+    - 32
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&a&lʀᴛᴘ ᴛᴏ ᴏᴠᴇʀᴡᴏʀʟᴅ'
+    lore:
+      - '&7ɢᴇᴛ ʀᴀɴᴅᴏᴍʟʏ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ'
+      - '&7ᴛᴏ ᴛʜᴇ ᴏᴠᴇʀᴡᴏʀʟᴅ'
+      - ''
+      - ' &8▪ &fꜱɪᴢᴇ: &a50k x 50k'
+      - ' &8▪ &fᴘᴠᴘ: &aᴅɪꜱᴀʙʟᴇᴅ'
+      - ' &8▪ &fʟᴀɴᴅ ᴄʟᴀɪᴍɪɴɢ: &aᴇɴᴀʙʟᴇᴅ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴛᴘ'
+    left_click_commands:
+      - "[player] betterrtp:rtp world world"
+      - "[close]"
+
+
+  'rtp_end':
+    material: PAPER
+    model_data: 100009
+    slots:
+    - 6
+    - 7
+    - 8
+    - 15
+    - 16
+    - 17
+    - 24
+    - 25
+    - 26
+    - 33
+    - 34
+    - 35
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&5&lʀᴛᴘ ᴛᴏ ᴇɴᴅ'
+    lore:
+      - '&7ɢᴇᴛ ʀᴀɴᴅᴏᴍʟʏ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ'
+      - '&7ᴛᴏ ᴛʜᴇ ᴇɴᴅ'
+      - ''
+      - ' &8▪ &fꜱɪᴢᴇ: &530k x 30k'
+      - ' &8▪ &fᴘᴠᴘ: &5ᴅɪꜱᴀʙʟᴇᴅ'
+      - ' &8▪ &fʟᴀɴᴅ ᴄʟᴀɪᴍɪɴɢ: &5ᴅɪꜱᴀʙʟᴇᴅ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴛᴘ'
+    left_click_commands:
+      - "[player] betterrtp:rtp world world_the_end"
+      - "[close]"

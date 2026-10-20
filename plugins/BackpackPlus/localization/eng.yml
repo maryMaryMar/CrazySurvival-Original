@@ -1,0 +1,174 @@
+# Message when the backpack starts to be loaded from the database (after player interaction)
+backpack-loading: '<white> <#648DC1>ʙᴀᴄᴋᴘᴀᴄᴋ ʟᴏᴀᴅɪɴɢ ɪɴ ᴘʀᴏɢʀᴇꜱꜱ...'
+# Message when the backpack has been loaded
+backpack-loaded: '<white> <#648DC1>ʙᴀᴄᴋᴘᴀᴄᴋ ʜᴀꜱ ʙᴇᴇɴ ʟᴏᴀᴅᴇᴅ.'
+# Message when the backpack is updating and the player tries to open it
+backpack-updating: '<white>Updating the backpack in progress'
+# Message when the backpack could not be loaded
+backpack-loading-error: '&cProblem encountered during backpack loading'
+# When a player tries to open a backpack, but it is being used by another player
+backpack-is-used-by-another-player: '&cThe backpack is used by another player'
+
+# Message when admin changes crafting
+backpack-crafting-change: '&aCrafting of the backpack has been changed'
+# Message when a player tries to change crafting when it is empty or the same as before
+backpack-crafting-cannot-change: '&cThe crafting of the backpack cannot be changed,
+  perhaps it is empty or is the same'
+# Message when admin cancels crafting changes
+backpack-crafting-change-cancelled: '&cBackpack crafting changes cancelled'
+
+# Message after the backpack has been added by the player's backpack view
+# %player% Name of backpack owner
+backpack-added-inventory: '&6Added player''s backpack&8: <white>%player% &6to your inventory'
+
+# If a player has no permissions
+command-no-permissions: '&4You do not have the permissions to use this command'
+# When a player has a cooldown
+cooldown-message: '<white> <yellow>ʏᴏᴜ ᴍᴜꜱᴛ ᴡᴀɪᴛ ʙᴇꜰᴏʀᴇ ᴜꜱɪɴɢ ɪᴛ ᴀɢᴀɪɴ!'
+# When a player is not authorised to open a backpack
+backpack-no-permission-use: '&4You do not have the permissions to open the backpack'
+# When the player's backpack recharges (using the command)
+loading-in-progress: '&6Loading in progress... please wait a moment'
+# When players' backpacks could not be loaded
+players-backpack-not-loaded: '&cPlayer''s backpacks could not be loaded'
+# When the player does not have any backpack
+player-not-created-backpacks: '&7This player has not created any backpacks yet'
+# When the player is offline
+# %player% > Player Name
+player-is-offline: '&7Player&8: <white>%player% &7 is offline'
+
+# Message when a player tries to have more backpacks than one (only if option in config is set to true: limit-backpack-per-inventory)
+one-backpack-per-inventory: '&cYou can only carry one backpack'
+
+# Message when player tries to put item in container when it's locked
+blocked-backpack-insert-message: '&cYou can''t put this item here!'
+
+# Message when resourcepack is loaded leave blank if there is to be no message
+resourcepack-loaded: '&6Resourcepack has been loaded'
+# Message when resourcepack fails to load leave blank if there is to be no message
+resourcepack-failed-load: '&6Failed to load resourcepack'
+
+# Message if the command is only for the player
+command-only-player: '&cThis argument can only be used by a player!'
+# Message if the command is only for the console
+command-only-console: '&cThis argument can only be used by a console!'
+
+# Message when uuid is invalid
+invalid-uuid: '&cIncorrect UUID'
+
+# Message when the item was blocked, %item% is the name of the material
+item-has-blocked: '&6The Item has been blocked&8: <white>%item%'
+
+# Message when the given item is already blocked
+item-already-blocked: '&cItem already blocked&8: <white>%item%'
+
+# Message when the material was blocked, %item% is the name of the material
+material-has-blocked: '&6The Material has been blocked&8: <white>%material%'
+# Message when the given material is already blocked
+material-already-blocked: '&cMaterial already blocked&8: <white>%material%'
+# Message when given material is incorrect
+invalid-material: '&cInvalid Material Name&8: <white>%material%'
+# Message when player has empty hands
+empty-hand: '&cYou must have something in your hand'
+
+# Message when backpack tier is incorrect, %tier% is the given value
+invalid-backpack-tier: '&cInvalid Backpack Tier&8: <white>%tier%'
+
+# Message when a player adds a backpack, %tier% is the tier of the backpack
+backpack-added: '&6Backpack&8: <white>%tier% &6Added'
+
+# Message when a backpack was added to a player, %tier% is the tier of the backpack, %player% is the name of the player
+backpack-added-player: '&6Backpack&8: <white>%tier%  &6Added to player&8: <white>%player%'
+# Message when a backpack of the specified tier has not been found
+backpack-tier-not-found: '&cBackpack&8: <white>%tier% &cnot found'
+
+# Message when no players have created backpacks yet or something has gone wrong
+players-not-created-backpacks: No player has created a backpack yet or something has
+  gone wrong
+
+# Message when an unexpected error occurs
+unexpected-error: '&cAn unexpected error occurred during command execution, check
+  console for errors.'
+
+# Message when resourcepack is reloaded with command
+resourcepack-reloaded: '&6Resourcepack has been updated and reloaded with all players'
+
+# A message when a player tries to put an item in a backpack that is not permitted type FILTERED
+filtered-backpack-item-not-allowed: '&cYou can''t put this item in this backpack'
+
+# Message when a player tries to click a button on a menu, and it has a cooldown
+button-cooldown: '&cYou must wait another <white>%time% &cseconds before clicking again '
+
+# Message when someone else has already edited the allowed items for this backpack
+allowed-items-gui-has-editor: '&cSomeone is already editing the allowed items for
+  this backpack'
+
+# Message when failed to open gui of allowed items
+allowed-items-could-open: '&cCannot open Allowed items, check the console and check
+  the config for this backpack to see if they are correct'
+
+# Message when player is not the owner of the backpack
+not-owner: '&cYou are not the owner of this backpack!'
+crafting:
+  
+  # Message when a player tries to create a backpack with a non-empty container
+  blocked-filled-container: '&4You cannot craft using filled containers!'
+gui:
+  crafting-edit-gui:
+    title: '#194d33You are changing the crafting %crafting%'
+    buttons:
+      cancel:
+        display-name: <#b80000><bold>Cancel
+      confirm:
+        display-name: <#008b02><bold>Confirm
+  backpack-settings-main:
+    title: '&6Tier&8: <white>%tier% &6backpack settings'
+    buttons:
+      allowed-items-button:
+        display-name: '&2Click to edit allowed items'
+        lore:
+        - '&7Currently allowed items for this backpack are&8: &c%size%'
+        - ' '
+        - '&7Click <white>&lLMB &7To open the gui with allowed items'
+        - ' '
+        - '&8Includes these items if the backpack has the <white>FILTERED &8type'
+      edit-crafting-button:
+        display-name: '&2Click to change crafting'
+        lore:
+        - '<white>Can be crafted&8: %[(isCraftable == true)&8[&2&l✔&8] ~: &8[&c&l❌&8]]%'
+        - ' '
+        - '&7Click <white>&lLMB &7To Edit crafting'
+        - '&7Click <white>&lSHIFT + RMB &7to %[(isCraftable == true)disable ~: enable]%
+          ability to craft a backpack'
+      change-backpack-type-button:
+        display-name: '&2Click to edit backpack type'
+        lore:
+        - '&7The current type of backpack is&8: &c%type%'
+        - ' '
+        - '&7Click <white>&lLMB &7To change the type to&8: <white>%[(type == DEFAULT)FILTERED
+          ~: DEFAULT]%'
+  player-backpack-gui-info:
+    displayName: '&6%playerName%'
+    lore:
+    - '<white>Owned Backpacks&8: &6%amount%'
+    - '&7Click <white>&lLMB &7To open the player backpacks menu'
+  backpack-chose-crafting-gui:
+    title: '#0047F7Choose which backpack you want to change crafting'
+    buttons:
+      select-backpack-button:
+        lore:
+        - '<white>Can be crafted&8: %[(isCraftable == true)&8[&2&l✔&8] ~: &8[&c&l❌&8]]%'
+  all-backpack-gui:
+    title: '&cAll players with backpacks&8: <white>%size% %[(max_pages > 1)&cPage&8: &6%page%
+      &8/ &7%max_pages%]%'
+  # Title format for allowed items GUI - shows pagination when multiple pages exist
+  allowed-items-gui: '<red>Allowed items<dark_gray>: <white>%size% <red>Backpack Tier<dark_gray>:
+    <white>%tier% %[(max_pages > 1)<red>Page<dark_gray>: <gold>%page% <dark_gray>/
+    <gray>%max_pages%]%'
+  backpack-chose-recipe-gui:
+    title: <#0047F7>Select a backpack for which the recipe should be displayed
+  backpack-view-recipe-gui:
+    title: '<#0047F7>You are viewing the recipe for backpack<dark_gray>: %backpack_name%'
+    buttons:
+      back-to-menu:
+        name: <white>Click to go back to menu

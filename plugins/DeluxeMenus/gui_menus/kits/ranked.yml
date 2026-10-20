@@ -1,0 +1,293 @@
+menu_title: '&f七七七七七七七七'
+size: 27
+update_interval: 1
+
+items:
+  'guardian_kit_cooldown':
+    material: PAPER
+    model_data: 4
+    amount: 1
+    slot: 11
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴅᴇꜰᴇɴᴅ ᴛʜᴇ ʀᴇᴀʟᴍ ᴡɪᴛʜ ʜᴏɴᴏʀ.'
+      - '&7ᴀ ʀᴇʟɪᴀʙʟᴇ ᴋɪᴛ ꜰᴏʀ ɢᴜᴀʀᴅɪᴀɴꜱ!'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_guardian%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_guardian%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_guardian% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'guardian_kit_available':
+    material: PAPER
+    model_data: 4
+    amount: 1
+    slot: 11
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴅᴇꜰᴇɴᴅ ᴛʜᴇ ʀᴇᴀʟᴍ ᴡɪᴛʜ ʜᴏɴᴏʀ.'
+      - '&7ᴀ ʀᴇʟɪᴀʙʟᴇ ᴋɪᴛ ꜰᴏʀ ɢᴜᴀʀᴅɪᴀɴꜱ!'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c7days'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit guardian"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] guardian_kit_preview"
+
+
+
+
+
+  'champion_kit_cooldown':
+    material: PAPER
+    model_data: 5
+    amount: 1
+    slot: 12
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - "&7ᴘʀᴏᴠᴇ ʏᴏᴜʀ ᴡᴏʀᴛʜ ɪɴ ʙᴀᴛᴛʟᴇ."
+      - '&7ᴀ ꜱᴏʟɪᴅ ᴋɪᴛ ꜰᴏʀ ᴀ ᴛʀᴜᴇ ʜᴇʀᴏ!'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_champion%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_champion%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_champion% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'champion_kit_available':
+    material: PAPER
+    model_data: 5
+    amount: 1
+    slot: 12
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - "&7ᴘʀᴏᴠᴇ ʏᴏᴜʀ ᴡᴏʀᴛʜ ɪɴ ʙᴀᴛᴛʟᴇ."
+      - '&7ᴀ ꜱᴏʟɪᴅ ᴋɪᴛ ꜰᴏʀ ᴀ ᴛʀᴜᴇ ʜᴇʀᴏ!'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c7days'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit champion"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] champion_kit_preview"
+
+
+
+
+
+  'warlord_kit_cooldown':
+    material: PAPER
+    model_data: 6
+    amount: 1
+    slot: 13
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴇǫᴜɪᴘ ʏᴏᴜʀꜱᴇʟꜰ ʟɪᴋᴇ ᴀ ᴛʀᴜᴇ ᴡᴀʀʟᴏʀᴅ.'
+      - '&7ꜱᴛʀᴏɴɢ ɢᴇᴀʀ ꜰᴏʀ ꜰɪᴇʀᴄᴇ ʙᴀᴛᴛʟᴇꜱ.'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_warlord%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_warlord%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_warlord% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'warlord_kit_available':
+    material: PAPER
+    model_data: 6
+    amount: 1
+    slot: 13
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴇǫᴜɪᴘ ʏᴏᴜʀꜱᴇʟꜰ ʟɪᴋᴇ ᴀ ᴛʀᴜᴇ ᴡᴀʀʟᴏʀᴅ.'
+      - '&7ꜱᴛʀᴏɴɢ ɢᴇᴀʀ ꜰᴏʀ ꜰɪᴇʀᴄᴇ ʙᴀᴛᴛʟᴇꜱ.'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c7days'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit warlord"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] warlord_kit_preview"
+
+
+
+
+
+  'titan_kit_cooldown':
+    material: PAPER
+    model_data: 7
+    amount: 1
+    slot: 14
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ɢʀᴇᴀᴛ ᴘᴏᴡᴇʀ ꜰᴏʀ ᴀ ᴍɪɢʜᴛʏ ᴛɪᴛᴀɴ.'
+      - '&7ɢᴇᴀʀ ᴜᴘ ᴀɴᴅ ꜱᴛᴀɴᴅ ꜱᴛʀᴏɴɢ.'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_titan%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_titan%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_titan% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'titan_kit_available':
+    material: PAPER
+    model_data: 7
+    amount: 1
+    slot: 14
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ɢʀᴇᴀᴛ ᴘᴏᴡᴇʀ ꜰᴏʀ ᴀ ᴍɪɢʜᴛʏ ᴛɪᴛᴀɴ.'
+      - '&7ɢᴇᴀʀ ᴜᴘ ᴀɴᴅ ꜱᴛᴀɴᴅ ꜱᴛʀᴏɴɢ.'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c7days'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit titan"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] titan_kit_preview"
+
+
+
+
+
+  'king_kit_cooldown':
+    material: PAPER
+    model_data: 8
+    amount: 1
+    slot: 15
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴛʜᴇ ᴜʟᴛɪᴍᴀᴛᴇ ᴋɪᴛ ꜰᴏʀ ᴛʜᴇ ʀᴜʟᴇʀ!'
+      - '&7ᴜɴᴍᴀᴛᴄʜᴇᴅ ᴘᴏᴡᴇʀ ꜰɪᴛ ꜰᴏʀ ᴀ ᴋɪɴɢ.'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%essentials_kit_time_until_available_king%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string contains
+          input: "%essentials_kit_is_available_king%"
+          output: "no"
+    click_commands:
+      - "[message] &f &cᴡᴀɪᴛ %essentials_kit_time_until_available_king% ᴛᴏ ᴄʟᴀɪᴍ ɪᴛ ᴀɢᴀɪɴ"
+
+
+  'king_kit_available':
+    material: PAPER
+    model_data: 8
+    amount: 1
+    slot: 15
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴛʜᴇ ᴜʟᴛɪᴍᴀᴛᴇ ᴋɪᴛ ꜰᴏʀ ᴛʜᴇ ʀᴜʟᴇʀ!'
+      - '&7ᴜɴᴍᴀᴛᴄʜᴇᴅ ᴘᴏᴡᴇʀ ꜰɪᴛ ꜰᴏʀ ᴀ ᴋɪɴɢ.'
+      - ''
+      - '&8▪ &7ᴄᴏᴏʟᴅᴏᴡɴ: &c7days'
+      - ''
+      - '&f &#38c42eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+      - '&f &#fbae33ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+    left_click_commands:
+      - "[player] essentials:kit king"
+      - "[close]"
+    right_click_commands:
+      - "[openguimenu] king_kit_preview"
+
+
+
+
+
+  'close':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d84747Back'
+    click_commands:
+      - "[openguimenu] kits"
+

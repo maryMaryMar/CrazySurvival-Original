@@ -1,0 +1,18 @@
+id: abyssalshard
+disabled: false
+
+item:
+  material: AMETHYST_SHARD
+  displayname: <#9a17ec><bold>ᴀʙʏꜱꜱᴀʟ ꜱʜᴀʀᴅ
+  lore:
+  - <i><gray>ᴘᴜʟʟᴇᴅ ꜰʀᴏᴍ ᴀ ᴅᴇᴇᴘ ʀɪꜰᴛ ɪɴ ᴛʜᴇ ꜱᴇᴀ.</gray></i>
+  - <i><gray>ɪᴛ ʜᴜᴍꜱ ᴡɪᴛʜ ᴀɴ ᴏᴛʜᴇʀᴡᴏʀʟᴅʟʏ ꜰʀᴇǫᴜᴇɴᴄʏ</gray></i>
+  - <i><gray>ᴛʜᴀᴛ ʀᴇꜱᴏɴᴀᴛᴇꜱ ᴡɪᴛʜ ᴘᴏᴡᴇʀꜰᴜʟ ʙᴇɪɴɢꜱ.</gray></i>
+  - <gray>
+  - <#9a17ec>♦ <white>ᴀᴛᴛʀᴀᴄᴛꜱ <#9a17ec>ᴇᴘɪᴄ ꜰɪꜱʜᴇꜱ
+rarities:
+- Epic
+can-be-caught: false
+catch-weight: 2
+application-weight: 35
+max-baits: 48

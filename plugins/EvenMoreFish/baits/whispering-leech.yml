@@ -1,0 +1,19 @@
+id: whisperingleech
+disabled: false
+
+item:
+  material: ECHO_SHARD
+  displayname: <#1289A7><bold>ᴡʜɪꜱᴘᴇʀɪɴɢ ʟᴇᴇᴄʜ
+  lore:
+  - <i><gray>ᴛʜɪꜱ ʟᴇᴇᴄʜ ᴡʜɪꜱᴘᴇʀꜱ ᴡʜᴇɴ ʜᴇʟᴅ.</gray></i>
+  - <i><gray>ꜱᴏᴍᴇ ꜱᴀʏ ɪᴛ ꜰᴇᴇᴅꜱ ᴏɴ ᴛʜᴇ ᴇꜱꜱᴇɴᴄᴇ ᴏꜰ ᴛʜᴏᴜɢʜᴛ,</gray></i>
+  - <i><gray>ʟᴜʀɪɴɢ ᴏɴʟʏ ᴛʜᴇ ᴍᴏꜱᴛ ꜱᴇɴᴛɪᴇɴᴛ ᴄʀᴇᴀᴛᴜʀᴇꜱ.</gray></i>
+  - <gray>
+  - <#1289A7>♦ <white>ᴀᴛᴛʀᴀᴄᴛꜱ <#1289A7>ᴇᴘɪᴄ & ʟᴇɢᴇɴᴅᴀʀʏ ꜰɪꜱʜᴇꜱ
+rarities:
+- Epic
+- Legendary
+can-be-caught: false
+catch-weight: 2
+application-weight: 25
+max-baits: 32

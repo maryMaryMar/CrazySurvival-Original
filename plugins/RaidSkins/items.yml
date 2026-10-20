@@ -1,0 +1,2376 @@
+items:
+  sword_allay:
+    material: "NETHERITE_SWORD"
+    model-data: 1
+    permission: "rskin.change.sword.allay"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_amethyst:
+    material: "NETHERITE_SWORD"
+    model-data: 2
+    permission: "rskin.change.sword.amethyst"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_anniversary:
+    material: "NETHERITE_SWORD"
+    model-data: 3
+    permission: "rskin.change.sword.anniversary"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_azalea:
+    material: "NETHERITE_SWORD"
+    model-data: 4
+    permission: "rskin.change.sword.azalea"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_blaze:
+    material: "NETHERITE_SWORD"
+    model-data: 5
+    permission: "rskin.change.sword.blaze"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_brezee:
+    material: "NETHERITE_SWORD"
+    model-data: 6
+    permission: "rskin.change.sword.brezee"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_cherry:
+    material: "NETHERITE_SWORD"
+    model-data: 7
+    permission: "rskin.change.sword.cherry"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_crystal:
+    material: "NETHERITE_SWORD"
+    model-data: 8
+    permission: "rskin.change.sword.crystal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_flame:
+    material: "NETHERITE_SWORD"
+    model-data: 9
+    permission: "rskin.change.sword.flame"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_floral:
+    material: "NETHERITE_SWORD"
+    model-data: 10
+    permission: "rskin.change.sword.floral"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_frozen:
+    material: "NETHERITE_SWORD"
+    model-data: 11
+    permission: "rskin.change.sword.frozen"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_gilded:
+    material: "NETHERITE_SWORD"
+    model-data: 12
+    permission: "rskin.change.sword.gilded"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_glowberries:
+    material: "NETHERITE_SWORD"
+    model-data: 13
+    permission: "rskin.change.sword.glowberries"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_guardian:
+    material: "NETHERITE_SWORD"
+    model-data: 14
+    permission: "rskin.change.sword.guardian"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_hellspire:
+    material: "NETHERITE_SWORD"
+    model-data: 15
+    permission: "rskin.change.sword.hellspire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_honey:
+    material: "NETHERITE_SWORD"
+    model-data: 16
+    permission: "rskin.change.sword.honey"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_mace:
+    material: "NETHERITE_SWORD"
+    model-data: 17
+    permission: "rskin.change.sword.mace"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_overgrown:
+    material: "NETHERITE_SWORD"
+    model-data: 18
+    permission: "rskin.change.sword.overgrown"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_phantom:
+    material: "NETHERITE_SWORD"
+    model-data: 19
+    permission: "rskin.change.sword.phantom"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_rascal:
+    material: "NETHERITE_SWORD"
+    model-data: 20
+    permission: "rskin.change.sword.rascal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_resin:
+    material: "NETHERITE_SWORD"
+    model-data: 21
+    permission: "rskin.change.sword.resin"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_skulk:
+    material: "NETHERITE_SWORD"
+    model-data: 22
+    permission: "rskin.change.sword.skulk"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_sniffer:
+    material: "NETHERITE_SWORD"
+    model-data: 23
+    permission: "rskin.change.sword.sniffer"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_soulfire:
+    material: "NETHERITE_SWORD"
+    model-data: 24
+    permission: "rskin.change.sword.soulfire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  sword_vampire:
+    material: "NETHERITE_SWORD"
+    model-data: 25
+    permission: "rskin.change.sword.vampire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_allay:
+    material: "NETHERITE_PICKAXE"
+    model-data: 1
+    permission: "rskin.change.pickaxe.allay"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_amethyst:
+    material: "NETHERITE_PICKAXE"
+    model-data: 2
+    permission: "rskin.change.pickaxe.amethyst"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_anniversary:
+    material: "NETHERITE_PICKAXE"
+    model-data: 3
+    permission: "rskin.change.pickaxe.anniversary"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_azalea:
+    material: "NETHERITE_PICKAXE"
+    model-data: 4
+    permission: "rskin.change.pickaxe.azalea"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_blaze:
+    material: "NETHERITE_PICKAXE"
+    model-data: 5
+    permission: "rskin.change.pickaxe.blaze"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_brezee:
+    material: "NETHERITE_PICKAXE"
+    model-data: 6
+    permission: "rskin.change.pickaxe.brezee"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_cherry:
+    material: "NETHERITE_PICKAXE"
+    model-data: 7
+    permission: "rskin.change.pickaxe.cherry"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_crystal:
+    material: "NETHERITE_PICKAXE"
+    model-data: 8
+    permission: "rskin.change.pickaxe.crystal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_flame:
+    material: "NETHERITE_PICKAXE"
+    model-data: 9
+    permission: "rskin.change.pickaxe.flame"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_floral:
+    material: "NETHERITE_PICKAXE"
+    model-data: 10
+    permission: "rskin.change.pickaxe.floral"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_frozen:
+    material: "NETHERITE_PICKAXE"
+    model-data: 11
+    permission: "rskin.change.pickaxe.frozen"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_gilded:
+    material: "NETHERITE_PICKAXE"
+    model-data: 12
+    permission: "rskin.change.pickaxe.gilded"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_glowberries:
+    material: "NETHERITE_PICKAXE"
+    model-data: 13
+    permission: "rskin.change.pickaxe.glowberries"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_guardian:
+    material: "NETHERITE_PICKAXE"
+    model-data: 14
+    permission: "rskin.change.pickaxe.guardian"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_hellspire:
+    material: "NETHERITE_PICKAXE"
+    model-data: 15
+    permission: "rskin.change.pickaxe.hellspire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_honey:
+    material: "NETHERITE_PICKAXE"
+    model-data: 16
+    permission: "rskin.change.pickaxe.honey"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_mace:
+    material: "NETHERITE_PICKAXE"
+    model-data: 17
+    permission: "rskin.change.pickaxe.mace"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_overgrown:
+    material: "NETHERITE_PICKAXE"
+    model-data: 18
+    permission: "rskin.change.pickaxe.overgrown"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_phantom:
+    material: "NETHERITE_PICKAXE"
+    model-data: 19
+    permission: "rskin.change.pickaxe.phantom"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_rascal:
+    material: "NETHERITE_PICKAXE"
+    model-data: 20
+    permission: "rskin.change.pickaxe.rascal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_resin:
+    material: "NETHERITE_PICKAXE"
+    model-data: 21
+    permission: "rskin.change.pickaxe.resin"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_skulk:
+    material: "NETHERITE_PICKAXE"
+    model-data: 22
+    permission: "rskin.change.pickaxe.skulk"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_sniffer:
+    material: "NETHERITE_PICKAXE"
+    model-data: 23
+    permission: "rskin.change.pickaxe.sniffer"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_soulfire:
+    material: "NETHERITE_PICKAXE"
+    model-data: 24
+    permission: "rskin.change.pickaxe.soulfire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  pickaxe_vampire:
+    material: "NETHERITE_PICKAXE"
+    model-data: 25
+    permission: "rskin.change.pickaxe.vampire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_allay:
+    material: "NETHERITE_AXE"
+    model-data: 1
+    permission: "rskin.change.axe.allay"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_amethyst:
+    material: "NETHERITE_AXE"
+    model-data: 2
+    permission: "rskin.change.axe.amethyst"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_anniversary:
+    material: "NETHERITE_AXE"
+    model-data: 3
+    permission: "rskin.change.axe.anniversary"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_azalea:
+    material: "NETHERITE_AXE"
+    model-data: 4
+    permission: "rskin.change.axe.azalea"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_blaze:
+    material: "NETHERITE_AXE"
+    model-data: 5
+    permission: "rskin.change.axe.blaze"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_brezee:
+    material: "NETHERITE_AXE"
+    model-data: 6
+    permission: "rskin.change.axe.brezee"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_cherry:
+    material: "NETHERITE_AXE"
+    model-data: 7
+    permission: "rskin.change.axe.cherry"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_crystal:
+    material: "NETHERITE_AXE"
+    model-data: 8
+    permission: "rskin.change.axe.crystal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_flame:
+    material: "NETHERITE_AXE"
+    model-data: 9
+    permission: "rskin.change.axe.flame"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_floral:
+    material: "NETHERITE_AXE"
+    model-data: 10
+    permission: "rskin.change.axe.floral"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_frozen:
+    material: "NETHERITE_AXE"
+    model-data: 11
+    permission: "rskin.change.axe.frozen"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_gilded:
+    material: "NETHERITE_AXE"
+    model-data: 12
+    permission: "rskin.change.axe.gilded"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_glowberries:
+    material: "NETHERITE_AXE"
+    model-data: 13
+    permission: "rskin.change.axe.glowberries"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_guardian:
+    material: "NETHERITE_AXE"
+    model-data: 14
+    permission: "rskin.change.axe.guardian"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_hellspire:
+    material: "NETHERITE_AXE"
+    model-data: 15
+    permission: "rskin.change.axe.hellspire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_honey:
+    material: "NETHERITE_AXE"
+    model-data: 16
+    permission: "rskin.change.axe.honey"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_mace:
+    material: "NETHERITE_AXE"
+    model-data: 17
+    permission: "rskin.change.axe.mace"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_overgrown:
+    material: "NETHERITE_AXE"
+    model-data: 18
+    permission: "rskin.change.axe.overgrown"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_phantom:
+    material: "NETHERITE_AXE"
+    model-data: 19
+    permission: "rskin.change.axe.phantom"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_rascal:
+    material: "NETHERITE_AXE"
+    model-data: 20
+    permission: "rskin.change.axe.rascal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_resin:
+    material: "NETHERITE_AXE"
+    model-data: 21
+    permission: "rskin.change.axe.resin"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_skulk:
+    material: "NETHERITE_AXE"
+    model-data: 22
+    permission: "rskin.change.axe.skulk"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_sniffer:
+    material: "NETHERITE_AXE"
+    model-data: 23
+    permission: "rskin.change.axe.sniffer"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_soulfire:
+    material: "NETHERITE_AXE"
+    model-data: 24
+    permission: "rskin.change.axe.soulfire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  axe_vampire:
+    material: "NETHERITE_AXE"
+    model-data: 25
+    permission: "rskin.change.axe.vampire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_allay:
+    material: "NETHERITE_SHOVEL"
+    model-data: 1
+    permission: "rskin.change.shovel.allay"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_amethyst:
+    material: "NETHERITE_SHOVEL"
+    model-data: 2
+    permission: "rskin.change.shovel.amethyst"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_anniversary:
+    material: "NETHERITE_SHOVEL"
+    model-data: 3
+    permission: "rskin.change.shovel.anniversary"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_azalea:
+    material: "NETHERITE_SHOVEL"
+    model-data: 4
+    permission: "rskin.change.shovel.azalea"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_blaze:
+    material: "NETHERITE_SHOVEL"
+    model-data: 5
+    permission: "rskin.change.shovel.blaze"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_brezee:
+    material: "NETHERITE_SHOVEL"
+    model-data: 6
+    permission: "rskin.change.shovel.brezee"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_cherry:
+    material: "NETHERITE_SHOVEL"
+    model-data: 7
+    permission: "rskin.change.shovel.cherry"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_crystal:
+    material: "NETHERITE_SHOVEL"
+    model-data: 8
+    permission: "rskin.change.shovel.crystal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_flame:
+    material: "NETHERITE_SHOVEL"
+    model-data: 9
+    permission: "rskin.change.shovel.flame"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_floral:
+    material: "NETHERITE_SHOVEL"
+    model-data: 10
+    permission: "rskin.change.shovel.floral"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_frozen:
+    material: "NETHERITE_SHOVEL"
+    model-data: 11
+    permission: "rskin.change.shovel.frozen"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_gilded:
+    material: "NETHERITE_SHOVEL"
+    model-data: 12
+    permission: "rskin.change.shovel.gilded"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_glowberries:
+    material: "NETHERITE_SHOVEL"
+    model-data: 13
+    permission: "rskin.change.shovel.glowberries"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_guardian:
+    material: "NETHERITE_SHOVEL"
+    model-data: 14
+    permission: "rskin.change.shovel.guardian"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_hellspire:
+    material: "NETHERITE_SHOVEL"
+    model-data: 15
+    permission: "rskin.change.shovel.hellspire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_honey:
+    material: "NETHERITE_SHOVEL"
+    model-data: 16
+    permission: "rskin.change.shovel.honey"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_mace:
+    material: "NETHERITE_SHOVEL"
+    model-data: 17
+    permission: "rskin.change.shovel.mace"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_overgrown:
+    material: "NETHERITE_SHOVEL"
+    model-data: 18
+    permission: "rskin.change.shovel.overgrown"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_phantom:
+    material: "NETHERITE_SHOVEL"
+    model-data: 19
+    permission: "rskin.change.shovel.phantom"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_rascal:
+    material: "NETHERITE_SHOVEL"
+    model-data: 20
+    permission: "rskin.change.shovel.rascal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_resin:
+    material: "NETHERITE_SHOVEL"
+    model-data: 21
+    permission: "rskin.change.shovel.resin"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_skulk:
+    material: "NETHERITE_SHOVEL"
+    model-data: 22
+    permission: "rskin.change.shovel.skulk"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_sniffer:
+    material: "NETHERITE_SHOVEL"
+    model-data: 23
+    permission: "rskin.change.shovel.sniffer"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_soulfire:
+    material: "NETHERITE_SHOVEL"
+    model-data: 24
+    permission: "rskin.change.shovel.soulfire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  shovel_vampire:
+    material: "NETHERITE_SHOVEL"
+    model-data: 25
+    permission: "rskin.change.shovel.vampire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_allay:
+    material: "NETHERITE_HOE"
+    model-data: 1
+    permission: "rskin.change.hoe.allay"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_amethyst:
+    material: "NETHERITE_HOE"
+    model-data: 2
+    permission: "rskin.change.hoe.amethyst"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_anniversary:
+    material: "NETHERITE_HOE"
+    model-data: 3
+    permission: "rskin.change.hoe.anniversary"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_azalea:
+    material: "NETHERITE_HOE"
+    model-data: 4
+    permission: "rskin.change.hoe.azalea"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_blaze:
+    material: "NETHERITE_HOE"
+    model-data: 5
+    permission: "rskin.change.hoe.blaze"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_brezee:
+    material: "NETHERITE_HOE"
+    model-data: 6
+    permission: "rskin.change.hoe.brezee"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_cherry:
+    material: "NETHERITE_HOE"
+    model-data: 7
+    permission: "rskin.change.hoe.cherry"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_crystal:
+    material: "NETHERITE_HOE"
+    model-data: 8
+    permission: "rskin.change.hoe.crystal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_flame:
+    material: "NETHERITE_HOE"
+    model-data: 9
+    permission: "rskin.change.hoe.flame"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_floral:
+    material: "NETHERITE_HOE"
+    model-data: 10
+    permission: "rskin.change.hoe.floral"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_frozen:
+    material: "NETHERITE_HOE"
+    model-data: 11
+    permission: "rskin.change.hoe.frozen"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_gilded:
+    material: "NETHERITE_HOE"
+    model-data: 12
+    permission: "rskin.change.hoe.gilded"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_glowberries:
+    material: "NETHERITE_HOE"
+    model-data: 13
+    permission: "rskin.change.hoe.glowberries"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_guardian:
+    material: "NETHERITE_HOE"
+    model-data: 14
+    permission: "rskin.change.hoe.guardian"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_hellspire:
+    material: "NETHERITE_HOE"
+    model-data: 15
+    permission: "rskin.change.hoe.hellspire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_honey:
+    material: "NETHERITE_HOE"
+    model-data: 16
+    permission: "rskin.change.hoe.honey"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_mace:
+    material: "NETHERITE_HOE"
+    model-data: 17
+    permission: "rskin.change.hoe.mace"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_overgrown:
+    material: "NETHERITE_HOE"
+    model-data: 18
+    permission: "rskin.change.hoe.overgrown"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_phantom:
+    material: "NETHERITE_HOE"
+    model-data: 19
+    permission: "rskin.change.hoe.phantom"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_rascal:
+    material: "NETHERITE_HOE"
+    model-data: 20
+    permission: "rskin.change.hoe.rascal"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_resin:
+    material: "NETHERITE_HOE"
+    model-data: 21
+    permission: "rskin.change.hoe.resin"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_skulk:
+    material: "NETHERITE_HOE"
+    model-data: 22
+    permission: "rskin.change.hoe.skulk"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_sniffer:
+    material: "NETHERITE_HOE"
+    model-data: 23
+    permission: "rskin.change.hoe.sniffer"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_soulfire:
+    material: "NETHERITE_HOE"
+    model-data: 24
+    permission: "rskin.change.hoe.soulfire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true
+  hoe_vampire:
+    material: "NETHERITE_HOE"
+    model-data: 25
+    permission: "rskin.change.hoe.vampire"
+    auto-apply:
+      enabled: false
+      require-permission: true
+      toggleable: false
+    auto-remove:
+      enabled: false
+      require-permission: true
+      toggleable: true
+    command:
+      applicable:
+        allow: true
+        require-permission: true
+      removable:
+        allow: true
+        require-permission: true

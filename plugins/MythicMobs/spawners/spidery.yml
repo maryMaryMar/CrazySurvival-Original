@@ -1,0 +1,27 @@
+spidery:
+  MobName: enhanced_spider
+  World: dungeon1
+  X: 15
+  Y: 104
+  Z: 4
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 4.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '6'
+  MobLevel: '1'
+  MobsPerSpawn: 4
+  Cooldown: 5
+  Warmup: 0
+  ActivationRange: 10.0
+  LeashRange: 20.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: false
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  CooldownTimer: 1
+  ActiveMobs: 3

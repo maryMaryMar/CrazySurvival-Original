@@ -1,0 +1,471 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'cosmetics_1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʜᴀᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_hats_1"
+
+  'cosmetics_2':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_projectile_1"
+
+  'cosmetics_3':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ʙᴀʟʟᴏᴏɴꜱ'
+    click_commands:
+      - "[refresh]"
+
+  'cosmetics_4':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴇᴍᴏᴛᴇꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_emotes"
+
+  'cosmetics_5':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+      - '&7ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_particle_1"
+
+  'cosmetics_6':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ɢʟᴏᴡꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_glows"
+
+  'cosmetics_7':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ'
+      - '&7ᴠɪᴇᴡ ᴄʜᴀᴛᴄᴏʟᴏʀꜱ'
+    click_commands:
+      - "[openguimenu] cosmetics_chatcolors"
+
+
+
+
+
+
+
+
+
+#Cosmetics
+
+
+  'cosmetics_toggle_1':
+    material: FLINT
+    model_data: 3
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&9&lʙʟᴜᴇ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: balloon.blue
+    click_commands:
+      - "[player] bloons equip blue"
+      - "[close]"
+
+
+  'cosmetics_purchase_1':
+    material: FLINT
+    model_data: 3
+    amount: 1
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&9&lʙʟᴜᴇ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 58500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set balloon.blue true"
+      - "[console] eco take %player_name% 58500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+  'cosmetics_toggle_2':
+    material: FLINT
+    model_data: 4
+    amount: 1
+    slot: 20
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lɢʀᴇᴇɴ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: balloon.green
+    click_commands:
+      - "[player] bloons equip green"
+      - "[close]"
+
+
+  'cosmetics_purchase_2':
+    material: FLINT
+    model_data: 4
+    amount: 1
+    slot: 20
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lɢʀᴇᴇɴ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 58500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set balloon.green true"
+      - "[console] eco take %player_name% 58500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+  'cosmetics_toggle_3':
+    material: FLINT
+    model_data: 5
+    amount: 1
+    slot: 21
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&d&lᴘɪɴᴋ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: balloon.pink
+    click_commands:
+      - "[player] bloons equip pink"
+      - "[close]"
+
+
+  'cosmetics_purchase_3':
+    material: FLINT
+    model_data: 5
+    amount: 1
+    slot: 21
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&d&lᴘɪɴᴋ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 58500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set balloon.pink true"
+      - "[console] eco take %player_name% 58500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+  'cosmetics_toggle_4':
+    material: FLINT
+    model_data: 6
+    amount: 1
+    slot: 22
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʏᴇʟʟᴏᴡ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: balloon.yellow
+    click_commands:
+      - "[player] bloons equip yellow"
+      - "[close]"
+
+
+  'cosmetics_purchase_4':
+    material: FLINT
+    model_data: 6
+    amount: 1
+    slot: 22
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&e&lʏᴇʟʟᴏᴡ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a58,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 58500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set balloon.yellow true"
+      - "[console] eco take %player_name% 58500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+  'cosmetics_toggle_5':
+    material: FLINT
+    model_data: 86
+    amount: 1
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lᴄʀᴇᴇᴘᴇʀ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a67,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: balloon.creeper
+    click_commands:
+      - "[player] bloons equip creeper"
+      - "[close]"
+
+
+  'cosmetics_purchase_5':
+    material: FLINT
+    model_data: 86
+    amount: 1
+    slot: 23
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&a&lᴄʀᴇᴇᴘᴇʀ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ꜱʜᴏᴡ ᴏꜰꜰ ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴꜱ'
+      - ''
+      - '&8▪ &fᴛʏᴘᴇ: &eʙᴀʟʟᴏᴏɴꜱ'
+      - '&8▪ &fᴘʀɪᴄᴇ: &2$&a67,500'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        money:
+          type: javascript
+          expression: '%vault_eco_balance% >= 67500'
+          deny_commands:
+            - "[message] &f &cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ᴛʜɪꜱ!"
+            - "[close]"
+    click_commands:
+      - "[console] lp user %player_name% permission set balloon.creeper true"
+      - "[console] eco take %player_name% 67500"
+      - "[message] &f &aꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ʙᴏᴜɢʜᴛ ᴛʜᴇ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+      - "[close]"
+
+
+
+
+
+
+
+  'remove_button':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slot: 52
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&c&lʀᴇᴍᴏᴠᴇ ʙᴀʟʟᴏᴏɴ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴜɴᴇǫᴜɪᴘ'
+      - '&7ʏᴏᴜʀ ʙᴀʟʟᴏᴏɴ'
+    click_commands:
+      - "[player] bloons unequip"
+      - "[close]"

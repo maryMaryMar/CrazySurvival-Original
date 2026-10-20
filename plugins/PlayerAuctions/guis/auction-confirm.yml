@@ -1,0 +1,19 @@
+# PlayerAuctions by Olzie-12
+# https://www.spigotmc.org/resources/83073
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerauctions
+# Also if you find any bugs be happy to report them I will fix them :)
+# Made with love
+
+auction-confirm:
+  # Should we enable the gui?
+  enabled: true
+  # What is the name of the gui?
+  name: "confirm"
+  # The title of the gui (Can use color codes)
+  title: "&b&lConfirm Purchase"
+  # What is the size of this GUI? (multiples of 9 can only go up to 54)
+  size: 27
+  # What are the actions when this menu is opened up?
+  open-actions: []
+  # What are the actions when this menu is closed?
+  close-actions: []

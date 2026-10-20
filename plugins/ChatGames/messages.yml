@@ -1,0 +1,185 @@
+unknown_command: '&8[%prefix%&8] &cUnknown command.'
+config_reloaded: '&8[%prefix%&8] &fThe configuration files has been reloaded!'
+not_enough_permissions: '&f &cʏᴏᴜ ᴅᴏɴᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴇʀᴍɪꜱꜱɪᴏɴ!'
+player_only_command: '&8[%prefix%&8] &cThis command can only be executed by players!'
+
+cannot_start_from_disabled: '&8[%prefix%&8] &cYou can`t start a chat game from a disabled world!'
+toggle_game: '&f #648DC1ᴄʜᴀᴛɢᴀᴍᴇꜱ ᴛᴏᴏʟꜱ ʜᴀꜱ ʙᴇᴇɴ %state%.'
+game_started: '&8[%prefix%&8] &aYou have started a %game% chat event in your chat!'
+
+#You can use <center> if you wish to do so in the next 4 messages.
+top:
+  header: '&b&m---------&e&lTOP CHAT&b&m---------'
+  format: '&c%spot%. &f%player% &8| &e&l%points% &7points'
+  player-stat-format: '&7You`ve got &e&l%player_points% &7wins'
+  footer: '&b&m---------------------------'
+  
+  no_data_message: '&8[%prefix%&8] &cThere is no data yet! Win a chat game and get points!'
+
+help_command:
+  - '&7&m-------------------------------------------------'
+  - '&e&l-ChatGames-'
+  - '&6'
+  - '&6&lCOMMANDS:'
+  - '&6'
+  - '&a/chatgames (type) &f- &3Starts the event type specified instantly.'
+  - '&a/chatgames top &f- &3Shows the top 10 players with most points.'
+  - '&a/chatgames toggle &f- &3Toggle games on or off.'
+  - '&a/chatgames reload &f- &3Reloads the config.yml file.'
+  - '&6'
+  - '&2&lGAME TYPES:'
+  - '&5unscramble, unreverse, reaction, random,  math, trivia'
+  - '&7&m-------------------------------------------------'
+  
+#Use <center> in LIST messages to center the messages, the lines with this will be centered!
+
+  
+#############################
+##    CHATGAME MESSAGES    ##
+#############################
+
+#YOU CAN USE "%display_name%" AS A REPLACEMENT FOR %player% IN correct_message FOR ALL GAMES.
+unscramble:
+    gameStartAnnouncement: 
+      - ''
+      - '&f &d★ ᴜɴsᴄʀᴀᴍʙʟᴇ ɢᴀᴍᴇ'
+      - '       &7ʏᴏᴜ ʜᴀᴠᴇ %timeToGuess% sᴇᴄᴏɴᴅs ᴛᴏ ᴜɴsᴄʀᴀᴍʙʟᴇ: #f8adf8%word%'
+      - ''
+    correct_message: 
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       #fc8b8b%player% &7ᴜɴsᴄʀᴀᴍʙʟᴇᴅ #fc8b8b%correct_answer%'
+      - '       &7ɪɴ #fc8b8b%time%s &7ᴀɴᴅ ɢᴏᴛ ᴀ ᴘʀɪᴢᴇ!'
+    time_expired_message:
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       &7%timeToGuess%s ʜᴀᴠᴇ ᴘᴀssᴇᴅ! ᴛʜᴇ ᴜɴsᴄʀᴀᴍʙʟᴇ ɢᴀᴍᴇ ɪs ɴᴏᴡ ᴏᴠᴇʀ!'
+      - '       &7ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴀɴsᴡᴇʀ ᴡᴀs &e%correct_answer%&7!'
+
+unreverse:
+    gameStartAnnouncement: 
+      - ''
+      - '&f &d★ ᴜɴʀᴇᴠᴇʀsᴇ ɢᴀᴍᴇ'
+      - '       &7ʏᴏᴜ ʜᴀᴠᴇ %timeToGuess% sᴇᴄᴏɴᴅs ᴛᴏ ᴜɴʀᴇᴠᴇʀsᴇ: #f8adf8%word%'
+      - ''
+    correct_message: 
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       #fc8b8b%player% &7ᴜɴʀᴇᴠᴇʀsᴇᴅ #fc8b8b%correct_answer%'
+      - '       &7ɪɴ #fc8b8b%time%s &7ᴀɴᴅ ɢᴏᴛ ᴀ ᴘʀɪᴢᴇ!'
+    time_expired_message:
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       &7%timeToGuess%s ʜᴀᴠᴇ ᴘᴀssᴇᴅ! ᴛʜᴇ ᴜɴʀᴇᴠᴇʀsᴇ ɢᴀᴍᴇ ɪs ɴᴏᴡ ᴏᴠᴇʀ!'
+      - '       &7ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴀɴsᴡᴇʀ ᴡᴀs &e%correct_answer%&7!'
+
+reaction:
+    gameStartAnnouncement: 
+      - ''
+      - '&f &d★ ʀᴇᴀᴄᴛɪᴏɴ ɢᴀᴍᴇ'
+      - '       &7ʏᴏᴜ ʜᴀᴠᴇ %timeToGuess% sᴇᴄᴏɴᴅs ᴛᴏ ᴡʀɪᴛᴇ ᴏᴜᴛ ᴛʜᴇ ᴡᴏʀᴅ: #f8adf8%word%'
+      - ''
+    correct_message: 
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       #fc8b8b%player% &7ᴡᴀꜱ ꜰᴀꜱᴛᴇꜱᴛ ᴛᴏ ᴡʀɪᴛᴇ #fc8b8b%correct_answer%'
+      - '       &7ɪɴ #fc8b8b%time%s &7ᴀɴᴅ ɢᴏᴛ ᴀ ᴘʀɪᴢᴇ!'
+    time_expired_message:
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       &7%timeToGuess%s ʜᴀᴠᴇ ᴘᴀssᴇᴅ! ᴛʜᴇ ʀᴇᴀᴄᴛɪᴏɴ ɢᴀᴍᴇ ɪs ɴᴏᴡ ᴏᴠᴇʀ!'
+      - '       &7ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴀɴsᴡᴇʀ ᴡᴀs &e%correct_answer%&7!'
+      
+fillout:
+    gameStartAnnouncement: 
+      - ''
+      - '&f &d★ ꜰɪʟʟ ᴏᴜᴛ ɢᴀᴍᴇ'
+      - '       &7ʏᴏᴜ ʜᴀᴠᴇ %timeToGuess% sᴇᴄᴏɴᴅs ᴛᴏ ꜰɪʟʟ ɪɴ ᴡᴏʀᴅ: #f8adf8%word%'
+      - ''
+    correct_message: 
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       #fc8b8b%player% &7ᴡᴀꜱ ꜰᴀꜱᴛᴇꜱᴛ ᴛᴏ ꜰɪʟʟ #fc8b8b%correct_answer%'
+      - '       &7ɪɴ #fc8b8b%time%s &7ᴀɴᴅ ɢᴏᴛ ᴀ ᴘʀɪᴢᴇ!'
+    time_expired_message:
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       &7%timeToGuess%s ʜᴀᴠᴇ ᴘᴀssᴇᴅ! ᴛʜᴇ ꜰɪʟʟ ᴏᴜᴛ ɢᴀᴍᴇ ɪs ɴᴏᴡ ᴏᴠᴇʀ!'
+      - '       &7ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴀɴsᴡᴇʀ ᴡᴀs &e%correct_answer%&7!'
+
+#In this game, a string of the length specified will be created with random characters
+random:
+    gameStartAnnouncement: 
+      - ''
+      - '&f &d★ ᴡʀɪᴛᴇ ᴏᴜᴛ ɢᴀᴍᴇ'
+      - '       &7ʏᴏᴜ ʜᴀᴠᴇ %timeToGuess% sᴇᴄᴏɴᴅs ᴛᴏ ᴡʀɪᴛᴇ ᴏᴜᴛ: #f8adf8%random%'
+      - ''
+    correct_message: 
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       #fc8b8b%player% &7ᴡᴀꜱ ꜰᴀꜱᴛᴇꜱᴛ ᴛᴏ ᴡʀɪᴛᴇ #fc8b8b%correct_answer%'
+      - '       &7ɪɴ #fc8b8b%time%s &7ᴀɴᴅ ɢᴏᴛ ᴀ ᴘʀɪᴢᴇ!'
+    time_expired_message:
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       &7%timeToGuess%s ʜᴀᴠᴇ ᴘᴀssᴇᴅ! ᴛʜᴇ ᴡʀɪᴛᴇ ᴏᴜᴛ ɢᴀᴍᴇ ɪs ɴᴏᴡ ᴏᴠᴇʀ!'
+      - '       &7ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴀɴsᴡᴇʀ ᴡᴀs &e%correct_answer%&7!'
+
+math:
+    gameStartAnnouncement: 
+      - ''
+      - '&f &d★ ᴍᴀᴛʜ ɢᴀᴍᴇ'
+      - '       &7ʏᴏᴜ ʜᴀᴠᴇ %timeToGuess% sᴇᴄᴏɴᴅs ᴛᴏ ꜱᴏʟᴠᴇ: #f8adf8%equation%'
+      - ''
+    #Here, you can also use '%equation%' in the message if you wish to do so
+    correct_message: 
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       #fc8b8b%player% &7ᴡᴀꜱ ꜰᴀꜱᴛᴇꜱᴛ ᴛᴏ ꜱᴏʟᴠᴇ #fc8b8b%correct_answer%'
+      - '       &7ɪɴ #fc8b8b%time%s &7ᴀɴᴅ ɢᴏᴛ ᴀ ᴘʀɪᴢᴇ!'
+    time_expired_message:
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       &7%timeToGuess%s ʜᴀᴠᴇ ᴘᴀssᴇᴅ! ᴛʜᴇ ᴍᴀᴛʜ ɢᴀᴍᴇ ɪs ɴᴏᴡ ᴏᴠᴇʀ!'
+      - '       &7ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴀɴsᴡᴇʀ ᴡᴀs &e%correct_answer%&7!'
+      
+variable:
+    #This is the format in which they will appear, you may change amount of times %symbol% is repeated in 'line1and2-format' but all variables in line 3 are as they are shown.
+    line1and2-format: '&c%symbol%&f + &c%symbol%&f + &c%symbol%&f = &e'
+    line3-format: '&c%symbol_1%&f + &c%symbol_2%&f + &b%toGet% &f= &e%result%'
+    gameStartAnnouncement: 
+      - ''
+      - '&f &d★ ᴠᴀʀɪᴀʙʟᴇ ɢᴀᴍᴇ'
+      - '       &7ʏᴏᴜ ʜᴀᴠᴇ %timeToGuess% sᴇᴄᴏɴᴅs ᴛᴏ ꜱᴏʟᴠᴇ ꜰᴏʀ: #f8adf8%symbol%'
+      - ''
+      - '       %line_1%'
+      - '       %line_2%'
+      - '       %line_3%'
+    #Here, you can also use '%equation%' in the message if you wish to do so
+    correct_message: 
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       #fc8b8b%player% &7ᴡᴀꜱ ꜰᴀꜱᴛᴇꜱᴛ ᴛᴏ ɢᴇᴛ #fc8b8b%correct_answer%'
+      - '       &7ɪɴ #fc8b8b%time%s &7ᴀɴᴅ ɢᴏᴛ ᴀ ᴘʀɪᴢᴇ!'
+    time_expired_message:
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       &7%timeToGuess%s ʜᴀᴠᴇ ᴘᴀssᴇᴅ! ᴛʜᴇ ᴠᴀʀɪᴀʙʟᴇ ɢᴀᴍᴇ ɪs ɴᴏᴡ ᴏᴠᴇʀ!'
+      - '       &7ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴀɴsᴡᴇʀ ᴡᴀs &e%correct_answer%&7!'
+          
+trivia:
+    gameStartAnnouncement: 
+      - ''
+      - '&f &d★ ᴛʀɪᴠɪᴀ ɢᴀᴍᴇ'
+      - '       &7ʏᴏᴜ ʜᴀᴠᴇ %timeToGuess% sᴇᴄᴏɴᴅs ᴛᴏ ᴀɴꜱᴡᴇʀ:'
+      - '       &f`#f8adf8%question%&f`'
+    correct_message: 
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       #fc8b8b%player% &7ᴡᴀꜱ ꜰᴀꜱᴛᴇꜱᴛ ᴛᴏ ᴀɴꜱᴡᴇʀ #fc8b8b%correct_answer%'
+      - '       &7ɪɴ #fc8b8b%time%s &7ᴀɴᴅ ɢᴏᴛ ᴀ ᴘʀɪᴢᴇ!'
+    time_expired_message:
+      - ''
+      - '&f &c♦ ɢᴀᴍᴇ ᴇɴᴅᴇᴅ'
+      - '       &7%timeToGuess%s ʜᴀᴠᴇ ᴘᴀssᴇᴅ! ᴛʜᴇ ᴛʀɪᴠɪᴀ ɢᴀᴍᴇ ɪs ɴᴏᴡ ᴏᴠᴇʀ!'
+      - '       &7ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴀɴsᴡᴇʀ ᴡᴀs &e%correct_answer%&7!'

@@ -1,0 +1,19 @@
+id: emberedworm
+disabled: false
+
+item:
+  material: MAGMA_CREAM
+  displayname: <#E67E22><bold>ᴇᴍʙᴇʀᴇᴅ ᴡᴏʀᴍ
+  lore:
+  - <i><gray>ᴀ ɢʟᴏᴡɪɴɢ ᴡᴏʀᴍ ʙᴏʀɴ ɪɴ ᴍᴀɢᴍᴀ-ꜱᴏᴀᴋᴇᴅ ꜱᴏɪʟ.</gray></i>
+  - <i><gray>ᴛᴏᴏ ʜᴏᴛ ꜰᴏʀ ᴄᴏᴍᴍᴏɴ ꜰɪꜱʜ, ʙᴜᴛ ɪʀʀᴇꜱɪꜱᴛɪʙʟᴇ</gray></i>
+  - <i><gray>ᴛᴏ ᴛʜᴏꜱᴇ ᴅʀᴀᴡɴ ᴛᴏ ᴡᴀʀᴍᴛʜ ᴀɴᴅ ᴅᴀɴɢᴇʀ.</gray></i>
+  - <gray>
+  - <#E67E22>♦ <white>ᴀᴛᴛʀᴀᴄᴛꜱ <#E67E22>ʀᴀʀᴇ & ᴇᴘɪᴄ ꜰɪꜱʜᴇꜱ
+rarities:
+- Rare
+- Epic
+can-be-caught: false
+catch-weight: 2
+application-weight: 30
+max-baits: 64

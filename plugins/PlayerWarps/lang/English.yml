@@ -1,0 +1,316 @@
+lang:
+  prefix: ''
+  unknown-command: '&cUnknown command, use /pwarp help'
+  insufficient-permissions: '&f &cʏᴏᴜ ɴᴇᴇᴅ %permission% ꜰᴏʀ ᴛʜɪꜱ ᴀᴄᴛɪᴏɴ'
+  bad-command-syntax: '&cCorrect syntax of the command: &4%syntax%'
+  help-message-lore:
+  - '&7-----------------< &f&lPLAYER&3&lWARPS&7 >------------------'
+  - '&b/pwarp &8- &7opens the main menu with all listed warps'
+  - '&b/pwarp <warp> (<player>) &8- &7teleports to the specified warp'
+  - '&b/pwarp create <warp> &8- &7creates a warp with the stated name'
+  - '&b/pwarp remove <warp> &8- &7removes the specified warp'
+  - '&b/pwarp manage <warp> &8- &7opens the settings menu'
+  - '&b/pwarp reload &8- &7reloads the files of the plugin'
+  - '&7-----------------------------------------------------'
+  reload-message: '&7The plugin was successfully reloaded!'
+  limit-reached: '&f &cʏᴏᴜ ᴄᴀɴ''ᴛ ᴄʀᴇᴀᴛᴇ ᴍᴏʀᴇ ᴡᴀʀᴘꜱ, ʟɪᴍɪᴛ ʀᴇᴀᴄʜᴇᴅ (%limit%)'
+  limit-reached-other: '&7Player %player% can''t own more warps!'
+  
+  warp-visit-notification: '&f%player%&7 has visited warp &f%warp%'
+  warp-creation-notification: '&f%player%&7 created a warp &f%warp%'
+  
+  insufficient-perms-for-category: '&4Locked category'
+  insufficient-perms-for-category-lore:
+  - '&cYou need %permission% to be'
+  - '&cable to view this category'
+  
+  no-warp-found: '&cNo warp found'
+  warp-in-deleted-world: '&cWarp is in deleted/inactive world'
+  no-warp-at-position: '&cNo warp'
+  free-feature-position: '&6Sponsored Position #%number%'
+  free-feature-position-lore:
+  - '&7You can feature warp'
+  - '&7in manage menu'
+  
+  alphabetical: ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ
+  latest: ʟᴀᴛᴇꜱᴛ
+  visits: ᴠɪꜱɪᴛꜱ
+  rating: ʀᴀᴛɪɴɢ
+  
+  opened-status: '&aᴏᴘᴇɴᴇᴅ'
+  closed-status: '&cᴄʟᴏꜱᴇᴅ'
+  password-protected-status: '&eᴘᴀꜱꜱᴡᴏʀᴅ ᴘʀᴏᴛᴇᴄᴛᴇᴅ'
+  
+  invalid-input: '&cInvalid input!'
+  wait-before-next-action: '&cWait a moment before repeating the action!'
+  password-too-short: '&f &cᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴜꜱᴛ ʙᴇ ᴀᴛ ʟᴇᴀꜱᴛ 3 ᴄʜᴀʀᴀᴄᴛᴇʀꜱ ʟᴏɴɢ'
+  non-existing-warp: '&f &cᴛʜɪꜱ ᴡᴀʀᴘ ᴅᴏᴇꜱ ɴᴏᴛ ᴇxɪꜱᴛ'
+  warp-already-created: '&f &cᴀ ᴡᴀʀᴘ ᴡɪᴛʜ ᴛʜɪꜱ ɴᴀᴍᴇ ᴀʟʀᴇᴀᴅʏ ᴇxɪꜱᴛꜱ'
+  warp-created: '&f <#648DC1>ᴄʀᴇᴀᴛᴇᴅ ᴀ ᴡᴀʀᴘ <#5BB8ED>%name%, <#648DC1>ᴄʟɪᴄᴋ &l&nʜᴇʀᴇ<#648DC1>
+    ᴛᴏ ᴄᴏɴꜰɪɢᴜʀᴇ ɪᴛ'
+  warp-submitted-for-approval: '&7Warp has been submitted for approval'
+  warp-approved: '&7Warp %warp% has been approved!'
+  warp-denied: '&7Warp approval has been denied, hover for more information'
+  warp-featured: '&f <#648DC1>ʏᴏᴜʀ ᴡᴀʀᴘ ʜᴀꜱ ʙᴇᴇɴ ꜰᴇᴀᴛᴜʀᴇᴅ!'
+  warp-already-featured: '&f &cᴛʜɪꜱ ᴡᴀʀᴘ ɪꜱ ᴀʟʀᴇᴀᴅʏ ꜰᴇᴀᴛᴜʀᴇᴅ!'
+  featured-list-full: '&cAll featured slots are full!'
+  # This message will be sent with Vault installed
+  warp-created-with-price: '&f <#648DC1>ᴄʀᴇᴀᴛᴇᴅ ᴀ ᴡᴀʀᴘ <#5BB8ED>%name%, <#648DC1>ᴄʟɪᴄᴋ
+    &l&nʜᴇʀᴇ<#648DC1> ᴛᴏ ᴄᴏɴꜰɪɢᴜʀᴇ ɪᴛ'
+  tried-to-create-warp-in-disabled-world: '&f &cᴡᴀʀᴘ ᴄᴀɴɴᴏᴛ ʙᴇ ᴄʀᴇᴀᴛᴇᴅ ɪɴ ᴛʜᴇ ᴡᴏʀʟᴅ'
+  tried-to-create-warp-in-foreign-residence: '&f &cᴡᴀʀᴘ ᴄᴀɴɴᴏᴛ ʙᴇ ᴄʀᴇᴀᴛᴇᴅ ʜᴇʀᴇ'
+  tried-to-create-warp-in-foreign-claim: '&cCannot create a warp in a unowned claim'
+  tried-to-create-warp-in-foreign-region: '&f &cᴡᴀʀᴘ ᴄᴀɴɴᴏᴛ ʙᴇ ᴄʀᴇᴀᴛᴇᴅ ʜᴇʀᴇ'
+  tried-to-create-warp-in-foreign-town: '&f &cᴡᴀʀᴘ ᴄᴀɴɴᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ɪɴ ᴛʜɪꜱ ᴛᴏᴡɴ ᴀꜱ
+    ɴᴏɴ-ʀᴇꜱɪᴅᴇɴᴛ'
+  tried-to-create-warp-in-foreign-island: '&f &cᴡᴀʀᴘ ᴄᴀɴɴᴏᴛ ʙᴇ ᴄʀᴇᴀᴛᴇᴅ ʜᴇʀᴇ'
+  tried-to-create-warp-in-foreign-land: '&f &cᴄᴀɴɴᴏᴛ ᴄʀᴇᴀᴛᴇ ᴀ ᴡᴀʀᴘ ɪɴ ᴜɴᴏᴡɴᴇᴅ ʟᴀɴᴅ'
+  tried-to-relocate-warp-to-disabled-world: '&f &cᴡᴀʀᴘ ᴄᴀɴɴᴏᴛ ʙᴇ ᴍᴏᴠᴇᴅ ᴛᴏ ᴛʜɪꜱ ᴡᴏʀʟᴅ'
+  insufficient-balance-for-action: '&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ʙᴀʟᴀɴᴄᴇ ᴛᴏ ᴅᴏ ᴛʜɪꜱ'
+  insufficient-balance-to-teleport: '&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ʙᴀʟᴀɴᴄᴇ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴛʜᴇ ᴡᴀʀᴘ'
+  warp-removed: '&f <#648DC1>ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴍᴏᴠᴇᴅ ᴛʜᴇ ᴡᴀʀᴘ'
+  # This message will be sent with Vault installed
+  warp-removed-with-refund: '&f <#648DC1>ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴍᴏᴠᴇᴅ ᴛʜᴇ ᴡᴀʀᴘ'
+  try-to-remove-not-owning-warp: '&f &cʏᴏᴜ ᴄᴀɴɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴏᴛʜᴇʀꜱ ᴡᴀʀᴘꜱ'
+  click-to-configure: '&7ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏɴꜰɪɢᴜʀᴇ ᴛʜᴇ ᴡᴀʀᴘ'
+  click-to-cancel-input: '&7Click to exit input mode'
+  teleportation: '&f <#648DC1>ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪɴɢ ɪɴ <#5BB8ED>%time% <#648DC1>ꜱᴇᴄᴏɴᴅꜱ!'
+  teleportation-progress: '&f <#648DC1>ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪɴɢ ɪɴ <#5BB8ED>%time% <#648DC1>ꜱᴇᴄᴏɴᴅꜱ!'
+  teleportation-cancelled: '&f &cʏᴏᴜ ᴍᴏᴠᴇᴅ, ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ᴄᴀɴᴄᴇʟᴇᴅ!'
+  teleportation-unsafe: '&f &cᴡᴀʀᴘ ʟᴏᴄᴀᴛɪᴏɴ ɪꜱ ɴᴏᴛ ꜱᴀꜰᴇ, ʀᴇ-ᴡʀɪᴛᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ
+    ꜰᴏʀᴄᴇ ᴛᴇʟᴇᴘᴏʀᴛ'
+  teleport-to-warp: '&f <#648DC1>ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ᴛᴏ <#5BB8ED>%warp% <#648DC1>ᴡᴀʀᴘ'
+  teleport-to-warp-with-admission: '&f <#648DC1>ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ᴛᴏ <#5BB8ED>%warp% <#648DC1>ᴡᴀʀᴘ
+    &c(-$%price%)'
+  accept-teleport-with-admission: Teleport? &c(-$%price%)
+  teleport-between-worlds-error: '&f &cʏᴏᴜ ᴄᴀɴ ᴏɴʟʏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴡᴀʀᴘꜱ ɪɴ ʏᴏᴜʀ ᴡᴏʀʟᴅ!
+    ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ᴡᴀꜱ ᴄᴀɴᴄᴇʟᴇᴅ.'
+  warp-access-blocked: '&f &cʏᴏᴜ ᴀʀᴇ ʙʟᴏᴄᴋᴇᴅ ꜰʀᴏᴍ ᴀᴄᴄᴇꜱꜱɪɴɢ ᴛʜɪꜱ ᴡᴀʀᴘ'
+  name-cant-contain-space: '&f &cᴡᴀʀᴘ ɴᴀᴍᴇ ᴄᴀɴɴᴏᴛ ᴄᴏɴᴛᴀɪɴ ꜱᴘᴀᴄᴇ'
+  enter-password: Enter Password
+  enter-warps-name: Enter Warps Name
+  password-setting-cancelled: '&7Password setting was canceled.'
+  password-changed: '&f <#648DC1>ᴘᴀꜱꜱᴡᴏʀᴅ ʜᴀꜱ ʙᴇᴇɴ ᴄʜᴀɴɢᴇᴅ'
+  password-length: '&f &cᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴜꜱᴛ ʙᴇ ᴀᴛ ʟᴇᴀꜱᴛ 3 ᴄʜᴀʀᴀᴄᴛᴇʀꜱ ʟᴏɴɢ'
+  entered-wrong-password: '&f &cᴡʀᴏɴɢ ᴘᴀꜱꜱᴡᴏʀᴅ'
+  categories-are-disabled: '&cCategories are disabled!'
+  item-changed: '&f <#648DC1>ᴄʜᴀɴɢᴇᴅ ᴡᴀʀᴘ ᴍᴇɴᴜ ɪᴛᴇᴍ'
+  item-from-hand: '&5[Set Item from Hand]'
+  title-write-msg: '&7Now write your text below your %warp% warp in warp list:'
+  item-write-msg: '&7Enter the item name (or type &lhand&7 to insert the item you''re
+    holding) that will represent the %warp% warp:'
+  write-new-display-name: '&7Now write the new display name of this warp:'
+  cancel-input: '&c               [Click to cancel]'
+  input-cancelled: '&7You left the input mode.'
+  text-size-error: '&7Text must be between 5 and 32 chars'
+  description-changed: '&f <#648DC1>ᴄʜᴀɴɢᴇᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ ᴏꜰ ᴛʜᴇ <#5BB8ED>%warp% <#648DC1>ᴡᴀʀᴘ'
+  not-owning: '&f &cᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  already-owning: '&f &cʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ᴏᴡɴ ᴛʜɪꜱ ᴡᴀʀᴘ!'
+  invalid-item: '&f &cᴛʜɪꜱ ɪᴛᴇᴍ ᴅᴏᴇꜱ ɴᴏᴛ ᴇxɪꜱᴛ'
+  already-reviewed: '&f &cʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ʀᴇᴠɪᴇᴡᴇᴅ ᴛʜɪꜱ ᴡᴀʀᴘ'
+  invalid-review: '&f &cʏᴏᴜ ᴍᴜꜱᴛ ᴄʜᴏᴏꜱᴇ ʙᴇᴛᴡᴇᴇɴ 1 - 5 ꜱᴛᴀʀꜱ'
+  self-review: '&f &cʏᴏᴜ ᴄᴀɴɴᴏᴛ ʀᴇᴠɪᴇᴡ ʏᴏᴜʀ ᴏᴡɴ ᴡᴀʀᴘ'
+  review-warp-title: '&f七七七七七七七七'
+  warp-reviewed: '&f <#648DC1>ʀᴇᴠɪᴇᴡᴇᴅ ᴛʜᴇ <#5BB8ED>%warp% <#648DC1>ᴡᴀʀᴘ ᴡɪᴛʜ <#5BB8ED>%stars%
+    <#648DC1>ꜱᴛᴀʀꜱ'
+  tried-to-set-banned-item: '&7This item is not allowed'
+  not-a-number: '&f &cᴇɴᴛᴇʀᴇᴅ ᴘʀɪᴄᴇ ɪꜱɴᴛ ᴀ ɴᴜᴍʙᴇʀ'
+  price-write-msg: '&7Please now write the %warp%''s price of teleport:'
+  price-changed: '&f <#648DC1>ᴄʜᴀɴɢᴇᴅ ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ᴘʀɪᴄᴇ ᴏꜰ <#5BB8ED>%warp% <#648DC1>ᴡᴀʀᴘ
+    ᴛᴏ &2$&a%price%'
+  invalid-entered-price: '&f &cᴘʀɪᴄᴇ ᴄᴀɴᴛ ʙᴇ ɴᴇɢᴀᴛɪᴠᴇ'
+  entered-higher-price-than-allowed: '&f &cᴘʀɪᴄᴇ ᴄᴀɴ''ᴛ ʙᴇ ʜɪɢʜᴇʀ ᴛʜᴀɴ %max% $'
+  ownership-transfer-successful: '&f <#648DC1>ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴛʀᴀɴꜱꜰᴇʀʀᴇᴅ ᴛʜɪꜱ ᴡᴀʀᴘ
+    ᴛᴏ <#5BB8ED>%player%'
+  ownership-transfer-info: '&f <#5BB8ED>%player% <#648DC1>ᴛʀᴀɴꜱꜰᴇʀʀᴇᴅ ᴡᴀʀᴘ <#5BB8ED>%warp%
+    <#648DC1>ᴛᴏ ʏᴏᴜ'
+  unavailable-player: '&f &cᴜɴᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀʏᴇʀ'
+  owner-change-msg: '&7Now write the new owner''s name of %warp% warp:'
+  password-change-msg: '&7Now write the new password of %warp% warp:'
+  warp-name-changed: '&f <#648DC1>ʀᴇɴᴀᴍᴇᴅ ᴡᴀʀᴘ ᴛᴏ %newName%'
+  warp-status-changed: '&f <#648DC1>ᴄʜᴀɴɢᴇᴅ ꜱᴛᴀᴛᴜꜱ ᴏꜰ ᴛʜᴇ ᴡᴀʀᴘ ᴛᴏ <#5BB8ED>%status%'
+  warp-relocated: '&f <#648DC1>ʀᴇʟᴏᴄᴀᴛᴇᴅ ᴛʜᴇ <#5BB8ED>%warp% <#648DC1>ᴡᴀʀᴘ'
+  rename-write-msg: '&7Now write the new %warp%''s name:'
+  set-description-msg: '&7Now write the new %warp%''s description:'
+  dangerous-position-msg: '&7Warp''s location isn''t safe, canceling teleportation'
+  warp-name-is-above-letters-limit: '&7Name of the warp must be shorter than %limit%
+    letters'
+  warps-item-name: <#7e83a4>&lᴄᴀᴛᴇɢᴏʀɪᴇꜱ
+  my-warps-item-name: <#7e83a4>&lᴍʏ ᴡᴀʀᴘꜱ
+  own-warp-item-name: '&fWarp: &a%warp%'
+  help-item-name: '&e&lHow to create warp'
+  favorite-warps-item-name: <#7e83a4>&lꜱᴀᴠᴇᴅ ᴡᴀʀᴘꜱ
+  my-warp-title: '&f七七七七七七七七'
+  warps-title: '&f七七七七七七七七'
+  change-warp-category-title: 'Change %warp%''s category:'
+  edit-warp-menu-title: '&f七七七七七七七七'
+  category-title: '&f七七七七七七七七'
+  help-title: Help
+  set-warp-status-title: 'Set warp''s status:'
+  favorites-title: '&f七七七七七七七七'
+  confirmation-menu-title: '&f七七七七七七七七'
+  accept: '&a&lᴄᴏɴꜰɪʀᴍ'
+  accept-with-price: '&a&lAccept &c(-%price% $)'
+  deny: '&c&lᴄᴀɴᴄᴇʟ'
+  sort-warps: <#7e83a4>&lꜱᴏʀᴛ
+  click-to-sort-by: '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴏʀᴛ'
+  next-page: <#8f96ab>&lɴᴇxᴛ ᴘᴀɢᴇ →
+  previous-page: <#8f96ab>&l← ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ
+  no-description: ''
+  back-name: '&c&lBack'
+  one-stars: '&e&l1 star'
+  two-stars: '&e&l2 stars'
+  three-stars: '&e&l3 stars'
+  four-stars: '&e&l4 stars'
+  five-stars: '&e&l5 stars'
+  warp-enabled: '&7You have &aunfreezed &fyour warp %warp%'
+  warp-disabled: '&7You have &cfreezed&f your %warp%&f warp'
+  warp-is-disabled: '&7The owner temporarily disabled this warp &7(%warp%)'
+  entered-invalid-type-of-warp: '&7Entered a bad type. Available types: &9%types%'
+  cant-block-yourself: '&cYou can not block yourself!'
+  warp-type-changed: '&f <#648DC1>ᴄʜᴀɴɢᴇᴅ ᴛʜᴇ ᴛʏᴘᴇ ᴏꜰ <#5BB8ED>%warp% <#648DC1>ᴡᴀʀᴘ
+    ᴛᴏ &7%type%'
+  privacy-changed: '&f <#648DC1>ᴄʜᴀɴɢᴇᴅ ᴛʜᴇ ᴘʀɪᴠᴀᴄʏ ᴏꜰ <#5BB8ED>%warp% <#648DC1>ᴡᴀʀᴘ'
+  display-name-changed: '&f <#648DC1>ᴄʜᴀɴɢᴇᴅ ᴛʜᴇ ᴅɪꜱᴘʟᴀʏ ɴᴀᴍᴇ ᴏꜰ <#5BB8ED>%warp%
+    <#648DC1>ᴡᴀʀᴘ ᴛᴏ <#5BB8ED>%displayName%'
+  favorite-warp-added: '&f <#648DC1>ᴡᴀʀᴘ <#5BB8ED>%warp% <#648DC1>ʜᴀꜱ ʙᴇᴇɴ ᴀᴅᴅᴇᴅ
+    ᴛᴏ ꜱᴀᴠᴇᴅ ᴡᴀʀᴘꜱ ʟɪꜱᴛ'
+  remove-favorite-warp: '&f <#648DC1>ᴡᴀʀᴘ <#5BB8ED>%warp% <#648DC1>ʜᴀꜱ ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ
+    ᴛᴏ ꜱᴀᴠᴇᴅ ᴡᴀʀᴘꜱ ʟɪꜱᴛ'
+  warp-not-contains-favlist: '&7Warp %warp% does not contain your favorite list'
+  warp-already-contains-favlist: '&7Warp %warp% is already added to your favorite
+    list'
+  search-warp: <#7e83a4>&lꜱᴇᴀʀᴄʜ ᴡᴀʀᴘ
+  search-warp-lore:
+  - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴀʀᴄʜ ᴡᴀʀᴘ'
+  # Lore inside /pwarp GUI
+  # Possible placeholders:
+  #   %owner-name% - the name of the player that own this pwarp
+  #   %visits% - number of all time visits
+  #   %today% - attendance in 1 day
+  #   %stars% - draws the stars given by the rating (★☆☆☆☆ - ★★★★★)
+  #   %voters% - how many players voted
+  #   %ratings% - rating in number (1 - 5)
+  #   %lore% - lore of player's pwarp
+  #   %status% - show pwarp's status
+  #   %creationDate% - when pwarp was created
+  #   %world% - where pwarp is located
+  warp-lore:
+  - '&7%lore%'
+  - ' '
+  - '&8▪ &7ᴘʀɪᴄᴇ: &a%price%'
+  - '&8▪ &7ꜱᴛᴀᴛᴜꜱ: %status%'
+  - '&8▪ &7ᴏᴡɴᴇʀ: <#7e83a4>%owner-name%'
+  - '&8▪ &7ᴠɪꜱɪᴛꜱ: <#7e83a4>%visits% <#8f96ab>(%today% ᴛᴏᴅᴀʏ)'
+  - '&8▪ &7ʀᴀᴛɪɴɢꜱ: &6%ratings% &e%stars%'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ'
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴠɪᴇᴡ'
+  - ' &cᴘʀᴇꜱꜱ ꜰ ᴛᴏ ꜱᴀᴠᴇ'
+  own-warp-lore:
+  - '&7%lore%'
+  - ' '
+  - '&8▪ &7ᴘʀɪᴄᴇ: &a%price%'
+  - '&8▪ &7ꜱᴛᴀᴛᴜꜱ: %status%'
+  - '&8▪ &7ᴠɪꜱɪᴛꜱ: <#7e83a4>%visits% &8(%today% today)'
+  - '&8▪ &7ᴄʀᴇᴀᴛᴇᴅ: <#7e83a4>%creationDate%'
+  - '&8▪ &7ʀᴀᴛɪɴɢꜱ: &6%ratings% &e%stars%'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ'
+  - '&f &cᴄʟɪᴄᴋ ᴛᴏ ᴇᴅɪᴛ'
+  # This will be used, if the teleportation price is 0
+  free-of-charge: '&aꜰʀᴇᴇ'
+  warp-active: '&a✔ Active'
+  warp-inactive: '&c❌ Inactive'
+  help-display-name: '&b&lHint'
+  help-lore:
+  - ' '
+  - '&7 To create warp use'
+  - '&7 command:'
+  - ' '
+  - '&2  ● &a/pwarp create ◁name▷'
+  - ' '
+  - '&7  then you can setup'
+  - '&7  your warp by:'
+  - ' '
+  - '&6  ● &e/pwarp setup ◁name▷'
+  - ' '
+  #
+  # Settings menu
+  #
+  change-display-name: '&e&lᴄʜᴀɴɢᴇ ᴅɪꜱᴘʟᴀʏ ɴᴀᴍᴇ'
+  change-display-name-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴅɪꜱᴘʟᴀʏ ɴᴀᴍᴇ'
+  - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+  remove-warp: '&c&lʀᴇᴍᴏᴠᴇ ᴡᴀʀᴘ'
+  remove-warp-lore:
+  - '&7ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ʀᴇᴍᴏᴠᴇ'
+  - '&7ᴛʜɪꜱ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ'
+  change-type: '&e&lᴄʜᴀɴɢᴇ ᴛʏᴘᴇ'
+  change-type-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴛʏᴘᴇ'
+  - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+  change-item: '&e&lᴄʜᴀɴɢᴇ ɪᴛᴇᴍ'
+  change-item-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ɪᴛᴇᴍ'
+  - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+  change-label: '&e&lᴄʜᴀɴɢᴇ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ'
+  change-label-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ'
+  - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+  pwarp-accessibility: '&e&lᴡᴀʀᴘ ᴀᴄᴄᴇꜱꜱɪʙɪʟɪᴛʏ'
+  pwarp-accessibility-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴀᴄᴄᴇꜱꜱɪʙɪʟɪᴛʏ'
+  - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&fᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ: &2%status%'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+  blocked-player-input: '&7Now write the name of player you want to restrict from
+    this warp:'
+  blocked-players-title: Blocked players
+  blocked-players: '&e&lʙʟᴏᴄᴋᴇᴅ ᴘʟᴀʏᴇʀꜱ'
+  blocked-players-lore:
+  - '&7ʙʟᴏᴄᴋ ᴀ ᴘʟᴀʏᴇʀ ꜰʀᴏᴍ'
+  - '&7ᴀᴄᴄᴇꜱꜱɪɴɢ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴍᴀɴᴀɢᴇ'
+  blocked-player-manage: '&c%player%'
+  blocked-player-manage-lore:
+  - ' '
+  - '&e► Click to unblock'
+  blocked-player-add: '&eAdd player'
+  set-price: '&e&lᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ᴘʀɪᴄᴇ'
+  set-price-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ'
+  - '&7ᴘʀɪᴄᴇ ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴛ ᴘʀɪᴄᴇ'
+  change-owner: '&e&lᴄʜᴀɴɢᴇ ᴏᴡɴᴇʀ'
+  change-owner-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴏᴡɴᴇʀ'
+  - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+  rename-warp: '&e&lʀᴇɴᴀᴍᴇ ᴡᴀʀᴘ'
+  rename-warp-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ɴᴀᴍᴇ'
+  - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇɴᴀᴍᴇ'
+  warp-relocation: '&e&lʀᴇʟᴏᴄᴀᴛᴇ ᴡᴀʀᴘ'
+  warp-relocation-lore:
+  - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ʟᴏᴄᴀᴛɪᴏɴ'
+  - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+  - ' '
+  - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇʟᴏᴄᴀᴛᴇ'

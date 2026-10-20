@@ -1,0 +1,206 @@
+menu_title: '&f七七七七七七七七'
+open_command: rewards
+register_command: true
+size: 36
+update_interval: 1
+
+items:
+
+
+  'daily_claimed':
+    material: PAPER
+    model_data: 14
+    slot: 10
+    update: true
+    tooltip_style: rewards/daily
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&f'
+    lore:
+      - ''
+      - '&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:'
+      - ' &8▪ &61x Coins'
+      - ' &8▪ &2$&a100 Money'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%luckperms_inherited_expiry_time_rewards.cooldown.daily%'
+    priority: 1
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: 'rewards.cooldown.daily'
+
+  'daily_unclaimed':
+    material: PAPER
+    model_data: 17
+    slot: 10
+    update: true
+    tooltip_style: rewards/daily
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&f'
+    lore:
+      - ''
+      - '&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:'
+      - ' &8▪ &61x Coins'
+      - ' &8▪ &2$&a100 Money'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    priority: 2
+    left_click_commands:
+      - "[console] lp user %player_name% permission settemp rewards.cooldown.daily true 1d"
+      - "[console] eco give %player_name% 100"
+      - "[console] coins give %player_name% 1"
+      - "[message] &f &aʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴅᴇᴇᴍᴇᴅ ᴛʜᴇ ᴅᴀɪʟʏ ʀᴇᴡᴀʀᴅ!"
+      - "[refresh]"
+
+
+  'weekly_claimed':
+    material: PAPER
+    model_data: 16
+    slot: 13
+    update: true
+    tooltip_style: rewards/weekly
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&f'
+    lore:
+      - ''
+      - '&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:'
+      - ' &8▪ &e1x Sunshine Key'
+      - ' &8▪ &68x Coins'
+      - ' &8▪ &2$&a1500 Money'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%luckperms_inherited_expiry_time_rewards.cooldown.weekly%'
+    priority: 1
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: 'rewards.cooldown.weekly'
+
+  'weekly_unclaimed':
+    material: PAPER
+    model_data: 19
+    slot: 13
+    update: true
+    tooltip_style: rewards/weekly
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&f'
+    lore:
+      - ''
+      - '&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:'
+      - ' &8▪ &e1x Sunshine Key'
+      - ' &8▪ &68x Coins'
+      - ' &8▪ &2$&a1500 Money'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    priority: 2
+    left_click_commands:
+      - "[console] lp user %player_name% permission settemp rewards.cooldown.weekly true 7d"
+      - "[console] eco give %player_name% 1500"
+      - "[console] coins give %player_name% 8"
+      - "[console] excellentcrates key give %player_name% sunshine 1"
+      - "[message] &f &aʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴅᴇᴇᴍᴇᴅ ᴛʜᴇ ᴡᴇᴇᴋʟʏ ʀᴇᴡᴀʀᴅ!"
+      - "[refresh]"
+
+
+  'monthly_claimed':
+    material: PAPER
+    model_data: 15
+    slot: 16
+    update: true
+    tooltip_style: rewards/monthly
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&f'
+    lore:
+      - ''
+      - '&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:'
+      - ' &8▪ &61x Blaze Key'
+      - ' &8▪ &630x Coins'
+      - ' &8▪ &2$&a5000 Money'
+      - ''
+      - '&cᴄᴏᴏʟᴅᴏᴡɴ: &f%luckperms_inherited_expiry_time_rewards.cooldown.monthly%'
+    priority: 1
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: 'rewards.cooldown.monthly'
+
+  'monthly_unclaimed':
+    material: PAPER
+    model_data: 18
+    slot: 16
+    update: true
+    tooltip_style: rewards/monthly
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&f'
+    lore:
+      - ''
+      - '&7ʀᴇᴡᴀʀᴅ ᴄᴏɴᴛᴀɪɴs:'
+      - ' &8▪ &61x Blaze Key'
+      - ' &8▪ &630x Coins'
+      - ' &8▪ &2$&a5000 Money'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ'
+    priority: 2
+    left_click_commands:
+      - "[console] lp user %player_name% permission settemp rewards.cooldown.monthly true 30d"
+      - "[console] eco give %player_name% 5000"
+      - "[console] coins give %player_name% 30"
+      - "[console] excellentcrates key give %player_name% blaze 1"
+      - "[message] &f &aʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴅᴇᴇᴍᴇᴅ ᴛʜᴇ ᴍᴏɴᴛʜʟʏ ʀᴇᴡᴀʀᴅ!"
+      - "[refresh]"
+
+
+
+
+  'normal':
+    material: PAPER
+    model_data: 100009
+    lore:
+      - '&7ᴄʟᴀɪᴍ ʏᴏᴜʀ ꜰʀᴇᴇ'
+      - '&7ᴅᴀɪʟʏ, ᴡᴇᴇᴋʟʏ & ᴍᴏɴᴛʜʟʏ'
+      - '&7ʀᴇᴡᴀʀᴅꜱ ɴᴏᴡ!'
+    slots:
+      - 28
+      - 29
+      - 30
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&f'
+
+  'ranked':
+    material: PAPER
+    model_data: 100009
+    slots:
+      - 32
+      - 33
+      - 34
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    display_name: '&f'
+    lore:
+      - '&7ᴅᴏɴᴀᴛᴇᴅ ɪɴ ᴛʜᴇ ꜱᴛᴏʀᴇ, ᴄʟᴀɪᴍ'
+      - '&7ʏᴏᴜʀ ꜱᴘᴇᴄɪᴀʟ ᴅᴀɪʟʏ, ᴡᴇᴇᴋʟʏ'
+      - '&7& ᴍᴏɴᴛʜʟʏ ʀᴇᴡᴀʀᴅꜱ ʜᴇʀᴇ!'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    left_click_commands:
+      - "[openguimenu] ranked-rewards"   
+
+

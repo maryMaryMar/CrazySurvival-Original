@@ -1,0 +1,19 @@
+id: sirenhook
+disabled: false
+
+item:
+  material: TRIPWIRE_HOOK
+  displayname: <#0d71b3>Siren’s Hook
+  lore:
+  - <i><gray>Forged from a siren's song and sailor's sorrow,</gray></i>
+  - <i><gray>this enchanted hook lures the brave and the</gray></i>
+  - <i><gray>unique, echoing deep beneath the waves.</gray></i>
+  - <gray>
+  - <#0d71b3>♦ <white>Attracts <#0d71b3>Epic & Legendary Fishes
+rarities:
+- Rare
+- Legendary
+can-be-caught: false
+catch-weight: 2
+application-weight: 28
+max-baits: 48

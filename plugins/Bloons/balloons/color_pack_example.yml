@@ -1,0 +1,60 @@
+# A configuration like this is expressed as a balloon "pack" internally
+# It can contain all the way from one balloon to technically an infinite
+# amount of balloons, as long as the server can handle it.
+blue:
+  type: single
+  id: blue
+  permission: balloon.blue
+  material: FLINT
+  custom-model-data: 3
+  name: '<blue><bold>ʙʟᴜᴇ ʙᴀʟʟᴏᴏɴ'
+  lore:
+    - '&8Bloons Default Balloon'
+    - ''
+    - '&eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+green:
+  type: single
+  id: green
+  permission: balloon.green
+  material: FLINT
+  custom-model-data: 4
+  name: '<green><bold>ɢʀᴇᴇɴ ʙᴀʟʟᴏᴏɴ'
+  lore:
+    - '&8Bloons Default Balloon'
+    - ''
+    - '&eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+pink:
+  type: single
+  id: pink
+  permission: balloon.pink
+  material: FLINT
+  custom-model-data: 5
+  name: '<light_purple><bold>ᴘɪɴᴋ ʙᴀʟʟᴏᴏɴ'
+  lore:
+    - '&8Bloons Default Balloon'
+    - ''
+    - '&eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+yellow:
+  id: yellow
+  permission: balloon.yellow
+  material: FLINT
+  custom-model-data: 6
+  name: '<yellow><bold>ʏᴇʟʟᴏᴡ ʙᴀʟʟᴏᴏɴ'
+  lore:
+    - '&8Bloons Default Balloon'
+    - ''
+    - '&eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+creeper:
+  id: creeper
+  permission: balloon.creeper
+  material: FLINT
+  custom-model-data: 86
+  name: '<green><bold>ᴄʀᴇᴇᴘᴇʀ ʙᴀʟʟᴏᴏɴ'
+  lore:
+    - '&8Bloons Default Balloon'
+    - ''
+    - '&eᴄʟɪᴄᴋ ᴛᴏ ᴇǫᴜɪᴘ'
+
+#464598
+#8b0724ec3d45b2e11e1a459b5224f852
+# bbb-true

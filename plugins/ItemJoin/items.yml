@@ -1,0 +1,31 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items' functionality.
+items-Delay: 2
+items-Overwrite: true
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section where the custom items created will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  survival-item:
+    id: PAPER
+    model-data: 128
+    slot: 8
+    name: '&f'
+    lore:
+    - '&#5a6080❙&7 ᴄʟɪᴄᴋ ᴛᴏ ʙʀᴏᴡꜱᴇ ᴛʜʀᴏᴜɢʜ'
+    - '&#5a6080❙&7 ᴛʜᴇ ꜱᴇʀᴠᴇʀ ꜰᴇᴀᴛᴜʀᴇꜱ!'
+    itemflags: inventory-modify, self-drops, hide-attributes, no-hat, placement, death-keep
+    triggers: join, respawn
+    enabled-worlds: lobby, world, world_nether, world_the_end, dungeon1, dungeon2
+    interact:
+      - 'player: dm open survivalmenu'
+    inventory:
+      - 'player: dm open survivalmenu'

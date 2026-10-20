@@ -1,0 +1,68 @@
+# FAQ
+# Q) How can I deny the player's permissions?
+# A) Use your permissions plugin like LuckPerms, You can run /lp user {player} permission set your_permission
+
+# Q) Do I need everything in this config?
+# A) No, You can view PlayerHead.yml for an example whereas much as possible can be removed.
+
+###################################
+#             Items: Options
+# Item: <ID:MD> - You can choose the item with its id and meta data.
+# Amount: <Number> - Choose how many of the item you get.
+# Name: <Name> - The display name that goes on the item.
+# Lore: <Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# <Enchantment>:<Level> - Choose the enchantment you want to add to the item. You can use the in-game names of the enchantment if you want. Replace the spaces in the name with a "_".
+###################################################################
+#                         Firework Colors:                        #
+#      Aqua, Black, Blue, Fuchsia, Gray, Green, Lime, Maroon,     #
+#  Navy, Olive, Orange, Purple, Red, Silver, Teal, White, Yellow  #
+###################################################################
+voucher:
+  item: 'PAPER'
+  name: '<white> <#8094c2>Mace Sword Skin'
+  lore:
+  - '<white>       '
+  - '<#0C0C0C><st> </st><#0C0C0C><st> </st><#0C0C0C><st> </st><#111111><st> </st><#151515><st> </st><#151515><st> </st><#1A1A1A><st> </st><#1F1F1F><st> </st><#212121><st> </st><#232323><st> </st><#252525><st> </st><#282828><st> </st><#2A2A2A><st> </st><#2C2C2C><st> </st><#2E2E2E><st> </st><#303030><st> </st><#303030><st> </st><#303030><st> </st><#303030><st> </st><#303030><st> </st><#303030><st> </st><#303030><st> </st><#2D2D2D><st> </st><#2A2A2A><st> </st><#282828><st> </st><#252525><st> </st><#222222><st> </st><#1F1F1F><st> </st><#1B1B1B><st> </st><#1B1B1B><st> </st><#181818><st> </st><#181818><st> </st><#141414><st> </st><#141414><st> </st><#111111><st> </st><#0D0D0D><st> </st><#0C0C0C><st> </st>'
+  - '<gray>This is a sword tool skin, that'
+  - '<gray>can be applied on netherite'
+  - '<gray>sword, using toolskins npc.'
+  - ''
+  - '<white> <yellow>ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+  # An example of how to use custom model data
+  custom-model-data: 163
+  commands:
+    - 'lp user {player} permission set rskin.change.sword.mace true'
+  components:
+    # Hides the entire tooltip
+    hide-tooltip: false
+    # Hides components defined in this list. It allows more control than above.
+    # Leave the hide-tooltip false if you plan to use this.
+    hide-tooltip-advanced:
+      - "enchantments"
+      - "attributes"
+  options:
+    # The message sent when they right-click it.
+    message: '<white> <green>ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʀᴇᴅᴇᴇᴍᴇᴅ ᴛʜᴇ ᴠᴏᴜᴄʜᴇʀ!'
+    permission:
+      blacklist-permission:
+        # If we should check players for this.
+        toggle: true
+        # The message to send to a player if they can't use the voucher.
+        message: '<white> <red>ʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ᴏᴡɴ ᴍᴀᴄᴇ ꜱᴡᴏʀᴅ ᴛᴏᴏʟꜱᴋɪɴ ᴄᴀɴᴛ ʀᴇᴅᴇᴇᴍ ᴠᴏᴜᴄʜᴇʀ!'
+        # If they have this permission, they can't use the voucher.
+        permissions:
+          - 'rskin.change.sword.mace'
+    # The sound settings.
+    sound:
+      # If the sounds should be enabled.
+      toggle: true
+      # The volume pitch
+      volume: 1.0
+      # The sound pitch
+      pitch: 1.0
+      # The sound or sounds to use.
+      # https://minecraft.wiki/w/Sounds.json
+      sounds:
+      - 'entity.experience_orb.pickup'
+    # If the voucher is edible
+    is-edible: false

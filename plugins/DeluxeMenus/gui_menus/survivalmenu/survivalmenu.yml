@@ -1,0 +1,134 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'profile':
+    material: head-%player_name%
+    model_data: 8
+    amount: 1
+    slot: 20
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lʏᴏᴜʀ ᴘʀᴏꜰɪʟᴇ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴇ ʏᴏᴜʀ ᴘʀᴏꜰɪʟᴇ'
+      - '&7ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜱᴇᴇ ʏᴏᴜʀ'
+      - '&7ꜱᴛᴀᴛꜱ ᴀɴᴅ ᴄᴜꜱᴛᴏᴍɪᴢᴇ ɪᴛ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+      - "[player] profile"
+  'profile1':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 19
+      - 21
+      - 28
+      - 29
+      - 30
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177&lʏᴏᴜʀ ᴘʀᴏꜰɪʟᴇ'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴇ ʏᴏᴜʀ ᴘʀᴏꜰɪʟᴇ'
+      - '&7ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜱᴇᴇ ʏᴏᴜʀ'
+      - '&7ꜱᴛᴀᴛꜱ ᴀɴᴅ ᴄᴜꜱᴛᴏᴍɪᴢᴇ ɪᴛ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+      - "[player] profile"
+
+  'guide':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 14
+      - 15
+      - 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ'
+      - '&7ꜰᴇᴀᴛᴜʀᴇꜱ ᴏꜰ ᴛʜᴇ ꜱᴇʀᴠᴇʀ?'
+      - '&7ɢᴜɪᴅᴇ ɪꜱ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    click_commands:
+      - "[openguimenu] guide_1"
+
+  'warps':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 23
+      - 24
+      - 25
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴡᴀʀᴘꜱ ᴍᴇɴᴜ ʜᴇʟᴘꜱ ʏᴏᴜ ᴛᴏ'
+      - '&7ǫᴜɪᴄᴋʟʏ ʀᴇᴀᴄʜ ᴘʟᴀᴄᴇꜱ'
+      - '&7ᴀʀᴏᴜɴᴅ ᴛʜᴇ ꜱᴘᴀᴡɴ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    click_commands:
+      - "[openguimenu] warps"
+
+  'kits':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 32
+      - 33
+      - 34
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ᴋɪᴛꜱ ᴍᴇɴᴜ ᴀʟʟᴏᴡꜱ ʏᴏᴜ ᴛᴏ'
+      - '&7ɢᴇᴛ ᴠᴀʀɪᴏᴜꜱ ᴛʏᴘᴇꜱ ᴏꜰ ᴋɪᴛꜱ'
+      - '&7ɪɴᴄʟᴜᴅɪɴɢ ʀᴀɴᴋᴇᴅ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    click_commands:
+      - "[openguimenu] kits"
+
+  'settings':
+    material: PAPER
+    model_data: 100009
+    amount: 1
+    slots:
+      - 41
+      - 42
+      - 43
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&f'
+    lore:
+      - '&7ꜱᴇᴛᴛɪɴɢꜱ ᴍᴇɴᴜ ᴀʟʟᴏᴡꜱ'
+      - '&7ʏᴏᴜ ᴛᴏ ᴄᴜꜱᴛᴏᴍɪᴢᴇ ʏᴏᴜʀ'
+      - '&7ᴇxᴘᴇʀɪᴇɴᴄᴇ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    click_commands:
+      - "[openguimenu] settings_1"

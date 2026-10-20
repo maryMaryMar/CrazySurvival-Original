@@ -1,0 +1,161 @@
+menu_title: '&f七七七七七七七七'
+size: 45
+update_interval: 1
+
+items:
+  'mentions_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 1
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘʟᴀʏᴇʀ ᴍᴇɴᴛɪᴏɴꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴍᴇɴᴛɪᴏɴꜱ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: settings.mentions.disabled
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.mentions.disabled false"
+      - "[player] interactivechat mentiontoggle"
+      - "[refresh]"
+  'mentions_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 1
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴘʟᴀʏᴇʀ ᴍᴇɴᴛɪᴏɴꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴍᴇɴᴛɪᴏɴꜱ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    click_commands:
+      - "[console] lp user %player_name% permission set settings.mentions.disabled true"
+      - "[player] interactivechat mentiontoggle"
+      - "[refresh]"
+
+  'announcements_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 10
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛꜱ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%infiniteannouncements_toggle_announcement%"
+          output: "True"
+    click_commands:
+      - "[player] ia toggle announcement"
+      - "[refresh]"
+  'announcements_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 10
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛꜱ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    click_commands:
+      - "[player] ia toggle announcement"
+      - "[refresh]"
+
+  'announcements_sounds_enabled':
+    material: PAPER
+    model_data: 60
+    amount: 1
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀɴɴᴏᴜɴᴄᴇ ꜱᴏᴜɴᴅꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ꜱᴏᴜɴᴅꜱ'
+      - '&7ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ'
+    view_requirement:
+      requirements:
+        check:
+          type: string equals ignorecase
+          input: "%infiniteannouncements_toggle_sound%"
+          output: "True"
+    click_commands:
+      - "[player] ia toggle sound"
+      - "[refresh]"
+  'announcements_sounds_disabled':
+    material: PAPER
+    model_data: 59
+    amount: 1
+    slot: 19
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&b&lᴀɴɴᴏᴜɴᴄᴇ ꜱᴏᴜɴᴅꜱ'
+    lore:
+      - '&7ᴄᴜʀʀᴇɴᴛʟʏ ꜱᴏᴜɴᴅꜱ'
+      - '&7ɪꜱ ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ʏᴏᴜ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ'
+    click_commands:
+      - "[player] ia toggle sound"
+      - "[refresh]"
+
+
+
+
+
+
+  'scrollup':
+    material: PAPER
+    model_data: 62
+    amount: 1
+    slot: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#7e84a8&lꜱᴄʀᴏʟʟ ᴜᴘ ↑'
+    lore:
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴄʀᴏʟʟ ᴜᴘ'
+      - '&7ᴛᴏ ꜱᴇᴄᴏɴᴅ ᴘᴀɢᴇ'
+    click_commands:
+      - "[openguimenu] settings_2"

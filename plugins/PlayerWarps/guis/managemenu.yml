@@ -1,0 +1,194 @@
+title: '&f七七七七七七七七'
+rows: 6
+
+# Types:
+#  SET_ADMISSION
+#  SET_DISPLAYNAME
+#  SET_DESCRIPTION
+#  SET_PREVIEW_ITEM
+#  OPEN_CATEGORY_SELECTION
+#  SET_STATUS
+#  RELOCATE
+#  RENAME
+#  TRANSFER
+#  FEATURE
+#  REMOVE
+
+content:
+  
+  main-menu:
+    item: CustomModel[PAPER]{100009}
+    type: OPEN_MAIN_MENU
+    slots:
+    - 48
+    name: <#7e83a4>&lᴄᴀᴛᴇɢᴏʀɪᴇꜱ
+    actions:
+    - '[open] categories'
+    lore: []
+  
+  my-warps:
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 49
+    name: <#7e83a4>&lᴍʏ ᴡᴀʀᴘꜱ
+    actions:
+    - '[open] mywarps'
+    lore: []
+  
+  saved-warps:
+    item: CustomModel[PAPER]{100009}
+    slots:
+    - 50
+    name: <#7e83a4>&lꜱᴀᴠᴇᴅ ᴡᴀʀᴘꜱ
+    actions:
+    - '[open] favorites'
+    lore: []
+  
+  overview:
+    item: OAK_HANGING_SIGN
+    name: '&fWarp: &a%warp%'
+    lore:
+    - '&7%lore%'
+    - '&8▪ &7ᴘʀɪᴄᴇ: &a%price%'
+    - '&8▪ &7ꜱᴛᴀᴛᴜꜱ: %status%'
+    - '&8▪ &7ᴠɪꜱɪᴛꜱ: <#7e83a4>%visits% &8(%today% today)'
+    - '&8▪ &7ᴄʀᴇᴀᴛᴇᴅ: <#7e83a4>%creationDate%'
+    - '&8▪ &7ʀᴀᴛɪɴɢꜱ: &6%ratings% &e%stars%'
+    slots:
+    - 18
+  
+  admission:
+    type: SET_ADMISSION
+    item: SUNFLOWER
+    name: '&e&lᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ᴘʀɪᴄᴇ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ'
+    - '&7ᴘʀɪᴄᴇ ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴛ ᴘʀɪᴄᴇ'
+    slots:
+    - 11
+  
+  category:
+    type: OPEN_CATEGORY_SELECTION
+    item: DIAMOND
+    name: '&e&lᴄʜᴀɴɢᴇ ᴛʏᴘᴇ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴛʏᴘᴇ'
+    - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+    slots:
+    - 12
+  
+  displayname:
+    type: SET_DISPLAYNAME
+    item: WRITABLE_BOOK
+    name: '&e&lᴄʜᴀɴɢᴇ ᴅɪꜱᴘʟᴀʏ ɴᴀᴍᴇ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴅɪꜱᴘʟᴀʏ ɴᴀᴍᴇ'
+    - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+    slots:
+    - 13
+  
+  preview-item:
+    type: SET_PREVIEW_ITEM
+    item: ITEM_FRAME
+    name: '&e&lᴄʜᴀɴɢᴇ ɪᴄᴏɴ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ɪᴄᴏɴ'
+    - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+    slots:
+    - 14
+  
+  description:
+    type: SET_DESCRIPTION
+    item: NAME_TAG
+    name: '&e&lᴄʜᴀɴɢᴇ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ'
+    - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+    slots:
+    - 15
+  
+  status:
+    type: OPEN_STATUS_SELECTION
+    item: OAK_DOOR
+    name: '&e&lᴡᴀʀᴘ ᴀᴄᴄᴇꜱꜱɪʙɪʟɪᴛʏ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴀᴄᴄᴇꜱꜱɪʙɪʟɪᴛʏ'
+    - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&fᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ: &2%status%'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ'
+    slots:
+    - 20
+  
+  feature:
+    type: FEATURE
+    item: CustomModel[PAPER]{100009}
+    name: '&a&lꜰᴇᴀᴛᴜʀᴇ ᴡᴀʀᴘ'
+    lore:
+    - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜰᴇᴀᴛᴜʀᴇ ʏᴏᴜ ᴡᴀʀᴘ'
+    - '&7ᴏɴ ᴛʜᴇ ᴍᴀɪɴ ᴘᴀɢᴇ'
+    - ' '
+    - '&fᴘʀɪᴄᴇ: &2$&a%feature-price%'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜰᴇᴀᴛᴜʀᴇ'
+    slots:
+    - 31
+  
+  transfer-warp:
+    type: TRANSFER
+    item: PLAYER_HEAD
+    name: '&e&lᴛʀᴀɴꜱꜰᴇʀ ᴡᴀʀᴘ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴏᴡɴᴇʀ'
+    - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛʀᴀɴꜱꜰᴇʀ'
+    slots:
+    - 23
+  
+  relocate-warp:
+    type: RELOCATE
+    item: WHITE_BANNER
+    name: '&e&lʀᴇʟᴏᴄᴀᴛᴇ ᴡᴀʀᴘ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ʟᴏᴄᴀᴛɪᴏɴ'
+    - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇʟᴏᴄᴀᴛᴇ'
+    slots:
+    - 22
+  
+  rename-warp:
+    type: RENAME
+    item: OAK_SIGN
+    name: '&e&lʀᴇɴᴀᴍᴇ ᴡᴀʀᴘ'
+    lore:
+    - '&7ᴄʜᴀɴɢᴇ ᴛʜᴇ ɴᴀᴍᴇ'
+    - '&7ᴏꜰ ʏᴏᴜʀ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇɴᴀᴍᴇ'
+    slots:
+    - 21
+  
+  remove-warp:
+    type: REMOVE
+    name: '&c&lʀᴇᴍᴏᴠᴇ ᴡᴀʀᴘ'
+    item: BARRIER
+    lore:
+    - '&7ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ʀᴇᴍᴏᴠᴇ'
+    - '&7ᴛʜɪꜱ ᴡᴀʀᴘ'
+    - ' '
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ'
+    slots:
+    - 24
